@@ -14,7 +14,7 @@ base_url = 'https://dataverse.harvard.edu/'
 api = NativeApi(base_url)
 data_api = DataAccessApi(base_url)
 
-DOI = "" # add DOI of our dataset
+DOI = "https://doi.org/10.7910/DVN/EQ9WBE" # add DOI of our dataset
 
 dataset = api.get_dataset(DOI)
 
