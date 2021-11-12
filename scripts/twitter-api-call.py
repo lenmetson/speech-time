@@ -1,4 +1,5 @@
 # Cloned from https://github.com/julioadl/ds101/blob/master/twitter_workshop/twitter.py
+# For potential use to compare speech-time in parliament and online
 
 import oauth2 as oauth
 import urllib.request as urllib
@@ -32,7 +33,7 @@ def twitterreq(url, method, parameters):
   req = oauth.Request.from_consumer_and_token(oauth_consumer,
                                              token=oauth_token,
                                              http_method=http_method,
-                                             http_url=url, 
+                                             http_url=url,
                                              parameters=parameters)
 
   req.sign_request(signature_method_hmac_sha1, oauth_consumer, oauth_token)
