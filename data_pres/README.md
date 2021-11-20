@@ -2,11 +2,21 @@
 
 ## Section 1: Workflow and data retrival
 
-* Show work flow, GitHub set up 
-* External reasons: 
-  *  Reproducibility, transparency
-* Internal reasons: 
-  * Collaboration, version control, backup
+* Workflow philosphy - reproducible research (LEN)
+  * What: we want the entire project to be able to be run by any user on any machine, with no cost to themselves
+  * Why reproducible 
+  * Show work-flow 
+  * Show GitHub and how we interact with it 
+    * External reasons; 
+      * Reproducibliy, transpatency
+    * Internal reason; 
+      * Collaboration, version control, file backup
+
+ * Show work flow, GitHub set up 
+ * External reasons: 
+   *  Reproducibility, transparency
+ * Internal reasons:
+ * Collaboration, version control, backup
 
 
 * How do we get the data? 
