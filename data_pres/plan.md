@@ -11,6 +11,9 @@
       * Reproducibliy, transpatency
     * Internal reason; 
       * Collaboration, version control, file backup
+ 
+ * How we achieve that 
+   * Download from HTML (explain this) progromatically
 
  * Show work flow, GitHub set up 
  * External reasons: 
