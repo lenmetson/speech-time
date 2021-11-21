@@ -14,43 +14,20 @@ print(view_table)
 speech_table.to_csv('/Users/noemieclaret/Downloads/harvard_speeches.csv')
 
 
-def get_shape:
+def get_shape(dataset):
   shape=dataset.shape
   return ("The shape of this data is {}".format(shape))
 
-#make a series with unique names 
-def find_unique_values(dataset, index):
-  unique_values=dataset['value'].unique()
-  print(unique_values)
-    duplicate_attribute=[]
-    unique_attribute_byrow={}
-    duplicate_attribute_byrow={}
-    row_number=0
-    
-    for row in dataset:
-        row_number+=1
-        attribute=row[index]
-        if attribute in unique_attribute:
-            duplicate_attribute.append(attribute)
-            duplicate_attribute_byrow[row_number]=attribute
-        else:
-            unique_attribute.append(attribute)
-            unique_attribute_byrow[row_number]=attribute
-    number_unique_attributes=len(unique_attribute_byrow)
-    number_duplicate_attributes=len(duplicate_attribute_byrow)
-    return ("The number of repeated", str(header[index]), "in", dataset_name, "is", number_duplicate_attributes), ("The number of unique", str(header[index]), "in", dataset_name, "is", number_unique_attributes) 
-        
- 
-#make a function to explore this nex datatable
-def get_value_byname(dataset=speech_table, value="wikidataid"):
-    name_wiki=dataset[["name", "value"]]
-    speech_count=speech_name.count()
-    print(speech_count)
-    
-    for row in dataset_slice:
-        print(row)
-        print('\n') # adds a new (empty) line after each row
+#make a dictionary with unique names 
+def find_unique_values(dataset, value):
+  unique_values=dataset[value].unique()
+  val_dict= {idx:value for idx , value in enumerate(dataset[value].unique())}
+  return ("The number of values is {}".format( unique_values)),("here is a dictionary with the values:{}".format( val_dict))
 
-    if rows_and_columns:
-        print('Number of rows:', len(dataset))
-        print('Number of columns:', len(dataset[0]))
+names_speakers=find_unique_values(speech_table, "name")
+print(names_speakers)
+
+
+#make a pandas dataframe with speaker name and wiki_id
+name_wikiid=pd.speech_table["name", "wikidataid"][speech_table["name"]==enumerate(speech_table["name"].unique())]
+
