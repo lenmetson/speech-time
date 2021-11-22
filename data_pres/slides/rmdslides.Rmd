@@ -10,13 +10,14 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-```{r}
+```{r packages, include=FALSE}
 library(reticulate)
+library(here)
 ```
 
 
 ```{r data, include=FALSE}
-source("~/scripts/")
+source("~scripts/download-csv-html.R")
 
 source_python()
 ```
