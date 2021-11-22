@@ -18,11 +18,11 @@ pacman::p_load("reticulate", "here")
 
 
 ```{r data, include=FALSE}
-source(here("scripts", "download-csv-html.R")) # once you have run the script once, you can comment out this line by typing "#" in front of it. Doing this will mean the data loads directly from your local data_raw folder rather than downloading every time. 
+#source(here("scripts", "download-csv-html.R")) # once you have run the script once, you can comment out this line by typing "#" in front of it. Doing this will mean the data loads directly from your local data_raw folder rather than downloading every time. 
 
-#read.csv(here("data_raw", "rawdata.csv"))
+harvard <- read.csv(here("data_raw", "rawdata.csv"))
 
-#source_python()
+source_python()
 ```
 
 

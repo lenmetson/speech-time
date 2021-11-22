@@ -1,7 +1,7 @@
 import pandas as pd
 
 #upload data from disk into a pandas dataframe
-harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
+#harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
 
 #create dataframe with only rows where there is a speech
 
