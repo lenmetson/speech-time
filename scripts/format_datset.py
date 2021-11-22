@@ -60,9 +60,6 @@ for name in find_unique_names[1]:
 mp_names_series=pd.series(mp_names_list)
           
 
-names_speakers=find_unique_values(speech_table, "name")
-print(names_speakers)
-
 
 #make a pandas dataframe with speaker name and wiki_id
 name_wikiid=pd.speech_table["name", "wikidataid"][speech_table["name"]==enumerate(speech_table["name"].unique())]
