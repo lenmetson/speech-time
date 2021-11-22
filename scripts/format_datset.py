@@ -42,7 +42,7 @@ number_speeches=get_shape(speech_table)[0]
 print(f'The total number of speeches is: {}.'.format(number_speeches))
 
 #make a function to return number of unique names and dictionary containing the names.
-def find_unique_values(dataset, column, comment=TRUE):
+def find_unique_values(dataset, column, feature, comment=TRUE):
   unique_values=dataset[column].unique() #number of unique values
   val_dict= {idx:column for idx, column in enumerate(dataset[value].unique())} 
   #first, define a funciton to find unique values in a specified column.
@@ -51,16 +51,14 @@ def find_unique_values(dataset, column, comment=TRUE):
   return [unique values, val_dict]#return both number of unique values and the dictrionary containing them
 
 find_unique_names=(speech_table, "name", comments=TRUE)
-
-#aim: create a dataframe with the unique MP names and their respective information, but discarding speeches.
-#create a sereis with just the names of the MPS
-mp_names_list=np.array[]
-for name in find_unique_names[1]:
-          mp_names.append(name[1])
-mp_names_series=pd.series(mp_names_list)
           
+#find out how many women in total
+women_number=find_unique_values(speech_table, column="name", comment=False)
 
-
+#create a dataframe with the unique MP names and their respective information, but discarding speeches.
+mp_info=speech_table.drop_duplicates(subset="name", keep="first")
+          
+          
 #make a pandas dataframe with speaker name and wiki_id
 name_wikiid=pd.speech_table["name", "wikidataid"][speech_table["name"]==enumerate(speech_table["name"].unique())]
 
