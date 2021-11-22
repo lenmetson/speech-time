@@ -22,9 +22,8 @@ pacman::p_load("reticulate", "here")
 
 harvard <- read.csv(here("data_raw", "rawdata.csv"))
 
-source_python()
+source_python(here("scripts", "format_datset.py"))
 ```
-
 
 ## Brief summary 
 
