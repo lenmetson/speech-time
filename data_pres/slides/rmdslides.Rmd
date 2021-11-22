@@ -11,13 +11,21 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r packages, include=FALSE}
-library(reticulate)
-library(here)
+if(!require("pacman"))install.packages("pacman")
+
+pacman::p_load("reticulate", "here")
+```
+
+```{r set project root}
+# The project root is the local folder which you have cloned the speech-time repo to. Set whatever that folder is on your machine here: 
+
+knitr::opts_knit$set(root.dir = '"C:/Users/lenna/OneDrive - London School of Economics/year_3/Courses/MT_DS105M_Data-for-Data-Science/project/speech-time')
+
 ```
 
 
 ```{r data, include=FALSE}
-source("~scripts/download-csv-html.R")
+source(here("scripts", "download-csv-html.R"))
 
 source_python()
 ```
