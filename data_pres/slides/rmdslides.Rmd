@@ -32,6 +32,15 @@ Our project looks at the relative proportions that MPs speak in the Scottish Par
 
 ## Organisation of the project
 
+* Guiding principle: reproducibility 
+
+* Source code of everything we produce avaliable on GitHub 
+  * Is why we coded slides 
+  
+* Any user able to download the repo and run
+  * Programmatic data download and cleaning 
+
+
 ## Main data collection and cleaning 
 
 ## Expansion 
