@@ -18,30 +18,45 @@ pacman::p_load("reticulate", "here")
 
 
 ```{r data, include=FALSE}
-source(here("scripts", "download-csv-html.R"))
+#source(here("scripts", "download-csv-html.R")) # once you have run the script once, you can comment out this line by typing "#" in front of it. Doing this will mean the data loads directly from your local data_raw folder rather than downloading every time. 
 
-source_python()
+harvard <- read.csv(here("data_raw", "rawdata.csv"))
+
+source_python(here("scripts", "format_datset.py"))
 ```
 
+## Brief summary 
 
-## R Markdown
+Our project looks at the relative proportions that MPs speak in the Scottish Parliament. 
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Organisation of the project
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+* Guiding principle: reproducibility 
 
-## Slide with Bullets
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-## Slide with Py Output
+* Source code of everything we produce avaliable on GitHub 
+  * Is why we coded slides 
+  
+* Any user able to download the repo and run
+  * Programmatic data download and cleaning 
 
 
-## Slide with Plot
+## Main data collection and cleaning 
 
-```{r pressure}
-plot(pressure)
-```
+## Expansion 
+
+We wanted to compare speech time in Parliament with tweet frequency for each MP. 
+
+Our process would have been: 
+
+* Scrape MP tweet_ids from Wiki-data. Wiki-IDs are included as document metadata so we could have written a program that finds the relevant tweet ID from each politician. 
+
+* Pull timelines for each politician 
+
+However, API licence doesn't allow this - is that true?
+
+
+
+
+
+
 
