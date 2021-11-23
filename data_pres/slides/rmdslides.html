@@ -34,7 +34,7 @@
         gplus: '',
         twitter: '',
         www: '',
-        github: 'https://github.com/lenmetson/speech-time'
+        github: ''
       },
             ]
     };
@@ -3056,7 +3056,7 @@ var loadDeck = function(event) {
 };
 
 if (document.readyState !== "loading" &&
-    document.querySelector('slides') === null) {
+    document.querySelector('slides') === null) { 
   // if the document is done loading but our element hasn't yet appeared, defer
   // loading of the deck
   window.setTimeout(function() {
@@ -3111,7 +3111,7 @@ slide:not(.current) .plotly.html-widget{
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
-
+            
   </style>
 
 
@@ -3125,7 +3125,7 @@ slide:not(.current) .plotly.html-widget{
         <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
     <hgroup class="auto-fadein">
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
-
+      
       <p data-config-presenter><!-- populated from slide_config.json --></p>
           </hgroup>
   </slide>
@@ -3165,7 +3165,14 @@ slide:not(.current) .plotly.html-widget{
 
 <p>However, API licence doesn’t allow this - is that true?</p>
 
-<p>There were speeches.</p></article></slide>
+</article></slide><slide class=""><hgroup><h2>Summary statistics</h2></hgroup><article  id="summary-statistics">
+
+<p>Some key facts about the speeches</p>
+
+<ul>
+<li>There were 13299 speeches.</li>
+<li>4359 of the speeches were by women.</li>
+</ul></article></slide>
 
 
   <slide class="backdrop"></slide>
