@@ -35,16 +35,19 @@ harvard <- read.csv(here("data_raw", "rawdata.csv"))
 * Guiding principle: reproducibility
 
 * Source code of everything we produce avaliable on GitHub
+  * The user only has to have RStudio and Python installed on their machine to run it all
 
 * Any user able to download the repo and run
   * Programmatic data download and cleaning
+
+
 
 ## Workflow
 
 * Division of labour
   * Alanah was working mainly on the HTML / CSS of the presentation
   * Noemie was working on wragling data
-  * Len was working on the Rmarkdown 
+  * Len was working on the Rmarkdown
 
 * GitHub was the solution
   * Everyone using different text editors
