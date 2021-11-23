@@ -45,7 +45,7 @@
 
 ## Section 3: Where we're going with the data 
 
-* Data analysis
+* __Data analysis__
   * What tools we're using
     * R
       * Downloading the raw data
@@ -54,7 +54,7 @@
       * Formatting the dataset
       * Scraping the Twitter API 
   
-* Data visualiation (_AS to finish_)
+* __Data visualiation (_AS to finish_)__
   * What we want to visualise
     * Change in gender differences of speech time over the years
       * Stacked column graph
@@ -85,6 +85,6 @@
       * x
 
 
-* User interface (_Guys can you assist?_)
+* __User interface (_Guys can you assist?_)__
   *
     
