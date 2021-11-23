@@ -28,17 +28,35 @@ harvard <- read.csv(here("data_raw", "rawdata.csv"))
 
 ## Brief summary
 
-Our project looks at the relative proportions that MPs speak in the Scottish Parliament.
+* Our project looks at the relative proportions that MPs speak in the Scottish Parliament.
 
 ## Organisation of the project
 
 * Guiding principle: reproducibility
 
 * Source code of everything we produce avaliable on GitHub
-  * Is why we coded slides
 
 * Any user able to download the repo and run
   * Programmatic data download and cleaning
+
+## Workflow
+
+* Division of labour
+  * Alanah was working mainly on the HTML / CSS of the presentation
+  * Noemie was working on wragling data
+  * Len was working on the Rmarkdown 
+
+* GitHub was the solution
+  * Everyone using different text editors
+    * Noemie: Spyder
+    * Alanah: GitHub, RStudio
+    * Len: Atom, RStudio
+  * Each have a branch
+  * No matter what we were using we can all commit changes from terminal (or via the application we are using)
+  * Also allowef us to see entire version control
+
+
+
 
 
 ## Main data collection and cleaning
