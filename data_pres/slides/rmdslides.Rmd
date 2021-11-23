@@ -61,9 +61,14 @@ However, API licence doesn't allow this - is that true?
 
 ## Summary statistics
 
+```{r}
+speeches <- subset(harvard, harvard$is_speech == 1)
+```
+
 Some key facts about the speeches
 
-* There were `r nrow(subset(harvard, harvard$is_speech == 1))` speeches.
-* `r nrow(harvard %>% subset(is_speech == 1 & gender == "F"))` of the speeches were by women.
+* There were `r nrow(speeches)` speeches.
+* `r nrow(subset(speeches, speeches$gender == "F"))` of the speeches were by women.
+* `r (nrow(subset(speeches, speeches$gender == "F"))/ nrow(speeches))*100`%
 
 
