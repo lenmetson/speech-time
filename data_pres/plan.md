@@ -46,11 +46,6 @@
 ## Section 3: Where we're going with the data 
 
 * Data analysis
-  * What MP descriptives we'll extract
-    * Ages of MPs
-    * Political parties of MPs
-  * What speech descriptives we'll extract
-    * Speech time of women/men
   * What tools we're using
     * R
       * Downloading the raw data
@@ -59,20 +54,37 @@
       * Formatting the dataset
       * Scraping the Twitter API 
   
-* Data visualiation (AS to finish)
+* Data visualiation (_AS to finish_)
   * What we want to visualise
-    * Change in gender differences of speech time over time
-      * Line graph
+    * Change in gender differences of speech time over the years
+      * Stacked column graph
+      * Variables: gender (m/f, columns), speech time (%, y axis), years (x axis)
+      * Interactive element: cursor moves across graph to show exact % each year, and any outstanding events (_what do we think of this?_)
     * Power in parliament represented by amount of seats taken up once gender differences in speech time is considered
+      * Scottish parliamentary seat map
+      * Variables: gender (m/f), speech time (%)
+      * Interactive element: can click between actual number of seats and the speech-time-factored-in number of seats
     * Relationship between speech time and age
+      * Scatter graph
+      * Variables: gender (m/f), speech time (n)
+      * Interactive element: can click between 'men' and 'women' graphs to compare the general shape/distribution of scatter
     * Absolute gender difference in amount of speech
+      * 'Men'/'women' speech bubbles
+      * Variables: gender (m/f), speech time (%)
     * Proportions of time men and women speak
+      * Circle chart
+      * Variables: gender (m/f), speech time (%)
     * Party comparison of women speech time
+      * Stacked bar chart
+      * Variables: gender (m/f, bars), MP political party (y axis), speech time (%, x axis)
     * Comparison of Twitter followers and speech time
+      * Line graph
+      * Variables: speech time (n, y axis), Twitter followers (n, x axis)
   * What tools we're using
     * Tableau Public
+      * x
 
 
-* User interface (Len can you assist)
+* User interface (_Guys can you assist?_)
   *
     
