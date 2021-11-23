@@ -54,12 +54,24 @@ def find_unique_values(dataset, column, feature, comment=TRUE):
   return [unique values, val_dict]#return both number of unique values and the dictrionary containing them
 
 find_unique_names=(speech_table, "name", comments=TRUE)
+         
           
 #find out how many women in total
-women_number=find_unique_values(speech_table, column="name", comment=False)
+women_number=find_unique_values(speech_table, column="name", feature=speech_table["gener"]=="F", comment=False)
+print(women_number)
 
+          
+#how many men
+men_number=find_unique_values(speech_table, column="name", feature=none, comment=False)[0]-women_number
+          
+          
 #create a dataframe with the unique MP names and their respective information, but discarding speeches.
-mp_info=speech_table.drop_duplicates(subset="name", keep="first")
+mp_info=speech_table.drop_duplicates(subset="name", keep="first")   
+          
+#how many constituencies 
+constituency_number=find_unique_values(mp_info , column="?", feature=mp_info["constituency?olumn?"]=="constituency?"],comment=True)         
+          
+         
           
           
 #make a pandas dataframe with speaker name and wiki_id
