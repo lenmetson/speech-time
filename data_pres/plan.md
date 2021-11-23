@@ -25,6 +25,12 @@
 * How do we get the data?
 
 
+
+Should we be using the server?? 
+=======
+
+
+
 ## Section 2: Data processing, and summary stats
 
 * How we cleaned the data
@@ -38,7 +44,9 @@
     * How many speeches?
     * How many overall by women?
     * How many of each type?
-    * Table: MP descriptive + no of speeches
+
+  * Table: MP descriptive + no of speeches
+
     * How many years?
     * How many debates?
 
@@ -87,3 +95,4 @@
 
 * __User interface (_Guys can you assist?_)__
   *
+

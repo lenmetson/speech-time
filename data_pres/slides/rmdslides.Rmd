@@ -14,7 +14,12 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r packages, include=FALSE}
 if(!require("pacman"))install.packages("pacman")
 
-pacman::p_load("reticulate", "here")
+pacman::p_load("tidyverse", "reticulate", "here")
+
+#use_python("C:/Users/lenna/anaconda3/bin/python")
+
+#initialize_python()
+#import(pandas)
 ```
 
 
@@ -23,7 +28,7 @@ pacman::p_load("reticulate", "here")
 
 harvard <- read.csv(here("data_raw", "rawdata.csv"))
 
-source_python(here("scripts", "format_datset.py"))
+#source_python(here("scripts", "test.py"))
 ```
 
 ## Brief summary 
@@ -55,11 +60,27 @@ Our process would have been:
 
 However, API licence doesn't allow this - is that true?
 
+
+## Summary statistics
+
+
+```{r}
+speeches <- subset(harvard, harvard$is_speech == 1)
+```
+
+## Summary statistics on speeches 
+
+Some key facts about the speeches:
+
+* There were `r nrow(speeches)` speeches.
+* `r nrow(subset(speeches, speeches$gender == "F"))` of the speeches were by women.
+* `r (nrow(subset(speeches, speeches$gender == "F"))/ nrow(speeches))*100`%
+
+## Summary statistics on MSPs
+
+
+
+Some facts about the MSPs in our sample
 ## Our next steps
-
-
-
-
-
 
 
