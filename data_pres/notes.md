@@ -26,4 +26,10 @@ We define reproducibility as any user on any machine being able to run our full 
 
 Because of this, we needed to make sure that everything we do to the data is programmatically done. For example, we use the HTTPS protocol to download our data in code rather than asking each user to download a copy manually. Furthermore all of our data wrangling is done programmatically so that anyone can get the same results as us simply by running our code.  
 
-This also has the advantage of others being able to view and check  our code so that if there are mistakes, they can be more easily flagged 
+This also has the advantage of others being able to view and check  our code so that if there are mistakes, they can be more easily flagged
+
+## Workflow
+
+One challenge in obtaining our data is that we had divided tasks and each of us were using different tools to complete them. Therefore, we decided that GitHub would be the best way to ensure that we could all access the latest versions of what others were working on.
+
+No matter what application we were using, we could commit changes either through the application (RStudio, Atom) or through the terminal from our local disk. 
