@@ -73,8 +73,10 @@ speeches <- subset(harvard, harvard$is_speech == 1)
 ```
 
 Number of speeches: `nrow(speeches)`
+
 Number of speeches by women: `nrow(subset(speeches, speeches$gender == "F"))`
-Percentage of speeches by women `(nrow(subset(speeches, speeches$gender == "F"))/ nrow(speeches))*100
+
+Percentage of speeches by women `(nrow(subset(speeches, speeches$gender == "F"))/ nrow(speeches))*100`
 
 ## Slide 3.1: Summary statistics on speeches
 
