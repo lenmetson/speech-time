@@ -100,7 +100,7 @@ Number of MSPs in our data: `nrow(msps)`
 
 Number of women MSPs in our data: `nrow(subset(msps, msps$gender == "F"))`
 
-Propotion of women MSPs in our data: `(nrow(subset(msps, msps$gender == "F"))/ nrow(msps))*100``
+Propotion of women MSPs in our data: `(nrow(subset(msps, msps$gender == "F"))/ nrow(msps))*100`
 
 # Part 4: Where next
 
