@@ -2,8 +2,8 @@
 title: 'DS105M: Women In Parliament - Data'
 author: AS, NC, LM
 output:
-  slidy_presentation: default
   ioslides_presentation: default
+  slidy_presentation: default
 ---
 
 ```{r setup, include=FALSE}
@@ -13,7 +13,12 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r packages, include=FALSE}
 if(!require("pacman"))install.packages("pacman")
 
-pacman::p_load("reticulate", "here")
+pacman::p_load("tidyverse", "reticulate", "here")
+
+#use_python("C:/Users/lenna/anaconda3/bin/python")
+
+#initialize_python()
+#import(pandas)
 ```
 
 
@@ -22,7 +27,7 @@ pacman::p_load("reticulate", "here")
 
 harvard <- read.csv(here("data_raw", "rawdata.csv"))
 
-source_python(here("scripts", "format_datset.py"))
+#source_python(here("scripts", "test.py"))
 ```
 
 ## Brief summary 
@@ -54,9 +59,16 @@ Our process would have been:
 
 However, API licence doesn't allow this - is that true?
 
+```{r}
+harvard_speeches_only <- subset(harvard, harvard$is_speech == 1)
+no_speeches <- nrow(harvard_speeches_only)
+```
 
+There were `r nrow(subset(harvard, harvard$is_speech == 1))` speeches. 
 
+```{r}
 
+```
 
 
 
