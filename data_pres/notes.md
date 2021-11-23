@@ -60,3 +60,22 @@ url <- "https://dataverse.harvard.edu/api/access/datafile/4432885"
 download.file(url, here("data_raw", "rawdata.csv"))
 
 ```
+This will add the raw data to the data_raw directory you can see on the GitHub. However the `.gitignore` file ensured that we didn't push the raw csv into GitHub from our local disks.
+
+
+## Slide 5: Data Wrangling
+
+
+# Part 3: Summary statistics
+
+## Slide 6: Summary statistics on speeches
+
+
+## Slide 7: Summary statistics on msps
+
+
+# Part 4: Where next
+
+## Slide 8: Analysis
+
+## Slide 9: visualisations planned
