@@ -1,6 +1,7 @@
 ---
-title: 'DS105M: Women In Parliament - Data'
+title: "DS105M: Women In Parliament - Data"
 author: AS, NC, LM
+date: November 26, 2021
 output:
   slidy_presentation: default
   ioslides_presentation: default
@@ -53,6 +54,8 @@ Our process would have been:
 * Pull timelines for each politician 
 
 However, API licence doesn't allow this - is that true?
+
+## Our next steps
 
 
 
