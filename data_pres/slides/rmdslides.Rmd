@@ -25,7 +25,7 @@ pacman::p_load("tidyverse", "reticulate", "here")
 ```{r data, include=FALSE}
 #source(here("scripts", "download-csv-html.R")) # once you have run the script once, you can comment out this line by typing "#" in front of it. Doing this will mean the data loads directly from your local data_raw folder rather than downloading every time. 
 
-harvard <- read.csv(here("data_raw", "rawdata.csv"))
+#harvard <- read.csv(here("data_raw", "rawdata.csv"))
 
 #source_python(here("scripts", "test.py"))
 ```
@@ -60,11 +60,11 @@ Our process would have been:
 However, API licence doesn't allow this - is that true?
 
 ```{r}
-harvard_speeches_only <- subset(harvard, harvard$is_speech == 1)
-no_speeches <- nrow(harvard_speeches_only)
+#harvard_speeches_only <- subset(harvard, harvard$is_speech == 1)
+#no_speeches <- nrow(harvard_speeches_only)
 ```
 
-There were `r nrow(subset(harvard, harvard$is_speech == 1))` speeches. 
+There were `r #nrow(subset(harvard, harvard$is_speech == 1))` speeches. 
 
 ```{r}
 
