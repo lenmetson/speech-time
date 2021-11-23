@@ -74,13 +74,26 @@ Some key facts about the speeches:
 
 * There were `r nrow(speeches)` speeches.
 * `r nrow(subset(speeches, speeches$gender == "F"))` of the speeches were by women.
-* `r (nrow(subset(speeches, speeches$gender == "F"))/ nrow(speeches))*100`%
+* `r (nrow(subset(speeches, speeches$gender == "F"))/ nrow(speeches))*100`% of the speeches in our sample were by women.
 
 ## Summary statistics on MSPs
 
+```{r}
+msps <- speeches %>% select(name, gender)
+ 
+msps <- unique(msps)
+
+msps <- drop_na(msps)
+```
 
 
 Some facts about the MSPs in our sample
+
+* There were a total of `r nrow(msps)` in our sample
+
+* `r nrow(subset(msps, msps$gender == "F"))` were women 
+
+* Therefore, `r (nrow(subset(msps, msps$gender == "F"))/ nrow(msps))*100`% of the MSPs in out sample are women. 
 ## Our next steps
 
 
