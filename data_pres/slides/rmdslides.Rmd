@@ -2,8 +2,8 @@
 title: 'DS105M: Women In Parliament - Data'
 author: AS, NC, LM
 output:
-  slidy_presentation: default
   ioslides_presentation: default
+  slidy_presentation: default
 ---
 
 ```{r setup, include=FALSE}
@@ -13,50 +13,59 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r packages, include=FALSE}
 if(!require("pacman"))install.packages("pacman")
 
-pacman::p_load("reticulate", "here")
+pacman::p_load("tidyverse", "reticulate", "here")
+
+#use_python("C:/Users/lenna/anaconda3/bin/python")
+
+#initialize_python()
+#import(pandas)
 ```
 
 
 ```{r data, include=FALSE}
-#source(here("scripts", "download-csv-html.R")) # once you have run the script once, you can comment out this line by typing "#" in front of it. Doing this will mean the data loads directly from your local data_raw folder rather than downloading every time. 
+#source(here("scripts", "download-csv-html.R")) # once you have run the script once, you can comment out this line by typing "#" in front of it. Doing this will mean the data loads directly from your local data_raw folder rather than downloading every time.
 
-harvard <- read.csv(here("data_raw", "rawdata.csv"))
+#harvard <- read.csv(here("data_raw", "rawdata.csv"))
 
-source_python(here("scripts", "format_datset.py"))
+#source_python(here("scripts", "test.py"))
 ```
 
-## Brief summary 
+## Brief summary
 
-Our project looks at the relative proportions that MPs speak in the Scottish Parliament. 
+Our project looks at the relative proportions that MPs speak in the Scottish Parliament.
 
 ## Organisation of the project
 
-* Guiding principle: reproducibility 
+* Guiding principle: reproducibility
 
-* Source code of everything we produce avaliable on GitHub 
-  * Is why we coded slides 
-  
+* Source code of everything we produce avaliable on GitHub
+  * Is why we coded slides
+
 * Any user able to download the repo and run
-  * Programmatic data download and cleaning 
+  * Programmatic data download and cleaning
 
 
-## Main data collection and cleaning 
+## Main data collection and cleaning
 
-## Expansion 
+## Expansion
 
-We wanted to compare speech time in Parliament with tweet frequency for each MP. 
+We wanted to compare speech time in Parliament with tweet frequency for each MP.
 
-Our process would have been: 
+Our process would have been:
 
-* Scrape MP tweet_ids from Wiki-data. Wiki-IDs are included as document metadata so we could have written a program that finds the relevant tweet ID from each politician. 
+* Scrape MP tweet_ids from Wiki-data. Wiki-IDs are included as document metadata so we could have written a program that finds the relevant tweet ID from each politician.
 
-* Pull timelines for each politician 
+* Pull timelines for each politician
 
 However, API licence doesn't allow this - is that true?
 
+```{r}
+#harvard_speeches_only <- subset(harvard, harvard$is_speech == 1)
+#no_speeches <- nrow(harvard_speeches_only)
+```
 
+There were `r #nrow(subset(harvard, harvard$is_speech == 1))` speeches.
 
+```{r}
 
-
-
-
+```
