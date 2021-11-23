@@ -41,8 +41,11 @@ def get_shape(dataset):
 number_speeches=get_shape(speech_table)[0]
 print(f'The total number of speeches is: {}.'.format(number_speeches))
 
-#make a function to return number of unique names and dictionary containing the names.
+#make a function to return number of unique variables and dictionary containing these values.
+#the feature attribute is used as a filter. for exemple, it can be speech_table["gender"]==F.
 def find_unique_values(dataset, column, feature, comment=TRUE):
+  if feature!=none:
+    dataset=datset.loc[:,feature]
   unique_values=dataset[column].unique() #number of unique values
   val_dict= {idx:column for idx, column in enumerate(dataset[value].unique())} 
   #first, define a funciton to find unique values in a specified column.
