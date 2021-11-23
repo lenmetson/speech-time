@@ -72,18 +72,35 @@ harvard <- read.csv(here("data_raw", "rawdata.csv"))
 speeches <- subset(harvard, harvard$is_speech == 1)
 ```
 
+## Slide 3.1: Summary statistics on speeches
+
 Number of speeches: `nrow(speeches)`
 
 Number of speeches by women: `nrow(subset(speeches, speeches$gender == "F"))`
 
 Percentage of speeches by women `(nrow(subset(speeches, speeches$gender == "F"))/ nrow(speeches))*100`
 
-## Slide 3.1: Summary statistics on speeches
 
+## Slide 3.2: Summary statistics on MSPs
 
+We then create a dataframe of MSPs. When the dataset was compiled, the relational table for gender only has values for MSPs. So by dropping all rows of MSPs with no gender, we keep only MSPs
 
-## Slide 3.2: Summary statistics on msps
+```
+# select name and gender variables from speeches
+msps <- speeches %>% select(name, gender)
 
+# retain only unique values (because each MSPs' name is repeated in each speech)
+msps <- unique(msps)
+
+# non-MSPs have no gender associated so drop all rows with NA in gender
+msps <- drop_na(msps)
+```
+
+Number of MSPs in our data: `nrow(msps)`
+
+Number of women MSPs in our data: `nrow(subset(msps, msps$gender == "F"))`
+
+Propotion of women MSPs in our data: `(nrow(subset(msps, msps$gender == "F"))/ nrow(msps))*100``
 
 # Part 4: Where next
 
