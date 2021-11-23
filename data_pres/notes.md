@@ -14,6 +14,8 @@ Some information on our presentation:
 
 * If you want to run the presentation on your own machine consult the `README.md` file for the overall repository.
 
+# Part 1: Summary and workflow
+
 ## Slide 1: Brief summary
 
 Our project is aiming to visualise gender biases in Scottish Parliamentary debates. We know from other contexts that women generally tend to contribute less in professional and legislative settings because of gender discrimination in these environments. Our project aims to quantify and visualise this so as to inform people of the problem.
@@ -28,8 +30,33 @@ Because of this, we needed to make sure that everything we do to the data is pro
 
 This also has the advantage of others being able to view and check  our code so that if there are mistakes, they can be more easily flagged
 
-## Workflow
+## Slide 3: Workflow
 
 One challenge in obtaining our data is that we had divided tasks and each of us were using different tools to complete them. Therefore, we decided that GitHub would be the best way to ensure that we could all access the latest versions of what others were working on.
 
-No matter what application we were using, we could commit changes either through the application (RStudio, Atom) or through the terminal from our local disk. 
+No matter what application we were using, we could commit changes either through the application (RStudio, Atom) or through the terminal from our local disk.
+
+For example, if Noemie changed something with the way the data is organised, those changes would come up when Len reran the code in our Markdown and Alanah's formatting would also show up. This meant that we could work effectively on different parts of the project simultaneously.
+
+# Part two: the data
+
+## Slide 4: Obtaining the data
+
+The raw data for our project is contained on a server managed by Harvard Dataverse. This is an online repository where people can store large datafiles. It is intended for academic purposes. Researchers often upload replication data or datasets for others to use.
+
+We are using the dataset ParlScot. This data is publicly available for free. It consists of scrapped data from Scottish plenary debates. The data is relational and is stored as semi-structed data.
+
+Each row is a single entry in Hansard. The columns represent various meta-data about the speeches such as: the MSP who said it and various information about that MP.
+
+We downloaded the data using the HTTP protocol. The code for this is shown below. It is written in R. The code will work on any machine so long as that machine has cloned our whole repository. Opening `speech-time.Rproj` will launch RStudio with the correct root directory specified. The `here()` function specifies relative paths so it will read files relative to your root directory.
+
+```
+install.packages(here)
+library(here)
+# specify the url
+url <- "https://dataverse.harvard.edu/api/access/datafile/4432885"
+
+# download the file into a specified path - add your analysis folder in between " "
+download.file(url, here("data_raw", "rawdata.csv"))
+
+```
