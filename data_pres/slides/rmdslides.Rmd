@@ -109,6 +109,16 @@ Some facts about the MSPs in our sample
 * Therefore, `r (nrow(subset(msps, msps$gender == "F"))/ nrow(msps))*100`% of the MSPs in out sample are women.
 
 
+## Data Analysis
+
+* Tools
+  * R
+    * Downloading the raw data progromatically
+    * Summary statistics for presentations
+
+  * Python
+    * Formatting the dataset
+    * NLP of sylablles
 
 ## What we want to visualise
 
