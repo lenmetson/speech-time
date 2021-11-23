@@ -38,9 +38,41 @@
     * How many speeches? 
     * How many overall by women? 
     * How many of each type? 
-    * Table: MP descritive + no of speeches 
+    * Table: MP descriptive + no of speeches 
     * How many years?
     * How many debates?
 
 
 ## Section 3: Where we're going with the data 
+
+* Data analysis
+  * What MP descriptives we'll extract
+    * Ages of MPs
+    * Political parties of MPs
+  * What speech descriptives we'll extract
+    * Speech time of women/men
+  * What tools we're using
+    * R
+      * Downloading the raw data
+      * Counting sylablles
+    * Python
+      * Formatting the dataset
+      * Scraping the Twitter API 
+  
+* Data visualiation (AS to finish)
+  * What we want to visualise
+    * Change in gender differences of speech time over time
+      * Line graph
+    * Power in parliament represented by amount of seats taken up once gender differences in speech time is considered
+    * Relationship between speech time and age
+    * Absolute gender difference in amount of speech
+    * Proportions of time men and women speak
+    * Party comparison of women speech time
+    * Comparison of Twitter followers and speech time
+  * What tools we're using
+    * Tableau Public
+
+
+* User interface (Len can you assist)
+  *
+    
