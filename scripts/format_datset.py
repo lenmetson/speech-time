@@ -55,6 +55,15 @@ def find_unique_values(dataset, column, feature1, feature2, comment=True, dictio
     if comment==True:
         print("The {} with the following filter: {} is {} are given below".format(column, feature1, feature2))
     return unique_values #return both number of unique values and the dictrionary containing them
+  
+#define a function to find the number of unique values  
+def number_unique_values(list_unique_values):
+  totals=[]
+  for value in list_unique_values:
+    number=len(value)
+    totals.append(number)
+  return totals
+
 
 names_women=find_unique_values(speech_table, "name", feature1="gender", feature2="F", comment=True, dictionary=False)
 print(names)
@@ -68,12 +77,10 @@ print(constituencies_women)
 constituencies_men=find_unique_values(speech_table, "constituency", "gender", "M", True, False)
 print(constituencies_women)
 
-#how many: men and women, constituencies, 
+#how many: women and men, constituencies represented respectively by women and men, regions, msp_type
 
-number_women=len(names_women)
-print("There are {} women MSPs.".format(number_women))
-number_men=len(names_men)
-print("There are {} men MSPs.".format(number_men))
+numbers=number_unique_values([names_women, names_men, constituencies_women, constituencies_men)
+print("The number of women and men, constituencies represented respectively by women and men are: {}.".format(numbers))
 
           
 #create a dataframe with the unique MP names and their respective information, but discarding speeches.
