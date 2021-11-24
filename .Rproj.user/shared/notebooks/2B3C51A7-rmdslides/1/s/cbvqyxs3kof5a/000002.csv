@@ -1,0 +1,22 @@
+"0","if(!require(""pacman""))install.packages(""pacman"")"
+"2","Loading required package: pacman
+"
+"2","Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :"
+"2","
+ "
+"2"," there is no package called ‘pacman’
+"
+"1","Warning in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," :
+  "
+"1",""
+"1","package ‘pacman’ is not available (for R version 3.3.3)"
+"1",""
+"1","
+"
+"0","pacman::p_load(""tidyverse"", ""reticulate"", ""here"")"
+"2","Error in loadNamespace(name) : there is no package called ‘pacman’
+"
