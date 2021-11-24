@@ -1,0 +1,156 @@
+---
+title: "DS105M: Women In Parliament - Data"
+author: AS, NC, LM
+date: November 26, 2021
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r packages, include=FALSE}
+if(!require("pacman"))install.packages("pacman")
+
+pacman::p_load("tidyverse", "reticulate", "here")
+```
+
+
+```{r data, include=FALSE}
+#source(here("scripts", "download-csv-html.R")) # once you have run the script once, you can comment out this line by typing "#" in front of it. Doing this will mean the data loads directly from your local data_raw folder rather than downloading every time.
+
+harvard <- read.csv(here("data_raw", "rawdata.csv"))
+
+#source_python(here("scripts", "test.py"))
+```
+
+## Brief summary
+
+* Our project looks at the relative proportions that MPs speak in the Scottish Parliament.
+
+## Organisation of the project
+
+* Guiding principle: reproducibility
+
+* Source code of everything we produce avaliable on GitHub
+  * The user only has to have RStudio and Python installed on their machine to run it all
+
+* Any user able to download the repo and run
+  * Programmatic data download and cleaning
+
+
+
+## Workflow
+
+* Division of labour
+  * Alanah was working mainly on the HTML / CSS of the presentation
+  * Noemie was working on wragling data
+  * Len was working on the Rmarkdown
+
+* GitHub was the solution
+  * Everyone using different text editors
+    * Noemie: Spyder
+    * Alanah: GitHub, RStudio
+    * Len: Atom, RStudio
+  * Each have a branch
+  * No matter what we were using we can all commit changes from terminal (or via the application we are using)
+  * Also allowef us to see entire version control
+
+
+
+
+
+## Main data collection and cleaning
+
+## Expansion
+
+We wanted to compare speech time in Parliament with tweet frequency for each MP.
+
+Our process would have been:
+
+* Scrape MP tweet_ids from Wiki-data. Wiki-IDs are included as document metadata so we could have written a program that finds the relevant tweet ID from each politician.
+
+* Pull timelines for each politician
+
+However, API licence doesn't allow this - is that true?
+
+
+```{r}
+speeches <- subset(harvard, harvard$is_speech == 1)
+```
+
+## Summary statistics on speeches
+
+Some key facts about the speeches:
+
+* There were `r nrow(speeches)` speeches.
+* `r nrow(subset(speeches, speeches$gender == "F"))` of the speeches were by women.
+* `r (nrow(subset(speeches, speeches$gender == "F"))/ nrow(speeches))*100`% of the speeches in our sample were by women.
+
+## Summary statistics on MSPs
+
+```{r}
+msps <- speeches %>% select(name, gender)
+
+msps <- unique(msps)
+
+msps <- drop_na(msps)
+```
+
+
+Some facts about the MSPs in our sample
+
+* There were a total of `r nrow(msps)` in our sample
+
+* `r nrow(subset(msps, msps$gender == "F"))` were women
+
+* Therefore, `r (nrow(subset(msps, msps$gender == "F"))/ nrow(msps))*100`% of the MSPs in out sample are women.
+
+
+## Data Analysis
+
+* Tools
+  * R
+    * Downloading the raw data progromatically
+    * Summary statistics for presentations
+
+  * Python
+    * Formatting the dataset
+    * NLP of sylablles
+
+## What we want to visualise
+
+## Change in gender differences of speech time over the years
+
+* Stacked column graph
+
+* Variables: gender (m/f, columns), speech time (%, y axis), years (x axis)
+
+* Interactive element: cursor moves across graph to show exact % each year, and any outstanding events
+
+## Power in parliament represented by amount of seats taken up once gender differences in speech time is considered
+
+* Scottish parliamentary seat map
+  * GIS data matched to constituency name (relational data)
+
+* Variables: gender (m/f), speech time (%)
+
+* Interactive element: can click between actual number of seats and the speech-time-factored-in number of seats
+
+## Absolute gender difference in amount of speech
+
+* 'Men'/'women' speech bubbles
+
+* Variables: gender (m/f), speech time (%)
+
+## Proportions of time men and women speak
+
+* Circle chart
+
+* Variables: gender (m/f), speech time (%)
+
+## What tools we're using
+
+* Tableau Public

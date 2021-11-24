@@ -1,3 +1,4 @@
+
 import pandas as pd
 import numpy as np
 
@@ -74,4 +75,3 @@ constituency_number=find_unique_values(mp_info , column="?", feature=mp_info["co
           
 #make a pandas dataframe with speaker name and wiki_id
 name_wikiid=pd.speech_table["name", "wikidataid"][speech_table["name"]==enumerate(speech_table["name"].unique())]
-
