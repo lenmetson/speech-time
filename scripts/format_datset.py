@@ -44,33 +44,41 @@ print(f'The total number of speeches is: {}.'.format(number_speeches))
 
 #make a function to return number of unique variables and dictionary containing these values.
 #the feature attribute is used as a filter. for exemple, it can be feature=speech_table["gender"]==F.
-#if no feature, write feature=none
-def find_unique_values(dataset, column, feature, comment=True):
-  if feature!=none:
-    dataset=dataset.loc[:,feature]
-  unique_values=dataset[column].unique() #number of unique values
-  val_dict= {idx:column for idx, column in enumerate(dataset[column].unique())} 
-  if comment==True:
-    print(("The number of {} is {}".format(column, unique_values)),("here is a dictionary with unique values:{}".format(val_dict))
-  return [unique_values, val_dict]#return both number of unique values and the dictrionary containing them
-         
-          
-#find out how many women in total
-women_number=find_unique_values(speech_table, column="name", feature=speech_table["gener"]=="F", comment=False)
-print(women_number)
+#if no feature, write feature="none"
+def find_unique_values(dataset, column, feature1, feature2, comment=True, dictionary=True):
+    if feature1!="none":
+        dataset=dataset[dataset[feature1]==feature2]
+    unique_values=dataset[column].unique() #number of unique values
+    if dictionary==True:
+        val_dict= {idx:column for idx, column in enumerate(dataset[column].unique())}
+        print(val_dict)
+    if comment==True:
+        print("The {} with the following filter: {} is {} are given below".format(column, feature1, feature2))
+    return unique_values #return both number of unique values and the dictrionary containing them
 
-          
-#how many men
-men_number=find_unique_values(speech_table, column="name", feature=none, comment=False)[0]-women_number
-          
+names_women=find_unique_values(speech_table, "name", feature1="gender", feature2="F", comment=True, dictionary=False)
+print(names)
+
+names_men=find_unique_values(speech_table, "name", feature1="gender", feature2="M", comment=True, dictionary=False)
+print(names)
+
+constituencies_women=find_unique_values(speech_table, "constituency", "gender", "F", True, False)
+print(constituencies_women)
+
+constituencies_men=find_unique_values(speech_table, "constituency", "gender", "M", True, False)
+print(constituencies_women)
+
+#how many: men and women, constituencies, 
+
+number_women=len(names_women)
+print("There are {} women MSPs.".format(number_women))
+number_men=len(names_men)
+print("There are {} men MSPs.".format(number_men))
+
           
 #create a dataframe with the unique MP names and their respective information, but discarding speeches.
 mp_info=speech_table.drop_duplicates(subset="name", keep="first")   
           
-#how many constituencies 
-constituency_number=find_unique_values(mp_info , column="?", feature=mp_info["constituency?olumn?"]=="constituency?"],comment=True)         
-          
-         
           
           
 #make a pandas dataframe with speaker name and wiki_id
