@@ -45,7 +45,7 @@ harvard <- read.csv(here("data_raw", "rawdata.csv"))
 ## Workflow
 
 * Division of labour
-  * Alanah was working mainly on the HTML / CSS of the presentation
+  * Alanah was working mainly on the HTML / CSS code chunk of the presentation
   * Noemie was working on wragling data
   * Len was working on the Rmarkdown
 
@@ -56,7 +56,7 @@ harvard <- read.csv(here("data_raw", "rawdata.csv"))
     * Len: Atom, RStudio
   * Each have a branch
   * No matter what we were using we can all commit changes from terminal (or via the application we are using)
-  * Also allowef us to see entire version control
+  * Also allowed us to see entire version control
 
 
 
@@ -111,14 +111,14 @@ Some facts about the MSPs in our sample
 
 ## Data Analysis
 
-* Tools
-  * R
-    * Downloading the raw data progromatically
-    * Summary statistics for presentations
+### Tools
+* R
+  * Downloading the raw data progromatically
+  * Summary statistics for presentations
 
-  * Python
-    * Formatting the dataset
-    * NLP of sylablles
+* Python
+  * Formatting the dataset
+  * * NLP of sylablles
 
 ## What we want to visualise
 
