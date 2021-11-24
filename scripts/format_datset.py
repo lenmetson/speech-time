@@ -64,6 +64,7 @@ def number_unique_values(list_unique_values):
     totals.append(number)
   return totals
 
+#get lists of unique values of the following relational data:
 
 names_women=find_unique_values(speech_table, "name", feature1="gender", feature2="F", comment=True, dictionary=False)
 print(names_women)
@@ -76,6 +77,16 @@ print(constituencies_women)
 
 constituencies_men=find_unique_values(speech_table, "constituency", "gender", "M", True, False)
 print(constituencies_women)
+
+regions_women=find_unique_values(speech_table, "region", "gender", "F", True, False)
+print(regions_women)
+
+regions_men=find_unique_values(speech_table, "region", "gender", "F", True, False)
+print(regions_men)
+
+women_daily_order=find_unique_values(speech_table, "daily_order_no", "gender", "F", True, False)
+women_daily_order_avg=women_daily_order.mean()
+
 
 #how many: women and men, constituencies represented respectively by women and men, regions, msp_type
 
