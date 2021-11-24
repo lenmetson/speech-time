@@ -55,6 +55,15 @@ def find_unique_values(dataset, column, feature1, feature2, comment=True, dictio
     if comment==True:
         print("The {} with the following filter: {} is {} are given below".format(column, feature1, feature2))
     return unique_values #return both number of unique values and the dictrionary containing them
+
+#define function to get values in column
+def find_values(dataset, column, feature1, feature2, comment=True):
+    if feature1!="none":
+        dataset=dataset[dataset[feature1]==feature2]
+    values=dataset[column]
+    if comment==True:
+        print("The {} with the following filter: {} is {} are given below.".format(column, feature1, feature2))
+    return values
   
 #define a function to find the number of unique values  
 def number_unique_values(list_unique_values):
@@ -84,8 +93,19 @@ print(regions_women)
 regions_men=find_unique_values(speech_table, "region", "gender", "F", True, False)
 print(regions_men)
 
-women_daily_order=find_unique_values(speech_table, "daily_order_no", "gender", "F", True, False)
+women_daily_order=find_values(speech_table, "daily_order_no", "gender", "F", True)
+print(women_daily_order)
+print("The average daily order for women is:")
 women_daily_order_avg=women_daily_order.mean()
+print(women_daily_order_avg)
+
+men_daily_order=find_values(speech_table, "daily_order_no", "gender", "M", True)
+print(men_daily_order)
+print("The average daily order for men is:")
+men_daily_order_avg=men_daily_order.mean()
+print(men_daily_order_avg)
+      
+      
 
 
 #how many: women and men, constituencies represented respectively by women and men, regions, msp_type
