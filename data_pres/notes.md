@@ -60,7 +60,6 @@ download.file(url, here("data_raw", "rawdata.csv"))
 This will add the raw data to the data_raw directory you can see on the GitHub. However the `.gitignore` file ensured that we didn't push the raw csv into GitHub from our local disks.
 
 
-
 # Part 3: Summary statistics
 The code we ran in for the Markdown is included here:
 
@@ -71,6 +70,9 @@ harvard <- read.csv(here("data_raw", "rawdata.csv"))
 # save only sppeches as an object
 speeches <- subset(harvard, harvard$is_speech == 1)
 ```
+
+We also ran some code in python locally (on disk) in parallel to cross check-results. This, among other things, allowed us to realize that we had been using different datasets, and to flag certain inconvenient n/a values in the dataset and drop them to facilitate analysis. The code that follows was first written and executed as it appears to have faster access to the statistics, and later rewritten in python. The switch has been principally motivated by the flexibility that python code offers. In effect, the possibility to define and modulate functions allowed us to obtain summary statistics on any variable present in the dataset and perform some elementary analytics faster. In essence, the marginal cost of using python once some  ad-hoc functions are defined is much lower than for using R. An important note is that this does not affect the reproducibility of the analysis on other machines as the python code can be directly read within R-studio, given the right packages are installed.
+
 
 ## Slide 3.1: Summary statistics on speeches
 
@@ -106,9 +108,22 @@ Propotion of women MSPs in our data: `(nrow(subset(msps, msps$gender == "F"))/ n
 
 ## Slide 4.1: Data Wrangling
 
+The first step in the analysis is cleaning the data. In the early steps executed so far, we have subsetted the semi-structured dataset obtained as to only keep information on proper speeches, while discarding any formalities and introductory speeches that have rpocedural relevance but would not inform our analysis. 
+
+The second step involved striping the data of missing values and ensuring overall accuracy within the data. Initially, the count for the total number of speeches by women corresponded around 10% of total speeches. When checked against statistics available online, this seemed too exacerbated of a discrepency. This lead us to double check the way we counted women MSPs and realized that many of the people we had identified were either "", and their inclusion in the calculus inflated the denominator and artificially reduced theproportion of speeches delivered by women MSPs. So we excluded these people from the data.
+
+The third step is to partition this dataframe and, using csv libraries, export them as CSVs to the repository. The aim is to obtain structured, relational data that can easlily be appended in R (for example, once we have a dataframe with one column "name" and another "speech", we can append a column with "number of syllables". In another dataframe with column "name" and "msp_type", we can see if any discrpency of the number of syllables in the speech seems to correlate with gender or with the type of MSP speeking. This can also allow us to source MSPs' twitter ID from their wikipedia pages using the wikiid variable present in the dataset, save this as a dataframe, and use SQL to extract the degree of social media activity by MSP.
+
+The main data source for analysis is now ready to be used. We can now use some partitions of this dataframe to count the number of syllables spoken by MSPs and compare the obtained values between men and women.
+
+
+
 ## Slide 4.2: Analysis
 
-**Noemie**
+As we already know how to operationalize pre-existing libraries for syllable count, here are some insights we would like to draw from the data:
+- average and median number of syllables by gender
+- whether this discrepency also exists on twitter
+- perform some sentiment analysis on speeches to see if a gender-related lexic is found at a higher rate in women's speeches than in men's speeches.
 
 ## Slide 4.3: visualisations planned
 
