@@ -1,56 +1,77 @@
+
 import pandas as pd
+import numpy as np
 
 #upload data from disk into a pandas dataframe
-#harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
+print('-----------------------------------------------------------------')
+print("Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.")
+print('-----------------------------------------------------------------')
 
-#create dataframe with only rows where there is a speech
 
-#table only speches
+harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
+
+#create dataframe with only rows where there is a speech, using boolean indexing, discarding intro phrases and such.
+
 speech_table=harvard[:][harvard["is_speech"]==1]
+
+#create a list with the column names called header
+header=[]
+for column in data.columns:
+  header.append(column)
+
+#slice df to obtain first 2 rows
 view_table=speech_table.iloc[0:2, :]
+
+
+print('-----------------------------------------------------------------')
+print("showing header and first 2 rows of obtained dataframe called speech_table, as well as some important statistics.")
+print('-----------------------------------------------------------------')
+
 print(view_table)
+print(header)
 
-#dowload file as csv
-speech_table.to_csv('/Users/noemieclaret/Downloads/harvard_speeches.csv')
+#dowload file as csv to disk if necessary
+#speech_table.to_csv('/Users/noemieclaret/Downloads/harvard_speeches.csv')
+#noémie note: to_csv is a pandas function!! not built in
 
-
-def get_shape:
+def get_shape(dataset):
   shape=dataset.shape
-  return ("The shape of this data is {}".format(shape))
+  return ("The dimensions of this data is {}".format(shape))
 
-#make a series with unique names 
-def find_unique_values(dataset, index):
-  unique_values=dataset['value'].unique()
-  print(unique_values)
-    duplicate_attribute=[]
-    unique_attribute_byrow={}
-    duplicate_attribute_byrow={}
-    row_number=0
-    
-    for row in dataset:
-        row_number+=1
-        attribute=row[index]
-        if attribute in unique_attribute:
-            duplicate_attribute.append(attribute)
-            duplicate_attribute_byrow[row_number]=attribute
-        else:
-            unique_attribute.append(attribute)
-            unique_attribute_byrow[row_number]=attribute
-    number_unique_attributes=len(unique_attribute_byrow)
-    number_duplicate_attributes=len(duplicate_attribute_byrow)
-    return ("The number of repeated", str(header[index]), "in", dataset_name, "is", number_duplicate_attributes), ("The number of unique", str(header[index]), "in", dataset_name, "is", number_unique_attributes) 
-        
- 
-#make a function to explore this nex datatable
-def get_value_byname(dataset=speech_table, value="wikidataid"):
-    name_wiki=dataset[["name", "value"]]
-    speech_count=speech_name.count()
-    print(speech_count)
-    
-    for row in dataset_slice:
-        print(row)
-        print('\n') # adds a new (empty) line after each row
+#get number of speeches
+number_speeches=get_shape(speech_table)[0]
+print(f'The total number of speeches is: {}.'.format(number_speeches))
 
-    if rows_and_columns:
-        print('Number of rows:', len(dataset))
-        print('Number of columns:', len(dataset[0]))
+#make a function to return number of unique variables and dictionary containing these values.
+#the feature attribute is used as a filter. for exemple, it can be feature=speech_table["gender"]==F.
+#if no feature, write feature=none
+def find_unique_values(dataset, column, feature, comment=True):
+  if feature!=none:
+    dataset=dataset.loc[:,feature]
+  unique_values=dataset[column].unique() #number of unique values
+  val_dict= {idx:column for idx, column in enumerate(dataset[column].unique())} 
+  if comment==True:
+    print(("The number of {} is {}".format(column, unique_values)),("here is a dictionary with unique values:{}".format(val_dict))
+  return [unique_values, val_dict]#return both number of unique values and the dictrionary containing them
+         
+          
+#find out how many women in total
+women_number=find_unique_values(speech_table, column="name", feature=speech_table["gener"]=="F", comment=False)
+print(women_number)
+
+          
+#how many men
+men_number=find_unique_values(speech_table, column="name", feature=none, comment=False)[0]-women_number
+          
+          
+#create a dataframe with the unique MP names and their respective information, but discarding speeches.
+mp_info=speech_table.drop_duplicates(subset="name", keep="first")   
+          
+#how many constituencies 
+constituency_number=find_unique_values(mp_info , column="?", feature=mp_info["constituency?olumn?"]=="constituency?"],comment=True)         
+          
+         
+          
+          
+#make a pandas dataframe with speaker name and wiki_id
+name_wikiid=pd.speech_table["name", "wikidataid"][speech_table["name"]==enumerate(speech_table["name"].unique())]
