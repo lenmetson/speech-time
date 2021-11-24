@@ -20,7 +20,8 @@ text-align: ltr;
 padding-top: 20px;
 }
 ul, p {
-padding: 1px 2% 1px
+padding: 1px 2% 1px;
+  max-height:90%
 }
 *{background-color: #EDEDED;
 background-size: 100%;
