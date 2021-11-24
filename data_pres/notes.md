@@ -40,7 +40,7 @@ No matter what application we were using, we could commit changes either through
 
 The raw data for our project is contained on a server managed by Harvard Dataverse. This is an online repository where people can store large datafiles. It is intended for academic purposes. Researchers often upload replication data or datasets for others to use.
 
-We are using the dataset ParlScot. This data is publicly available for free. It consists of scrapped data from Scottish plenary debates. The data is relational and is stored as semi-structed data.
+We are using the dataset ParlScot. This data is publicly available for free. It consists of scrapped data from Scottish plenary debates. The data is relational and is stored as semi-structured data.
 
 Each row is a single entry in Hansard. The columns represent various meta-data about the speeches such as: the MSP who said it and various information about that MP.
 
