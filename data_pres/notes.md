@@ -125,7 +125,7 @@ As we already know how to operationalize pre-existing libraries for syllable cou
 - whether this discrepency also exists on twitter
 - perform some sentiment analysis on speeches to see if a gender-related lexic is found at a higher rate in women's speeches than in men's speeches.
 
-## Slide 4.3: visualisations planned
+## Slide 4.3: Visualisations planned
 
 Our process thus far has been continually informed by our plans for the final product: various data visualisations of the gender differences in Scottish parliamentary contributions. We've done this by not only by ensuring that we're able to obtain the relevant data and insights for our product, but also by cross-checking that our data format is suitable for the program we are planning to use for the data visualiations (namely, Tableau Public).
 
