@@ -16,7 +16,7 @@ speech_table=harvard[:][harvard["is_speech"]==1]
 
 #create a list with the column names called header
 header=[]
-for column in data.columns:
+for column in speech_table.columns:
   header.append(column)
 
 #slice df to obtain first 2 rows
@@ -66,10 +66,10 @@ def number_unique_values(list_unique_values):
 
 
 names_women=find_unique_values(speech_table, "name", feature1="gender", feature2="F", comment=True, dictionary=False)
-print(names)
+print(names_women)
 
 names_men=find_unique_values(speech_table, "name", feature1="gender", feature2="M", comment=True, dictionary=False)
-print(names)
+print(names_men)
 
 constituencies_women=find_unique_values(speech_table, "constituency", "gender", "F", True, False)
 print(constituencies_women)
@@ -79,7 +79,7 @@ print(constituencies_women)
 
 #how many: women and men, constituencies represented respectively by women and men, regions, msp_type
 
-numbers=number_unique_values([names_women, names_men, constituencies_women, constituencies_men)
+numbers=number_unique_values([names_women, names_men, constituencies_women, constituencies_men])
 print("The number of women and men, constituencies represented respectively by women and men are: {}.".format(numbers))
 
           
