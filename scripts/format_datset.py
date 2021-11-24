@@ -104,6 +104,14 @@ print(men_daily_order)
 print("The average daily order for men is:")
 men_daily_order_avg=men_daily_order.mean()
 print(men_daily_order_avg)
+
+print("The median daily order for women is:")
+women_daily_order_med=women_daily_order.median()
+print(women_daily_order_med)
+
+print("The median daily order for men is:")
+men_daily_order_avg=men_daily_order.median()
+print(men_daily_order_med)
       
       
 
