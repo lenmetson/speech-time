@@ -397,7 +397,6 @@ font-size: 29px;
 font-weight:bold;
 align-self: center;
 text-align: center;
-padding-top: 200px
 }
 div {font-size: 24px;
 letter-spacing: 2px;
@@ -415,6 +414,9 @@ text-align: ltr;
 font-weight: normal;
 color: #1E1E1E;
 }
+table,th{font-size: 20px;
+background-color: lightgray}
+table,td{font-size: 10px}
 * {background-color: #EDEDED;
 background-size: 100%;
 font-family: "Lucida Console", Monaco, monospace;
@@ -538,6 +540,62 @@ download.file(url, here(&quot;data_raw&quot;, &quot;rawdata.csv&quot;))</code></
 <div id="slide-3.3-visualisations-planned" class="slide section level1">
 <h1>Slide 3.3: Visualisations planned</h1>
 <p><strong>Visualisations planned</strong></p>
+<table>
+<colgroup>
+<col width="54%"></col>
+<col width="15%"></col>
+<col width="30%"></col>
+</colgroup>
+<thead>
+<tr class="header">
+<th>What we’re planning to visualise</th>
+<th>Graph</th>
+<th>Variables</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Change in gender differences of speech time over the years</td>
+<td>Stacked column graph</td>
+<td>gender (m/f, columns), speech time (%, y axis), years (x axis)</td>
+</tr>
+<tr class="even">
+<td>Power in parliament represented by amount of seats taken up once gender differences in speech time are considered</td>
+<td>Scottish parliamentary seat map</td>
+<td>gender (m/f), speech time (%)</td>
+</tr>
+<tr class="odd">
+<td>Relationship between speech time and age</td>
+<td>Scatter graph</td>
+<td>gender (m/f), speech time (n)</td>
+</tr>
+<tr class="even">
+<td>Absolute gender differences in amount of speech</td>
+<td>Speech bubbles</td>
+<td>gender (m/f), speech time (%)</td>
+</tr>
+<tr class="odd">
+<td>Proportions of time men and women speak</td>
+<td>Circle chart</td>
+<td>gender (m/f), speech time (%)</td>
+</tr>
+<tr class="even">
+<td>Party comparison of women speech time</td>
+<td>Stacked bar chart</td>
+<td>gender (m/f, bars), MP political party (y axis),</td>
+</tr>
+<tr class="odd">
+<td>Comparison of Twitter activity and speech time</td>
+<td>Line graph</td>
+<td>speech time (n, y axis), Twitter followers (n, x axis)</td>
+</tr>
+<tr class="even">
+<td>Regional differences in gender speech times</td>
+<td>Heat map</td>
+<td>speech time (%), gender (m/f)</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Tools we’re planning on using:</strong></p>
 <ul>
 <li>Tableau Public</li>
