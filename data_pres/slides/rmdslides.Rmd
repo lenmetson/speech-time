@@ -126,7 +126,26 @@ msps <- drop_na(msps)
   * Therefore, across our entire dataset, `r (nrow(subset(msps, msps$gender == "F"))/ nrow(msps))*100`% of MSPs are women.
 
 # Slide 3.1: Data wrangling
+1. **Data cleaning**
+  + Subset the semi-structured dataset to keep only the relevant information
+  + Discard information irrelevant to our analysis
+2. **Improving data accuracy**
+  + Strip the data of missing values
+  + Cross-check summary statistics results across R and python
+  + Ensure consistency in results across languages
+3. **Partition and export the dataframe to the repository**
+  + Result: structured, relational data ready to be used for analysis
+  + Partitions of dataframe can be used to count the number of syllables spoken by MSPs and compare the obtained values between men and women
 
 # Slide 3.2: Analysis
+**Some insights we'd like to draw from the data:**
++ Average and median number of syllables by gender
++ Whether this discrepency also exists on Twitter
++ See if gender-related lexic is found at a higher rate in women's speeches than in men's speeches (using sentiment analysis)
 
 # Slide 3.3: Visualisations planned
+**Visualisations planned**
+
+**Tools we're planning on using:**
+* Tableau Public
+* SQL
