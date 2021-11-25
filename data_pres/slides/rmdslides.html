@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
-  <meta name="author" content="AS, NC, LM" />
+  <meta name="author" content="Alanah S, Noemie C, Len M" />
   <meta name="date" content="2021-11-26" />
   <title>DS105M: Women In Parliament - Data</title>
   <style type="text/css">
@@ -383,7 +383,7 @@ list-style-type: none;
 <div class="slide titlepage">
   <h1 class="title">DS105M: Women In Parliament - Data</h1>
   <p class="author">
-AS, NC, LM
+Alanah S, Noemie C, Len M
   </p>
   <p class="date">November 26, 2021</p>
 </div>
@@ -397,6 +397,7 @@ font-size: 29px;
 font-weight:bold;
 align-self: center;
 text-align: center;
+padding-top: 200px
 }
 div {font-size: 24px;
 letter-spacing: 2px;
@@ -486,40 +487,62 @@ download.file(url, here(&quot;data_raw&quot;, &quot;rawdata.csv&quot;))</code></
 </div>
 <div id="slide-2.2-summary-statistics-on-speeches" class="slide section level1">
 <h1>Slide 2.2: Summary statistics on speeches</h1>
-<table>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th>Number</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Total speeches</td>
-<td>Content Cell</td>
-</tr>
-<tr class="even">
-<td>Speeches by women</td>
-<td>Content Cell</td>
-</tr>
-<tr class="odd">
-<td>% Speeches by women</td>
-<td>cotent</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li>There are 430577 speeches in our dataset.</li>
+<li>125078 speeches were by women.</li>
+<li>Thus, 29.0489274% speeches in the dataset overall were by women.</li>
+</ul>
 </div>
 <div id="slide-2.3-summary-statistics-on-msps" class="slide section level1">
-<h1>Slide 2.3: Summary statistics on msps</h1>
+<h1>Slide 2.3: Summary statistics on MSPs</h1>
+<ul>
+<li>There are 306 MSPs in our dataset.</li>
+<li>105 of them are women.</li>
+<li>Therefore, across our entire dataset, 34.3137255% of MSPs are women.</li>
+</ul>
 </div>
 <div id="slide-3.1-data-wrangling" class="slide section level1">
 <h1>Slide 3.1: Data wrangling</h1>
+<ol style="list-style-type: decimal">
+<li><strong>Data cleaning</strong></li>
+</ol>
+<ul>
+<li>Subset the semi-structured dataset to keep only the relevant information</li>
+<li>Discard information irrelevant to our analysis</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Improving data accuracy</strong></li>
+</ol>
+<ul>
+<li>Strip the data of missing values</li>
+<li>Cross-check summary statistics results across R and python</li>
+<li>Ensure consistency in results across languages</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Partition and export the dataframe to the repository</strong></li>
+</ol>
+<ul>
+<li>Result: structured, relational data ready to be used for analysis</li>
+<li>Partitions of dataframe can be used to count the number of syllables spoken by MSPs and compare the obtained values between men and women</li>
+</ul>
 </div>
 <div id="slide-3.2-analysis" class="slide section level1">
 <h1>Slide 3.2: Analysis</h1>
+<p><strong>Some insights we’d like to draw from the data:</strong></p>
+<ul>
+<li>Average and median number of syllables by gender</li>
+<li>Whether this discrepency also exists on Twitter</li>
+<li>See if gender-related lexic is found at a higher rate in women’s speeches than in men’s speeches (using sentiment analysis)</li>
+</ul>
 </div>
 <div id="slide-3.3-visualisations-planned" class="slide section level1">
 <h1>Slide 3.3: Visualisations planned</h1>
+<p><strong>Visualisations planned</strong></p>
+<p><strong>Tools we’re planning on using:</strong></p>
+<ul>
+<li>Tableau Public</li>
+<li>SQL</li>
+</ul>
 </div>
 
   <!-- dynamically load mathjax for compatibility with self-contained -->

@@ -15,6 +15,7 @@ font-size: 29px;
 font-weight:bold;
 align-self: center;
 text-align: center;
+padding-top: 200px
 }
 div {font-size: 24px;
 letter-spacing: 2px;
