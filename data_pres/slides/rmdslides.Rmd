@@ -25,13 +25,16 @@ font-variant: normal;
 text-transform: none;
 padding-top: 20px;
 }
-ul, p {
+ul, p , ol {
 padding: 1px 2% 1px;
 max-height:90%
 text-align: ltr;
 font-weight: normal;
 color: #1E1E1E;
 }
+ul, ol, p{position:relative;
+top: 2px;
+bottom: 2px}
 table,th{font-size: 20px;
 background-color: lightgray}
 table,td{font-size: 10px}
