@@ -108,7 +108,7 @@ Propotion of women MSPs in our data: `(nrow(subset(msps, msps$gender == "F"))/ n
 
 ## Slide 4.1: Data Wrangling
 
-The first step in the analysis is cleaning the data. In the early steps executed so far, we have subsetted the semi-structured dataset obtained as to only keep information on proper speeches, while discarding any formalities and introductory speeches that have rpocedural relevance but would not inform our analysis. 
+The first step in the analysis is cleaning the data. In the early steps executed so far, we have subsetted the semi-structured dataset obtained as to only keep information on proper speeches, while discarding any formalities and introductory speeches that have procedural relevance but would not inform our analysis. 
 
 The second step involved striping the data of missing values and ensuring overall accuracy within the data. Initially, the count for the total number of speeches by women corresponded around 10% of total speeches. When checked against statistics available online, this seemed too exacerbated of a discrepency. This lead us to double check the way we counted women MSPs and realized that many of the people we had identified were either "", and their inclusion in the calculus inflated the denominator and artificially reduced theproportion of speeches delivered by women MSPs. So we excluded these people from the data.
 
