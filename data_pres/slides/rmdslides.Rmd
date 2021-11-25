@@ -153,7 +153,8 @@ msps <- drop_na(msps)
 
 * Average and median number of syllables by gender
 * Whether this discrepency also exists on Twitter
-* See if gender-related lexic is found at a higher rate in women's speeches than in men's speeches (using sentiment analysis)
+* See if gender-related lexic is found at a higher rate in women's speeches than in men's speeches (using content analysis)
+* Noemie found women tend to speak in earlier debates - this could be an avenue we explore
 
 # Slide 3.3: Visualisations planned
 **Visualisations planned**
