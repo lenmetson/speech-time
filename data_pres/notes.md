@@ -122,7 +122,7 @@ The main data source for analysis is now ready to be used. We can now use some p
 
 As we already know how to operationalize pre-existing libraries for syllable count, here are some insights we would like to draw from the data:
 - average and median number of syllables by gender
-- whether this discrepency also exists on twitter
+- whether this discrepency also exists on Twitter
 - perform some sentiment analysis on speeches to see if a gender-related lexic is found at a higher rate in women's speeches than in men's speeches.
 
 ## Slide 3.3: Visualisations planned
