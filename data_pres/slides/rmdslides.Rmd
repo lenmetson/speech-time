@@ -139,13 +139,15 @@ msps <- drop_na(msps)
 
 # Slide 3.2: Analysis
 **Some insights we'd like to draw from the data:**
-+ Average and median number of syllables by gender
-+ Whether this discrepency also exists on Twitter
-+ See if gender-related lexic is found at a higher rate in women's speeches than in men's speeches (using sentiment analysis)
+
+* Average and median number of syllables by gender
+* Whether this discrepency also exists on Twitter
+* See if gender-related lexic is found at a higher rate in women's speeches than in men's speeches (using sentiment analysis)
 
 # Slide 3.3: Visualisations planned
 **Visualisations planned**
 
 **Tools we're planning on using:**
+
 * Tableau Public
 * SQL
