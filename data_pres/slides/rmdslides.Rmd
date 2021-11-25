@@ -15,7 +15,6 @@ font-size: 29px;
 font-weight:bold;
 align-self: center;
 text-align: center;
-padding-top: 200px
 }
 div {font-size: 24px;
 letter-spacing: 2px;
@@ -33,10 +32,21 @@ text-align: ltr;
 font-weight: normal;
 color: #1E1E1E;
 }
+table,th{font-size: 20px;
+background-color: lightgray}
+table,td{font-size: 10px}
 * {background-color: #EDEDED;
 background-size: 100%;
 font-family: "Lucida Console", Monaco, monospace;
 }
+```
+
+```{html, echo=FALSE}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+</head>
 ```
 
 ```{r setup, include=FALSE}
@@ -147,6 +157,17 @@ msps <- drop_na(msps)
 
 # Slide 3.3: Visualisations planned
 **Visualisations planned**
+
+| What we're planning to visualise                                                                                   | Graph                           | Variables                                                      |
+|-------------------------------------------------------------------------------------------------------------------|---------------------------------|----------------------------------------------------------------|
+| Change in gender differences of speech time over the years                                                        | Stacked column graph            | gender (m/f, columns), speech time (%, y axis), years (x axis) |
+| Power in parliament represented by amount of seats taken up once gender differences in speech time are considered | Scottish parliamentary seat map | gender (m/f), speech time (%)                                  |
+| Relationship between speech time and age                                                                          | Scatter graph                   | gender (m/f), speech time (n)                                  |
+| Absolute gender differences in amount of speech                                                                   | Speech bubbles                  | gender (m/f), speech time (%)                                  |
+| Proportions of time men and women speak                                                                           | Circle chart                    | gender (m/f), speech time (%)                                  |
+| Party comparison of women speech time                                                                             | Stacked bar chart               | gender (m/f, bars), MP political party (y axis),               |
+| Comparison of Twitter activity and speech time                                                                    | Line graph                      | speech time (n, y axis), Twitter followers (n, x axis)         |
+| Regional differences in gender speech times                                                                    | Heat map                      | speech time (%), gender (m/f)         |
 
 **Tools we're planning on using:**
 
