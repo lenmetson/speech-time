@@ -1,6 +1,6 @@
 ---
 title: "DS105M: Women In Parliament - Data"
-author: Alanah S, Noemie C, Len M
+author: Alanah Sarginson, Noemie Claret, Len Metson
 date: November 26, 2021
 output:
   slidy_presentation: default
