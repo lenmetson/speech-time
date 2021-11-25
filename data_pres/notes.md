@@ -111,7 +111,71 @@ Propotion of women MSPs in our data: `(nrow(subset(msps, msps$gender == "F"))/ n
 
 ## Slide 3.1: Data Wrangling
 
-The first step in the analysis is cleaning the data. In the early steps executed so far, we have subsetted the semi-structured dataset obtained as to only keep information on proper speeches, while discarding any formalities and introductory speeches that have procedural relevance but would not inform our analysis. 
+We hope to execute the rest of our analysis in python, because the libraries of interest to us for segmenting the speeches into syllables are easily available in python (notably, the syllables package or the cmudict library instead which is slower but more accurate). With this in mind, we reiterated the data cleaning process in python and performed some further exploratory analysis, which I will give an overview of here, with an emphasis on the challenges that we have faced with the data. 
+
+The first step in the analysis is cleaning the data. Firstly, we neededdiscard any speeches related to formalities, and introductory speeches that have procedural relevance but would not inform our analysis. The challenge was to automate the decision of which text was a proper speech and which was not. Thankfully, there was a very useful variable in the data that classified the texts according to whether they were speeches as 1 or 0. The next natural step is to drop all the rows that contained a 0 in the "is_speech" column, in other words subsetting the original table to create a table that only contains data where the text is a proper speech. We did this with the following code:
+
+```
+import pandas as pd
+import numpy as np
+
+#upload data from disk into a pandas dataframe
+print('-----------------------------------------------------------------')
+print("Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.")
+print('-----------------------------------------------------------------')
+
+
+harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
+
+#create dataframe with only rows where there is a speech, using boolean indexing, discarding intro phrases and such.
+
+speech_table=harvard[:][harvard["is_speech"]==1]
+
+#create a list with the column names called header
+header=[]
+for column in speech_table.columns:
+  header.append(column)
+
+#slice df to obtain first 2 rows
+view_table=speech_table.iloc[0:2, :]
+
+
+print('-----------------------------------------------------------------')
+print("showing header and first 2 rows of obtained dataframe called speech_table, as well as some important statistics.")
+print('-----------------------------------------------------------------')
+
+print(view_table)
+print(header)
+```
+
+We get the following results:
+```
+-----------------------------------------------------------------
+Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+showing header and first 2 rows of obtained dataframe called speech_table, as well as some important statistics.
+-----------------------------------------------------------------
+   Unnamed: 0  x  daily_order_no  ...      msp_type  wikidataid party.facts.id
+2           3  3               3  ...        Region     Q334015          986.0
+5           6  6               6  ...  Constituency      Q10652          986.0
+
+[2 rows x 21 columns]
+['Unnamed: 0', 'x', 'daily_order_no', 'order_no', 'is_speech', 'committee', 'date', 'item', 'type', 'office_held', 'display_as', 'name', 'speech', 'parl_id', 'party', 'gender', 'constituency', 'region', 'msp_type', 'wikidataid', 'party.facts.id']
+
+```
+To get the total number of speeches, we can simply then count the rows. But ideally we wanted to avoid repeating this process to get the dimensions of all the table subsets we will be creating, so we created the following function and used it on the table with only speeches:
+
+```
+def get_shape(dataset):
+  shape=dataset.shape
+  return ("The dimensions of this data is {}".format(shape))
+
+#get number of speeches
+number_speeches=get_shape(speech_table)[0]
+print('The total number of speeches is: {}.'.format(number_speeches))
+```
+
 
 The second step involved stripping the data of missing values and ensuring overall accuracy within the data. Initially, the count for the total number of speeches by women corresponded around 10% of total speeches. When checked against statistics available online, this seemed too exacerbated of a discrepency. This led us to double check the way we counted women MSPs and realized that many of the people we had identified were either "", and their inclusion in the calculus inflated the denominator and artificially reduced the proportion of speeches delivered by women MSPs. So we excluded these people from the data.
 
