@@ -466,15 +466,51 @@ font-family: "Lucida Console", Monaco, monospace;
 </div>
 <div id="slide-2.1-obtaining-the-data" class="slide section level1">
 <h1>Slide 2.1: Obtaining the data</h1>
+<ul>
+<li>Harvard Dataverse
+<ul>
+<li>ParlScot: scrapped transcripts of Scottish Parliament plenary debates.</li>
+<li>Organised in a semi-strucutred datasets</li>
+<li>Publically available for download as a <code>csv</code> file</li>
+</ul></li>
+<li>Downloaded using HTTP protocol.</li>
+</ul>
+<pre><code># specify the url
+url &lt;- &quot;https://dataverse.harvard.edu/api/access/datafile/4432885&quot;
+
+# download the file into a specified path - add your analysis folder in between &quot; &quot;
+download.file(url, here(&quot;data_raw&quot;, &quot;rawdata.csv&quot;))</code></pre>
+<ul>
+<li><code>.gitignore</code> file to avoid large csv being pushed into GitHub.</li>
+</ul>
 </div>
-<div id="slide-2.2-summary-statistics" class="slide section level1">
-<h1>Slide 2.2: Summary statistics</h1>
+<div id="slide-2.2-summary-statistics-on-speeches" class="slide section level1">
+<h1>Slide 2.2: Summary statistics on speeches</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Number</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Total speeches</td>
+<td>Content Cell</td>
+</tr>
+<tr class="even">
+<td>Speeches by women</td>
+<td>Content Cell</td>
+</tr>
+<tr class="odd">
+<td>% Speeches by women</td>
+<td>cotent</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div id="slide-2.3-summary-statistics-on-speeches" class="slide section level1">
-<h1>Slide 2.3: Summary statistics on speeches</h1>
-</div>
-<div id="slide-2.4-summary-statistics-on-msps" class="slide section level1">
-<h1>Slide 2.4: Summary statistics on msps</h1>
+<div id="slide-2.3-summary-statistics-on-msps" class="slide section level1">
+<h1>Slide 2.3: Summary statistics on msps</h1>
 </div>
 <div id="slide-3.1-data-wrangling" class="slide section level1">
 <h1>Slide 3.1: Data wrangling</h1>

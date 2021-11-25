@@ -53,6 +53,8 @@ pacman::p_load("tidyverse", "reticulate", "here")
 #source(here("scripts", "download-csv-html.R")) # once you have run the script once, you can comment out this line by typing "#" in front of it. Doing this will mean the data loads directly from your local data_raw folder rather than downloading every time.
 
 harvard <- read.csv(here("data_raw", "rawdata.csv"))
+
+speeches <- subset(harvard, harvard$is_speech = 1)
 ```
 # Slide 1.1: Brief summary
 
@@ -84,11 +86,44 @@ harvard <- read.csv(here("data_raw", "rawdata.csv"))
 
 # Slide 2.1: Obtaining the data
 
-# Slide 2.2: Summary statistics
+  * Harvard Dataverse
+    * ParlScot: scrapped transcripts of Scottish Parliament plenary debates.
+    * Organised in a semi-strucutred datasets
+    * Publically available for download as a `csv` file
 
-# Slide 2.3: Summary statistics on speeches
+  * Downloaded using HTTP protocol.
 
-# Slide 2.4: Summary statistics on msps
+```
+# specify the url
+url <- "https://dataverse.harvard.edu/api/access/datafile/4432885"
+
+# download the file into a specified path - add your analysis folder in between " "
+download.file(url, here("data_raw", "rawdata.csv"))
+```
+
+  * `.gitignore` file to avoid large csv being pushed into GitHub.
+
+# Slide 2.2: Summary statistics on speeches
+
+  * There are `r nrow(speeches)` speeches in our dataset.
+  * `r nrow(subset(speeches, speeches$gender == "F"))` speeches were by women.
+  * Thus, `r (nrow(subset(speeches, speeches$gender == "F"))/ nrow(speeches))*100`% speeches in the dataset overall were by women.
+
+# Slide 2.3: Summary statistics on MSPs
+```{r msps, include = FALSE}
+# select name and gender variables from speeches
+msps <- speeches %>% select(name, gender)
+
+# retain only unique values (because each MSPs' name is repeated in each speech)
+msps <- unique(msps)
+
+# non-MSPs have no gender associated so drop all rows with NA in gender
+msps <- drop_na(msps)
+```
+
+  * There are `r nrow(msps)` MSPs in our dataset.
+  * `r nrow(subset(msps, msps$gender == "F"))` of them are women.
+  * Therefore, across our entire dataset, `r (nrow(subset(msps, msps$gender == "F"))/ nrow(msps))*100`% of MSPs are women.
 
 # Slide 3.1: Data wrangling
 
