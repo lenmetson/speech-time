@@ -40,7 +40,7 @@ def get_shape(dataset):
 
 #get number of speeches
 number_speeches=get_shape(speech_table)[0]
-print(f'The total number of speeches is: {}.'.format(number_speeches))
+print('The total number of speeches is: {}.'.format(number_speeches))
 
 #make a function to return number of unique variables and dictionary containing these values.
 #the feature attribute is used as a filter. for exemple, it can be feature=speech_table["gender"]==F.
@@ -110,7 +110,7 @@ women_daily_order_med=women_daily_order.median()
 print(women_daily_order_med)
 
 print("The median daily order for men is:")
-men_daily_order_avg=men_daily_order.median()
+men_daily_order_med=men_daily_order.median()
 print(men_daily_order_med)
       
       
@@ -123,9 +123,27 @@ print("The number of women and men, constituencies represented respectively by w
 
           
 #create a dataframe with the unique MP names and their respective information, but discarding speeches.
-mp_info=speech_table.drop_duplicates(subset="name", keep="first")   
-          
-          
-          
-#make a pandas dataframe with speaker name and wiki_id
-name_wikiid=pd.speech_table["name", "wikidataid"][speech_table["name"]==enumerate(speech_table["name"].unique())]
+mp_info=speech_table.drop_duplicates(subset="name", keep="first").dropna(axis=0,how='any', subset=["parl_id"])
+
+#create dataframe with MPs and their wikiID
+mp_wikiID=mp_info["wikidataid"]
+
+print(mp_info.head(3))
+print(mp_wikiID.head(3))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
