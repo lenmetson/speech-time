@@ -60,7 +60,7 @@ download.file(url, here("data_raw", "rawdata.csv"))
 This will add the raw data to the data_raw directory you can see on the GitHub. However the `.gitignore` file ensured that we didn't push the raw csv into GitHub from our local disks.
 
 
-# Part 3: Summary statistics
+## Part 2.2: Summary statistics
 The code we ran in for the Markdown is included here:
 
 ```
@@ -74,7 +74,7 @@ speeches <- subset(harvard, harvard$is_speech == 1)
 We also ran some code in python locally (on disk) in parallel to cross check-results. This, among other things, allowed us to realize that we had been using different datasets, and to flag certain inconvenient n/a values in the dataset and drop them to facilitate analysis. The code that follows was first written and executed as it appears to have faster access to the statistics, and later rewritten in python. The switch has been principally motivated by the flexibility that python code offers. In effect, the possibility to define and modulate functions allowed us to obtain summary statistics on any variable present in the dataset and perform some elementary analytics faster. In essence, the marginal cost of using python once some  ad-hoc functions are defined is much lower than for using R. An important note is that this does not affect the reproducibility of the analysis on other machines as the python code can be directly read within R-studio, given the right packages are installed.
 
 
-## Slide 3.1: Summary statistics on speeches
+## Slide 2.3: Summary statistics on speeches
 
 Number of speeches: `nrow(speeches)`
 
@@ -83,7 +83,7 @@ Number of speeches by women: `nrow(subset(speeches, speeches$gender == "F"))`
 Percentage of speeches by women `(nrow(subset(speeches, speeches$gender == "F"))/ nrow(speeches))*100`
 
 
-## Slide 3.2: Summary statistics on MSPs
+## Slide 2.4: Summary statistics on MSPs
 
 We then create a dataframe of MSPs. When the dataset was compiled, the relational table for gender only has values for MSPs. So by dropping all rows of MSPs with no gender, we keep only MSPs
 
