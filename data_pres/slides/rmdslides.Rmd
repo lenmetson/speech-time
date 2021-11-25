@@ -1,11 +1,42 @@
 ---
 title: "DS105M: Women In Parliament - Data"
-author: AS, NC, LM
+author: Alanah S, Noemie C, Len M
 date: November 26, 2021
 output:
   slidy_presentation: default
   ioslides_presentation: default
 ---
+
+```{css echo=FALSE}
+h1 {
+text-align: center;
+color:tomato;
+font-size: 29px;
+font-weight:bold;
+align-self: center;
+text-align: center;
+}
+div {font-size: 24px;
+letter-spacing: 2px;
+word-spacing: 2.5px;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+padding-top: 20px;
+}
+ul, p {
+padding: 1px 2% 1px;
+max-height:90%
+text-align: ltr;
+font-weight: normal;
+color: #1E1E1E;
+}
+* {background-color: #EDEDED;
+background-size: 100%;
+font-family: "Lucida Console", Monaco, monospace;
+}
+```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -23,134 +54,98 @@ pacman::p_load("tidyverse", "reticulate", "here")
 
 harvard <- read.csv(here("data_raw", "rawdata.csv"))
 
-#source_python(here("scripts", "test.py"))
-```
-
-## Brief summary
-
-* Our project looks at the relative proportions that MPs speak in the Scottish Parliament.
-
-## Organisation of the project
-
-* Guiding principle: reproducibility
-
-* Source code of everything we produce avaliable on GitHub
-  * The user only has to have RStudio and Python installed on their machine to run it all
-
-* Any user able to download the repo and run
-  * Programmatic data download and cleaning
-
-
-
-## Workflow
-
-* Division of labour
-  * Alanah was working mainly on the HTML / CSS of the presentation
-  * Noemie was working on wragling data
-  * Len was working on the Rmarkdown
-
-* GitHub was the solution
-  * Everyone using different text editors
-    * Noemie: Spyder
-    * Alanah: GitHub, RStudio
-    * Len: Atom, RStudio
-  * Each have a branch
-  * No matter what we were using we can all commit changes from terminal (or via the application we are using)
-  * Also allowef us to see entire version control
-
-
-
-
-
-## Main data collection and cleaning
-
-## Expansion
-
-We wanted to compare speech time in Parliament with tweet frequency for each MP.
-
-Our process would have been:
-
-* Scrape MP tweet_ids from Wiki-data. Wiki-IDs are included as document metadata so we could have written a program that finds the relevant tweet ID from each politician.
-
-* Pull timelines for each politician
-
-However, API licence doesn't allow this - is that true?
-
-
-```{r}
 speeches <- subset(harvard, harvard$is_speech == 1)
 ```
+# Slide 1.1: Brief summary
 
-## Summary statistics on speeches
+  * Gender bias the time MSPs speak in the Scottish Parliament.
+  * Discrimination thought to lead to women being less able to participate in debates
+  * Do we see this in the data?
 
-Some key facts about the speeches:
+# Slide 1.2: Organisation
 
-* There were `r nrow(speeches)` speeches.
-* `r nrow(subset(speeches, speeches$gender == "F"))` of the speeches were by women.
-* `r (nrow(subset(speeches, speeches$gender == "F"))/ nrow(speeches))*100`% of the speeches in our sample were by women.
+  * Reproducibility
+    * Anyone on any machine should be able to run our full project using only the materials contained in our GitHub repository and open-source data science tools.
 
-## Summary statistics on MSPs
+  * Everything done programmatically
 
-```{r}
+# Slide 1.3: Workflow
+
+  * Divided tasks, everyone using different tools. E.g.
+    * Atom for editing RMarkdown
+    * Spyder for developing Python code
+    * RStudio for editing RMarkdown and CSS
+
+  * GitHub
+    * Could push and pull to the same repository
+      * Could all use our preferred tools on the same files
+    * Version control
+      * Useful when Len accidentally deleted all the R code for the summary statistics (oops)
+    * Publicly available
+      * Scrutiny and reproducibility
+
+# Slide 2.1: Obtaining the data
+
+  * Harvard Dataverse
+    * ParlScot: scrapped transcripts of Scottish Parliament plenary debates.
+    * Organised in a semi-strucutred datasets
+    * Publically available for download as a `csv` file
+
+  * Downloaded using HTTP protocol.
+
+```
+# specify the url
+url <- "https://dataverse.harvard.edu/api/access/datafile/4432885"
+
+# download the file into a specified path - add your analysis folder in between " "
+download.file(url, here("data_raw", "rawdata.csv"))
+```
+
+  * `.gitignore` file to avoid large csv being pushed into GitHub.
+
+# Slide 2.2: Summary statistics on speeches
+
+  * There are `r nrow(speeches)` speeches in our dataset.
+  * `r nrow(subset(speeches, speeches$gender == "F"))` speeches were by women.
+  * Thus, `r (nrow(subset(speeches, speeches$gender == "F"))/ nrow(speeches))*100`% speeches in the dataset overall were by women.
+
+# Slide 2.3: Summary statistics on MSPs
+```{r msps, include = FALSE}
+# select name and gender variables from speeches
 msps <- speeches %>% select(name, gender)
 
+# retain only unique values (because each MSPs' name is repeated in each speech)
 msps <- unique(msps)
 
+# non-MSPs have no gender associated so drop all rows with NA in gender
 msps <- drop_na(msps)
 ```
 
+  * There are `r nrow(msps)` MSPs in our dataset.
+  * `r nrow(subset(msps, msps$gender == "F"))` of them are women.
+  * Therefore, across our entire dataset, `r (nrow(subset(msps, msps$gender == "F"))/ nrow(msps))*100`% of MSPs are women.
 
-Some facts about the MSPs in our sample
+# Slide 3.1: Data wrangling
+1. **Data cleaning**
+  + Subset the semi-structured dataset to keep only the relevant information
+  + Discard information irrelevant to our analysis
+2. **Improving data accuracy**
+  + Strip the data of missing values
+  + Cross-check summary statistics results across R and python
+  + Ensure consistency in results across languages
+3. **Partition and export the dataframe to the repository**
+  + Result: structured, relational data ready to be used for analysis
+  + Partitions of dataframe can be used to count the number of syllables spoken by MSPs and compare the obtained values between men and women
 
-* There were a total of `r nrow(msps)` in our sample
+# Slide 3.2: Analysis
+**Some insights we'd like to draw from the data:**
++ Average and median number of syllables by gender
++ Whether this discrepency also exists on Twitter
++ See if gender-related lexic is found at a higher rate in women's speeches than in men's speeches (using sentiment analysis)
 
-* `r nrow(subset(msps, msps$gender == "F"))` were women
+# Slide 3.3: Visualisations planned
+**Visualisations planned**
 
-* Therefore, `r (nrow(subset(msps, msps$gender == "F"))/ nrow(msps))*100`% of the MSPs in out sample are women.
-
-
-## Data Analysis
-
-* Tools
-  * R
-    * Downloading the raw data progromatically
-    * Summary statistics for presentations
-
-  * Python
-    * Formatting the dataset
-    * NLP of sylablles
-
-## What we want to visualise
-
-## Change in gender differences of speech time over the years
-
-* Stacked column graph
-
-* Variables: gender (m/f, columns), speech time (%, y axis), years (x axis)
-
-* Interactive element: cursor moves across graph to show exact % each year, and any outstanding events
-
-## Power in parliament represented by amount of seats taken up once gender differences in speech time is considered
-
-* Scottish parliamentary seat map
-  * GIS data matched to constituency name (relational data)
-
-* Variables: gender (m/f), speech time (%)
-
-* Interactive element: can click between actual number of seats and the speech-time-factored-in number of seats
-
-## Absolute gender difference in amount of speech
-
-* 'Men'/'women' speech bubbles
-
-* Variables: gender (m/f), speech time (%)
-
-## Proportions of time men and women speak
-
-* Circle chart
-
-* Variables: gender (m/f), speech time (%)
-
-## What tools we're using
-
+**Tools we're planning on using:**
 * Tableau Public
+* SQL

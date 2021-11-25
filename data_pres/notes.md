@@ -32,15 +32,15 @@ Because of this, we needed to make sure that everything we do to the data is pro
 
 One challenge in obtaining our data is that we had divided tasks and each of us were using different tools to complete them. This included Atom, Spyder, CSS, RStudio. Therefore, we decided that GitHub would be the best way to ensure that we could all access the latest versions of what others were working on.
 
-No matter what application we were using, we could commit changes either through the application (RStudio, Atom) or through the terminal from our local disk. For example, if Noemie changed something with the way the data is organised, those changes would come up when Len reran the code in our Markdown and Alanah's formatting would also show up. This meant that we could work effectively on different parts of the project simultaneously.
+No matter what application we were using, we could commit changes either through the application (RStudio, Atom) or through the terminal from our local disk. For example, if Noemie changed something with the way the data is organised, those changes would come up when Len reran the code in our Markdown and Alanah's formatting would also show up.  This meant that we could work effectively on different parts of the project simultaneously.
 
-# Part 2: the data
+# Part 2: The Data
 
 ## Slide 2.1: Obtaining the data
 
 The raw data for our project is contained on a server managed by Harvard Dataverse. This is an online repository where people can store large datafiles. It is intended for academic purposes. Researchers often upload replication data or datasets for others to use.
 
-We are using the dataset ParlScot. This data is publicly available for free. It consists of scrapped data from Scottish plenary debates. The data is relational and is stored as semi-structed data.
+We are using the dataset ParlScot. This data is publicly available for free. It consists of scrapped data from Scottish plenary debates. The data is relational and is stored as semi-structured data.
 
 Each row is a single entry in Hansard. The columns represent various meta-data about the speeches such as: the MSP who said it and various information about that MP.
 
@@ -60,21 +60,24 @@ download.file(url, here("data_raw", "rawdata.csv"))
 This will add the raw data to the data_raw directory you can see on the GitHub. However the `.gitignore` file ensured that we didn't push the raw csv into GitHub from our local disks.
 
 
-# Part 3: Summary statistics
+## Part 2.2: Summary statistics
 The code we ran in for the Markdown is included here:
 
 ```
-# Load file from disk (once downloaded)
-harvard <- read.csv(here("data_raw", "rawdata.csv"))
+# select name and gender variables from speeches
+msps <- speeches %>% select(name, gender)
 
-# save only sppeches as an object
-speeches <- subset(harvard, harvard$is_speech == 1)
+# retain only unique values (because each MSPs' name is repeated in each speech)
+msps <- unique(msps)
+
+# non-MSPs have no gender associated so drop all rows with NA in gender
+msps <- drop_na(msps)
 ```
 
 We also ran some code in python locally (on disk) in parallel to cross check-results. This, among other things, allowed us to realize that we had been using different datasets, and to flag certain inconvenient n/a values in the dataset and drop them to facilitate analysis. The code that follows was first written and executed as it appears to have faster access to the statistics, and later rewritten in python. The switch has been principally motivated by the flexibility that python code offers. In effect, the possibility to define and modulate functions allowed us to obtain summary statistics on any variable present in the dataset and perform some elementary analytics faster. In essence, the marginal cost of using python once some  ad-hoc functions are defined is much lower than for using R. An important note is that this does not affect the reproducibility of the analysis on other machines as the python code can be directly read within R-studio, given the right packages are installed.
 
 
-## Slide 3.1: Summary statistics on speeches
+## Slide 2.3: Summary statistics on speeches
 
 Number of speeches: `nrow(speeches)`
 
@@ -83,7 +86,7 @@ Number of speeches by women: `nrow(subset(speeches, speeches$gender == "F"))`
 Percentage of speeches by women `(nrow(subset(speeches, speeches$gender == "F"))/ nrow(speeches))*100`
 
 
-## Slide 3.2: Summary statistics on MSPs
+## Slide 2.4: Summary statistics on MSPs
 
 We then create a dataframe of MSPs. When the dataset was compiled, the relational table for gender only has values for MSPs. So by dropping all rows of MSPs with no gender, we keep only MSPs
 
@@ -104,27 +107,40 @@ Number of women MSPs in our data: `nrow(subset(msps, msps$gender == "F"))`
 
 Propotion of women MSPs in our data: `(nrow(subset(msps, msps$gender == "F"))/ nrow(msps))*100`
 
-# Part 4: Where next
+# Part 3 Where next
 
-## Slide 4.1: Data Wrangling
+## Slide 3.1: Data Wrangling
 
 The first step in the analysis is cleaning the data. In the early steps executed so far, we have subsetted the semi-structured dataset obtained as to only keep information on proper speeches, while discarding any formalities and introductory speeches that have procedural relevance but would not inform our analysis. 
 
-The second step involved striping the data of missing values and ensuring overall accuracy within the data. Initially, the count for the total number of speeches by women corresponded around 10% of total speeches. When checked against statistics available online, this seemed too exacerbated of a discrepency. This lead us to double check the way we counted women MSPs and realized that many of the people we had identified were either "", and their inclusion in the calculus inflated the denominator and artificially reduced theproportion of speeches delivered by women MSPs. So we excluded these people from the data.
+The second step involved stripping the data of missing values and ensuring overall accuracy within the data. Initially, the count for the total number of speeches by women corresponded around 10% of total speeches. When checked against statistics available online, this seemed too exacerbated of a discrepency. This led us to double check the way we counted women MSPs and realized that many of the people we had identified were either "", and their inclusion in the calculus inflated the denominator and artificially reduced the proportion of speeches delivered by women MSPs. So we excluded these people from the data.
 
-The third step is to partition this dataframe and, using csv libraries, export them as CSVs to the repository. The aim is to obtain structured, relational data that can easlily be appended in R (for example, once we have a dataframe with one column "name" and another "speech", we can append a column with "number of syllables". In another dataframe with column "name" and "msp_type", we can see if any discrpency of the number of syllables in the speech seems to correlate with gender or with the type of MSP speeking. This can also allow us to source MSPs' twitter ID from their wikipedia pages using the wikiid variable present in the dataset, save this as a dataframe, and use SQL to extract the degree of social media activity by MSP.
+The third step is to partition this dataframe and, using csv libraries, export them as CSVs to the repository. The aim is to obtain structured, relational data that can easily be amended in R (for example, once we have a dataframe with one column "name" and another "speech", we can append a column with "number of syllables"). In another dataframe with column "name" and "msp_type", we can see if any discrpency of the number of syllables in the speech seems to correlate with gender or with the type of MSP speeking. This can also allow us to source MSPs' twitter ID from their wikipedia pages using the wikiid variable present in the dataset, save this as a dataframe, and use SQL to extract the degree of social media activity by MSP.
 
 The main data source for analysis is now ready to be used. We can now use some partitions of this dataframe to count the number of syllables spoken by MSPs and compare the obtained values between men and women.
 
 
 
-## Slide 4.2: Analysis
+## Slide 3.2: Analysis
 
 As we already know how to operationalize pre-existing libraries for syllable count, here are some insights we would like to draw from the data:
 - average and median number of syllables by gender
-- whether this discrepency also exists on twitter
+- whether this discrepency also exists on Twitter
 - perform some sentiment analysis on speeches to see if a gender-related lexic is found at a higher rate in women's speeches than in men's speeches.
 
-## Slide 4.3: visualisations planned
+## Slide 3.3: Visualisations planned
 
-**Alanah**
+Our process thus far has been continually informed by our plans for the final product: various data visualisations of the gender differences in Scottish parliamentary contributions. We've done this by not only by ensuring that we're able to obtain the relevant data and insights for our product, but also by cross-checking that our data format is suitable for the program we are planning to use for the data visualiations (namely, Tableau Public).
+
+| What we're planning to visualise                                                                                   | Graph                           | Variables                                                      |
+|-------------------------------------------------------------------------------------------------------------------|---------------------------------|----------------------------------------------------------------|
+| Change in gender differences of speech time over the years                                                        | Stacked column graph            | gender (m/f, columns), speech time (%, y axis), years (x axis) |
+| Power in parliament represented by amount of seats taken up once gender differences in speech time are considered | Scottish parliamentary seat map | gender (m/f), speech time (%)                                  |
+| Relationship between speech time and age                                                                          | Scatter graph                   | gender (m/f), speech time (n)                                  |
+| Absolute gender differences in amount of speech                                                                   | Speech bubbles                  | gender (m/f), speech time (%)                                  |
+| Proportions of time men and women speak                                                                           | Circle chart                    | gender (m/f), speech time (%)                                  |
+| Party comparison of women speech time                                                                             | Stacked bar chart               | gender (m/f, bars), MP political party (y axis),               |
+| Comparison of Twitter activity and speech time                                                                    | Line graph                      | speech time (n, y axis), Twitter followers (n, x axis)         |
+| Regional differences in gender speech times                                                                    | Heat map                      | speech time (%), gender (m/f)         |
+
+Tableau Public is a free platform that can connect to data in a variety of formats like Excel, CSV, and JSON, as well as being able to connect to a server. We've chosen Tableau as a data visualisation tool as it can take in data and produce the required data visualisation output in a short time. We are planning on using a CSV Web Data Connector to connect Tableau directly to the CSV in our GitHub repository. This means that any changes in the data should automatically update the visualisations.

@@ -1,3 +1,0 @@
-"0","msps<- speeches %>% select(display_as, name, parl_id, party, gender, constituency, region, msp_type, wikidataid, party.facts.id)"
-"2","Error: could not find function ""%>%""
-"
