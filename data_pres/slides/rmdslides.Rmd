@@ -69,7 +69,35 @@ harvard <- read.csv(here("data_raw", "rawdata.csv"))
 # Slide 2.4: Summary statistics on msps
 
 # Slide 3.1: Data wrangling
+1. **Data cleaning**
+  + Subset the semi-structured dataset to keep only the relevant information
+  + Discard information irrelevant to our analysis
+2. **Improving data accuracy**
+  + Strip the data of missing values
+  + Cross-check summary statistics results across R and python
+  + Ensure consistency in results across languages
+3. **Partition and export the dataframe to the repository**
+  + Result: structured, relational data ready to be used for analysis
+  + Partitions of dataframe can be used to count the number of syllables spoken by MSPs and compare the obtained values between men and women
 
 # Slide 3.2: Analysis
+Some insights we'd like to draw from the data:
+* Average and median number of syllables by gender
+* Whether this discrepency also exists on Twitter
+* See if gender-related lexic is found at a higher rate in women's speeches than in men's speeches (using sentiment analysis)
 
 # Slide 3.3: Visualisations planned
+| What we're planning to visualise                                                                                   | Graph                           | Variables                                                      |
+|-------------------------------------------------------------------------------------------------------------------|---------------------------------|----------------------------------------------------------------|
+| Change in gender differences of speech time over the years                                                        | Stacked column graph            | gender (m/f, columns), speech time (%, y axis), years (x axis) |
+| Power in parliament represented by amount of seats taken up once gender differences in speech time are considered | Scottish parliamentary seat map | gender (m/f), speech time (%)                                  |
+| Relationship between speech time and age                                                                          | Scatter graph                   | gender (m/f), speech time (n)                                  |
+| Absolute gender differences in amount of speech                                                                   | Speech bubbles                  | gender (m/f), speech time (%)                                  |
+| Proportions of time men and women speak                                                                           | Circle chart                    | gender (m/f), speech time (%)                                  |
+| Party comparison of women speech time                                                                             | Stacked bar chart               | gender (m/f, bars), MP political party (y axis),               |
+| Comparison of Twitter activity and speech time                                                                    | Line graph                      | speech time (n, y axis), Twitter followers (n, x axis)         |
+| Regional differences in gender speech times                                                                    | Heat map                      | speech time (%), gender (m/f)         |
+
+**Tools we're planning on using:**
+* Tableau Public
+* SQL
