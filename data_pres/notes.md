@@ -2,37 +2,6 @@
 
 Please find accompanying notes for our presentation here.
 
-```{css echo=FALSE}
-h1 {
-text-align: center;
-color:tomato;
-font-size: 29px;
-font-weight:bold;
-align-self: center;
-text-align: center;
-}
-div {font-size: 24px;
-letter-spacing: 2px;
-word-spacing: 2.5px;
-text-decoration: none;
-font-style: normal;
-font-variant: normal;
-text-transform: none;
-padding-top: 20px;
-}
-ul, p {
-padding: 1px 2% 1px;
-max-height:90%
-text-align: ltr;
-font-weight: normal;
-color: #1E1E1E;
-}
-* {background-color: #EDEDED;
-background-size: 100%;
-font-family: "Lucida Console", Monaco, monospace;
-}
-```
-
 ## Introduction
 
 This presentation will outline how we are managing our data, some early summary statistics of our data and finally an indication of the next steps for our project.
@@ -63,7 +32,7 @@ Because of this, we needed to make sure that everything we do to the data is pro
 
 One challenge in obtaining our data is that we had divided tasks and each of us were using different tools to complete them. This included Atom, Spyder, CSS, RStudio. Therefore, we decided that GitHub would be the best way to ensure that we could all access the latest versions of what others were working on.
 
-No matter what application we were using, we could commit changes either through the application (RStudio, Atom) or through the terminal from our local disk. For example, if Noemie changed something with the way the data is organised, those changes would come up when Len reran the code in our Markdown and Alanah's formatting would also show up. This meant that we could work effectively on different parts of the project simultaneously.
+No matter what application we were using, we could commit changes either through the application (RStudio, Atom) or through the terminal from our local disk. For example, if Noemie changed something with the way the data is organised, those changes would come up when Len reran the code in our Markdown and Alanah's formatting would also show up.  This meant that we could work effectively on different parts of the project simultaneously.
 
 # Part 2: the data
 
