@@ -64,11 +64,14 @@ This will add the raw data to the data_raw directory you can see on the GitHub. 
 The code we ran in for the Markdown is included here:
 
 ```
-# Load file from disk (once downloaded)
-harvard <- read.csv(here("data_raw", "rawdata.csv"))
+# select name and gender variables from speeches
+msps <- speeches %>% select(name, gender)
 
-# save only sppeches as an object
-speeches <- subset(harvard, harvard$is_speech == 1)
+# retain only unique values (because each MSPs' name is repeated in each speech)
+msps <- unique(msps)
+
+# non-MSPs have no gender associated so drop all rows with NA in gender
+msps <- drop_na(msps)
 ```
 
 We also ran some code in python locally (on disk) in parallel to cross check-results. This, among other things, allowed us to realize that we had been using different datasets, and to flag certain inconvenient n/a values in the dataset and drop them to facilitate analysis. The code that follows was first written and executed as it appears to have faster access to the statistics, and later rewritten in python. The switch has been principally motivated by the flexibility that python code offers. In effect, the possibility to define and modulate functions allowed us to obtain summary statistics on any variable present in the dataset and perform some elementary analytics faster. In essence, the marginal cost of using python once some  ad-hoc functions are defined is much lower than for using R. An important note is that this does not affect the reproducibility of the analysis on other machines as the python code can be directly read within R-studio, given the right packages are installed.
