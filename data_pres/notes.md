@@ -176,8 +176,91 @@ number_speeches=get_shape(speech_table)[0]
 print('The total number of speeches is: {}.'.format(number_speeches))
 ```
 
+The second step, again in this reproducibility philosophy was to define some useful functions for exploratory analysis. Namely, we developed two functions that solved two problems. Firstly, to find information on MPs, such as the total number of men, of women, or the total number of constituencies represented as opposed to regions represented, the problem was that these vaues were repeated in the dataset because each MP speaks more than once and their speeches are recorded in separate rows. So we defined a function to extract these stats essentially by using boolean indexing:
+```
+def find_unique_values(dataset, column, feature1, feature2, comment=True, dictionary=True):
+    if feature1!="none":
+        dataset=dataset[dataset[feature1]==feature2]
+    unique_values=dataset[column].unique() #number of unique values
+    if dictionary==True:
+        val_dict= {idx:column for idx, column in enumerate(dataset[column].unique())}
+        print(val_dict)
+    if comment==True:
+        print("The {} with the following filter: {} is {} are given below".format(column, feature1, feature2))
+    return unique_values #return both number of unique values and the dictrionary containing them
+```
 
-The second step involved stripping the data of missing values and ensuring overall accuracy within the data. Initially, the count for the total number of speeches by women corresponded around 10% of total speeches. When checked against statistics available online, this seemed too exacerbated of a discrepency. This led us to double check the way we counted women MSPs and realized that many of the people we had identified were either "", and their inclusion in the calculus inflated the denominator and artificially reduced the proportion of speeches delivered by women MSPs. So we excluded these people from the data.
+Here are some applications of this funciton: we can easily get the total number and names of women, men, constituencies, regions. I also included a sort of filter in the function so it could easily return, for example, the all women who represented a constituency. This saves a lot of time and renders data exploration quite accessible and modulable.
+```
+#get lists of unique values of the following data:
+
+names_women=find_unique_values(speech_table, "name", feature1="gender", feature2="F", comment=True, dictionary=False)
+print(names_women)
+
+names_men=find_unique_values(speech_table, "name", feature1="gender", feature2="M", comment=True, dictionary=False)
+print(names_men)
+
+constituencies_women=find_unique_values(speech_table, "constituency", "gender", "F", True, False)
+print(constituencies_women)
+
+constituencies_men=find_unique_values(speech_table, "constituency", "gender", "M", True, False)
+print(constituencies_women)
+
+regions_women=find_unique_values(speech_table, "region", "gender", "F", True, False)
+print(regions_women)
+
+regions_men=find_unique_values(speech_table, "region", "gender", "F", True, False)
+print(regions_men)
+```
+
+The second problem was that we wanted to get a sense of perhaps some discrimination in parliament. We saw there was a daily order number variable, which we thought represented the order in which MSPs speak in parliament. But to do this we could not ue the same funciton, as these daily orders are repeated over the dataset since the data runs over a few years. So we created a different function:
+
+```
+#define function to get values in column
+def find_values(dataset, column, feature1, feature2, comment=True):
+    if feature1!="none":
+        dataset=dataset[dataset[feature1]==feature2]
+    values=dataset[column]
+    if comment==True:
+        print("The {} with the following filter: {} is {} are given below.".format(column, feature1, feature2))
+    return values
+ ```
+ 
+Using this one, we saw that contrary to our initial thoughts on the average and median order number was higher for women than men.
+```
+women_daily_order=find_values(speech_table, "daily_order_no", "gender", "F", True)
+print(women_daily_order)
+print("The average daily order for women is:")
+women_daily_order_avg=women_daily_order.mean()
+print(women_daily_order_avg)
+
+men_daily_order=find_values(speech_table, "daily_order_no", "gender", "M", True)
+print(men_daily_order)
+print("The average daily order for men is:")
+men_daily_order_avg=men_daily_order.mean()
+print(men_daily_order_avg)
+
+print("The median daily order for women is:")
+women_daily_order_med=women_daily_order.median()
+print(women_daily_order_med)
+
+print("The median daily order for men is:")
+men_daily_order_med=men_daily_order.median()
+print(men_daily_order_med)
+```
+
+It is worth noting that the two functions I mentioned return series of values, which are pandas objects so I also defined a third on to count the number of values returned. This is just a tengential note:
+
+```
+def number_unique_values(list_unique_values):
+  totals=[]
+  for value in list_unique_values:
+    number=len(value)
+    totals.append(number)
+  return totals
+  ```
+
+The second step involved stripping the data of missing values and ensuring overall accuracy within the data. For example, we noticed some MPs had no gender classifications. There had N/A values in the gender column. This is because they were either experts, or on-off interventions on specific subjects.  Initially, the count for the total number of speeches by women corresponded around 10% of total speeches. When checked against statistics available online, this seemed too exacerbated of a discrepency. This led us to double check the way we counted women MSPs and realized that many of the people we had identified were either "", and their inclusion in the calculus inflated the denominator and artificially reduced the proportion of speeches delivered by women MSPs. So we excluded these people from the data.
 
 The third step is to partition this dataframe and, using csv libraries, export them as CSVs to the repository. The aim is to obtain structured, relational data that can easily be amended in R (for example, once we have a dataframe with one column "name" and another "speech", we can append a column with "number of syllables"). In another dataframe with column "name" and "msp_type", we can see if any discrpency of the number of syllables in the speech seems to correlate with gender or with the type of MSP speeking. This can also allow us to source MSPs' twitter ID from their wikipedia pages using the wikiid variable present in the dataset, save this as a dataframe, and use SQL to extract the degree of social media activity by MSP.
 
