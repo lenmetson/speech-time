@@ -261,9 +261,14 @@ def number_unique_values(list_unique_values):
   ```
 
 
-The second step involved stripping the data of missing values and ensuring overall accuracy within the data. For example, we noticed some MPs had no gender classifications. There had N/A values in the gender column. This is because they were either experts, or on-off interventions on specific subjects.  Initially, the count for the total number of speeches by women corresponded around 10% of total speeches. When checked against statistics available online, this seemed too exacerbated of a discrepency. This led us to double check the way we counted women MSPs and realized that many of the people we had identified were either "", and their inclusion in the calculus inflated the denominator and artificially reduced the proportion of speeches delivered by women MSPs. So we excluded these people from the data.
+The second step in prepping our data was stripping it of n/a values. More specifically, we wanted to ensure overall accuracy within the data. For example, we noticed some MPs had no gender classifications. There had N/A values in the gender column. This is because they were either experts, or on-off interventions on specific subjects. As the final project we have in mind has a higher-level objective of studying gender discrimination among MSPs, we created a table with information on MPs. We droped duplicate rows and dropped rows where the "parl_id" column "gender" contained N/A values. This is pretty simple code:
 
-The third step is to partition this dataframe and, using csv libraries, export them as CSVs to the repository. The aim is to obtain structured, relational data that can easily be amended in R (for example, once we have a dataframe with one column "name" and another "speech", we can append a column with "number of syllables"). In another dataframe with column "name" and "msp_type", we can see if any discrpency of the number of syllables in the speech seems to correlate with gender or with the type of MSP speeking. This can also allow us to source MSPs' twitter ID from their wikipedia pages using the wikiid variable present in the dataset, save this as a dataframe, and use SQL to extract the degree of social media activity by MSP.
+```
+#create a dataframe with the unique MP names and their respective information, but discarding speeches.
+mp_info=speech_table.drop_duplicates(subset="name", keep="first").dropna(axis=0,how='any', subset=["parl_id"])
+```
+
+With this data_table, we can easily extract the corresponding names of constituency and region, which we will later use relationally with a table that contains the polar coordinates of these geographical areas to create a heat map on Tableau.
 
 The main data source for analysis is now ready to be used. We can now use some partitions of this dataframe to count the number of syllables spoken by MSPs and compare the obtained values between men and women.
 
