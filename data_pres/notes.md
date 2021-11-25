@@ -111,9 +111,157 @@ Propotion of women MSPs in our data: `(nrow(subset(msps, msps$gender == "F"))/ n
 
 ## Slide 3.1: Data Wrangling
 
-The first step in the analysis is cleaning the data. In the early steps executed so far, we have subsetted the semi-structured dataset obtained as to only keep information on proper speeches, while discarding any formalities and introductory speeches that have procedural relevance but would not inform our analysis. 
+We hope to execute the rest of our analysis in python, because the libraries of interest to us for segmenting the speeches into syllables are easily available in python (notably, the syllables package or the cmudict library instead which is slower but more accurate). With this in mind, we reiterated the data cleaning process in python and performed some further exploratory analysis, which I will give an overview of here, with an emphasis on the challenges that we have faced with the data. 
 
-The second step involved stripping the data of missing values and ensuring overall accuracy within the data. Initially, the count for the total number of speeches by women corresponded around 10% of total speeches. When checked against statistics available online, this seemed too exacerbated of a discrepency. This led us to double check the way we counted women MSPs and realized that many of the people we had identified were either "", and their inclusion in the calculus inflated the denominator and artificially reduced the proportion of speeches delivered by women MSPs. So we excluded these people from the data.
+The first step in the analysis is cleaning the data. Firstly, we neededdiscard any speeches related to formalities, and introductory speeches that have procedural relevance but would not inform our analysis. The challenge was to automate the decision of which text was a proper speech and which was not. Thankfully, there was a very useful variable in the data that classified the texts according to whether they were speeches as 1 or 0. The next natural step is to drop all the rows that contained a 0 in the "is_speech" column, in other words subsetting the original table to create a table that only contains data where the text is a proper speech. We did this with the following code:
+
+```
+import pandas as pd
+import numpy as np
+
+#upload data from disk into a pandas dataframe
+print('-----------------------------------------------------------------')
+print("Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.")
+print('-----------------------------------------------------------------')
+
+
+harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
+
+#create dataframe with only rows where there is a speech, using boolean indexing, discarding intro phrases and such.
+
+speech_table=harvard[:][harvard["is_speech"]==1]
+
+#create a list with the column names called header
+header=[]
+for column in speech_table.columns:
+  header.append(column)
+
+#slice df to obtain first 2 rows
+view_table=speech_table.iloc[0:2, :]
+
+
+print('-----------------------------------------------------------------')
+print("showing header and first 2 rows of obtained dataframe called speech_table, as well as some important statistics.")
+print('-----------------------------------------------------------------')
+
+print(view_table)
+print(header)
+```
+
+We get the following results:
+```
+-----------------------------------------------------------------
+Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+showing header and first 2 rows of obtained dataframe called speech_table, as well as some important statistics.
+-----------------------------------------------------------------
+   Unnamed: 0  x  daily_order_no  ...      msp_type  wikidataid party.facts.id
+2           3  3               3  ...        Region     Q334015          986.0
+5           6  6               6  ...  Constituency      Q10652          986.0
+
+[2 rows x 21 columns]
+['Unnamed: 0', 'x', 'daily_order_no', 'order_no', 'is_speech', 'committee', 'date', 'item', 'type', 'office_held', 'display_as', 'name', 'speech', 'parl_id', 'party', 'gender', 'constituency', 'region', 'msp_type', 'wikidataid', 'party.facts.id']
+
+```
+To get the total number of speeches, we can simply then count the rows. But ideally we wanted to avoid repeating this process to get the dimensions of all the table subsets we will be creating, so we created the following function and used it on the table with only speeches:
+
+```
+def get_shape(dataset):
+  shape=dataset.shape
+  return ("The dimensions of this data is {}".format(shape))
+
+#get number of speeches
+number_speeches=get_shape(speech_table)[0]
+print('The total number of speeches is: {}.'.format(number_speeches))
+```
+
+The second step, again in this reproducibility philosophy was to define some useful functions for exploratory analysis. Namely, we developed two functions that solved two problems. Firstly, to find information on MPs, such as the total number of men, of women, or the total number of constituencies represented as opposed to regions represented, the problem was that these vaues were repeated in the dataset because each MP speaks more than once and their speeches are recorded in separate rows. So we defined a function to extract these stats essentially by using boolean indexing:
+```
+def find_unique_values(dataset, column, feature1, feature2, comment=True, dictionary=True):
+    if feature1!="none":
+        dataset=dataset[dataset[feature1]==feature2]
+    unique_values=dataset[column].unique() #number of unique values
+    if dictionary==True:
+        val_dict= {idx:column for idx, column in enumerate(dataset[column].unique())}
+        print(val_dict)
+    if comment==True:
+        print("The {} with the following filter: {} is {} are given below".format(column, feature1, feature2))
+    return unique_values #return both number of unique values and the dictrionary containing them
+```
+
+Here are some applications of this funciton: we can easily get the total number and names of women, men, constituencies, regions. I also included a sort of filter in the function so it could easily return, for example, the all women who represented a constituency. This saves a lot of time and renders data exploration quite accessible and modulable.
+```
+#get lists of unique values of the following data:
+
+names_women=find_unique_values(speech_table, "name", feature1="gender", feature2="F", comment=True, dictionary=False)
+print(names_women)
+
+names_men=find_unique_values(speech_table, "name", feature1="gender", feature2="M", comment=True, dictionary=False)
+print(names_men)
+
+constituencies_women=find_unique_values(speech_table, "constituency", "gender", "F", True, False)
+print(constituencies_women)
+
+constituencies_men=find_unique_values(speech_table, "constituency", "gender", "M", True, False)
+print(constituencies_women)
+
+regions_women=find_unique_values(speech_table, "region", "gender", "F", True, False)
+print(regions_women)
+
+regions_men=find_unique_values(speech_table, "region", "gender", "F", True, False)
+print(regions_men)
+```
+
+The second problem was that we wanted to get a sense of perhaps some discrimination in parliament. We saw there was a daily order number variable, which we thought represented the order in which MSPs speak in parliament. But to do this we could not ue the same funciton, as these daily orders are repeated over the dataset since the data runs over a few years. So we created a different function:
+
+```
+#define function to get values in column
+def find_values(dataset, column, feature1, feature2, comment=True):
+    if feature1!="none":
+        dataset=dataset[dataset[feature1]==feature2]
+    values=dataset[column]
+    if comment==True:
+        print("The {} with the following filter: {} is {} are given below.".format(column, feature1, feature2))
+    return values
+ ```
+ 
+Using this one, we saw that contrary to our initial thoughts on the average and median order number was higher for women than men.
+```
+women_daily_order=find_values(speech_table, "daily_order_no", "gender", "F", True)
+print(women_daily_order)
+print("The average daily order for women is:")
+women_daily_order_avg=women_daily_order.mean()
+print(women_daily_order_avg)
+
+men_daily_order=find_values(speech_table, "daily_order_no", "gender", "M", True)
+print(men_daily_order)
+print("The average daily order for men is:")
+men_daily_order_avg=men_daily_order.mean()
+print(men_daily_order_avg)
+
+print("The median daily order for women is:")
+women_daily_order_med=women_daily_order.median()
+print(women_daily_order_med)
+
+print("The median daily order for men is:")
+men_daily_order_med=men_daily_order.median()
+print(men_daily_order_med)
+```
+
+It is worth noting that the two functions I mentioned return series of values, which are pandas objects so I also defined a third on to count the number of values returned. This is just a tengential note:
+
+```
+def number_unique_values(list_unique_values):
+  totals=[]
+  for value in list_unique_values:
+    number=len(value)
+    totals.append(number)
+  return totals
+  ```
+
+
+The second step involved stripping the data of missing values and ensuring overall accuracy within the data. For example, we noticed some MPs had no gender classifications. There had N/A values in the gender column. This is because they were either experts, or on-off interventions on specific subjects.  Initially, the count for the total number of speeches by women corresponded around 10% of total speeches. When checked against statistics available online, this seemed too exacerbated of a discrepency. This led us to double check the way we counted women MSPs and realized that many of the people we had identified were either "", and their inclusion in the calculus inflated the denominator and artificially reduced the proportion of speeches delivered by women MSPs. So we excluded these people from the data.
 
 The third step is to partition this dataframe and, using csv libraries, export them as CSVs to the repository. The aim is to obtain structured, relational data that can easily be amended in R (for example, once we have a dataframe with one column "name" and another "speech", we can append a column with "number of syllables"). In another dataframe with column "name" and "msp_type", we can see if any discrpency of the number of syllables in the speech seems to correlate with gender or with the type of MSP speeking. This can also allow us to source MSPs' twitter ID from their wikipedia pages using the wikiid variable present in the dataset, save this as a dataframe, and use SQL to extract the degree of social media activity by MSP.
 
