@@ -133,17 +133,3 @@ print(mp_wikiID.head(3))
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
