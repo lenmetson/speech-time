@@ -1,6 +1,6 @@
 ---
 title: "DS105M: Women In Parliament - Data"
-author: AS, NC, LM
+author: Alanah S, Noemie C, Len M
 date: November 26, 2021
 output:
   slidy_presentation: default
@@ -54,7 +54,7 @@ pacman::p_load("tidyverse", "reticulate", "here")
 
 harvard <- read.csv(here("data_raw", "rawdata.csv"))
 
-speeches <- subset(harvard, harvard$is_speech = 1)
+speeches <- subset(harvard, harvard$is_speech == 1)
 ```
 # Slide 1.1: Brief summary
 
