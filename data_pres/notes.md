@@ -34,7 +34,7 @@ One challenge in obtaining our data is that we had divided tasks and each of us 
 
 No matter what application we were using, we could commit changes either through the application (RStudio, Atom) or through the terminal from our local disk. For example, if Noemie changed something with the way the data is organised, those changes would come up when Len reran the code in our Markdown and Alanah's formatting would also show up.  This meant that we could work effectively on different parts of the project simultaneously.
 
-# Part 2: the data
+# Part 2: The Data
 
 ## Slide 2.1: Obtaining the data
 
@@ -104,11 +104,11 @@ Number of women MSPs in our data: `nrow(subset(msps, msps$gender == "F"))`
 
 Propotion of women MSPs in our data: `(nrow(subset(msps, msps$gender == "F"))/ nrow(msps))*100`
 
-# Part 4: Where next
+# Part 3 Where next
 
-## Slide 4.1: Data Wrangling
+## Slide 3.1: Data Wrangling
 
-The first step in the analysis is cleaning the data. In the early steps executed so far, we have subsetted the semi-structured dataset obtained as to only keep information on proper speeches, while discarding any formalities and introductory speeches that have procedural relevance but would not inform our analysis. 
+The first step in the analysis is cleaning the data. In the early steps executed so far, we have subsetted the semi-structured dataset obtained as to only keep information on proper speeches, while discarding any formalities and introductory speeches that have procedural relevance but would not inform our analysis.
 
 The second step involved stripping the data of missing values and ensuring overall accuracy within the data. Initially, the count for the total number of speeches by women corresponded around 10% of total speeches. When checked against statistics available online, this seemed too exacerbated of a discrepency. This led us to double check the way we counted women MSPs and realized that many of the people we had identified were either "", and their inclusion in the calculus inflated the denominator and artificially reduced the proportion of speeches delivered by women MSPs. So we excluded these people from the data.
 
@@ -118,14 +118,14 @@ The main data source for analysis is now ready to be used. We can now use some p
 
 
 
-## Slide 4.2: Analysis
+## Slide 3.2: Analysis
 
 As we already know how to operationalize pre-existing libraries for syllable count, here are some insights we would like to draw from the data:
 - average and median number of syllables by gender
 - whether this discrepency also exists on twitter
 - perform some sentiment analysis on speeches to see if a gender-related lexic is found at a higher rate in women's speeches than in men's speeches.
 
-## Slide 4.3: Visualisations planned
+## Slide 3.3: Visualisations planned
 
 Our process thus far has been continually informed by our plans for the final product: various data visualisations of the gender differences in Scottish parliamentary contributions. We've done this by not only by ensuring that we're able to obtain the relevant data and insights for our product, but also by cross-checking that our data format is suitable for the program we are planning to use for the data visualiations (namely, Tableau Public).
 
