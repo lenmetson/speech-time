@@ -2,6 +2,37 @@
 
 Please find accompanying notes for our presentation here.
 
+```{css echo=FALSE}
+h1 {
+text-align: center;
+color:tomato;
+font-size: 29px;
+font-weight:bold;
+align-self: center;
+text-align: center;
+}
+div {font-size: 24px;
+letter-spacing: 2px;
+word-spacing: 2.5px;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+padding-top: 20px;
+}
+ul, p {
+padding: 1px 2% 1px;
+max-height:90%
+text-align: ltr;
+font-weight: normal;
+color: #1E1E1E;
+}
+* {background-color: #EDEDED;
+background-size: 100%;
+font-family: "Lucida Console", Monaco, monospace;
+}
+```
+
 ## Introduction
 
 This presentation will outline how we are managing our data, some early summary statistics of our data and finally an indication of the next steps for our project.
