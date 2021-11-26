@@ -213,7 +213,7 @@ regions_men=find_unique_values(speech_table, "region", "gender", "F", True, Fals
 print(regions_men)
 ```
 
-The second problem was that we wanted to get a sense of perhaps some discrimination in parliament. We saw there was a daily order number variable, which we thought represented the order in which MSPs speak in parliament. But to do this we could not ue the same funciton, as these daily orders are repeated over the dataset since the data runs over a few years. So we created a different function:
+Using this function we wanted to get a first sense of perhaps some discrimination in parliament. We saw there was a daily order number variable, which we thought represented the order in which MSPs speak in parliament. But to do this we could not ue the same funciton, as these daily orders are repeated over the dataset since the data runs over a few years. So we created a different function:
 
 ```
 #define function to get values in column
@@ -248,6 +248,7 @@ print("The median daily order for men is:")
 men_daily_order_med=men_daily_order.median()
 print(men_daily_order_med)
 ```
+But the fact that Len has extensive field knowledge actually helped us realize that these results are most likely biased, since debates that are scheduled earlier in the day actually tend to be less important because MSPs need to travel from their constituency to vote. So counterintuitively, the fact that women vote earlier in the day on average does not necessarily mean that they somehiw have preferential treatement, it may be the opposite and mean that they get assigned to less important debates.
 
 It is worth noting that the two functions I mentioned return series of values, which are pandas objects so I also defined a third on to count the number of values returned. This is just a tengential note:
 
@@ -261,7 +262,7 @@ def number_unique_values(list_unique_values):
   ```
 
 
-The second step in prepping our data was stripping it of n/a values. More specifically, we wanted to ensure overall accuracy within the data. For example, we noticed some MPs had no gender classifications. There had N/A values in the gender column. This is because they were either experts, or on-off interventions on specific subjects. As the final project we have in mind has a higher-level objective of studying gender discrimination among MSPs, we created a table with information on MPs. We droped duplicate rows and dropped rows where the "parl_id" and "gender" columns contained N/A values. This is pretty simple code, and yields clean data where all speakers are MSPs and their gender and type (constituency or region) is recorded:
+The second challenge in prepping our data was stripping it of n/a values. More specifically, we wanted to ensure overall accuracy within the data. For example, we noticed some MPs had no gender classifications. There had N/A values in the gender column. This is because they were either experts, or on-off interventions on specific subjects. As the final project we have in mind has a higher-level objective of studying gender discrimination among MSPs, we created a table with information on MPs. We droped duplicate rows and dropped rows where the "parl_id" and "gender" columns contained N/A values. This is pretty simple code, and yields clean data where all speakers are MSPs and their gender and type (constituency or region) is recorded:
 
 ```
 #create a dataframe with the unique MP names and their respective information, but discarding speeches.
