@@ -531,6 +531,133 @@ download.file(url, here(&quot;data_raw&quot;, &quot;rawdata.csv&quot;))</code></
 <li>Partitions of dataframe can be used to count the number of syllables spoken by MSPs and compare the obtained values between men and women</li>
 </ul>
 </div>
+<div id="slide-3.1.1" class="slide section level1">
+<h1>Slide 3.1.1</h1>
+<pre><code>import pandas as pd
+import numpy as np
+
+#upload data from disk into a pandas dataframe
+print(&#39;-----------------------------------------------------------------&#39;)
+print(&quot;Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.&quot;)
+print(&#39;-----------------------------------------------------------------&#39;)
+
+
+harvard = pd.read_csv (r&#39;/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv&#39;)
+
+#create dataframe with only rows where there is a speech, using boolean indexing, discarding intro phrases and such.
+
+speech_table=harvard[:][harvard[&quot;is_speech&quot;]==1]
+
+#create a list with the column names called header
+header=[]
+for column in speech_table.columns:
+  header.append(column)
+
+#slice df to obtain first 2 rows
+view_table=speech_table.iloc[0:2, :]
+
+
+print(&#39;-----------------------------------------------------------------&#39;)
+print(&quot;showing header and first 2 rows of obtained dataframe called speech_table, as well as some important statistics.&quot;)
+print(&#39;-----------------------------------------------------------------&#39;)
+
+print(view_table)
+print(header)</code></pre>
+</div>
+<div id="slide-3.1.2" class="slide section level1">
+<h1>Slide 3.1.2</h1>
+<pre><code>-----------------------------------------------------------------
+Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+showing header and first 2 rows of obtained dataframe called speech_table, as well as some important statistics.
+-----------------------------------------------------------------
+   Unnamed: 0  x  daily_order_no  ...      msp_type  wikidataid party.facts.id
+2           3  3               3  ...        Region     Q334015          986.0
+5           6  6               6  ...  Constituency      Q10652          986.0
+
+[2 rows x 21 columns]
+[&#39;Unnamed: 0&#39;, &#39;x&#39;, &#39;daily_order_no&#39;, &#39;order_no&#39;, &#39;is_speech&#39;, &#39;committee&#39;, &#39;date&#39;, &#39;item&#39;, &#39;type&#39;, &#39;office_held&#39;, &#39;display_as&#39;, &#39;name&#39;, &#39;speech&#39;, &#39;parl_id&#39;, &#39;party&#39;, &#39;gender&#39;, &#39;constituency&#39;, &#39;region&#39;, &#39;msp_type&#39;, &#39;wikidataid&#39;, &#39;party.facts.id&#39;]
+</code></pre>
+</div>
+<div id="slide-3.1.3" class="slide section level1">
+<h1>Slide 3.1.3</h1>
+<pre><code>def get_shape(dataset):
+  shape=dataset.shape
+  return (&quot;The dimensions of this data is {}&quot;.format(shape))
+
+#get number of speeches
+number_speeches=get_shape(speech_table)[0]
+print(&#39;The total number of speeches is: {}.&#39;.format(number_speeches))</code></pre>
+</div>
+<div id="slide-3.1.4" class="slide section level1">
+<h1>Slide 3.1.4</h1>
+<pre><code>def find_unique_values(dataset, column, feature1, feature2, comment=True, dictionary=True):
+    if feature1!=&quot;none&quot;:
+        dataset=dataset[dataset[feature1]==feature2]
+    unique_values=dataset[column].unique() #number of unique values
+    if dictionary==True:
+        val_dict= {idx:column for idx, column in enumerate(dataset[column].unique())}
+        print(val_dict)
+    if comment==True:
+        print(&quot;The {} with the following filter: {} is {} are given below&quot;.format(column, feature1, feature2))
+    return unique_values #return both number of unique values and the dictrionary containing them</code></pre>
+</div>
+<div id="slide-3.1.5" class="slide section level1">
+<h1>Slide 3.1.5</h1>
+<pre><code>#get lists of unique values of the following data:
+
+names_women=find_unique_values(speech_table, &quot;name&quot;, feature1=&quot;gender&quot;, feature2=&quot;F&quot;, comment=True, dictionary=False)
+print(names_women)
+
+names_men=find_unique_values(speech_table, &quot;name&quot;, feature1=&quot;gender&quot;, feature2=&quot;M&quot;, comment=True, dictionary=False)
+print(names_men)
+
+constituencies_women=find_unique_values(speech_table, &quot;constituency&quot;, &quot;gender&quot;, &quot;F&quot;, True, False)
+print(constituencies_women)
+
+constituencies_men=find_unique_values(speech_table, &quot;constituency&quot;, &quot;gender&quot;, &quot;M&quot;, True, False)
+print(constituencies_women)
+
+regions_women=find_unique_values(speech_table, &quot;region&quot;, &quot;gender&quot;, &quot;F&quot;, True, False)
+print(regions_women)
+
+regions_men=find_unique_values(speech_table, &quot;region&quot;, &quot;gender&quot;, &quot;F&quot;, True, False)
+print(regions_men)</code></pre>
+</div>
+<div id="slide-3.1.6" class="slide section level1">
+<h1>Slide 3.1.6</h1>
+<pre><code>women_daily_order=find_values(speech_table, &quot;daily_order_no&quot;, &quot;gender&quot;, &quot;F&quot;, True)
+print(women_daily_order)
+print(&quot;The average daily order for women is:&quot;)
+women_daily_order_avg=women_daily_order.mean()
+print(women_daily_order_avg)
+
+men_daily_order=find_values(speech_table, &quot;daily_order_no&quot;, &quot;gender&quot;, &quot;M&quot;, True)
+print(men_daily_order)
+print(&quot;The average daily order for men is:&quot;)
+men_daily_order_avg=men_daily_order.mean()
+print(men_daily_order_avg)
+
+print(&quot;The median daily order for women is:&quot;)
+women_daily_order_med=women_daily_order.median()
+print(women_daily_order_med)
+
+print(&quot;The median daily order for men is:&quot;)
+men_daily_order_med=men_daily_order.median()
+print(men_daily_order_med)</code></pre>
+</div>
+<div id="slide-3.1.7" class="slide section level1">
+<h1>Slide 3.1.7</h1>
+<pre><code>def number_unique_values(list_unique_values):
+  totals=[]
+  for value in list_unique_values:
+    number=len(value)
+    totals.append(number)
+  return totals</code></pre>
+<pre><code>#create a dataframe with the unique MP names and their respective information, but discarding speeches.
+mp_speeches=speech_table.dropna(axis=0,how=&#39;any&#39;, subset=[&quot;parl_id&quot;, &quot;gender&quot;, &quot;msp_type&quot;])</code></pre>
+</div>
 <div id="slide-3.2-analysis" class="slide section level1">
 <h1>Slide 3.2: Analysis</h1>
 <p><strong>Some insights we’d like to draw from the data:</strong></p>
