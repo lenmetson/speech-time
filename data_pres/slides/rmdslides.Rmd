@@ -151,6 +151,151 @@ msps <- drop_na(msps)
   + Result: structured, relational data ready to be used for analysis
   + Partitions of dataframe can be used to count the number of syllables spoken by MSPs and compare the obtained values between men and women
 
+# Slide 3.1.1
+
+```
+import pandas as pd
+import numpy as np
+
+#upload data from disk into a pandas dataframe
+print('-----------------------------------------------------------------')
+print("Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.")
+print('-----------------------------------------------------------------')
+
+
+harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
+
+#create dataframe with only rows where there is a speech, using boolean indexing, discarding intro phrases and such.
+
+speech_table=harvard[:][harvard["is_speech"]==1]
+
+#create a list with the column names called header
+header=[]
+for column in speech_table.columns:
+  header.append(column)
+
+#slice df to obtain first 2 rows
+view_table=speech_table.iloc[0:2, :]
+
+
+print('-----------------------------------------------------------------')
+print("showing header and first 2 rows of obtained dataframe called speech_table, as well as some important statistics.")
+print('-----------------------------------------------------------------')
+
+print(view_table)
+print(header)
+```
+
+# Slide 3.1.2
+
+```
+-----------------------------------------------------------------
+Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+showing header and first 2 rows of obtained dataframe called speech_table, as well as some important statistics.
+-----------------------------------------------------------------
+   Unnamed: 0  x  daily_order_no  ...      msp_type  wikidataid party.facts.id
+2           3  3               3  ...        Region     Q334015          986.0
+5           6  6               6  ...  Constituency      Q10652          986.0
+
+[2 rows x 21 columns]
+['Unnamed: 0', 'x', 'daily_order_no', 'order_no', 'is_speech', 'committee', 'date', 'item', 'type', 'office_held', 'display_as', 'name', 'speech', 'parl_id', 'party', 'gender', 'constituency', 'region', 'msp_type', 'wikidataid', 'party.facts.id']
+
+```
+
+# Slide 3.1.3
+
+```
+def get_shape(dataset):
+  shape=dataset.shape
+  return ("The dimensions of this data is {}".format(shape))
+
+#get number of speeches
+number_speeches=get_shape(speech_table)[0]
+print('The total number of speeches is: {}.'.format(number_speeches))
+```
+
+# Slide 3.1.4
+
+```
+def find_unique_values(dataset, column, feature1, feature2, comment=True, dictionary=True):
+    if feature1!="none":
+        dataset=dataset[dataset[feature1]==feature2]
+    unique_values=dataset[column].unique() #number of unique values
+    if dictionary==True:
+        val_dict= {idx:column for idx, column in enumerate(dataset[column].unique())}
+        print(val_dict)
+    if comment==True:
+        print("The {} with the following filter: {} is {} are given below".format(column, feature1, feature2))
+    return unique_values #return both number of unique values and the dictrionary containing them
+```
+
+
+# Slide 3.1.5
+
+```
+#get lists of unique values of the following data:
+
+names_women=find_unique_values(speech_table, "name", feature1="gender", feature2="F", comment=True, dictionary=False)
+print(names_women)
+
+names_men=find_unique_values(speech_table, "name", feature1="gender", feature2="M", comment=True, dictionary=False)
+print(names_men)
+
+constituencies_women=find_unique_values(speech_table, "constituency", "gender", "F", True, False)
+print(constituencies_women)
+
+constituencies_men=find_unique_values(speech_table, "constituency", "gender", "M", True, False)
+print(constituencies_women)
+
+regions_women=find_unique_values(speech_table, "region", "gender", "F", True, False)
+print(regions_women)
+
+regions_men=find_unique_values(speech_table, "region", "gender", "F", True, False)
+print(regions_men)
+```
+
+# Slide 3.1.6
+
+```
+women_daily_order=find_values(speech_table, "daily_order_no", "gender", "F", True)
+print(women_daily_order)
+print("The average daily order for women is:")
+women_daily_order_avg=women_daily_order.mean()
+print(women_daily_order_avg)
+
+men_daily_order=find_values(speech_table, "daily_order_no", "gender", "M", True)
+print(men_daily_order)
+print("The average daily order for men is:")
+men_daily_order_avg=men_daily_order.mean()
+print(men_daily_order_avg)
+
+print("The median daily order for women is:")
+women_daily_order_med=women_daily_order.median()
+print(women_daily_order_med)
+
+print("The median daily order for men is:")
+men_daily_order_med=men_daily_order.median()
+print(men_daily_order_med)
+```
+
+# Slide 3.1.7
+
+```
+def number_unique_values(list_unique_values):
+  totals=[]
+  for value in list_unique_values:
+    number=len(value)
+    totals.append(number)
+  return totals
+  ```
+
+  ```
+  #create a dataframe with the unique MP names and their respective information, but discarding speeches.
+  mp_speeches=speech_table.dropna(axis=0,how='any', subset=["parl_id", "gender", "msp_type"])
+  ```
+
 # Slide 3.2: Analysis
 **Some insights we'd like to draw from the data:**
 
