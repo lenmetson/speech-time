@@ -14,6 +14,10 @@ harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
 
 speech_table=harvard[:][harvard["is_speech"]==1]
 
+#save the table as a pickle and view itby printing output
+speech_table.to_pickle("/Users/noemieclaret/Downloads/speech_table.pkl")
+output=pd.read_pickle("/Users/noemieclaret/Downloads/speech_table.pkl")
+
 #create a list with the column names called header
 header=[]
 for column in speech_table.columns:
