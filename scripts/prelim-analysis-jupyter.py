@@ -1,8 +1,10 @@
+## First import useful libraries then put data into pandas dataframe
 
-```python
+
 import pandas as pd
 
-#upload data from disk into a pandas dataframe
+## Upload data from disk and convert csv to pandas DataFrame
+
 print('-----------------------------------------------------------------')
 print("Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.")
 print('-----------------------------------------------------------------')
@@ -10,29 +12,31 @@ print('-----------------------------------------------------------------')
 
 harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
 
-#create dataframe with only rows where there is a speech, using boolean indexing, discarding intro phrases and such.
+## Subset table where the speeches are actually speeches
 
 speech_table=harvard[:][harvard["is_speech"]==1]
 
-#save the table as a pickle and view itby printing output
-speech_table.to_pickle("/Users/noemieclaret/Downloads/speech_table.pkl")
-output=pd.read_pickle("/Users/noemieclaret/Downloads/speech_table.pkl")
 
-```
+## Print table to view
 
-#create a list with the column names called header
-header=[]
-for column in speech_table.columns:
-  header.append(column)
 
-#get dimensions of dataset
-def get_shape(dataset):
-  shape=dataset.shape
-  return ("The dimensions of this data is {}".format(shape))
+speeches=speech_table["speech"]
+print(speeches)
 
-#make a function to return number of unique variables and dictionary containing these values.
-#the feature attribute is used as a filter. for exemple, it can be feature=speech_table["gender"]==F.
-#if no feature, write feature="none"
+
+## Get rid of the rows where the speaker does not have a gender or parl_id
+
+speech_table_gender_parlID=speech_table[:][speech_table["gender"]==("F" or "M")].dropna(axis=0, how='any', subset=["type"])
+speeches_2=speech_table_gender_parlID[["name", "speech"]]
+print(speeches_2)
+print(type(speeches_2))
+
+
+
+# Look at the different types of items 
+(Is there a special category for procedural speeches? seems like it might be oaths and affirmations)
+
+
 def find_unique_values(dataset, column, feature1, feature2, comment=True, dictionary=True):
     if feature1!="none":
         dataset=dataset[dataset[feature1]==feature2]
@@ -43,8 +47,10 @@ def find_unique_values(dataset, column, feature1, feature2, comment=True, dictio
     if comment==True:
         print("The {} with the following filter: {} is {} are given below".format(column, feature1, feature2))
     return unique_values #return both number of unique values and the dictrionary containing them
+items=find_unique_values(speech_table, "item", "none", "none", True, False)
+print(items)
 
-#define function to get values in column
+
 def find_values(dataset, column, feature1, feature2, comment=True):
     if feature1!="none":
         dataset=dataset[dataset[feature1]==feature2]
@@ -52,49 +58,44 @@ def find_values(dataset, column, feature1, feature2, comment=True):
     if comment==True:
         print("The {} with the following filter: {} is {} are given below.".format(column, feature1, feature2))
     return values
-  
-#define a function to find the number of unique values  
-def number_unique_values(list_unique_values):
-  totals=[]
-  for value in list_unique_values:
-    number=len(value)
-    totals.append(number)
-  return totals
-
-#create a dataframe with the unique MP names and their respective information, but discarding speeches.
-mp_info=speech_table.drop_duplicates(subset="name", keep="first").dropna(axis=0,how='any', subset=["parl_id"])
-
-#create dataframe with MPs and their wikiID
-mp_wikiID=mp_info["wikidataid"]
-
-print(mp_info.head(3))
-print(mp_wikiID.head(3))
 
 
 
+# Look at which speakers have spoken for oaths and affirmations. 
+Can we take them out wihtout loss of insight on man/woman speaking ratio? Does not seem judicious. 
+
+oaths_aff_speakers=find_values(speech_table, "name", "item", "Oaths and Affirmations", True)
+print(oaths_aff_speakers)
+
+# See proportion of women to men for oaths and affirmations
+
+def find_unique_values_bis(dataset, column, feature1, feature2, feature3, feature4, comment=True):
+    if feature1!="none" and feature3!="none":
+        dataset=dataset[dataset[feature1]==feature2][dataset[feature3]==feature4]
+    values=dataset[column].unique()
+    if comment==True:
+        print("The {} with the following filter: {} is {} are given below.".format(column, feature1, feature2))
+    return values
+
+women_names_oath_aff=find_unique_values_bis(speech_table, "name", "item", "Oaths and Affirmations", "gender", "F", False)
+print(len(women_names_oath_aff))
 
 
+So in total there are 211 people who spoke in oaths and affirmations and 51 of these were women. This is up to interpretation. We need to see if this ratio corresponds to the gender distribution in parliament, and decide if we deem a higher/lower proportion of women who speak only of procedural matters a good thing. 
 
+# Create a new column in speech_table with the word count of each speech
 
+speech_table["speech_word_count"]=speech_table["speech"].str.count(' ')+1
 
+# Find the total number of words for women and men and find ratio
 
+total_words_women_series=find_values(speech_table, "speech_word_count", "gender", "F", False)
+total_words_women=sum(total_words_women_series)
+print(total_words_women)
 
+total_words_men_series=find_values(speech_table, "speech_word_count", "gender", "M", False)
+total_words_men=sum(total_words_men_series)
+print(total_words_men)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(total_words_women/total_words_men)
 
