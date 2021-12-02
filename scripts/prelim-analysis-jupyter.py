@@ -1,5 +1,15 @@
-## First import useful libraries then put data into pandas dataframe
+## PREREQUISTES
+# You should run the download-csv-http.R script first
+# Use the lines below to configure your working directory
 
+import os
+print("Current working directory is: {0}".format(os.getcwd()))
+
+# Specify the path of your locally cloned repo:
+os.chdir('C:/Users/lenna/OneDrive - London School of Economics/year_3/Courses/MT_DS105M_Data-for-Data-Science/project/speech-time')
+#os.chdir()
+
+## First import useful libraries then put data into pandas dataframe
 
 import pandas as pd
 
@@ -10,7 +20,8 @@ print("Dowloading the CSV file containing records of Scottish MP speeches; conve
 print('-----------------------------------------------------------------')
 
 # LM: I will have a look at a way to set relative file paths in python
-harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
+harvard = pd.read_csv (r'data_raw/rawdata.csv')
+#harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
 
 ## Subset table where the speeches are actually speeches
 
