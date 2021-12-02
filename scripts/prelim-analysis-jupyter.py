@@ -33,8 +33,8 @@ print(type(speeches_2))
 
 
 
-# Look at the different types of items 
-(Is there a special category for procedural speeches? seems like it might be oaths and affirmations)
+# Look at the different types of items
+#(Is there a special category for procedural speeches? seems like it might be oaths and affirmations)
 
 
 def find_unique_values(dataset, column, feature1, feature2, comment=True, dictionary=True):
@@ -61,8 +61,8 @@ def find_values(dataset, column, feature1, feature2, comment=True):
 
 
 
-# Look at which speakers have spoken for oaths and affirmations. 
-Can we take them out wihtout loss of insight on man/woman speaking ratio? Does not seem judicious. 
+# Look at which speakers have spoken for oaths and affirmations.
+Can we take them out wihtout loss of insight on man/woman speaking ratio? Does not seem judicious.
 
 oaths_aff_speakers=find_values(speech_table, "name", "item", "Oaths and Affirmations", True)
 print(oaths_aff_speakers)
@@ -81,7 +81,7 @@ women_names_oath_aff=find_unique_values_bis(speech_table, "name", "item", "Oaths
 print(len(women_names_oath_aff))
 
 
-So in total there are 211 people who spoke in oaths and affirmations and 51 of these were women. This is up to interpretation. We need to see if this ratio corresponds to the gender distribution in parliament, and decide if we deem a higher/lower proportion of women who speak only of procedural matters a good thing. 
+So in total there are 211 people who spoke in oaths and affirmations and 51 of these were women. This is up to interpretation. We need to see if this ratio corresponds to the gender distribution in parliament, and decide if we deem a higher/lower proportion of women who speak only of procedural matters a good thing.
 
 # Create a new column in speech_table with the word count of each speech
 
@@ -115,7 +115,7 @@ for date in dates:
     else:
         continue
 print(years)
-    
+
 
 define a function to find values in a column with two filters
 
@@ -185,5 +185,3 @@ print(ratio_words_gender_byyear)
 
 import matplotlib.pyplot as plt
 plt.plot(ratio_words_gender_byyear["years"],ratio_words_gender_byyear["words_spoken_to_gender_distribution"])
-
-
