@@ -9,7 +9,7 @@ print('-----------------------------------------------------------------')
 print("Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.")
 print('-----------------------------------------------------------------')
 
-
+# LM: I will have a look at a way to set relative file paths in python
 harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
 
 ## Subset table where the speeches are actually speeches
