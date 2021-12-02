@@ -9,7 +9,7 @@ print('-----------------------------------------------------------------')
 print("Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.")
 print('-----------------------------------------------------------------')
 
-
+# LM: I will have a look at a way to set relative file paths in python
 harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
 
 ## Subset table where the speeches are actually speeches
@@ -62,7 +62,7 @@ def find_values(dataset, column, feature1, feature2, comment=True):
 
 
 # Look at which speakers have spoken for oaths and affirmations.
-Can we take them out wihtout loss of insight on man/woman speaking ratio? Does not seem judicious.
+# Can we take them out wihtout loss of insight on man/woman speaking ratio? Does not seem judicious. LM: I will have a look at this
 
 oaths_aff_speakers=find_values(speech_table, "name", "item", "Oaths and Affirmations", True)
 print(oaths_aff_speakers)
@@ -81,7 +81,7 @@ women_names_oath_aff=find_unique_values_bis(speech_table, "name", "item", "Oaths
 print(len(women_names_oath_aff))
 
 
-So in total there are 211 people who spoke in oaths and affirmations and 51 of these were women. This is up to interpretation. We need to see if this ratio corresponds to the gender distribution in parliament, and decide if we deem a higher/lower proportion of women who speak only of procedural matters a good thing.
+# So in total there are 211 people who spoke in oaths and affirmations and 51 of these were women. This is up to interpretation. We need to see if this ratio corresponds to the gender distribution in parliament, and decide if we deem a higher/lower proportion of women who speak only of procedural matters a good thing.
 
 # Create a new column in speech_table with the word count of each speech
 
@@ -101,7 +101,7 @@ print(total_words_women/total_words_men)
 
 # Create a dictionary with the propotion of women words to men words indexed by year
 
-first create a dictionary with the years (seems useless but just to check we are acutally getting years where things happened)
+#first create a dictionary with the years (seems useless but just to check we are acutally getting years where things happened)
 
 
 dates=find_unique_values(speech_table, "date", "none", "none", False)
@@ -117,7 +117,7 @@ for date in dates:
 print(years)
 
 
-define a function to find values in a column with two filters
+# define a function to find values in a column with two filters
 
 def find_values_bis(dataset, column, feature1, feature2, feature3, feature4,comment=True):
     if feature1!="none":
@@ -127,9 +127,9 @@ def find_values_bis(dataset, column, feature1, feature2, feature3, feature4,comm
         print("The {} with the following filter: {} is {} are given below.".format(column, feature1, feature2))
     return values
 
-Now get the proportion of words spoken by women to men each year
+#Now get the proportion of words spoken by women to men each year
 
-get new column with year
+#get new column with year
 
 speech_table["year"]=speech_table["date"].str[0:4]
 print(speech_table["year"])
@@ -159,7 +159,7 @@ ratio_words_gender_byyear=pd.DataFrame(data)
 print(ratio_words_gender_byyear)
 
 # But these results may not mean much
-We need to use the proportion of women to men each year and see if the increase in words spoken is just due to the increase in the number of women
+# We need to use the proportion of women to men each year and see if the increase in words spoken is just due to the increase in the number of women
 
 
 number_women_year=[]
