@@ -27,6 +27,7 @@ print(speeches)
 ## Get rid of the rows where the speaker does not have a gender or parl_id
 
 speech_table_gender_parlID=speech_table[:][speech_table["gender"]==("F" or "M")].dropna(axis=0, how='any', subset=["type"])
+# LM: can we do this by dropping just those without parl_id, that feels more legit given it's our justification?
 speeches_2=speech_table_gender_parlID[["name", "speech"]]
 print(speeches_2)
 print(type(speeches_2))
