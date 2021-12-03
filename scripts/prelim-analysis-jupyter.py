@@ -9,6 +9,9 @@ print("Current working directory is: {0}".format(os.getcwd()))
 os.chdir('C:/Users/lenna/OneDrive - London School of Economics/year_3/Courses/MT_DS105M_Data-for-Data-Science/project/speech-time')
 #os.chdir()
 
+# check it has worked
+print("Current working directory is: {0}".format(os.getcwd()))
+
 ## First import useful libraries then put data into pandas dataframe
 
 import pandas as pd
