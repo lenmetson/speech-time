@@ -31,3 +31,5 @@ prop_speeches_m + prop_speeches_f
 MSPs_all <- speeches %>%
   select(parl_id, name, gender, wikidataid) %>%
   unique()
+
+source(here("scripts", "add-parliaments.R"))
