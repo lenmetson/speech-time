@@ -43,6 +43,9 @@ p_f <- c(prop_speeches_f1, prop_speeches_f2, prop_speeches_f3, prop_speeches_f4,
 
 summary <- data.frame(n_m, n_f, p_m, p_f)
 
+rownames(summary) <- c("First Parliament", "Second Parliament", "Third Parliament", "Fourth Parliament", "Fifth Parliament")
+
+colnames(summary) <- c("Number speeches by men", "Number of speeches by women", "Proportion of speeches by men", "Proportion of speeches by women")
 
 # explore different types of speeches
 types <- data.frame(unique(speeches$item))
