@@ -15,11 +15,11 @@ types <- data.frame(unique(speeches$item))
 
 n_speeches <- nrow(speeches)
 
-n_speeches_f <- speeches %>% 
+n_speeches_f <- speeches %>%
   subset(speeches$gender == "F") %>%
   nrow()
 
-n_speeches_m <- speeches %>% 
+n_speeches_m <- speeches %>%
   subset(speeches$gender == "M") %>%
   nrow()
 
@@ -28,6 +28,6 @@ prop_speeches_m <- n_speeches_m/n_speeches
 
 prop_speeches_m + prop_speeches_f
 
-MSPs_all <- speeches %>% 
-  select(parl_id, name, gender, wikidataid) %>% 
+MSPs_all <- speeches %>%
+  select(parl_id, name, gender, wikidataid) %>%
   unique()
