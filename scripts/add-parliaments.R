@@ -20,12 +20,13 @@ speeches$parliament <- ifelse(speeches$date >= years[1,2] & speeches$date <= yea
 
 # Split into years
 
-speeches_1 <- speeches %>% subset(speeches$parliament == "First Scottish Parliament")
-speeches_2 <- speeches %>% subset(speeches$parliament == "Second Scottish Parliament")
-speeches_3 <- speeches %>% subset(speeches$parliament == "Third Scottish Parliament")
-speeches_4 <- speeches %>% subset(speeches$parliament == "Fourth Scottish Parliament")
-speeches_5 <- speeches %>% subset(speeches$parliament == "Fifth Scottish Parliament")
-speeches_6 <- speeches %>% subset(is.na(speeches$parliament))
+speeches_1 <- speeches %>% subset(speeches$parliament == "First Scottish Parliament") %>% unique()
+speeches_2 <- speeches %>% subset(speeches$parliament == "Second Scottish Parliament") %>% unique()
+speeches_3 <- speeches %>% subset(speeches$parliament == "Third Scottish Parliament") %>% unique()
+speeches_4 <- speeches %>% subset(speeches$parliament == "Fourth Scottish Parliament") %>% unique()
+speeches_5 <- speeches %>% subset(speeches$parliament == "Fifth Scottish Parliament") %>% unique()
+speeches_6 <- speeches %>% subset(is.na(speeches$parliament)) %>% unique()
+
 
 
 # Split MPs into years
@@ -49,8 +50,3 @@ MSPs_4 <- speeches_4 %>%
 MSPs_5 <- speeches_5 %>%
   select(parl_id, name, gender, wikidataid) %>%
   unique()
-
-
-
-
-
