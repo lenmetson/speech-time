@@ -38,7 +38,7 @@ source(here("scripts", "analysis-by-parly.R"))
 # n_m | n_f | p_m | p_f
 n_m <- c(n_speeches_m1, n_speeches_m2, n_speeches_m3, n_speeches_m4, n_speeches_m5)
 n_f <- c(n_speeches_f1, n_speeches_f2, n_speeches_f3, n_speeches_f4, n_speeches_f5)
-p_m <- c(prop_speeches_m1, prop_speeches_m2, prop_speeches_m3, prop_speeches_m4, prop_speeches_m5) 
+p_m <- c(prop_speeches_m1, prop_speeches_m2, prop_speeches_m3, prop_speeches_m4, prop_speeches_m5)
 p_f <- c(prop_speeches_f1, prop_speeches_f2, prop_speeches_f3, prop_speeches_f4, prop_speeches_f5)
 
 summary <- data.frame(n_m, n_f, p_m, p_f)
@@ -47,5 +47,6 @@ rownames(summary) <- c("First Parliament", "Second Parliament", "Third Parliamen
 
 colnames(summary) <- c("Number speeches by men", "Number of speeches by women", "Proportion of speeches by men", "Proportion of speeches by women")
 
+write.csv(here("data_processed", "summary.csv"))
 # explore different types of speeches
 types <- data.frame(unique(speeches$item))
