@@ -40,6 +40,3 @@ syls_5 <- speeches_5 %>%
 syls_all <- rbind(syls_1, syls_2, syls_3, syls_4, syls_5)
 
 syls_all <- left_join(syls_all, gender, by = "parl_id") %>% unique()
-  
-  
-speeches <- left_join(speeches, gender, by = "parl_id") %>% unique()
