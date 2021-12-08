@@ -13,13 +13,12 @@ rm(harvard)
 
 speeches <- speeches %>% filter(!is.na(parl_id)) # drop all without parl_id
 
-####
+source(here("scripts", "add-parliaments.R"))
+MSPs_agg <- unique(MSPs_agg)
 
-speeches <- speeches %>% select(date, name, gender, parl_id, speech, item, type, committee)
+gender <- MSPs_agg %>% select(parl_id, gender)
 
-speeches <- unique(speeches_b)
-
-###
+speeches <- left_join(speeches, gender, by = "parl_id") %>% unique()
 
 
 # define counts of speeches

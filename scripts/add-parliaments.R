@@ -32,27 +32,27 @@ speeches_5 <- speeches %>% subset(speeches$parly == "Fifth Scottish Parliament")
 # Split MPs into years
 
 MSPs_1 <- speeches_1 %>%
-  select(parl_id, name, gender, wikidataid, constituency, region, msp_type, office_held, display_as) %>%
+  select(parl_id, name, gender, wikidataid, constituency, region, msp_type, office_held) %>%
   unique()
 MSPs_1$parly <- "First Scottish Parliament"
 
 MSPs_2 <- speeches_2 %>%
-  select(parl_id, name, gender, wikidataid, constituency, region, msp_type, office_held, display_as) %>%
+  select(parl_id, name, gender, wikidataid, constituency, region, msp_type, office_held) %>%
   unique()
 MSPs_2$parly <- "Second Scottish Parliament"
 
 MSPs_3 <- speeches_3 %>%
-  select(parl_id, name, gender, wikidataid, constituency, region, msp_type, office_held, display_as) %>%
+  select(parl_id, name, gender, wikidataid, constituency, region, msp_type, office_held) %>%
   unique()
 MSPs_3$parly <- "Third Scottish Parliament"
 
 MSPs_4 <- speeches_4 %>%
-  select(parl_id, name, gender, wikidataid, constituency, region, msp_type, office_held, display_as) %>%
+  select(parl_id, name, gender, wikidataid, constituency, region, msp_type, office_held) %>%
   unique()
 MSPs_4$parly <- "Fourth Scottish Parliament"
 
 MSPs_5 <- speeches_5 %>%
-  select(parl_id, name, gender, wikidataid, constituency, region, msp_type, office_held, display_as) %>%
+  select(parl_id, name, gender, wikidataid, constituency, region, msp_type, office_held) %>%
   unique()
 MSPs_5$parly <- "Fifth Scottish Parliament"
 
@@ -61,23 +61,23 @@ MSPs_agg <- rbind(MSPs_1, MSPs_2, MSPs_3, MSPs_4, MSPs_5)
 # keep only unique speeches
 
 speeches_1 <- speeches_1 %>%
-              select(date, name, parl_id, speech, item, type, committee)
+              select(date, name, parl_id, speech, item, type, committee, parly)
 speeches_1 <- unique(speeches_1)
 
 speeches_2 <- speeches_2 %>%
-              select(date, name, parl_id, speech, item, type, committee)
+              select(date, name, parl_id, speech, item, type, committee, parly)
 speeches_2 <- unique(speeches_2)
 
 speeches_3 <- speeches_3 %>%
-              select(date, name, parl_id, speech, item, type, committee)
+              select(date, name, parl_id, speech, item, type, committee, parly)
 speeches_3 <- unique(speeches_3)
 
 speeches_4 <- speeches_4 %>%
-              select(date, name, parl_id, speech, item, type, committee)
+              select(date, name, parl_id, speech, item, type, committee, parly)
 speeches_4 <- unique(speeches_4)
 
 speeches_5 <- speeches_5 %>%
-              select(date, name, parl_id, speech, item, type, committee)
+              select(date, name, parl_id, speech, item, type, committee, parly)
 speeches_5 <- unique(speeches_5)
 
 
