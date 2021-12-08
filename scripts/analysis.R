@@ -7,3 +7,9 @@ if(!require("here"))install.packages("here")
 # If you have already run, comment out and load summary data directly
 
 data <- read.csv(here("output_data", "summary.csv"))
+
+source(here("scripts", "counts_script.R"))
+
+# Task 
+## Add gender and names 
+# re-run all
