@@ -18,9 +18,7 @@ speech_table=harvard[:][harvard["is_speech"]==1]
 speech_table_gender_parlID=speech_table[:][speech_table["gender"]==("F" or "M")].dropna(axis=0, how='any', subset=["type"])
 # LM: can we do this by dropping just those without parl_id, that feels more legit given it's our justification?
 
-
-# Look at the different types of items
-#(Is there a special category for procedural speeches? seems like it might be oaths and affirmations)
+#define useful values
 
 
 def find_unique_values(dataset, column, feature1, feature2, comment=True, dictionary=True):
@@ -40,6 +38,16 @@ print(items)
 def find_values(dataset, column, feature1, feature2, comment=True):
     if feature1!="none":
         dataset=dataset[dataset[feature1]==feature2]
+    values=dataset[column]
+    if comment==True:
+        print("The {} with the following filter: {} is {} are given below.".format(column, feature1, feature2))
+    return values
+
+# define a function to find values in a column with two filters
+
+def find_values_bis(dataset, column, feature1, feature2, feature3, feature4,comment=True):
+    if feature1!="none":
+        dataset=dataset[dataset[feature1]==feature2][dataset[feature3]==feature4]
     values=dataset[column]
     if comment==True:
         print("The {} with the following filter: {} is {} are given below.".format(column, feature1, feature2))
@@ -77,17 +85,6 @@ for date in dates:
     else:
         continue
 print(years)
-
-
-# define a function to find values in a column with two filters
-
-def find_values_bis(dataset, column, feature1, feature2, feature3, feature4,comment=True):
-    if feature1!="none":
-        dataset=dataset[dataset[feature1]==feature2][dataset[feature3]==feature4]
-    values=dataset[column]
-    if comment==True:
-        print("The {} with the following filter: {} is {} are given below.".format(column, feature1, feature2))
-    return values
 
 #Now get the proportion of words spoken by women to men each year
 
@@ -149,3 +146,8 @@ ratio_words_gender_byyear.to_json(path_or_buf=="speech-time/data_raw")
 
 import matplotlib.pyplot as plt
 plt.plot(ratio_words_gender_byyear["years"],ratio_words_gender_byyear["words_spoken_to_gender_distribution"])
+
+
+
+#look at word count by constituency or region by year
+
