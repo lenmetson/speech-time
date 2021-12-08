@@ -6,14 +6,13 @@ source(here("scripts", "r-packages.R"))
 
 # Load data
 harvard <- read.csv(here("data_raw", "rawdata.csv"))
-
 speeches <- harvard %>% filter(is_speech == 1)
 rm(harvard)
-
-
 speeches <- speeches %>% filter(!is.na(parl_id)) # drop all without parl_id
 
+# Split into parliaments
 source(here("scripts", "add-parliaments.R"))
+
 MSPs_agg <- unique(MSPs_agg)
 
 gender <- MSPs_agg %>% select(parl_id, gender)
@@ -35,14 +34,13 @@ prop_speeches_m <- n_speeches_m/n_speeches
 
 prop_speeches_m + prop_speeches_f
 
-#MSPs_all <- speeches %>%  select(parl_id, name, gender, wikidataid) %>% unique()
 
 # By parliament
 
-# Speeches 
-
 source(here("scripts", "analysis-by-parly.R"))
+source(here("scripts", "MSPs-per-parly.R"))
 
+# Make results table
 
 # n_m | n_f | p_m | p_f | n_msps_m | n_msps_f | p_msps_m | p_msps_f | n_total
 n_m <- c(n_speeches_m1, n_speeches_m2, n_speeches_m3, n_speeches_m4, n_speeches_m5, ((n_speeches_m1 + n_speeches_m2 + n_speeches_m3 + n_speeches_m4 + n_speeches_m5)/5))
@@ -68,7 +66,6 @@ write.csv(summary, here("output_data", "summary.csv"))
 
 # MSPs
 
-source(here("scripts", "MSPs-per-parly.R"))
 
 
 # explore different types of speeches
