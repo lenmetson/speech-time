@@ -58,4 +58,4 @@ write.csv(summary, here("output_data", "summary.csv"))
 
 
 # explore different types of speeches
-types <- data.frame(unique(speeches$item))
+#types <- data.frame(unique(speeches$item))
