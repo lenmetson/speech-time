@@ -62,11 +62,3 @@ rownames(summary) <- c("First Parliament", "Second Parliament", "Third Parliamen
 colnames(summary) <- c("Number speeches by men", "Number of speeches by women", "Proportion of speeches by men", "Proportion of speeches by women", "Number of men", "Number of women", "Number of MSPs", "% MSPs who are men", "% MSPs who are women")
 
 write.csv(summary, here("output_data", "summary.csv"))
-
-
-# MSPs
-
-
-
-# explore different types of speeches
-#types <- data.frame(unique(speeches$item))
