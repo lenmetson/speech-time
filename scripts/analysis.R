@@ -10,6 +10,11 @@ data <- read.csv(here("output_data", "summary.csv"))
 
 source(here("scripts", "counts_script.R"))
 
+syls_summary <- 
+  syls_all %>%
+  group_by(gender) %>%
+  summarise(syls = mean(syls))
+
 # Task 
-## Add gender and names 
+
 # re-run all

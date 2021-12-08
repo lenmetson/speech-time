@@ -83,3 +83,5 @@ speeches_5 <- unique(speeches_5)
 
 # bind back
 speeches <- rbind(speeches_1, speeches_2, speeches_3, speeches_4, speeches_5)
+
+

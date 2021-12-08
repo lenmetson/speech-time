@@ -64,4 +64,4 @@ colnames(summary) <- c("Number speeches by men", "Number of speeches by women", 
 write.csv(summary, here("output_data", "summary.csv"))
 write.csv(MSPs_agg, here("output_data", "MSPs.csv"))
 
-rm(list=ls()[! ls() %in% "summary"])
+#rm(list=ls()[! ls() %in% c("summary", "gender", "years"])
