@@ -9,7 +9,17 @@ harvard <- read.csv(here("data_raw", "rawdata.csv"))
 
 speeches <- harvard %>% filter(is_speech == 1)
 rm(harvard)
+
+
 speeches <- speeches %>% filter(!is.na(parl_id)) # drop all without parl_id
+
+####
+
+speeches <- speeches %>% select(date, name, gender, parl_id, speech, item, type, committee)
+
+speeches <- unique(speeches_b)
+
+###
 
 
 # define counts of speeches
@@ -26,9 +36,7 @@ prop_speeches_m <- n_speeches_m/n_speeches
 
 prop_speeches_m + prop_speeches_f
 
-MSPs_all <- speeches %>%
-  select(parl_id, name, gender, wikidataid) %>%
-  unique()
+#MSPs_all <- speeches %>%  select(parl_id, name, gender, wikidataid) %>% unique()
 
 # By parliament
 
@@ -48,5 +56,7 @@ rownames(summary) <- c("First Parliament", "Second Parliament", "Third Parliamen
 colnames(summary) <- c("Number speeches by men", "Number of speeches by women", "Proportion of speeches by men", "Proportion of speeches by women")
 
 write.csv(summary, here("output_data", "summary.csv"))
+
+
 # explore different types of speeches
 types <- data.frame(unique(speeches$item))

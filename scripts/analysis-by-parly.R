@@ -1,5 +1,5 @@
 # this script splits up the scripts into different parliaments
-source(here("scripts", "add-parliaments.R"))
+#source(here("scripts", "add-parliaments.R"))
 # Create varibales for First Parly
 n_speeches1 <- nrow(speeches_1)
 n_speeches_f1 <- speeches_1 %>%
