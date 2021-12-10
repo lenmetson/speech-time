@@ -1,44 +1,13 @@
-# Analysis replication in R
-
-# Load packages
+#
 if(!require("here"))install.packages("here")
-source(here("scripts", "r-packages.R"))
+source(here("scripts", "r-analysis", "r-packages.R"))
 
-# Load data
-harvard <- read.csv(here("data_raw", "rawdata.csv"))
-speeches <- harvard %>% filter(is_speech == 1)
-rm(harvard)
-speeches <- speeches %>% filter(!is.na(parl_id)) # drop all without parl_id
+# We need to source our summary data
+#source(here("scripts", "download-csv-http.R"))# If you haven't downloaded the data yet, uncomment this line
 
-# Split into parliaments
-source(here("scripts", "add-parliaments.R"))
+source(here("scripts", "r-analysis", "clean-data.R")) 
+source(here("scripts", "r-analysis", "MSPs-count.R")) 
 
-MSPs_agg <- unique(MSPs_agg)
-
-gender <- MSPs_agg %>% select(parl_id, gender)
-
-speeches <- left_join(speeches, gender, by = "parl_id") %>% unique()
-
-
-# define counts of speeches
-n_speeches <- nrow(speeches)
-n_speeches_f <- speeches %>%
-  subset(speeches$gender == "F") %>%
-  nrow()
-n_speeches_m <- speeches %>%
-  subset(speeches$gender == "M") %>%
-  nrow()
-
-prop_speeches_f <- n_speeches_f/n_speeches
-prop_speeches_m <- n_speeches_m/n_speeches
-
-prop_speeches_m + prop_speeches_f
-
-
-# By parliament
-
-source(here("scripts", "analysis-by-parly.R"))
-source(here("scripts", "MSPs-per-parly.R"))
 
 # Make results table
 
@@ -62,6 +31,28 @@ rownames(summary) <- c("First Parliament", "Second Parliament", "Third Parliamen
 colnames(summary) <- c("Number speeches by men", "Number of speeches by women", "Proportion of speeches by men", "Proportion of speeches by women", "Number of men", "Number of women", "Number of MSPs", "% MSPs who are men", "% MSPs who are women")
 
 write.csv(summary, here("output_data", "summary.csv"))
-write.csv(MSPs_agg, here("output_data", "MSPs.csv"))
+write.csv(MSPs, here("output_data", "MSPs.csv"))
 
 #rm(list=ls()[! ls() %in% c("summary", "gender", "years"])
+
+
+# Speeches 
+source(here("scripts", "r-analysis", "agg-speech-count.R"))
+source(here("scripts", "r-analysis", "speech-count.R"))
+
+# Sylables 
+
+source(here("scripts", "r-analysis", "syl-count.R"))
+
+syls_summary <- 
+  syls_all %>%
+  group_by(gender) %>%
+  summarise(syls = mean(syls))
+
+syls_all <- rbind(syls_1, syls_2, syls_3, syls_4, syls_5)
+
+syls_all <- left_join(syls_all, gender, by = "parl_id") %>% unique()
+
+# Task 
+
+# re-run all

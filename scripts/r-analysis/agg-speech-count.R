@@ -1,6 +1,22 @@
-# this script splits up the scripts into different parliaments
-#source(here("scripts", "add-parliaments.R"))
-# Create varibales for First Parly
+# This script counts speeches 
+
+# define counts of speeches
+n_speeches <- nrow(speeches)
+n_speeches_f <- speeches %>%
+  subset(speeches$gender == "F") %>%
+  nrow()
+n_speeches_m <- speeches %>%
+  subset(speeches$gender == "M") %>%
+  nrow()
+
+prop_speeches_f <- n_speeches_f/n_speeches
+prop_speeches_m <- n_speeches_m/n_speeches
+
+prop_speeches_m + prop_speeches_f
+
+
+# By parliament
+
 speeches_1 <- left_join(speeches_1, gender, by = "parl_id") %>% unique()
 
 n_speeches1 <- nrow(speeches_1)
@@ -98,3 +114,7 @@ prop_speeches_f5 <- n_speeches_f5/n_speeches5
 prop_speeches_m5 <- n_speeches_m5/n_speeches5
 
 prop_speeches_m5 + prop_speeches_f5 # check == 1
+
+
+
+
