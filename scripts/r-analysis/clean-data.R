@@ -1,8 +1,8 @@
 # Data 
-harvard <- read.csv(here("data_raw", "rawdata.csv"))
-speeches <- harvard %>% filter(is_speech == 1)
+harvard <- read.csv(here("data_raw", "rawdata.csv")) # 475869 obs. of 21 vars.
+speeches <- harvard %>% filter(is_speech == 1) # 430577 obs. of 21 vars. 
 rm(harvard)
-speeches <- speeches %>% filter(!is.na(parl_id)) # drop all without parl_id
+speeches <- speeches %>% filter(!is.na(parl_id)) # drop all without parl_id, 399256 obs. of 21 vars. 
 
 # Split into parliaments
 
@@ -24,7 +24,7 @@ speeches$parly <- ifelse(speeches$date >= years[1,2] & speeches$date <= years[1,
                                        ifelse(speeches$date >= years[4,2] & speeches$date <= years[4,3], "4th",
                                               ifelse(speeches$date >= years[5,2] & speeches$date <= years[5,3], "5th",
                                                      ifelse(speeches$date >= years[6,2], "6th",
-                                                            NA))))))
+                                                            NA)))))) # 399256 obs. of 22 vars.
 
 # Split into years
 
@@ -69,14 +69,10 @@ MSPs <- rbind(MSPs_1, MSPs_2, MSPs_3, MSPs_4, MSPs_5)
 
 MSPs <- unique(MSPs)
 
+
 gender <- MSPs %>% select(parl_id, gender)
 
-speeches <- left_join(speeches, gender, by = "parl_id") %>% unique()
-
-
-gender <- MSPs_agg %>% select(parl_id, gender)
-
-speeches <- left_join(speeches, gender, by = "parl_id") %>% unique()
+#speeches <- left_join(speeches, gender, by = "parl_id") %>% unique()
 
 # keep only unique speeches
 
@@ -102,5 +98,5 @@ speeches_5 <- unique(speeches_5)
 
 
 # bind back
-speeches <- rbind(speeches_1, speeches_2, speeches_3, speeches_4, speeches_5)
-
+speeches <- rbind(speeches_1, speeches_2, speeches_3, speeches_4, speeches_5) # 390586 obs. of 8 vars.
+speeches <- left_join(speeches, gender, by = "parl_id") %>% unique() # 390586 obs. of 9 vars.

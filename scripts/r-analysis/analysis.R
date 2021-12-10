@@ -7,7 +7,7 @@ source(here("scripts", "r-analysis", "r-packages.R"))
 
 source(here("scripts", "r-analysis", "clean-data.R")) 
 source(here("scripts", "r-analysis", "MSPs-count.R")) 
-
+source(here("scripts", "r-analysis", "agg-speech-count.R"))
 
 # Make results table
 
@@ -37,21 +37,24 @@ write.csv(MSPs, here("output_data", "MSPs.csv"))
 
 
 # Speeches 
-source(here("scripts", "r-analysis", "agg-speech-count.R"))
-source(here("scripts", "r-analysis", "speech-count.R"))
+
+#source(here("scripts", "r-analysis", "speech-count.R"))
 
 # Sylables 
 
 source(here("scripts", "r-analysis", "syl-count.R"))
+
+syls_all <- rbind(syls_1, syls_2, syls_3, syls_4, syls_5)
+
 
 syls_summary <- 
   syls_all %>%
   group_by(gender) %>%
   summarise(syls = mean(syls))
 
-syls_all <- rbind(syls_1, syls_2, syls_3, syls_4, syls_5)
 
-syls_all <- left_join(syls_all, gender, by = "parl_id") %>% unique()
+
+write.csv(syls_all, here("output_data", "results1.csv"))
 
 # Task 
 

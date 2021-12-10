@@ -1,3 +1,6 @@
+MSPs_unique <- MSPs
+MSPs_unique <- MSPs_unique %>% select(parl_id) %>% unique()
+
 # MSPs per parly
 
 gender_1 <- MSPs_1 %>% select(parl_id, gender) %>% unique()
