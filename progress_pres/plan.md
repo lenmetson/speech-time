@@ -2,6 +2,7 @@ General structure
 
 * Part 1: Analysis
   * Data wrangling
+  * Gender and speech-time 
   * Wikidata API
 
 * Part 2: Results
