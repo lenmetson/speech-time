@@ -9,21 +9,38 @@ Some information on our presentation:
 
 ## Part 1: Analysis
 
-### Slide 1.1:
+### Slide 1.1: Data wrangling
 
 Problems with data:
 * Asymmetric duplication in the speeches.
 * Speeches doubled but order no. a running variable.
 * This meant that we had to reshape the data so as to remove duplicated speeches
 
+### Slide 1.2: Gender and speeches
+#### 1.2.1 Gender and syllables
+The `sylcounts` packages returns and estimate of the number of syllables in a vector of words. However, the output is a vector. For example, the output for the sentence `"I disagree with you"` would have the output `c(1, 3, 1, 1)`. However, we need an estimate the sum of syllables in a speech. I used the `lapply` function to sum the vectors for each speech.
+
+*Include image*
+
+#### 1.2.2 Gender and content
+
+The basis of our analysis is that this question is important because women being able to speak in legislative settings means women will be more represented. This claim gets complex when we get into the political science of representation and especially representation based on group characteristics. Further, better specified analysis would be needed to test this assumption legitimately. However, just for illustration purposes we did a very basic dictionary content analysis to see if female MSPs did talk more about women.
+
+This was done using string matching. First we cleaned the data by making it all lower case and removing punctuation marks. We then applied a string matching function using the library `stringr` which returned a numeric binary for whether a match was found:
+
+```
+gen_dict <- "woman*|women*|female*|femin*|sexism"
+speeches$about_gen <-  as.integer(str_detect(speeches$speech, gen_dict))
+```
 
 
-### Slide 1.2:
-### Slide 1.3: Syllables
 
-`sylcounts` returns sylables as a vector. `lapply` to sum them.
 
-### Slide 1.4: Time 
+### Slide 1.3: More variables: Wiki API
+
+
+
+### Slide 1.4: Time
 
 Summary  
 

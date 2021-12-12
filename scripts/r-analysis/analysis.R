@@ -62,3 +62,8 @@ write.csv(feliz_navidad, here("output_data", "feliz_navidad.csv"))
 
 # Content analysis 
 source(here("scripts", "r-analysis", "content-analysis.R"))
+
+# view % speeches about women 
+prop_about_gen*100
+
+# view % speeches about women by women 
