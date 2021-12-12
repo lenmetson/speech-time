@@ -7,20 +7,31 @@ This presentation will discuss the analysis of our data and the ideas we have fo
 Some information on our presentation:
 
 
-## Part 1: Analysis (NC)
+## Part 1: Analysis
 
-### Slide 1.1: Switching to Python
+### Slide 1.1:
 
-* Challenge in reproducibility - relative paths  
+Problems with data:
+* Asymmetric duplication in the speeches.
+* Speeches doubled but order no. a running variable.
+* This meant that we had to reshape the data so as to remove duplicated speeches
+
+
 
 ### Slide 1.2:
-### Slide 1.3:
+### Slide 1.3: Syllables
+
+`sylcounts` returns sylables as a vector. `lapply` to sum them.
+
+### Slide 1.4: Time 
+
+Summary  
 
 
-## Part 2: Findings (LM)
+## Part 2: Findings
 
-### Slide 2.1: More detailed background 
-There have been six elections to the Scottish Parliament: 1999, 2003, 2007, 2011, 2016 and 2021. Thus there have only been 5 parliaments so far. 
+### Slide 2.1: More detailed background
+There have been six elections to the Scottish Parliament: 1999, 2003, 2007, 2011, 2016 and 2021. Thus there have only been 5 parliaments so far.
 
 | Parliament              | Election Date | Dissolution Date |
 |-------------------------|---------------|------------------|
