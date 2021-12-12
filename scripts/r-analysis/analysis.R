@@ -78,4 +78,6 @@ gfp_f*100
 
 lm <- lm(about_gen~gender, data = speeches)
 summary(lm)
-summ(lm)
+summ(lm, digits = 4)
+plot_coefs(lm)
+plot_summs(lm)
