@@ -61,3 +61,4 @@ feliz_navidad <- left_join(syls_all, MSPs_names, by = "parl_id") %>% unique()
 write.csv(feliz_navidad, here("output_data", "feliz_navidad.csv"))
 
 # Content analysis 
+source(here("scripts", "r-analysis", "content-analysis.R"))

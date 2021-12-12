@@ -1,4 +1,5 @@
 # R packages
 if(!require("tidyverse"))install.packages("tidyverse")
 if(!require("sylcount"))install.packages("sylcount")
-
+if(!require("stringr"))install.packages("stringr")
+if(!require("tm"))install.packages("tm")
