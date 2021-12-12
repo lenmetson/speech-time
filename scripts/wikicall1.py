@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Created on Sun Dec 12 16:06:06 2021
 
@@ -57,3 +59,24 @@ for url in urls:
             if left_element.text=="Born":
                 datawewant=left_element.find_next_sibling("td").text
                 age_data.append(str(datawewant))
+                
+                
+                
+#now take year from age data
+born_year=[]
+for i in age_data:
+    if i=="none":
+        born_year.append("none")
+    else:
+        year=re.match(r'.*([1-3][0-9]{3})', i).group(1)
+        born_year.append(year)
+        
+        
+        
+        
+        
+    
+        
+            
+
+                    
