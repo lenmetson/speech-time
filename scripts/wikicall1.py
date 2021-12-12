@@ -25,6 +25,12 @@ import wikipedia
 import re
 import csv
 
+#feliz_navidad=[]
+#with open('C:/Users/lenna/OneDrive - London School of Economics/year_3/Courses/MT_DS105M_Data-for-Data-Science/project/speech-time/output_data/feliz_navidad.csv') as csvfile:
+#    my_reader = csv.reader(csvfile, delimiter=',')
+#    for row in my_reader:
+#        feliz_navidad.append(row)
+
 feliz_navidad=[]
 with open('/Users/noemieclaret/Desktop/feliz_navidad.csv') as csvfile:
     my_reader = csv.reader(csvfile, delimiter=',')
