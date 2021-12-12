@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Created on Sun Dec 12 16:06:06 2021
 
@@ -23,20 +21,28 @@ import pandas as pd
 from urllib.request import urlopen
 import wikipedia
 import re
+import csv
+
+feliz_navidad=[]
+with open('/Users/noemieclaret/Desktop/feliz_navidad.csv') as csvfile:
+    my_reader = csv.reader(csvfile, delimiter=',')
+    for row in my_reader:
+        feliz_navidad.append(row)
+
+names=[]
+for row in feliz_navidad:
+    name=row[5]
+    names.append(name)
+    
 
 
-
-names=["Nicolas Sarkozy", "George Adam"]
 age_data=[]
 
 urls=[]
 for i in names:
-    suggestion=wikipedia.search(i, results=1)
-    if suggestion=="":
-        urls.append("none")
-    else:
-        url_=wikipedia.page(suggestion).url
-        urls.append(url_)
+    search_sug=wikipedia.search(i, results=1, suggestion=False)
+    url_=wikipedia.page(search_sug[0], auto_suggest=False).url
+    urls.append(url_)
     
     
 
@@ -51,17 +57,3 @@ for url in urls:
             if left_element.text=="Born":
                 datawewant=left_element.find_next_sibling("td").text
                 age_data.append(str(datawewant))
-                
-                
-                
-#now take year from age data
-born_year=[]
-for i in age_data:
-    if i=="none":
-        born_year.append("none")
-    else:
-        year=re.match(r'.*([1-3][0-9]{3})', i).group(1)
-        born_year.append(year)
-        
-        
-      
