@@ -49,19 +49,20 @@ Summary
 ### Slide 2.1
 ### Slide 2.2
 ### Slide 2.3 Gender and gender focus
+```
 
+                    ─────────────────────────
+(Intercept)                          0.05 ***  
+                                    (0.00)     
+genderM                             -0.03 ***  
+                                    (0.00)     
+                    ─────────────────────────
+N                                   390586         
+R2                                   0.01      
+─────────────────────────────────────────────
+*** p < 0.001; ** p < 0.01; * p < 0.05.        
 
-                                                               ─────────────────────────
-                                         (Intercept)                          0.05 ***  
-                                                                             (0.00)     
-                                         genderM                             -0.03 ***  
-                                                                             (0.00)     
-                                                               ─────────────────────────
-                                         N                               390586         
-                                         R2                                   0.01      
-                                       ─────────────────────────────────────────────────
-                                         *** p < 0.001; ** p < 0.01; * p < 0.05.        
-
+```
 
 ### Slide 2.1: More detailed background
 There have been six elections to the Scottish Parliament: 1999, 2003, 2007, 2011, 2016 and 2021. Thus there have only been 5 parliaments so far.
