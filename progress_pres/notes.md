@@ -50,8 +50,8 @@ Summary
 ### Slide 2.2
 ### Slide 2.3 Gender and gender focus
 
-* %speeches by men about women: $2.321231$%
-* %speeches by women about women: $5.478961$%
+* %speeches by men about women: *2.32%*
+* %speeches by women about women: *5.48%*
 ```
 
                     ─────────────────────────
