@@ -52,10 +52,12 @@ syls_summary <-
   group_by(gender) %>%
   summarise(syls = mean(syls))
 
-
-
 write.csv(syls_all, here("output_data", "results1.csv"))
 
-# Task 
+# add names 
+MSPs_names <- MSPs %>% select(parl_id, name)
 
-# re-run all
+feliz_navidad <- left_join(syls_all, MSPs_names, by = "parl_id") %>% unique()
+write.csv(feliz_navidad, here("output_data", "feliz_navidad.csv"))
+
+# Content analysis 
