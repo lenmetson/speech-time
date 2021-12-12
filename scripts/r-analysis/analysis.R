@@ -40,7 +40,7 @@ write.csv(MSPs, here("output_data", "MSPs.csv"))
 
 #source(here("scripts", "r-analysis", "speech-count.R"))
 
-# Sylables 
+# Syllables 
 
 source(here("scripts", "r-analysis", "syl-count.R"))
 
@@ -67,3 +67,15 @@ source(here("scripts", "r-analysis", "content-analysis.R"))
 prop_about_gen*100
 
 # view % speeches about women by women 
+
+gfp_f <- gender_focus[1,2]
+gfp_m <- gender_focus[2,2]
+
+gfp_f-gfp_m
+
+gfp_m*100
+gfp_f*100
+
+lm <- lm(about_gen~gender, data = speeches)
+summary(lm)
+summ(lm)
