@@ -80,7 +80,22 @@ gfp_f-gfp_m
 gfp_m*100
 gfp_f*100
 
+
 lm <- lm(about_gen~gender, data = speeches)
 #summary(lm)
 #summ(lm, digits = 4)
 export_summs(lm)
+
+
+gender_focus_msps <- speeches %>%
+  select(parl_id, about_gen) %>%
+  group_by(parl_id) %>%
+  summarise(gender_focus = mean(about_gen))
+
+name_id <- MSPs %>% select(name, parl_id, gender) %>% unique()
+gender_focus_msps <- left_join(gender_focus_msps, name_id, by = "parl_id")
+
+write.csv(gender_focus_msps, here("output_data", "gender_focus_msps.csv"))
+
+ggplot(gender_focus_msps, aes(gender, gender_focus)) + geom_boxplot() + geom_jitter(shape=16, position=position_jitter(0.2))
+       

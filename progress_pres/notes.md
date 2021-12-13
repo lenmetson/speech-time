@@ -39,14 +39,11 @@ speeches$about_gen <-  as.integer(str_detect(speeches$speech, gen_dict))
 ### Slide 1.3: More variables: Wiki API
 
 
-
-### Slide 1.4: Time
-
 Summary  
 
 
 ## Part 2: Findings
-### Slide 2.1
+### Slide 2.1 
 ### Slide 2.2
 ### Slide 2.3 Gender and gender focus
 

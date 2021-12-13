@@ -1,10 +1,10 @@
-speeches$speech <- speeches$speech %>% tolower() %>% removePunctuation()
+speeches_syl$speech <- speeches$speech %>% tolower() %>% removePunctuation()
 
-speeches$about_gen <- NA
+speeches_syl$about_gen <- NA
 
 gen_dict <- "woman*|women*|female*|femin*|sexism"
 
-speeches$about_gen <-  as.integer(str_detect(speeches$speech, gen_dict))
+speeches_syl$about_gen <-  as.integer(str_detect(speeches$speech, gen_dict))
 
 prop_about_gen <- mean(speeches$about_gen)
 
