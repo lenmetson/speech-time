@@ -5,8 +5,8 @@ source(here("scripts", "r-analysis", "r-packages.R"))
 # We need to source our summary data
 #source(here("scripts", "download-csv-http.R"))# If you haven't downloaded the data yet, uncomment this line
 
-source(here("scripts", "r-analysis", "clean-data.R")) 
-source(here("scripts", "r-analysis", "MSPs-count.R")) 
+source(here("scripts", "r-analysis", "clean-data.R"))
+source(here("scripts", "r-analysis", "MSPs-count.R"))
 source(here("scripts", "r-analysis", "agg-speech-count.R"))
 
 # Make results table
@@ -26,9 +26,13 @@ p_msps_f <- c(pf1, pf2, pf3, pf4, pf5, ((pf1+pf2+pf3+pf4+pf5)/5))
 
 summary <- data.frame(n_m, n_f, p_m, p_f, n_msps_m, n_msps_f, n_total, p_msps_m, p_msps_f)
 
-rownames(summary) <- c("First Parliament", "Second Parliament", "Third Parliament", "Fourth Parliament", "Fifth Parliament", "Mean")
+rownames(summary) <- c("First Parliament", "Second Parliament", "Third Parliament",
+                       "Fourth Parliament", "Fifth Parliament", "Mean")
 
-colnames(summary) <- c("Number speeches by men", "Number of speeches by women", "Proportion of speeches by men", "Proportion of speeches by women", "Number of men", "Number of women", "Number of MSPs", "% MSPs who are men", "% MSPs who are women")
+colnames(summary) <- c("Number speeches by men", "Number of speeches by women",
+                      "Proportion of speeches by men", "Proportion of speeches by women",
+                      "Number of men", "Number of women", "Number of MSPs", "% MSPs who are men",
+                      "% MSPs who are women")
 
 write.csv(summary, here("output_data", "summary.csv"))
 write.csv(MSPs, here("output_data", "MSPs.csv"))
@@ -36,7 +40,7 @@ write.csv(MSPs, here("output_data", "MSPs.csv"))
 #rm(list=ls()[! ls() %in% c("summary", "gender", "years"])
 
 
-# Speeches 
+# Speeches
 
 #source(here("scripts", "r-analysis", "speech-count.R"))
 
@@ -47,26 +51,26 @@ source(here("scripts", "r-analysis", "syl-count.R"))
 syls_all <- rbind(syls_1, syls_2, syls_3, syls_4, syls_5)
 
 
-syls_summary <- 
+syls_summary <-
   syls_all %>%
   group_by(gender) %>%
   summarise(syls = mean(syls))
 
 write.csv(syls_all, here("output_data", "results1.csv"))
 
-# add names 
+# add names
 MSPs_names <- MSPs %>% select(parl_id, name)
 
 feliz_navidad <- left_join(syls_all, MSPs_names, by = "parl_id") %>% unique()
 write.csv(feliz_navidad, here("output_data", "feliz_navidad.csv"))
 
-# Content analysis 
+# Content analysis
 source(here("scripts", "r-analysis", "content-analysis.R"))
 
-# view % speeches about women 
+# view % speeches about women
 prop_about_gen*100
 
-# view % speeches about women by women 
+# view % speeches about women by women
 
 gfp_f <- gender_focus[1,2]
 gfp_m <- gender_focus[2,2]
