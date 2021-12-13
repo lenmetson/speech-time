@@ -1,8 +1,12 @@
 
 import pandas as pd
+import urllib.request
 import numpy as np
 import requests
 from bs4 import BeautifulSoup
+import wikipedia
+import re
+from urllib.request import urlopen
 
 
 
@@ -40,7 +44,6 @@ def find_unique_values(dataset, column, feature1, feature2, comment=True, dictio
 
 wiki=find_unique_values(speech_table, "wikidataid", feature1="none", feature2="none", comment=False, dictionary=False)
 
-
 #get wikipage title from wikiID
   
     
@@ -53,4 +56,46 @@ for wikiId in wiki:
     soup = BeautifulSoup(html, 'lxml')
     result = soup.sitelink["title"]
     page_title[wikiId]=result
-print(page_title)
+
+
+
+age_data=[]
+
+urls=[]
+for i in page_title.values():
+    search_sug=wikipedia.search(i, suggestion=False)
+    for j in search_sug:
+        if j==i:
+            url_=wikipedia.page(j, auto_suggest=False).url
+            urls.append(url_)
+print(urls[0:5])
+    
+    
+
+for url in urls:  
+    html = urlopen(url) 
+    soup = BeautifulSoup(html, 'html.parser')
+    left=soup.find_all("th", class_="infobox-label")
+    for left_element in left:
+        if left_element.text=="Born":
+            datawewant=left_element.find_next_sibling("td").text
+            age_data.append(str(datawewant))
+        else:
+            age_data.append("not found")
+            
+                
+                
+                
+#now take year from age data
+born_year=[]
+for i in age_data:
+    if i=="none":
+        born_year.append("none")
+    else:
+        year=re.match(r'.*([1-3][0-9]{3})', i).group(1)
+        born_year.append(year)
+
+
+
+
+
