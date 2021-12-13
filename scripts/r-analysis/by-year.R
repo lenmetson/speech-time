@@ -2,17 +2,39 @@
 
 speeches_syl$year <- format(speeches_syl$date, format ="%Y")
 
+ys_n_f_spoke <- speeches_syl %>%
+  select(year, parl_id, gender) %>% 
+  unique %>%
+  filter(gender == "F") %>%
+  group_by(year) %>% 
+  summarise(n_f_spoke = n())
+
+ys_n_m_spoke <- speeches_syl %>%
+  select(year, parl_id, gender) %>% 
+  unique %>%
+  filter(gender == "M") %>%
+  group_by(year) %>% 
+  summarise(n_m_spoke = n())
+
+year_summary <- left_join(ys_n_f_spoke, ys_n_m_spoke, by = "year")
+rm(ys_n_f_spoke, ys_n_m_spoke)
+
+year_summary$n_msps_spoke <- year_summary$n_f_spoke+year_summary$n_m_spoke
+
 ys_n_syls_f <- speeches_syl %>%
   filter(gender=="F") %>%
   group_by(year) %>%
   summarise(N_syls_F = sum(syls))
+year_summary <- left_join(year_summary, ys_n_syls_f, by = "year")
+rm(ys_n_syls_f)
 
 ys_n_syls_m <- speeches_syl %>%
   filter(gender=="M") %>%
   group_by(year) %>%
   summarise(N_syls_M = sum(syls))
-year_summary <- left_join(ys_n_syls_f, ys_n_syls_m, by = "year")
-rm(ys_n_syls_f, ys_n_syls_m)
+year_summary <- left_join(year_summary, ys_n_syls_m, by = "year")
+rm(ys_n_syls_m)
+
 
 ys_n_syls <- speeches_syl %>%
   group_by(year) %>%
@@ -71,7 +93,16 @@ rm(ys_p_focus)
 
 #rm(year_summary)
 
+n_gender <- summary[1:5, 5:9]
+years_2 <- years[1:5,]
+n_gender <- cbind(years_2, n_gender)
+
+# now all i need to do is merge in within a time range (maybe I acc need to do that to speeches syl, before it gets based on year)
+
 colnames(year_summary) <- c("Year",
+                            "Number of women who spoke", 
+                            "Number of men who spoke",
+                            "Number of MSPs who spoke",
                             "Number of syllables by women",
                             "Number of syllables by men",
                             "Total number of syllables",
