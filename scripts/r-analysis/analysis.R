@@ -98,4 +98,8 @@ gender_focus_msps <- left_join(gender_focus_msps, name_id, by = "parl_id")
 write.csv(gender_focus_msps, here("output_data", "gender_focus_msps.csv"))
 
 ggplot(gender_focus_msps, aes(gender, gender_focus)) + geom_boxplot() + geom_jitter(shape=16, position=position_jitter(0.2))
-       
+ggsave(here("output_data", "boxplot.png"))       
+
+# Create a summary csv for years
+
+source(here("scripts", "r-analysis", "by-year.R"))
