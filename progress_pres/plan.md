@@ -16,3 +16,14 @@ General structure
 
 
 * Part 3: Product
+  * Progress
+    * Connecting to and loading summary statistics data
+    * Dimensions and measures
+    * Segmenting by term
+    * Building the visualisation
+    * First draft visualisation
+  * Next steps
+    * Applying visual best practices
+    * Creating and navigating the story
+    * Visual plan of layout
+    * User interface opportunities
