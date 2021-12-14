@@ -119,4 +119,16 @@ colnames(year_summary) <- c("Year",
 
 #rownames(year_summary) <- year_summary$year
 
-write.csv(year_summary, here("output_data", "summary_year.csv"))
+ggplot(year_summary, aes(x=Year, y =`Proportion of women-focussed speeches by women`)) + geom_bar(stat="identity")
+
+ggplot(year_summary, aes(x=`Proportion of women-focussed speeches by men`, y =`Proportion of women-focussed speeches by women`)) + geom_point() +
+  geom_abline(intercept = 0, slope = 1) + xlim(0.0, 0.11) + ylim(0.0, 0.11) + xlab("Men") + ylab("Women") + ggtitle("Speeches about women's issues by...") + theme_apa()
+
+date_about_women <- speeches_syl %>% 
+  group_by(date) %>%
+  summarise(sp_about_women = mean(about_gen))
+
+ggplot(date_about_women, aes(x=`date`, y =`sp_about_women`)) + geom_point() +
+ theme_apa()
+
+geom_path()write.csv(year_summary, here("output_data", "summary_year.csv"))

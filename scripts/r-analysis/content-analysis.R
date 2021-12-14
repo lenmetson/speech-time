@@ -2,7 +2,7 @@ speeches_syl$speech <- speeches$speech %>% tolower() %>% removePunctuation()
 
 speeches_syl$about_gen <- NA
 
-gen_dict <- "woman*|women*|female*|femin*|sexism"
+gen_dict <- "woman*|women*|female*|femin*|sexism|equal* pay|period poverty|sex* assault|menstrat*|abortion|matern*|contraception|reproductive rights|pro-life|pro-choice"
 
 speeches_syl$about_gen <-  as.integer(str_detect(speeches$speech, gen_dict))
 
