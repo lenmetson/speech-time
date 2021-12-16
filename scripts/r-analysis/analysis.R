@@ -97,14 +97,19 @@ gender_focus_msps <- left_join(gender_focus_msps, name_id, by = "parl_id")
 
 write.csv(gender_focus_msps, here("output_data", "gender_focus_msps.csv"))
 
-ggplot(gender_focus_msps, aes(gender, gender_focus)) + 
+boxplot_gen_focus <- ggplot(gender_focus_msps, aes(gender, gender_focus)) + 
   ggtitle("Gender-focus and Gender") +
   xlab("Gender") + ylab("% Speeches about women's issues") +
   geom_boxplot(notch=TRUE, outlier.stroke = TRUE, notchwidth = 0.7, fill = '#B5B5B5') + 
   coord_flip() +
   #geom_jitter(shape=16, position=position_jitter(0.2)) +
   theme_apa()
-ggsave(here("output_data", "boxplot.png"))       
+
+boxplot_gen_focus
+
+ggsave(here("output_data", "boxplot.png"), boxplot_gen_focus,
+       width = 7, 
+       height = 5)       
 
 # Create a summary csv for years
 
@@ -145,7 +150,7 @@ ggplot(sp_women2_sum, aes(x=date, y=sum))  + geom_bar(stat = "identity") +
 ggplot(syls_ns_day, aes(x=date, y=ns_syls))  + geom_point() +
   theme_apa()      
 
-ggplot(prop_ns_m, aes(x=month, y=prop_ns)) + 
+nicola <- ggplot(prop_ns_m, aes(x=month, y=prop_ns)) + 
   ggtitle("Proportion of syllables spoken by Sturgeon on each day") +
   xlab("Day") + ylab("% syllables spoken by Nicola Sturgeon \n (smoothed by loess regression)") +
   #geom_line() + 
@@ -153,5 +158,8 @@ ggplot(prop_ns_m, aes(x=month, y=prop_ns)) +
   geom_smooth(method = loess, se=FALSE, color ="black") + 
   theme_apa()
 
-ggsave(here("output_data", "nicola-r-plot.png"))
+ggsave(here("output_data", "nicola-r-plot.png"), nicola, 
+       width = 7, 
+       height = 5)       
+
 write.csv(prop_ns_m, (here("output_data", "nicola.csv")))
