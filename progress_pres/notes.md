@@ -176,6 +176,64 @@ There have been six elections to the Scottish Parliament: 1999, 2003, 2007, 2011
 
 
 
-## Part 3: Final product ideas (AS)
+## Part 3: Final product progress
 
-### Slide 3.1:
+### Slide 3.1: Loading summary statistics data
+* We now have data we can work with in the 'speech-timeoutput_data' folder in our Github repository
+* This includes the '.csv' file 'summary_year.csv', that included yearly, gender-separated data on:
+    * Number of MSPs who spoke
+    * Number of syllables spoken
+    * Number of speeches
+    * Proportion of women-focused speeches
+* We decided on separating the data on years rather than parliaments so as to provide a continuous axis in the product rather than discrete
+* This way, we can introduce the discrete dimension of parliamentary sessions as marks on the visualisation
+* This data was then downloaded on a local machine, to be connected to in Tableau Public as a text file
+
+### Slide 3.2: Loading summary data + dimensions and measures
+(insert Screenshot 2021-12-16 at 01.12.07) + (insert Screenshot 2021-12-16 at 01.07.52)
+* Once we connected the file, dragged the sheet to the workspace and created the relevant worksheet, a problem had quickly been made apparent in how we had labelled our data
+* We had differentiated gender via the columns, instead of inputting them as discrete values in rows in a specific gender-dimension column
+(insert Screenshot 2021-12-16 at 01.07.52)
+* What this had meant is that gender wasn't recognised as a dimension holding two discrete values (men/women)
+* The solution to this problem was creating a way to successfully separate years and gender as dimensions
+* We decided to stick to making changes to the '.csv' on the local machine, before translating the changes to the R code that produced the output data and its respective columns/rows
+
+(insert Screenshot 2021-12-16 at 01.21.34)
+* As such, we created a new column - 'Gender' - and separated the values between this new dimension
+* This created two rows for each year - one for men, and one for women
+(insert Screenshot 2021-12-16 at 01.05.10)
+* The result was a much tidier table in Tableau, translating to an easier and more efficient way of exploring and visualising the data through its better-defined dimensions and measures
+
+### Slide 3.3: Building the visualisation - example
+The first visualisation looked at the changes in gender differences of speech time over the years. We planned to represent data on syllable count using a stacked column graph.
+1. We first set our column as our years
+2. We then set our rows as the sum number of syllables spoken each year
+3. We next wanted to visually differentiate how the genders differ in this measure, so did so by attributing gender to a colour mark, editing the colourway to represent more 'gender-representative colours'
+We believed the stacked bar chart best represented two elements of our investigation:
+1. The dominance men have in speaking in parliament over the years
+2. The changing picture as women are speaking more in parliament 
+(insert Screenshot 2021-12-16 at 01.27.13)
+
+### Slide 3.4: Building the dashboard
+* We anticipate the final product as a centralised dashboard hosting:
+    * All of the different visualisations
+    * Text detailing our aim, process, results and conclusions, as well as our header and an overview of the project
+    * Links to the data sources that we have used
+* Here is the rough visual layout that was proposed at the start of the project:
+(insert Screenshot 2021-12-16 at 01.40.42)
+* Here is an example using two initial visualisations so far of how such the dashboard would function on Tableau
+(insert Screenshot 2021-12-16 at 01.37.21)
+
+### Slide 3.5: Next steps
+#### Slide 3.5.1: Segmenting by term
+* One key step will be segmenting by term
+    * One way to do this could be to edit the '.csv' directly and create a separate column called 'Parliamentary session', and using the table in Slide 2.1 to label the rows accordingly. This would then create a discrete dimension which would be applied to visualisations
+    * Another potential way to do this is by using the 'Filter' function to filter the visualisations by certain time-frames - although this avenue hasn't been fully explored yet
+
+#### Slide 3.5.2: Applying visual best practices
+* Another important step is applying visual best practices to tell the story: this is an exciting opportunity to conduct independent research and explore how the data viz. community are presenting their data
+* This will be of a particular challenge for visualisations whose graphs are non-conventional, for example using the Scottish parliamentary seat map to show the power in parliament by amount of seats taken up once gender differences in speech time are considered
+
+#### Slide 3.5.3: Interactive opportunities
+* Lastly, we'll be building interactive elements into the dashboard by using filters to allow the user to explore tha data themselves
+* Returning to the table from our previous presentation, a learning so far has been the importance of being clear on what specific data is needed and how it needs to be presented to communicate the intended message, so that the process of extracting, cleaning, exporting, connecting, and ultimately visualising the data is streamlined
