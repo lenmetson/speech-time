@@ -138,7 +138,27 @@ However, the ouput is excessively poulated with "not found" data, as most of the
 
 
 
-This is why we also trid a different, more systemic approach by querying the wikidata service directly. This entailed learning SPARQL, a querying language for data stored using Ressource Description Framework method. One challenge is that it is easy to select data that matches triple property, but not to directly read the date of birth value for a given wikidata page, since this data is not structured. The easy way out is to parse through the html once more. This is what we did - amending some of the code we wrote earlier, we use request to get to the MSP's wikidata page instead and parse through the html to obtain a string with an exact date of bbirth, and then use the re library to extract only the year.
+This is why we also trid a different, more systemic approach by querying the wikidata service directly. This entailed learning SPARQL, a querying language for data stored using Ressource Description Framework method. One challenge is that it is easy to select data that matches triple property, but not to directly read the date of birth value for a given wikidata page, since this data is not structured. 
+![image](https://user-images.githubusercontent.com/36684852/146367298-c0ad4a9a-12fd-4837-9d9c-161e78b42572.png)
+
+Essentially, the data is stored as a concatenation of three URIs, that respecively itentify the item, the property a and the value. The standard SPARQL query is the following:
+
+
+```
+prefix wdt:<https://www.wikidata.org/wiki/>
+prefix wd:<https://www.wikidata.org/wiki/>
+select ?item
+where {
+    ?item wdt:P22 wd:Q3898147
+    }
+
+````
+
+For example, this returns all people for which the father is Paul Sarkozy. But it is difficult to search who the father is for each of these people, due to the formatting of the query. This is something I am still looking into. 
+
+
+
+The easy way out is to parse through the html once more. This is what we did - amending some of the code we wrote earlier, we use request to get to the MSP's wikidata page instead and parse through the html to obtain a string with an exact date of bbirth, and then use the re library to extract only the year.
 
 As written in the code, if the relevant html can't be found, or if there is no year within this data (in effect, in a few wikidata pages, only "Born in the 20th century" appreared. For these 5 or 6 cases, we reasearched the MSPs' names and added their age manully. Some just do not have their age available, so we will just exclude these from analysis without too luch loss of statistical accuracy since these are only one of two MSPs.
 
