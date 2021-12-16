@@ -39,9 +39,9 @@ speeches$about_gen <-  as.integer(str_detect(speeches$speech, gen_dict))
 ### Slide 1.3: More variables: Wiki API
 
 To see if we can extract any meaningful insight relating speech time and womens' age, we need to find the date of birth for all MSPs in our data.
-We have tries multiple approaches for this. First, we used the web-scraping approach to obtain birth date data (which can have many forms, i.e strings, year, tuple) from the xikipedia infoboxes. 
+We have tries multiple approaches for this. First, we used the web-scraping approach to obtain birth date data (which can have many forms, i.e strings, year, tuple) from the xikipedia infoboxes.
 
-For this, we first created a list with all distinct wikidata ID present in ot dataset. 
+For this, we first created a list with all distinct wikidata ID present in ot dataset.
 
 ```
 
@@ -79,8 +79,8 @@ SPARQL= query language to retrieve data stored in RDF (ressource description fra
 
 ```
  #get wikipage title from wikiID
-  
-    
+
+
 page_title={}
 
 for wikiId in wiki:
@@ -90,7 +90,7 @@ for wikiId in wiki:
     soup = BeautifulSoup(html, 'lxml')
     result = soup.sitelink["title"]
     page_title[wikiId]=result
-    
+
 ```
 
 We then used the python wikipedia library with the search, page and url modules to iterate though page suggestions, find the one that corresponded to the right MSP and get the corresponding url.
@@ -111,7 +111,7 @@ Now that we have the correct urls, we can parse through the infobox HTML and get
 
 ```
 for url in urls:  
-    html = urlopen(url) 
+    html = urlopen(url)
     soup = BeautifulSoup(html, 'html.parser')
     left=soup.find_all("th", class_="infobox-label")
     for left_element in left:
@@ -138,7 +138,7 @@ However, the ouput is excessively poulated with "not found" data, as most of the
 
 
 
-This is why we also trid a different, more systemic approach by querying the wikidata service directly. This entailed learning SPARQL, a querying language for data stored using Ressource Description Framework method. One challenge is that it is easy to select data that matches triple property, but not to directly read the date of birth value for a given wikidata page, since this data is not structured. 
+This is why we also trid a different, more systemic approach by querying the wikidata service directly. This entailed learning SPARQL, a querying language for data stored using Ressource Description Framework method. One challenge is that it is easy to select data that matches triple property, but not to directly read the date of birth value for a given wikidata page, since this data is not structured.
 ![image](https://user-images.githubusercontent.com/36684852/146367298-c0ad4a9a-12fd-4837-9d9c-161e78b42572.png)
 
 Essentially, the data is stored as a concatenation of three URIs, that respecively itentify the item, the property a and the value. The standard SPARQL query is the following:
@@ -154,7 +154,7 @@ where {
 
 ````
 
-For example, this returns all people for which the father is Paul Sarkozy. But it is difficult to search who the father is for each of these people, due to the formatting of the query. This is something I am still looking into. 
+For example, this returns all people for which the father is Paul Sarkozy. But it is difficult to search who the father is for each of these people, due to the formatting of the query. This is something I am still looking into.
 
 
 
@@ -209,8 +209,8 @@ def find_unique_values(dataset, column, feature1, feature2, comment=True, dictio
 wiki=find_unique_values(speech_table, "wikidataid", feature1="none", feature2="none", comment=False, dictionary=False)
 
 #get wikipage title from wikiID
-  
-    
+
+
 age_data={}
 
 for wikiId in wiki:
@@ -224,7 +224,7 @@ for wikiId in wiki:
         age_data[wikiId]=text.text
     else:
         age_data[wikiId]='none'
-        
+
 (2)
 
 age_data['Q334015']="10 July 1929"
@@ -241,7 +241,7 @@ for i in age_data.values:
         else:
             born_year.append("none")
 (3)
-            
+
 wikiId_year={}
 j=0
 for wikiId in wiki:
@@ -254,11 +254,11 @@ for wikiId in wiki:
 
 for i in wikiId_year:
     if wikiId_year[i]=="none":
-        print(i) 
-        
-        
+        print(i)
+
+
 (5)
-        
+
 wikiId_year['Q1258767']="1951"
 wikiId_year['Q24034376']="1978"
 wikiId_year['Q24039900']="1946"
@@ -281,6 +281,7 @@ The story: An Improving Situation
 * The main barrier to women's parliamentary representation is therefore getting more women elected rather than necessarily having women speak more in parliament
 * However, we still need to dig deeper. This is what the purpose of setting up the WikiData link and exploring substantive representation (using content analysis to see if women talk more about women issues) in and pulling in more variables to approach a better explanatory model of gender differences in parliamentary contributions.
 
+However, this may be driven by Nicola Sturgeon being elected First Minister. This comes with scheduled speech time. For example she will make long addresses and make more speeches during Question Times. Nicola Sturgeon accounts for a very large proportion of syllables spoken. Especially after she becomes first minister. So whilst this may be driving some of the trends. A woman being elected First Minister does increase female representation so it add to rather than obscures our story. 
 
 
 ### Slide 2.2
@@ -352,7 +353,7 @@ The first visualisation looked at the changes in gender differences of speech ti
 3. We next wanted to visually differentiate how the genders differ in this measure, so did so by attributing gender to a colour mark, editing the colourway to represent more 'gender-representative colours'
 We believed the stacked bar chart best represented two elements of our investigation:
 1. The dominance men have in speaking in parliament over the years
-2. The changing picture as women are speaking more in parliament 
+2. The changing picture as women are speaking more in parliament
 (insert Screenshot 2021-12-16 at 01.27.13)
 
 ### Slide 3.4: Building the dashboard
