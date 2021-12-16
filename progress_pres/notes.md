@@ -134,7 +134,9 @@ for i in age_data:
 
 ```
 
-However, the ouput is excessively poulated with "not found" data, as most of the MP's wikipedia pages either do not have infoboxes or do not have data avilable for their birth year.
+However, the ouput is excessively poulated with "not found" data, as most of the MP's wikipedia pages either do not have infoboxes or do not have data avilable for their birth year.(1)
+
+
 
 This is why we also trid a different, more systemic approach by querying the wikidata service directly. This entailed learning SPARQL, a querying language for data stored using Ressource Description Framework method. One challenge is that it is easy to select data that matches triple property, but not to directly read the date of birth value for a given wikidata page, since this data is not structured. The easy way out is to parse through the html once more. This is what we did - amending some of the code we wrote earlier, we use request to get to the MSP's wikidata page instead and parse through the html to obtain a string with an exact date of bbirth, and then use the re library to extract only the year.
 
@@ -202,6 +204,8 @@ for wikiId in wiki:
         age_data[wikiId]=text.text
     else:
         age_data[wikiId]='none'
+        
+(2)
 
 age_data['Q334015']="10 July 1929"
 
@@ -216,16 +220,24 @@ for i in age_data.values:
             born_year.append(year)  
         else:
             born_year.append("none")
+(3)
             
 wikiId_year={}
 j=0
 for wikiId in wiki:
     wikiId_year[wikiId]=born_year[j]
     j+=1
-    
+
+
+(4)
+
+
 for i in wikiId_year:
     if wikiId_year[i]=="none":
         print(i) 
+        
+        
+(5)
         
 wikiId_year['Q1258767']="1951"
 wikiId_year['Q24034376']="1978"
@@ -234,6 +246,9 @@ wikiId_year['Q24039900']="1946"
 #others data just not available - Good job on privacy, msps
 
 agedata=pd.DataFrame(wikiId_year.items(), columns=["wikidata ID", "born year"])
+
+(6)
+
 
 ```
 
