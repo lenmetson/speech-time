@@ -273,7 +273,13 @@ agedata=pd.DataFrame(wikiId_year.items(), columns=["wikidata ID", "born year"])
 ```
 
 
+## Part 2: Findings
 
+### Slide 2.1 Main story
+The story: An Improving Situation
+* The ratio of % of syllables spoken and % of female MSPs in parliament has equalised to around 1 in recent parliaments, meaning that there is a proportionality between number of women in parliament and speech time of women in parliament
+* The main barrier to women's parliamentary representation is therefore getting more women elected rather than necessarily having women speak more in parliament
+* However, we still need to dig deeper. This is what the purpose of setting up the WikiData link and exploring substantive representation (using content analysis to see if women talk more about women issues) in and pulling in more variables to approach a better explanatory model of gender differences in parliamentary contributions.
 
 
 
