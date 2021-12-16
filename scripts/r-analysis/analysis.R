@@ -104,3 +104,11 @@ ggsave(here("output_data", "boxplot.png"))
 
 source(here("scripts", "r-analysis", "by-year.R"))
 
+
+# Gap ratio
+
+summary$ratio_women <- summary$`Proportion of speeches by women`/summary$`% MSPs who are women`
+
+summary$parliament <- rownames(summary)
+
+ggplot(summary, aes(x=parliament, y=ratio_women)) + geom_bar(stat="identity")
