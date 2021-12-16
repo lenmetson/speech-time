@@ -97,7 +97,13 @@ gender_focus_msps <- left_join(gender_focus_msps, name_id, by = "parl_id")
 
 write.csv(gender_focus_msps, here("output_data", "gender_focus_msps.csv"))
 
-ggplot(gender_focus_msps, aes(gender, gender_focus)) + geom_boxplot() + geom_jitter(shape=16, position=position_jitter(0.2))
+ggplot(gender_focus_msps, aes(gender, gender_focus)) + 
+  ggtitle("Gender-focus and Gender") +
+  xlab("Gender") + ylab("% Speeches about women's issues") +
+  geom_boxplot(notch=TRUE, outlier.stroke = TRUE, notchwidth = 0.7, fill = '#B5B5B5') + 
+  coord_flip() +
+  #geom_jitter(shape=16, position=position_jitter(0.2)) +
+  theme_apa()
 ggsave(here("output_data", "boxplot.png"))       
 
 # Create a summary csv for years
@@ -146,3 +152,6 @@ ggplot(prop_ns_m, aes(x=month, y=prop_ns)) +
   #geom_point() + 
   geom_smooth(method = loess, se=FALSE, color ="black") + 
   theme_apa()
+
+ggsave(here("output_data", "nicola-r-plot.png"))
+write.csv(prop_ns_m, (here("output_data", "nicola.csv")))
