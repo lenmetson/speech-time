@@ -112,3 +112,31 @@ summary$ratio_women <- summary$`Proportion of speeches by women`/summary$`% MSPs
 summary$parliament <- rownames(summary)
 
 ggplot(summary, aes(x=parliament, y=ratio_women)) + geom_bar(stat="identity")
+
+
+# 
+
+source(here("scripts", "r-analysis", "top_women.R"))
+
+time_day_10_women$date
+
+ggplot(time_day_10_women, aes(x=date, y=syls)) + 
+  #geom_line() + 
+  geom_point() +
+  geom_smooth(method=lm) +
+  theme_apa()
+
+
+ggplot(time_month_10_women, aes(x=month, y=syls))  + geom_bar(stat = "identity") +
+  theme_apa()
+
+
+ggplot(sp_women2_sum, aes(x=date, y=sum)) + geom_point()
+
+ggplot(sp_women2_sum, aes(x=date, y=sum))  + geom_bar(stat = "identity") +
+  theme_apa()
+
+ggplot(syls_ns_day, aes(x=date, y=ns_syls))  + geom_point() +
+  theme_apa()      
+
+ggplot(prop_ns, aes(x=date, y=prop_ns)) + geom_point()
