@@ -139,4 +139,10 @@ ggplot(sp_women2_sum, aes(x=date, y=sum))  + geom_bar(stat = "identity") +
 ggplot(syls_ns_day, aes(x=date, y=ns_syls))  + geom_point() +
   theme_apa()      
 
-ggplot(prop_ns, aes(x=date, y=prop_ns)) + geom_point()
+ggplot(prop_ns_m, aes(x=month, y=prop_ns)) + 
+  ggtitle("Proportion of syllables spoken by Sturgeon on each day") +
+  xlab("Day") + ylab("% syllables spoken by Nicola Sturgeon \n (smoothed by loess regression)") +
+  #geom_line() + 
+  #geom_point() + 
+  geom_smooth(method = loess, se=FALSE, color ="black") + 
+  theme_apa()

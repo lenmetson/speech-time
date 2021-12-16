@@ -28,7 +28,7 @@ prop_ns$prop_ns <- prop_ns$ns_syls/prop_ns$total_syls
 
 prop_ns_m <- prop_ns %>%
   group_by(month = lubridate::floor_date(date, "month")) %>%
-  summarise()
+  summarise(prop_ns = mean(prop_ns))
 
 time_month_10_women <- speeches_top_10_women %>%
   group_by(month = lubridate::floor_date(date, "month")) %>%
