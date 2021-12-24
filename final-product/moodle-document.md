@@ -20,7 +20,7 @@
 
 ## Motivation for our project
 * Fourth-wave feminism's advocation for greater representation of women - including traditionally marginalised groups such as women of colour and trans women - in politics is premised on the notion that society would be more equitable if policies incorporate perspectives of all people
-* Inspired by this notion of representation of perspectives in politics, we were interested in exploring women's representation in Scottish parliament across time to see the progress Scotland has made in not only including more women in parliamentary debates, but by including more contributions by women to the debates themselves
+* Inspired by this argument for the equitable representation of gendered perspectives in political settings, we were interested in exploring women's representation in Scottish parliament across time to see the progress Scotland has made in not only including more women in parliamentary debates, but by including more contributions by women to the debates themselves
 
 ## Justification for our project
 
