@@ -14,3 +14,13 @@ def jprint(obj):
     jsonFile.write(jsonString)
     
 jprint(response.json())
+
+#Converting JSON of MSPs to CSV
+
+import pandas as pd
+
+df = pd.read_json('sheet2.json')
+print(df)
+
+
+df.to_csv(r'C:\Users\alanahsarginson\Sheet2.csv')
