@@ -1,3 +1,4 @@
+# Guidance
 * **Executive summary** focusing a very brief outline of:
     1. Motivation
     2. Data
@@ -12,3 +13,25 @@
 * **Results**: What are the findings of your analysis?
 * **Conclusion** 
 * **Appendix**: Include in your GitHub page a section with reference to any code you use and data used (if possible).
+
+-----
+
+# Notes
+
+## Motivation for our project
+* Fourth-wave feminism's advocation for greater representation of women - including traditionally marginalised groups such as women of colour and trans women - in politics is premised on the notion that society would be more equitable if policies incorporate perspectives of all people
+* Inspired by this notion of representation of perspectives in politics, we were interested in exploring women's representation in Scottish parliament across time to see the progress Scotland has made in not only including more women in parliamentary debates, but by including more contributions by women to the debates themselves
+
+## Justification for our project
+
+## Aim
+
+## Data
+
+## Methodology
+
+## Results
+
+## Conclusion
+
+## Appendix
