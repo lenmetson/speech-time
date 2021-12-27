@@ -22,9 +22,9 @@ Will have two sheets distinct through how they separate time:
 -	Year
 -	Gender
 -	Political party
-    o	Dataset -> Parties: Current and previous roles held by Members
+        -	Dataset -> Parties: Current and previous roles held by Members
 -	Region 
-    o	Dataset -> MSPs: Regions elected to current and previous
+        -	Dataset -> MSPs: Regions elected to current and previous
 
 ## Measures (continuous)
 -	Number of speeches
@@ -35,6 +35,6 @@ Will have two sheets distinct through how they separate time:
 -	% of MSPs
 -	Ratio of % of total syllables to % of total MSPs
 -	Age
-    o	While it is discrete in that we’re rounding it to whole numbers, as we won’t have data on every age we should make it continuous to each year is still represented in the graphs if that makes sense? Instead of it going from 35 to 39 or something 
-    o	Need to link WikiDataID to other data outputs
-    o	Struggling with how this would be represented in a spreadsheet – how would we fill in data for ages not there
+        -	While it is discrete in that we’re rounding it to whole numbers, as we won’t have data on every age we should make it continuous to each year is still represented in the graphs if that makes sense? Instead of it going from 35 to 39 or something 
+        -	Need to link WikiDataID to other data outputs
+        -	Struggling with how this would be represented in a spreadsheet – how would we fill in data for ages not there
