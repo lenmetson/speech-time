@@ -63,13 +63,13 @@ for wikiId in wiki:
 age_data['Q334015']="10 July 1929"
 
 born_year=[]
-for i in age_data.values:
+for i in age_data.values():
     if i=="none":
         born_year.append("none")
     else:
         year_draft=re.match(r'.*([1-3][0-9]{3})', i)
         if year_draft is not None:
-            year=year_draft.group(3)
+            year=year_draft.group(1)
             born_year.append(year)  
         else:
             born_year.append("none")
@@ -91,5 +91,25 @@ wikiId_year['Q24039900']="1946"
 #others data just not available - Good job on privacy, msps
 
 agedata=pd.DataFrame(wikiId_year.items(), columns=["wikidata ID", "born year"])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
