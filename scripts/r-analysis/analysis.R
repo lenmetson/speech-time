@@ -170,3 +170,6 @@ ggsave(here("output_data", "nicola-r-plot.png"), nicola,
        height = 5)
 
 write.csv(prop_ns_m, (here("output_data", "nicola.csv")))
+
+# Exclude positions
+source(here("scripts", "r-analysis",  "no_positions.R"))
