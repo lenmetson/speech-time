@@ -44,7 +44,7 @@ write.csv(MSPs, here("output_data", "MSPs.csv"))
 
 #source(here("scripts", "r-analysis", "speech-count.R"))
 
-# Syllables 
+# Syllables
 
 source(here("scripts", "r-analysis", "syl-count.R"))
 
@@ -63,6 +63,12 @@ MSPs_names <- MSPs %>% select(parl_id, name)
 
 feliz_navidad <- left_join(syls_all, MSPs_names, by = "parl_id") %>% unique()
 write.csv(feliz_navidad, here("output_data", "feliz_navidad.csv"))
+
+MSPs_meta <- MSPs %>% select(!"gender") %>% unique()
+
+bonne_annee <- left_join(syls_all, MSPs_meta, by = c("parl_id", "parly")) %>% unique()
+write.csv(bonne_annee, here("output_data", "bonne_annee.csv"))
+
 
 # Content analysis
 source(here("scripts", "r-analysis", "content-analysis.R"))
@@ -97,10 +103,10 @@ gender_focus_msps <- left_join(gender_focus_msps, name_id, by = "parl_id")
 
 write.csv(gender_focus_msps, here("output_data", "gender_focus_msps.csv"))
 
-boxplot_gen_focus <- ggplot(gender_focus_msps, aes(gender, gender_focus)) + 
+boxplot_gen_focus <- ggplot(gender_focus_msps, aes(gender, gender_focus)) +
   ggtitle("Gender-focus and Gender") +
   xlab("Gender") + ylab("% Speeches about women's issues") +
-  geom_boxplot(notch=TRUE, outlier.stroke = TRUE, notchwidth = 0.7, fill = '#B5B5B5') + 
+  geom_boxplot(notch=TRUE, outlier.stroke = TRUE, notchwidth = 0.7, fill = '#B5B5B5') +
   coord_flip() +
   #geom_jitter(shape=16, position=position_jitter(0.2)) +
   theme_apa()
@@ -108,8 +114,8 @@ boxplot_gen_focus <- ggplot(gender_focus_msps, aes(gender, gender_focus)) +
 boxplot_gen_focus
 
 ggsave(here("output_data", "boxplot.png"), boxplot_gen_focus,
-       width = 7, 
-       height = 5)       
+       width = 7,
+       height = 5)
 
 # Create a summary csv for years
 
@@ -125,14 +131,14 @@ summary$parliament <- rownames(summary)
 ggplot(summary, aes(x=parliament, y=ratio_women)) + geom_bar(stat="identity")
 
 
-# 
+#
 
 source(here("scripts", "r-analysis", "top_women.R"))
 
 time_day_10_women$date
 
-ggplot(time_day_10_women, aes(x=date, y=syls)) + 
-  #geom_line() + 
+ggplot(time_day_10_women, aes(x=date, y=syls)) +
+  #geom_line() +
   geom_point() +
   geom_smooth(method=lm) +
   theme_apa()
@@ -148,18 +154,18 @@ ggplot(sp_women2_sum, aes(x=date, y=sum))  + geom_bar(stat = "identity") +
   theme_apa()
 
 ggplot(syls_ns_day, aes(x=date, y=ns_syls))  + geom_point() +
-  theme_apa()      
-
-nicola <- ggplot(prop_ns_m, aes(x=month, y=prop_ns)) + 
-  ggtitle("Proportion of syllables spoken by Sturgeon on each day") +
-  xlab("Day") + ylab("% syllables spoken by Nicola Sturgeon \n (smoothed by loess regression)") +
-  #geom_line() + 
-  #geom_point() + 
-  geom_smooth(method = loess, se=FALSE, color ="black") + 
   theme_apa()
 
-ggsave(here("output_data", "nicola-r-plot.png"), nicola, 
-       width = 7, 
-       height = 5)       
+nicola <- ggplot(prop_ns_m, aes(x=month, y=prop_ns)) +
+  ggtitle("Proportion of syllables spoken by Sturgeon on each day") +
+  xlab("Day") + ylab("% syllables spoken by Nicola Sturgeon \n (smoothed by loess regression)") +
+  #geom_line() +
+  #geom_point() +
+  geom_smooth(method = loess, se=FALSE, color ="black") +
+  theme_apa()
+
+ggsave(here("output_data", "nicola-r-plot.png"), nicola,
+       width = 7,
+       height = 5)
 
 write.csv(prop_ns_m, (here("output_data", "nicola.csv")))
