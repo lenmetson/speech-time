@@ -69,6 +69,7 @@ MSPs_meta <- MSPs %>% select(!"gender") %>% unique()
 bonne_annee <- left_join(syls_all, MSPs_meta, by = c("parl_id", "parly")) %>% unique()
 write.csv(bonne_annee, here("output_data", "bonne_annee.csv"))
 
+head(bonne_annee)
 
 # Content analysis
 source(here("scripts", "r-analysis", "content-analysis.R"))
