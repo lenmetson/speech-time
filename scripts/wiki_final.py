@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import wikipedia
 import re
 from urllib.request import urlopen
+import datetime
 
 
 
@@ -88,9 +89,38 @@ wikiId_year['Q1258767']="1951"
 wikiId_year['Q24034376']="1978"
 wikiId_year['Q24039900']="1946"
 
+wikiId_year.pop('Q24039795')
+wikiId_year.pop('Q24034387')
+wikiId_year.pop('Q24034416')
+
+for i in wikiId_year:
+    if wikiId_year[i]!="none":
+        wikiId_year[i]=int(wikiId_year[i])
+        
+
 #others data just not available - Good job on privacy, msps
 
 agedata=pd.DataFrame(wikiId_year.items(), columns=["wikidata ID", "born year"])
+agedata.to_csv(path_or_buf="/Users/noemieclaret/Desktop/agedata.csv")
+
+
+feliz_navidad = pd.read_csv('https://raw.githubusercontent.com/lenmetson/speech-time/main/output_data/bonne_annee.csv')
+
+now=datetime.datetime.now()            
+feliz_navidad['age']="na"
+
+feliz_navidad['year_born']="na"
+for i in feliz_navidad["wikidataid"]:
+    for j in wikiId_year:
+        if i==j:
+            feliz_navidad['year_born'][feliz_navidad["wikidataid"]==j]=wikiId_year[j]
+            feliz_navidad['age'][feliz_navidad["wikidataid"]==j]=now.year-(wikiId_year[j])
+          
+
+
+
+
+
 
 
 
