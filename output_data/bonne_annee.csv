@@ -1,0 +1,939 @@
+"","parl_id","syls","parly","gender","name","wikidataid","constituency","region","msp_type","office_held"
+"1",1741,131972,"1st","F","Annabel Goldie","Q544742",NA,"West of Scotland","Region",NA
+"2",1751,57154,"1st","F","Cathie Craigie","Q544715","Cumbernauld and Kilsyth","Central Scotland","Constituency",NA
+"3",1752,208303,"1st","F","Cathy Jamieson","Q727460","Carrick, Cumnock and Doon Valley","South of Scotland","Constituency",NA
+"4",1752,208303,"1st","F","Cathy Jamieson","Q727460","Carrick, Cumnock and Doon Valley","South of Scotland","Constituency","The Minister for Education and Young People"
+"5",1754,58450,"1st","F","Cathy Peattie","Q1051152","Falkirk East","Central Scotland","Constituency",NA
+"6",1756,189063,"1st","F","Christine Grahame","Q467108",NA,"South of Scotland","Region",NA
+"7",1762,91893,"1st","F","Dorothy-Grace Elder","Q1168523",NA,"Glasgow","Region",NA
+"8",1768,104226,"1st","F","Elaine Murray","Q1324826","Dumfries","South of Scotland","Constituency",NA
+"9",1768,104226,"1st","F","Elaine Murray","Q1324826","Dumfries","South of Scotland","Constituency","The Deputy Minister for Tourism, Culture and Sport"
+"10",1769,64475,"1st","F","Elaine Smith","Q305347","Coatbridge and Chryston","Central Scotland","Constituency",NA
+"11",1770,79913,"1st","F","Elaine Thomson","Q1324835","Aberdeen North","North East Scotland","Constituency",NA
+"12",1770,79913,"1st","F","Elaine Thomson","Q1324835","Aberdeen North","North East Scotland","Constituency","The Ministerial Parliamentary Aide to the Minister for Enterprise, Transport and Lifelong Learning"
+"13",1773,164165,"1st","F","Fiona Hyslop","Q1418512",NA,"Lothians","Region",NA
+"14",1775,83686,"1st","F","Fiona McLeod","Q1418528",NA,"West of Scotland","Region",NA
+"15",1778,42691,"1st","F","Helen Eadie","Q1396732","Dunfermline East","Mid Scotland and Fife","Constituency",NA
+"16",1781,136047,"1st","F","Irene McGugan","Q1672546",NA,"North East Scotland","Region",NA
+"17",1782,48631,"1st","F","Irene Oldfather","Q1672558","Cunninghame South","South of Scotland","Constituency",NA
+"18",1783,160804,"1st","F","Jackie Baillie","Q544729","Dumbarton","West of Scotland","Constituency","The Deputy Minister for Communities"
+"19",1783,160804,"1st","F","Jackie Baillie","Q544729","Dumbarton","West of Scotland","Constituency","The Minister for Social Justice"
+"20",1783,160804,"1st","F","Jackie Baillie","Q544729","Dumbarton","West of Scotland","Constituency",NA
+"21",1791,44693,"1st","F","Janis Hughes","Q780646","Glasgow Rutherglen","Glasgow","Constituency",NA
+"22",1791,44693,"1st","F","Janis Hughes","Q780646","Glasgow Rutherglen","Glasgow","Constituency","The Ministerial Parliamentary Aide to the Minister for Tourism, Culture and Sport"
+"23",1803,71918,"1st","F","Karen Gillon","Q1729243","Clydesdale","South of Scotland","Constituency",NA
+"24",1805,66177,"1st","F","Karen Whitefield","Q1344022","Airdrie and Shotts","Central Scotland","Constituency",NA
+"25",1805,66177,"1st","F","Karen Whitefield","Q1344022","Airdrie and Shotts","Central Scotland","Constituency","The Ministerial Parliamentary Aide to the Solicitor General for Scotland"
+"26",1807,27965,"1st","F","Kate Maclean","Q1735695","Dundee West","North East Scotland","Constituency",NA
+"27",1811,68937,"1st","F","Kay Ullrich","Q1737405",NA,"West of Scotland","Region",NA
+"28",1814,115137,"1st","F","Linda Fabiani","Q467097",NA,"Central Scotland","Region",NA
+"29",1820,185574,"1st","F","Margaret Curran","Q291748","Glasgow Baillieston","Glasgow","Constituency",NA
+"30",1820,185574,"1st","F","Margaret Curran","Q291748","Glasgow Baillieston","Glasgow","Constituency","The Deputy Minister for Social Justice"
+"31",1820,185574,"1st","F","Margaret Curran","Q291748","Glasgow Baillieston","Glasgow","Constituency","The Minister for Social Justice"
+"32",1821,57200,"1st","F","Margaret Ewing","Q333903","Moray","Highlands and Islands","Constituency",NA
+"33",1823,34122,"1st","F","Margaret Jamieson","Q1894852","Kilmarnock and Loudoun","Central Scotland","Constituency",NA
+"34",1826,150875,"1st","F","Margaret Smith","Q1894898","Edinburgh West","Lothians","Constituency",NA
+"35",1828,95420,"1st","F","Margo MacDonald","Q334376",NA,"Lothians","Region",NA
+"36",1832,39040,"1st","F","Marilyn Livingstone","Q1281543","Kirkcaldy","Mid Scotland and Fife","Constituency",NA
+"37",1837,101265,"1st","F","Mary Mulligan","Q1267804","Linlithgow","Lothians","Constituency",NA
+"38",1837,101265,"1st","F","Mary Mulligan","Q1267804","Linlithgow","Lothians","Constituency","The Deputy Minister for Health and Community Care"
+"39",1839,195976,"1st","F","Mary Scanlon","Q1906394",NA,"Highlands and Islands","Region",NA
+"40",1840,120158,"1st","F","Maureen Macmillan","Q1300245",NA,"Highlands and Islands","Region",NA
+"41",1848,194551,"1st","F","Nicola Sturgeon","Q467112",NA,"Glasgow","Region",NA
+"42",1850,118494,"1st","F","Nora Radcliffe","Q1996594","Gordon","North East Scotland","Constituency",NA
+"43",1853,74201,"1st","F","Patricia Ferguson","Q2057182","Glasgow Maryhill","Glasgow","Constituency","The Deputy Presiding Officer"
+"44",1853,74201,"1st","F","Patricia Ferguson","Q2057182","Glasgow Maryhill","Glasgow","Constituency","The Minister for Parliamentary Business"
+"45",1854,83490,"1st","F","Trish Godman","Q2057190","West Renfrewshire","West of Scotland","Constituency",NA
+"46",1857,139878,"1st","F","Pauline McNeill","Q2063795","Glasgow Kelvin","Glasgow","Constituency",NA
+"47",1860,68694,"1st","F","Rhoda Grant","Q769138",NA,"Highlands and Islands","Region",NA
+"48",1860,68694,"1st","F","Rhoda Grant","Q769138",NA,"Highlands and Islands","Region","The Ministerial Parliamentary Aide to the Minister for Social Justice"
+"49",1862,120882,"1st","F","Rhona Brankin","Q544064","Midlothian","Lothians","Constituency","The Deputy Minister for Culture and Sport"
+"50",1862,120882,"1st","F","Rhona Brankin","Q544064","Midlothian","Lothians","Constituency","The Deputy Minister for Environment and Rural Development"
+"51",1862,120882,"1st","F","Rhona Brankin","Q544064","Midlothian","Lothians","Constituency",NA
+"52",1863,222738,"1st","F","Roseanna Cunningham","Q333953","Perth","Mid Scotland and Fife","Constituency",NA
+"53",1865,81586,"1st","F","Sandra White","Q466861",NA,"Glasgow","Region",NA
+"54",1866,284009,"1st","F","Sarah Boyack","Q544089","Edinburgh Central","Lothians","Constituency","The Minister for Transport and the Environment"
+"55",1866,284009,"1st","F","Sarah Boyack","Q544089","Edinburgh Central","Lothians","Constituency","The Minister for Transport and Telecommunications"
+"56",1866,284009,"1st","F","Sarah Boyack","Q544089","Edinburgh Central","Lothians","Constituency","The Minister for Transport and Planning"
+"57",1866,284009,"1st","F","Sarah Boyack","Q544089","Edinburgh Central","Lothians","Constituency",NA
+"58",1870,123938,"1st","F","Shona Robison","Q444675",NA,"North East Scotland","Region",NA
+"59",1871,227424,"1st","F","Susan Deacon","Q544755","Edinburgh East and Musselburgh","Lothians","Constituency","The Minister for Health and Community Care"
+"60",1871,227424,"1st","F","Susan Deacon","Q544755","Edinburgh East and Musselburgh","Lothians","Constituency",NA
+"61",1873,79894,"1st","F","Sylvia Jackson","Q2374216","Stirling","Mid Scotland and Fife","Constituency",NA
+"62",1873,79894,"1st","F","Sylvia Jackson","Q2374216","Stirling","Mid Scotland and Fife","Constituency","The Ministerial Parliamentary Aide to the Minister for Health and Community Care"
+"63",1876,136397,"1st","F","Tricia Marwick","Q540435",NA,"Mid Scotland and Fife","Region",NA
+"64",1877,170900,"1st","F","Wendy Alexander","Q511689","Paisley North","West of Scotland","Constituency","The Minister for Communities"
+"65",1877,170900,"1st","F","Wendy Alexander","Q511689","Paisley North","West of Scotland","Constituency","The Minister for Enterprise and Lifelong Learning"
+"66",1877,170900,"1st","F","Wendy Alexander","Q511689","Paisley North","West of Scotland","Constituency","The Minister for Enterprise, Transport and Lifelong Learning"
+"67",1877,170900,"1st","F","Wendy Alexander","Q511689","Paisley North","West of Scotland","Constituency",NA
+"68",1878,56937,"1st","F","Winnie Ewing","Q334015",NA,"Highlands and Islands","Region",NA
+"69",1882,78270,"1st","M","Adam Ingram","Q349826",NA,"South of Scotland","Region",NA
+"70",1888,151352,"1st","M","Alasdair Morgan","Q662910","Galloway and Upper Nithsdale","South of Scotland","Constituency",NA
+"71",1889,127128,"1st","M","Alasdair Morrison","Q1669774","Western Isles","Highlands and Islands","Constituency","The Deputy Minister for Enterprise and Lifelong Learning and Gaelic"
+"72",1889,127128,"1st","M","Alasdair Morrison","Q1669774","Western Isles","Highlands and Islands","Constituency",NA
+"73",1892,109290,"1st","M","Alex Fergusson","Q559046",NA,"South of Scotland","Region",NA
+"74",1893,98950,"1st","M","Alex Johnstone","Q2641395",NA,"North East Scotland","Region",NA
+"75",1894,141363,"1st","M","Alex Neil","Q1515752",NA,"Central Scotland","Region",NA
+"76",1895,77661,"1st","M","Alex Salmond","Q10652","Banff and Buchan","North East Scotland","Constituency",NA
+"77",1901,197806,"1st","M","Allan Wilson","Q2648077","Cunninghame North","West of Scotland","Constituency",NA
+"78",1901,197806,"1st","M","Allan Wilson","Q2648077","Cunninghame North","West of Scotland","Constituency","The Deputy Minister for Culture and Sport"
+"79",1901,197806,"1st","M","Allan Wilson","Q2648077","Cunninghame North","West of Scotland","Constituency","The Deputy Minister for Sport, the Arts and Culture"
+"80",1901,197806,"1st","M","Allan Wilson","Q2648077","Cunninghame North","West of Scotland","Constituency","The Deputy Minister for Environment and Rural Development"
+"81",1906,41423,"1st","M","Andrew Welsh","Q334000","Angus","North East Scotland","Constituency",NA
+"82",1907,163215,"1st","M","Andrew Wilson","Q16213334",NA,"Central Scotland","Region",NA
+"83",1908,120734,"1st","M","Andy Kerr","Q526409","East Kilbride","Central Scotland","Constituency",NA
+"84",1908,120734,"1st","M","Andy Kerr","Q526409","East Kilbride","Central Scotland","Constituency","The Minister for Finance and Public Services"
+"85",1911,190159,"1st","M","Angus MacKay","Q544484","Edinburgh South","Lothians","Constituency","The Deputy Minister for Justice"
+"86",1911,190159,"1st","M","Angus MacKay","Q544484","Edinburgh South","Lothians","Constituency","The Minister for Finance and Local Government"
+"87",1911,190159,"1st","M","Angus MacKay","Q544484","Edinburgh South","Lothians","Constituency",NA
+"88",1916,112804,"1st","M","Ben Wallace","Q263166",NA,"North East Scotland","Region",NA
+"89",1926,118384,"1st","M","Brian Adam","Q570298",NA,"North East Scotland","Region",NA
+"90",1928,72751,"1st","M","Brian Fitzpatrick","Q912167","Strathkelvin and Bearsden","West of Scotland","Constituency",NA
+"91",1930,177040,"1st","M","Brian Monteith","Q912776",NA,"Mid Scotland and Fife","Region",NA
+"92",1931,81165,"1st","M","Bristow Muldoon","Q917995","Livingston","Lothians","Constituency",NA
+"93",1932,119941,"1st","M","Bruce Crawford","Q559391",NA,"Mid Scotland and Fife","Region",NA
+"94",1950,94909,"1st","M","Colin Campbell","Q1108388",NA,"West of Scotland","Region",NA
+"95",1956,242060,"1st","M","David Davidson","Q1174169",NA,"North East Scotland","Region",NA
+"96",1961,249678,"1st","M","David McLetchie","Q1175613",NA,"Lothians","Region",NA
+"97",1962,149762,"1st","M","David Mundell","Q333520",NA,"South of Scotland","Region",NA
+"98",1968,104494,"1st","M","Dennis Canavan","Q1189028","Falkirk West","Central Scotland","Constituency",NA
+"99",1970,156718,"1st","M","Des McNulty","Q1200458","Clydebank and Milngavie","West of Scotland","Constituency",NA
+"100",1970,156718,"1st","M","Des McNulty","Q1200458","Clydebank and Milngavie","West of Scotland","Constituency","The Deputy Minister for Social Justice"
+"101",1972,159581,"1st","M","Donald Dewar","Q333158","Glasgow Anniesland","Glasgow","Constituency","The First Minister"
+"102",1973,229075,"1st","M","Donald Gorrie","Q334137",NA,"Central Scotland","Region",NA
+"103",1985,130487,"1st","M","Duncan Hamilton","Q1265397",NA,"Highlands and Islands","Region",NA
+"104",1986,46856,"1st","M","Duncan McNeil","Q1265439","Greenock and Inverclyde","West of Scotland","Constituency",NA
+"105",1990,135078,"1st","M","Euan Robson","Q1372069","Roxburgh and Berwickshire","South of Scotland","Constituency",NA
+"106",1990,135078,"1st","M","Euan Robson","Q1372069","Roxburgh and Berwickshire","South of Scotland","Constituency","The Deputy Minister for Parliament"
+"107",1990,135078,"1st","M","Euan Robson","Q1372069","Roxburgh and Berwickshire","South of Scotland","Constituency","The Deputy Minister for Parliamentary Business"
+"108",1994,191637,"1st","M","Fergus Ewing","Q559022","Inverness East, Nairn and Lochaber","Highlands and Islands","Constituency",NA
+"109",1996,108359,"1st","M","Frank McAveety","Q1443752","Glasgow Shettleston","Glasgow","Constituency","The Deputy Minister for Local Government"
+"110",1996,108359,"1st","M","Frank McAveety","Q1443752","Glasgow Shettleston","Glasgow","Constituency",NA
+"111",1996,108359,"1st","M","Frank McAveety","Q1443752","Glasgow Shettleston","Glasgow","Constituency","The Deputy Minister for Health and Community Care"
+"112",2003,170643,"1st","M","George Lyon","Q956623","Argyll and Bute","Highlands and Islands","Constituency",NA
+"113",2005,126626,"1st","M","George Reid","Q334480",NA,"Mid Scotland and Fife","Region","The Deputy Presiding Officer"
+"114",2010,49819,"1st","M","Gil Paterson","Q200615",NA,"Central Scotland","Region",NA
+"115",2013,55965,"1st","M","Gordon Jackson","Q1439561","Glasgow Govan","Glasgow","Constituency",NA
+"116",2028,252466,"1st","M","Henry McLeish","Q333820","Central Fife","Mid Scotland and Fife","Constituency","The Minister for Enterprise and Lifelong Learning"
+"117",2028,252466,"1st","M","Henry McLeish","Q333820","Central Fife","Mid Scotland and Fife","Constituency","The First Minister"
+"118",2028,252466,"1st","M","Henry McLeish","Q333820","Central Fife","Mid Scotland and Fife","Constituency",NA
+"119",2029,118064,"1st","M","Hugh Henry","Q5931093","Paisley South","West of Scotland","Constituency",NA
+"120",2029,118064,"1st","M","Hugh Henry","Q5931093","Paisley South","West of Scotland","Constituency","The Deputy Minister for Health and Community Care"
+"121",2029,118064,"1st","M","Hugh Henry","Q5931093","Paisley South","West of Scotland","Constituency","The Deputy Minister for Social Justice"
+"122",2029,118064,"1st","M","Hugh Henry","Q5931093","Paisley South","West of Scotland","Constituency","The Deputy Minister for Justice"
+"123",2033,235825,"1st","M","Iain Gray","Q1421398","Edinburgh Pentlands","Lothians","Constituency","The Deputy Minister for Health and Community Care"
+"124",2033,235825,"1st","M","Iain Gray","Q1421398","Edinburgh Pentlands","Lothians","Constituency","The Deputy Minister for Justice"
+"125",2033,235825,"1st","M","Iain Gray","Q1421398","Edinburgh Pentlands","Lothians","Constituency","The Minister for Social Justice"
+"126",2033,235825,"1st","M","Iain Gray","Q1421398","Edinburgh Pentlands","Lothians","Constituency","The Minister for Enterprise, Transport and Lifelong Learning"
+"127",2038,128713,"1st","M","Iain Smith","Q1655380","North East Fife","Mid Scotland and Fife","Constituency","The Deputy Minister for Parliament"
+"128",2038,128713,"1st","M","Iain Smith","Q1655380","North East Fife","Mid Scotland and Fife","Constituency",NA
+"129",2044,141996,"1st","M","Ian Jenkins","Q765484","Tweeddale, Ettrick and Lauderdale","South of Scotland","Constituency",NA
+"130",2051,960,"1st","M","Ian Welsh","Q1440785","Ayr","South of Scotland","Constituency",NA
+"131",2052,411905,"1st","M","Jack McConnell","Q132040","Motherwell and Wishaw","Central Scotland","Constituency","The Minister for Finance"
+"132",2052,411905,"1st","M","Jack McConnell","Q132040","Motherwell and Wishaw","Central Scotland","Constituency","The Minister for Education, Europe and External Affairs"
+"133",2052,411905,"1st","M","Jack McConnell","Q132040","Motherwell and Wishaw","Central Scotland","Constituency","The First Minister"
+"134",2056,167298,"1st","M","James Douglas-Hamilton","Q333795",NA,"Lothians","Region",NA
+"135",2066,144096,"1st","M","Jamie McGrigor","Q1680794",NA,"Highlands and Islands","Region",NA
+"136",2068,115012,"1st","M","Jamie Stone","Q1681420","Caithness, Sutherland and Easter Ross","Highlands and Islands","Constituency",NA
+"137",2077,450166,"1st","M","Jim Wallace","Q333807","Orkney","Highlands and Islands","Constituency",NA
+"138",2077,450166,"1st","M","Jim Wallace","Q333807","Orkney","Highlands and Islands","Constituency","The Deputy First Minister and Minister for Justice"
+"139",2080,117056,"1st","F","Johann Lamont","Q544698","Glasgow Pollok","Glasgow","Constituency",NA
+"140",2085,85059,"1st","M","John Farquhar Munro","Q1225080","Ross, Skye and Inverness West","Highlands and Islands","Constituency",NA
+"141",2090,120294,"1st","M","John McAllion","Q1379003","Dundee East","North East Scotland","Constituency",NA
+"142",2098,223498,"1st","M","John Swinney","Q333811","North Tayside","Mid Scotland and Fife","Constituency",NA
+"143",2099,61940,"1st","M","John Young","Q937340",NA,"West of Scotland","Region",NA
+"144",2100,96922,"1st","M","John Home Robertson","Q1700483","East Lothian","South of Scotland","Constituency","The Deputy Minister for Rural Affairs"
+"145",2100,96922,"1st","M","John Home Robertson","Q1700483","East Lothian","South of Scotland","Constituency",NA
+"146",2105,116565,"1st","M","Keith Harding","Q1738052",NA,"Mid Scotland and Fife","Region",NA
+"147",2106,135933,"1st","M","Keith Raffan","Q1738083",NA,"Mid Scotland and Fife","Region",NA
+"148",2108,72772,"1st","M","Ken Macintosh","Q1738887","Eastwood","West of Scotland","Constituency",NA
+"149",2108,72772,"1st","M","Ken Macintosh","Q1738887","Eastwood","West of Scotland","Constituency","The Ministerial Parliamentary Aide to the Minister for Education and Young People"
+"150",2110,188639,"1st","M","Kenneth Gibson","Q944741",NA,"Glasgow","Region",NA
+"151",2112,170812,"1st","M","Kenny MacAskill","Q983174",NA,"Lothians","Region",NA
+"152",2117,183424,"1st","M","Lewis Macdonald","Q1822125","Aberdeen Central","North East Scotland","Constituency",NA
+"153",2117,183424,"1st","M","Lewis Macdonald","Q1822125","Aberdeen Central","North East Scotland","Constituency","The Deputy Minister for Transport and Planning"
+"154",2117,183424,"1st","M","Lewis Macdonald","Q1822125","Aberdeen Central","North East Scotland","Constituency","The Deputy Minister for Enterprise, Transport and Lifelong Learning"
+"155",2118,79644,"1st","M","Lloyd Quinan","Q1486950",NA,"West of Scotland","Region",NA
+"156",2122,112877,"1st","F","Lyndsay McIntosh","Q1404958",NA,"Central Scotland","Region",NA
+"157",2123,284786,"1st","M","Malcolm Chisholm","Q1886983","Edinburgh North and Leith","Lothians","Constituency",NA
+"158",2123,284786,"1st","M","Malcolm Chisholm","Q1886983","Edinburgh North and Leith","Lothians","Constituency","The Deputy Minister for Health and Community Care"
+"159",2123,284786,"1st","M","Malcolm Chisholm","Q1886983","Edinburgh North and Leith","Lothians","Constituency","The Minister for Health and Community Care"
+"160",2133,131549,"1st","M","Michael Matheson","Q121780",NA,"Central Scotland","Region",NA
+"161",2134,37479,"1st","M","Michael McMahon","Q2439870","Hamilton North and Bellshill","Central Scotland","Constituency",NA
+"162",2134,37479,"1st","M","Michael McMahon","Q2439870","Hamilton North and Bellshill","Central Scotland","Constituency","The Ministerial Parliamentary Aide to the First Minister"
+"163",2135,256694,"1st","M","Michael Russell","Q1929110",NA,"South of Scotland","Region",NA
+"164",2140,194111,"1st","M","Mike Rumbles","Q1436381","West Aberdeenshire and Kincardine","North East Scotland","Constituency",NA
+"165",2142,100800,"1st","M","Mike Watson","Q1929744","Glasgow Cathcart","Glasgow","Constituency",NA
+"166",2142,100800,"1st","M","Mike Watson","Q1929744","Glasgow Cathcart","Glasgow","Constituency","The Minister for Tourism, Culture and Sport"
+"167",2148,206701,"1st","M","Murray Tosh","Q1953855",NA,"South of Scotland","Region",NA
+"168",2148,206701,"1st","M","Murray Tosh","Q1953855",NA,"South of Scotland","Region","The Deputy Presiding Officer"
+"169",2152,51579,"1st","M","Nick Johnston","Q1985419",NA,"Mid Scotland and Fife","Region",NA
+"170",2154,151913,"1st","M","Nicol Stephen","Q333630","Aberdeen South","North East Scotland","Constituency","The Deputy Minister for Enterprise and Lifelong Learning and Gaelic"
+"171",2154,151913,"1st","M","Nicol Stephen","Q333630","Aberdeen South","North East Scotland","Constituency","The Deputy Minister for Education, Europe and External Affairs"
+"172",2154,151913,"1st","M","Nicol Stephen","Q333630","Aberdeen South","North East Scotland","Constituency","The Deputy Minister for Education and Young People"
+"173",2159,40115,"1st","M","Paul Martin","Q2061163","Glasgow Springburn","Glasgow","Constituency",NA
+"174",2159,40115,"1st","M","Paul Martin","Q2061163","Glasgow Springburn","Glasgow","Constituency","The Ministerial Parliamentary Aide to the Minister for Finance and Public Services"
+"175",2167,231078,"1st","M","Peter Peacock","Q2077496",NA,"Highlands and Islands","Region","The Deputy Minister for Children and Education"
+"176",2167,231078,"1st","M","Peter Peacock","Q2077496",NA,"Highlands and Islands","Region","The Deputy Minister for Finance and Local Government"
+"177",2167,231078,"1st","M","Peter Peacock","Q2077496",NA,"Highlands and Islands","Region","The Deputy Minister for Finance and Public Services"
+"178",2172,196778,"1st","M","Phil Gallie","Q333800",NA,"South of Scotland","Region",NA
+"179",2180,176367,"1st","M","Richard Lochhead","Q1490268",NA,"North East Scotland","Region",NA
+"180",2182,216580,"1st","M","Richard Simpson","Q2150619","Ochil","Mid Scotland and Fife","Constituency",NA
+"181",2182,216580,"1st","M","Richard Simpson","Q2150619","Ochil","Mid Scotland and Fife","Constituency","The Deputy Minister for Justice"
+"182",2185,205776,"1st","M","Robert Brown","Q2156625",NA,"Glasgow","Region",NA
+"183",2188,139965,"1st","M","Robin Harper","Q202002",NA,"Lothians","Region",NA
+"184",2202,317362,"1st","M","Ross Finnie","Q2167587",NA,"West of Scotland","Region","The Minister for Rural Affairs"
+"185",2202,317362,"1st","M","Ross Finnie","Q2167587",NA,"West of Scotland","Region","The Minister for Rural Development"
+"186",2202,317362,"1st","M","Ross Finnie","Q2167587",NA,"West of Scotland","Region","The Minister for Environment and Rural Development"
+"187",2205,93338,"1st","M","Sam Galbraith","Q2216457","Strathkelvin and Bearsden","West of Scotland","Constituency",NA
+"188",2205,93338,"1st","M","Sam Galbraith","Q2216457","Strathkelvin and Bearsden","West of Scotland","Constituency","The Minister for Children and Education"
+"189",2205,93338,"1st","M","Sam Galbraith","Q2216457","Strathkelvin and Bearsden","West of Scotland","Constituency","The Minister for Environment, Sport and Culture"
+"190",2207,80764,"1st","M","Scott Barrie","Q912525","Dunfermline West","Mid Scotland and Fife","Constituency",NA
+"191",2207,80764,"1st","M","Scott Barrie","Q912525","Dunfermline West","Mid Scotland and Fife","Constituency","The Ministerial Parliamentary Aide to the Minister for Enterprise, Transport and Lifelong Learning"
+"192",2215,86097,"1st","M","Stewart Stevenson","Q559613","Banff and Buchan","North East Scotland","Constituency",NA
+"193",2223,157048,"1st","M","Tavish Scott","Q1339371","Shetland","Highlands and Islands","Constituency",NA
+"194",2223,157048,"1st","M","Tavish Scott","Q1339371","Shetland","Highlands and Islands","Constituency","The Deputy Minister for Parliament"
+"195",2225,180176,"1st","M","Tommy Sheridan","Q542330",NA,"Glasgow","Region",NA
+"196",2228,93643,"1st","M","Tom McCabe","Q7816757","Hamilton South","Central Scotland","Constituency",NA
+"197",2228,93643,"1st","M","Tom McCabe","Q7816757","Hamilton South","Central Scotland","Constituency","The Minister for Parliament"
+"198",2234,213233,"1st","M","Bill Aitken","Q861907",NA,"Glasgow","Region",NA
+"199",2263,294845,"1st","M","David Steel","Q333847",NA,"Lothians","Region","The Presiding Officer"
+"200",2345,76278,"1st","M","John Scott","Q1701702","Ayr","South of Scotland","Constituency",NA
+"201",2364,33339,"1st","M","Bill Butler","Q861989","Glasgow Anniesland","Glasgow","Constituency",NA
+"202",2394,74117,"1st","M","Murdo Fraser","Q1953630",NA,"Mid Scotland and Fife","Region",NA
+"203",1741,174799,"2nd","F","Annabel Goldie","Q544742",NA,"West of Scotland","Region",NA
+"204",1751,61673,"2nd","F","Cathie Craigie","Q544715","Cumbernauld and Kilsyth","Central Scotland","Constituency",NA
+"205",1752,282759,"2nd","F","Cathy Jamieson","Q727460","Carrick, Cumnock and Doon Valley","South of Scotland","Constituency","The Minister for Justice"
+"206",1752,282759,"2nd","F","Cathy Jamieson","Q727460","Carrick, Cumnock and Doon Valley","South of Scotland","Constituency",NA
+"207",1754,43590,"2nd","F","Cathy Peattie","Q1051152","Falkirk East","Central Scotland","Constituency",NA
+"208",1756,243962,"2nd","F","Christine Grahame","Q467108",NA,"South of Scotland","Region",NA
+"209",1768,160857,"2nd","F","Elaine Murray","Q1324826","Dumfries","South of Scotland","Constituency",NA
+"210",1769,85964,"2nd","F","Elaine Smith","Q305347","Coatbridge and Chryston","Central Scotland","Constituency",NA
+"211",1771,166104,"2nd","F","Eleanor Scott","Q544686",NA,"Highlands and Islands","Region",NA
+"212",1771,166104,"2nd","F","Eleanor Scott","Q544686",NA,"Highlands and Islands","Region","The Presiding Officer"
+"213",1771,166104,"2nd","F","Eleanor Scott","Q544686",NA,"Highlands and Islands","Region","The Deputy Presiding Officer"
+"214",1773,206398,"2nd","F","Fiona Hyslop","Q1418512",NA,"Lothians","Region",NA
+"215",1778,80721,"2nd","F","Helen Eadie","Q1396732","Dunfermline East","Mid Scotland and Fife","Constituency",NA
+"216",1782,72202,"2nd","F","Irene Oldfather","Q1672558","Cunninghame South","South of Scotland","Constituency",NA
+"217",1783,109057,"2nd","F","Jackie Baillie","Q544729","Dumbarton","West of Scotland","Constituency",NA
+"218",1791,47459,"2nd","F","Janis Hughes","Q780646","Glasgow Rutherglen","Glasgow","Constituency",NA
+"219",1803,83553,"2nd","F","Karen Gillon","Q1729243","Clydesdale","South of Scotland","Constituency",NA
+"220",1805,111866,"2nd","F","Karen Whitefield","Q1344022","Airdrie and Shotts","Central Scotland","Constituency",NA
+"221",1807,29869,"2nd","F","Kate Maclean","Q1735695","Dundee West","North East Scotland","Constituency",NA
+"222",1814,120389,"2nd","F","Linda Fabiani","Q467097",NA,"Central Scotland","Region",NA
+"223",1820,178912,"2nd","F","Margaret Curran","Q291748","Glasgow Baillieston","Glasgow","Constituency","The Minister for Communities"
+"224",1820,178912,"2nd","F","Margaret Curran","Q291748","Glasgow Baillieston","Glasgow","Constituency","The Minister for Parliamentary Business"
+"225",1821,53061,"2nd","F","Margaret Ewing","Q333903","Moray","Highlands and Islands","Constituency",NA
+"226",1823,39650,"2nd","F","Margaret Jamieson","Q1894852","Kilmarnock and Loudoun","Central Scotland","Constituency",NA
+"227",1826,128057,"2nd","F","Margaret Smith","Q1894898","Edinburgh West","Lothians","Constituency",NA
+"228",1828,101909,"2nd","F","Margo MacDonald","Q334376",NA,"Lothians","Region",NA
+"229",1831,40911,"2nd","F","Marlyn Glen","Q1285630",NA,"North East Scotland","Region",NA
+"230",1832,49555,"2nd","F","Marilyn Livingstone","Q1281543","Kirkcaldy","Mid Scotland and Fife","Constituency","The Ministerial Parliamentary Aide to the First Minister"
+"231",1832,49555,"2nd","F","Marilyn Livingstone","Q1281543","Kirkcaldy","Mid Scotland and Fife","Constituency",NA
+"232",1837,126964,"2nd","F","Mary Mulligan","Q1267804","Linlithgow","Lothians","Constituency","The Deputy Minister for Communities"
+"233",1837,126964,"2nd","F","Mary Mulligan","Q1267804","Linlithgow","Lothians","Constituency",NA
+"234",1839,148335,"2nd","F","Mary Scanlon","Q1906394",NA,"Highlands and Islands","Region",NA
+"235",1840,149329,"2nd","F","Maureen Macmillan","Q1300245",NA,"Highlands and Islands","Region",NA
+"236",1841,28787,"2nd","F","Maureen Watt","Q540381",NA,"North East Scotland","Region",NA
+"237",1845,141357,"2nd","F","Nanette Milne","Q6963426",NA,"North East Scotland","Region",NA
+"238",1848,191483,"2nd","F","Nicola Sturgeon","Q467112",NA,"Glasgow","Region",NA
+"239",1850,139563,"2nd","F","Nora Radcliffe","Q1996594","Gordon","North East Scotland","Constituency",NA
+"240",1853,163182,"2nd","F","Patricia Ferguson","Q2057182","Glasgow Maryhill","Glasgow","Constituency","The Minister for Parliamentary Business"
+"241",1853,163182,"2nd","F","Patricia Ferguson","Q2057182","Glasgow Maryhill","Glasgow","Constituency","The Minister for Tourism, Culture and Sport"
+"242",1854,103792,"2nd","F","Trish Godman","Q2057190","West Renfrewshire","West of Scotland","Constituency","The Deputy Presiding Officer"
+"243",1857,164313,"2nd","F","Pauline McNeill","Q2063795","Glasgow Kelvin","Glasgow","Constituency",NA
+"244",1862,190568,"2nd","F","Rhona Brankin","Q544064","Midlothian","Lothians","Constituency",NA
+"245",1862,190568,"2nd","F","Rhona Brankin","Q544064","Midlothian","Lothians","Constituency","The Deputy Minister for Health and Community Care"
+"246",1862,190568,"2nd","F","Rhona Brankin","Q544064","Midlothian","Lothians","Constituency","The Deputy Minister for Environment and Rural Development"
+"247",1862,190568,"2nd","F","Rhona Brankin","Q544064","Midlothian","Lothians","Constituency","The Minister for Communities"
+"248",1863,118129,"2nd","F","Roseanna Cunningham","Q333953","Perth","Mid Scotland and Fife","Constituency",NA
+"249",1865,135049,"2nd","F","Sandra White","Q466861",NA,"Glasgow","Region",NA
+"250",1866,162465,"2nd","F","Sarah Boyack","Q544089","Edinburgh Central","Lothians","Constituency",NA
+"251",1866,162465,"2nd","F","Sarah Boyack","Q544089","Edinburgh Central","Lothians","Constituency","The Deputy Minister for Environment and Rural Development"
+"252",1869,116555,"2nd","F","Shiona Baird","Q1167157",NA,"North East Scotland","Region",NA
+"253",1870,124075,"2nd","F","Shona Robison","Q444675","Dundee East","North East Scotland","Constituency",NA
+"254",1871,103728,"2nd","F","Susan Deacon","Q544755","Edinburgh East and Musselburgh","Lothians","Constituency",NA
+"255",1873,86298,"2nd","F","Sylvia Jackson","Q2374216","Stirling","Mid Scotland and Fife","Constituency",NA
+"256",1876,101139,"2nd","F","Tricia Marwick","Q540435",NA,"Mid Scotland and Fife","Region",NA
+"257",1877,60494,"2nd","F","Wendy Alexander","Q511689","Paisley North","West of Scotland","Constituency",NA
+"258",1882,85937,"2nd","M","Adam Ingram","Q349826",NA,"South of Scotland","Region",NA
+"259",1888,164920,"2nd","M","Alasdair Morgan","Q662910",NA,"South of Scotland","Region",NA
+"260",1889,75817,"2nd","M","Alasdair Morrison","Q1669774","Western Isles","Highlands and Islands","Constituency",NA
+"261",1892,99639,"2nd","M","Alex Fergusson","Q559046","Galloway and Upper Nithsdale","South of Scotland","Constituency",NA
+"262",1893,142249,"2nd","M","Alex Johnstone","Q2641395",NA,"North East Scotland","Region",NA
+"263",1894,147633,"2nd","M","Alex Neil","Q1515752",NA,"Central Scotland","Region",NA
+"264",1901,300672,"2nd","M","Allan Wilson","Q2648077","Cunninghame North","West of Scotland","Constituency","The Deputy Minister for Environment and Rural Development"
+"265",1901,300672,"2nd","M","Allan Wilson","Q2648077","Cunninghame North","West of Scotland","Constituency","The Deputy Minister for Enterprise and Lifelong Learning"
+"266",1906,44781,"2nd","M","Andrew Welsh","Q334000","Angus","North East Scotland","Constituency",NA
+"267",1908,281870,"2nd","M","Andy Kerr","Q526409","East Kilbride","Central Scotland","Constituency","The Minister for Finance and Public Services"
+"268",1908,281870,"2nd","M","Andy Kerr","Q526409","East Kilbride","Central Scotland","Constituency","The Minister for Health and Community Care"
+"269",1926,153471,"2nd","M","Brian Adam","Q570298","Aberdeen North","North East Scotland","Constituency",NA
+"270",1930,129743,"2nd","M","Brian Monteith","Q912776",NA,"Mid Scotland and Fife","Region",NA
+"271",1931,113499,"2nd","M","Bristow Muldoon","Q917995","Livingston","Lothians","Constituency",NA
+"272",1932,93870,"2nd","M","Bruce Crawford","Q559391",NA,"Mid Scotland and Fife","Region",NA
+"273",1944,90241,"2nd","M","Chris Ballance","Q1076969",NA,"South of Scotland","Region",NA
+"274",1956,252099,"2nd","M","David Davidson","Q1174169",NA,"North East Scotland","Region",NA
+"275",1961,157687,"2nd","M","David McLetchie","Q1175613","Edinburgh Pentlands","Lothians","Constituency",NA
+"276",1962,53729,"2nd","M","David Mundell","Q333520",NA,"South of Scotland","Region",NA
+"277",1963,48020,"2nd","M","Dave Petrie","Q1176111",NA,"Highlands and Islands","Region",NA
+"278",1968,68070,"2nd","M","Dennis Canavan","Q1189028","Falkirk West","Central Scotland","Constituency",NA
+"279",1970,172031,"2nd","M","Des McNulty","Q1200458","Clydebank and Milngavie","West of Scotland","Constituency",NA
+"280",1970,172031,"2nd","M","Des McNulty","Q1200458","Clydebank and Milngavie","West of Scotland","Constituency","The Deputy Minister for Communities"
+"281",1973,258153,"2nd","M","Donald Gorrie","Q334137",NA,"Central Scotland","Region",NA
+"282",1986,69964,"2nd","M","Duncan McNeil","Q1265439","Greenock and Inverclyde","West of Scotland","Constituency",NA
+"283",1988,148018,"2nd","M","Ted Brocklebank","Q2399744",NA,"Mid Scotland and Fife","Region",NA
+"284",1990,196507,"2nd","M","Euan Robson","Q1372069","Roxburgh and Berwickshire","South of Scotland","Constituency","The Deputy Minister for Education and Young People"
+"285",1990,196507,"2nd","M","Euan Robson","Q1372069","Roxburgh and Berwickshire","South of Scotland","Constituency",NA
+"286",1994,198629,"2nd","M","Fergus Ewing","Q559022","Inverness East, Nairn and Lochaber","Highlands and Islands","Constituency",NA
+"287",1996,138498,"2nd","M","Frank McAveety","Q1443752","Glasgow Shettleston","Glasgow","Constituency","The Minister for Tourism, Culture and Sport"
+"288",1996,138498,"2nd","M","Frank McAveety","Q1443752","Glasgow Shettleston","Glasgow","Constituency",NA
+"289",2003,169151,"2nd","M","George Lyon","Q956623","Argyll and Bute","Highlands and Islands","Constituency",NA
+"290",2003,169151,"2nd","M","George Lyon","Q956623","Argyll and Bute","Highlands and Islands","Constituency","The Deputy Minister for Finance, Public Service Reform and Parliamentary Business"
+"291",2005,196256,"2nd","M","George Reid","Q334480","Ochil","Mid Scotland and Fife","Constituency","The Presiding Officer"
+"292",2013,31542,"2nd","M","Gordon Jackson","Q1439561","Glasgow Govan","Glasgow","Constituency",NA
+"293",2029,291253,"2nd","M","Hugh Henry","Q5931093","Paisley South","West of Scotland","Constituency","The Deputy Minister for Justice"
+"294",2029,291253,"2nd","M","Hugh Henry","Q5931093","Paisley South","West of Scotland","Constituency","The Minister for Education and Young People"
+"295",2038,167217,"2nd","M","Iain Smith","Q1655380","North East Fife","Mid Scotland and Fife","Constituency",NA
+"296",2052,687105,"2nd","M","Jack McConnell","Q132040","Motherwell and Wishaw","Central Scotland","Constituency",NA
+"297",2052,687105,"2nd","M","Jack McConnell","Q132040","Motherwell and Wishaw","Central Scotland","Constituency","The First Minister"
+"298",2056,151438,"2nd","M","James Douglas-Hamilton","Q333795",NA,"Lothians","Region",NA
+"299",2066,156059,"2nd","M","Jamie McGrigor","Q1680794",NA,"Highlands and Islands","Region",NA
+"300",2068,157725,"2nd","M","Jamie Stone","Q1681420","Caithness, Sutherland and Easter Ross","Highlands and Islands","Constituency",NA
+"301",2074,163876,"2nd","M","Jim Mather","Q1689144",NA,"Highlands and Islands","Region",NA
+"302",2077,169441,"2nd","M","Jim Wallace","Q333807","Orkney","Highlands and Islands","Constituency",NA
+"303",2077,169441,"2nd","M","Jim Wallace","Q333807","Orkney","Highlands and Islands","Constituency","The Deputy First Minister and Minister for Justice"
+"304",2077,169441,"2nd","M","Jim Wallace","Q333807","Orkney","Highlands and Islands","Constituency","The Minister for Enterprise and Lifelong Learning"
+"305",2080,295759,"2nd","F","Johann Lamont","Q544698","Glasgow Pollok","Glasgow","Constituency",NA
+"306",2080,295759,"2nd","F","Johann Lamont","Q544698","Glasgow Pollok","Glasgow","Constituency","The Deputy Minister for Communities"
+"307",2080,295759,"2nd","F","Johann Lamont","Q544698","Glasgow Pollok","Glasgow","Constituency","The Deputy Minister for Justice"
+"308",2085,67122,"2nd","M","John Farquhar Munro","Q1225080","Ross, Skye and Inverness West","Highlands and Islands","Constituency",NA
+"309",2098,223265,"2nd","M","John Swinney","Q333811","North Tayside","Mid Scotland and Fife","Constituency",NA
+"310",2100,88574,"2nd","M","John Home Robertson","Q1700483","East Lothian","South of Scotland","Constituency",NA
+"311",2106,38299,"2nd","M","Keith Raffan","Q1738083",NA,"Mid Scotland and Fife","Region",NA
+"312",2108,101860,"2nd","M","Ken Macintosh","Q1738887","Eastwood","West of Scotland","Constituency",NA
+"313",2108,101860,"2nd","M","Ken Macintosh","Q1738887","Eastwood","West of Scotland","Constituency","The Ministerial Parliamentary Aide to the First Minister"
+"314",2112,242544,"2nd","M","Kenny MacAskill","Q983174",NA,"Lothians","Region",NA
+"315",2117,250806,"2nd","M","Lewis Macdonald","Q1822125","Aberdeen Central","North East Scotland","Constituency","The Deputy Minister for Enterprise and Lifelong Learning"
+"316",2117,250806,"2nd","M","Lewis Macdonald","Q1822125","Aberdeen Central","North East Scotland","Constituency","The Deputy Minister for Environment and Rural Development"
+"317",2117,250806,"2nd","M","Lewis Macdonald","Q1822125","Aberdeen Central","North East Scotland","Constituency","The Deputy Minister for Health and Community Care"
+"318",2123,317399,"2nd","M","Malcolm Chisholm","Q1886983","Edinburgh North and Leith","Lothians","Constituency","The Minister for Health and Community Care"
+"319",2123,317399,"2nd","M","Malcolm Chisholm","Q1886983","Edinburgh North and Leith","Lothians","Constituency","The Minister for Communities"
+"320",2123,317399,"2nd","M","Malcolm Chisholm","Q1886983","Edinburgh North and Leith","Lothians","Constituency",NA
+"321",2126,164648,"2nd","M","Mark Ballard","Q1499393",NA,"Lothians","Region",NA
+"322",2127,137205,"2nd","M","Mark Ruskell","Q1900397",NA,"Mid Scotland and Fife","Region",NA
+"323",2133,73413,"2nd","M","Michael Matheson","Q121780",NA,"Central Scotland","Region",NA
+"324",2134,55337,"2nd","M","Michael McMahon","Q2439870","Hamilton North and Bellshill","Central Scotland","Constituency",NA
+"325",2140,160673,"2nd","M","Mike Rumbles","Q1436381","West Aberdeenshire and Kincardine","North East Scotland","Constituency",NA
+"326",2142,36152,"2nd","M","Mike Watson","Q1929744","Glasgow Cathcart","Glasgow","Constituency",NA
+"327",2148,133306,"2nd","M","Murray Tosh","Q1953855",NA,"West of Scotland","Region","The Deputy Presiding Officer"
+"328",2154,199348,"2nd","M","Nicol Stephen","Q333630","Aberdeen South","North East Scotland","Constituency","The Minister for Transport and Telecommunications"
+"329",2154,199348,"2nd","M","Nicol Stephen","Q333630","Aberdeen South","North East Scotland","Constituency","The Minister for Enterprise and Lifelong Learning"
+"330",2159,55722,"2nd","M","Paul Martin","Q2061163","Glasgow Springburn","Glasgow","Constituency","The Ministerial Parliamentary Aide to the Lord Advocate"
+"331",2167,200052,"2nd","M","Peter Peacock","Q2077496",NA,"Highlands and Islands","Region","The Minister for Education and Young People"
+"332",2167,200052,"2nd","M","Peter Peacock","Q2077496",NA,"Highlands and Islands","Region",NA
+"333",2172,139173,"2nd","M","Phil Gallie","Q333800",NA,"South of Scotland","Region",NA
+"334",2180,204099,"2nd","M","Richard Lochhead","Q1490268",NA,"North East Scotland","Region",NA
+"335",2180,204099,"2nd","M","Richard Lochhead","Q1490268","Moray","Highlands and Islands","Constituency",NA
+"336",2185,313740,"2nd","M","Robert Brown","Q2156625",NA,"Glasgow","Region",NA
+"337",2185,313740,"2nd","M","Robert Brown","Q2156625",NA,"Glasgow","Region","The Deputy Minister for Education and Young People"
+"338",2188,140608,"2nd","M","Robin Harper","Q202002",NA,"Lothians","Region",NA
+"339",2201,55960,"2nd","F","Rosie Kane","Q540340",NA,"Glasgow","Region",NA
+"340",2202,216260,"2nd","M","Ross Finnie","Q2167587",NA,"West of Scotland","Region","The Minister for Environment and Rural Development"
+"341",2207,108415,"2nd","M","Scott Barrie","Q912525","Dunfermline West","Mid Scotland and Fife","Constituency",NA
+"342",2215,282282,"2nd","M","Stewart Stevenson","Q559613","Banff and Buchan","North East Scotland","Constituency",NA
+"343",2223,283992,"2nd","M","Tavish Scott","Q1339371","Shetland","Highlands and Islands","Constituency","The Deputy Minister for Finance and Public Services"
+"344",2223,283992,"2nd","M","Tavish Scott","Q1339371","Shetland","Highlands and Islands","Constituency","The Minister for Transport and Telecommunications"
+"345",2223,283992,"2nd","M","Tavish Scott","Q1339371","Shetland","Highlands and Islands","Constituency","The Minister for Transport"
+"346",2225,152567,"2nd","M","Tommy Sheridan","Q542330",NA,"Glasgow","Region",NA
+"347",2228,247785,"2nd","M","Tom McCabe","Q7816757","Hamilton South","Central Scotland","Constituency","The Deputy Minister for Health and Community Care"
+"348",2228,247785,"2nd","M","Tom McCabe","Q7816757","Hamilton South","Central Scotland","Constituency","The Minister for Finance and Public Service Reform"
+"349",2234,180358,"2nd","M","Bill Aitken","Q861907",NA,"Glasgow","Region",NA
+"350",2247,78429,"2nd","M","Andrew Arbuckle","Q503626",NA,"Mid Scotland and Fife","Region",NA
+"351",2252,105856,"2nd","M","Mike Pringle","Q1933434","Edinburgh South","Lothians","Constituency",NA
+"352",2345,83079,"2nd","M","John Scott","Q1701702","Ayr","South of Scotland","Constituency",NA
+"353",2364,88600,"2nd","M","Bill Butler","Q861989","Glasgow Anniesland","Glasgow","Constituency",NA
+"354",2390,68995,"2nd","F","Jean Turner","Q1685867","Strathkelvin and Bearsden","West of Scotland","Constituency",NA
+"355",2394,251337,"2nd","M","Murdo Fraser","Q1953630",NA,"Mid Scotland and Fife","Region",NA
+"356",2596,65694,"2nd","M","Derek Brownlee","Q1200005",NA,"South of Scotland","Region",NA
+"357",2603,98296,"2nd","M","Richard Baker","Q2149018",NA,"North East Scotland","Region",NA
+"358",2665,123395,"2nd","F","Rosemary Byrne","Q1439779",NA,"South of Scotland","Region",NA
+"359",2675,164298,"2nd","M","Rob Gibson","Q563410",NA,"Highlands and Islands","Region",NA
+"360",2686,97443,"2nd","M","John Swinburne","Q588571",NA,"Central Scotland","Region",NA
+"361",2767,110104,"2nd","F","Frances Curran","Q540408",NA,"West of Scotland","Region",NA
+"362",2866,204688,"2nd","M","Jeremy Purvis","Q1687620","Tweeddale, Ettrick and Lauderdale","South of Scotland","Constituency",NA
+"363",2876,137941,"2nd","M","Stewart Maxwell","Q1710696",NA,"West of Scotland","Region",NA
+"364",2877,140561,"2nd","F","Christine May","Q1083700","Central Fife","Mid Scotland and Fife","Constituency",NA
+"365",2892,200329,"2nd","M","Patrick Harvie","Q2057654",NA,"Glasgow","Region",NA
+"366",2902,159082,"2nd","F","Carolyn Leckie","Q540424",NA,"Central Scotland","Region",NA
+"367",2947,35782,"2nd","M","Bruce McFee","Q991741",NA,"West of Scotland","Region",NA
+"368",3004,165260,"2nd","M","Colin Fox","Q1108455",NA,"Lothians","Region",NA
+"369",3061,107444,"2nd","F","Margaret Mitchell","Q1894872",NA,"Central Scotland","Region",NA
+"370",3103,23238,"2nd","M","Campbell Martin","Q1030471",NA,"West of Scotland","Region",NA
+"371",3538,32405,"2nd","M","Charlie Gordon","Q1064575","Glasgow Cathcart","Glasgow","Constituency",NA
+"372",1735,91590,"3rd","F","Angela Constance","Q524077","Livingston","Lothians","Constituency",NA
+"373",1735,91590,"3rd","F","Angela Constance","Q524077","Livingston","Lothians","Constituency","The Minister for Skills and Lifelong Learning"
+"374",1741,96763,"3rd","F","Annabel Goldie","Q544742",NA,"West of Scotland","Region",NA
+"375",1751,90475,"3rd","F","Cathie Craigie","Q544715","Cumbernauld and Kilsyth","Central Scotland","Constituency",NA
+"376",1752,117812,"3rd","F","Cathy Jamieson","Q727460","Carrick, Cumnock and Doon Valley","South of Scotland","Constituency",NA
+"377",1754,56613,"3rd","F","Cathy Peattie","Q1051152","Falkirk East","Central Scotland","Constituency",NA
+"378",1756,171851,"3rd","F","Christine Grahame","Q467108",NA,"South of Scotland","Region",NA
+"379",1768,173386,"3rd","F","Elaine Murray","Q1324826","Dumfries","South of Scotland","Constituency",NA
+"380",1769,77755,"3rd","F","Elaine Smith","Q305347","Coatbridge and Chryston","Central Scotland","Constituency",NA
+"381",1773,356476,"3rd","F","Fiona Hyslop","Q1418512",NA,"Lothians","Region","The Cabinet Secretary for Education and Lifelong Learning"
+"382",1773,356476,"3rd","F","Fiona Hyslop","Q1418512",NA,"Lothians","Region","The Minister for Culture and External Affairs"
+"383",1778,147479,"3rd","F","Helen Eadie","Q1396732","Dunfermline East","Mid Scotland and Fife","Constituency",NA
+"384",1782,42081,"3rd","F","Irene Oldfather","Q1672558","Cunninghame South","South of Scotland","Constituency",NA
+"385",1783,147905,"3rd","F","Jackie Baillie","Q544729","Dumbarton","West of Scotland","Constituency",NA
+"386",1803,105076,"3rd","F","Karen Gillon","Q1729243","Clydesdale","South of Scotland","Constituency",NA
+"387",1805,131500,"3rd","F","Karen Whitefield","Q1344022","Airdrie and Shotts","Central Scotland","Constituency",NA
+"388",1814,208059,"3rd","F","Linda Fabiani","Q467097",NA,"Central Scotland","Region","The Minister for Europe, External Affairs and Culture"
+"389",1814,208059,"3rd","F","Linda Fabiani","Q467097",NA,"Central Scotland","Region",NA
+"390",1814,208059,"3rd","F","Linda Fabiani","Q467097",NA,"Central Scotland","Region","n/a"
+"391",1820,102725,"3rd","F","Margaret Curran","Q291748","Glasgow Baillieston","Glasgow","Constituency",NA
+"392",1826,217360,"3rd","F","Margaret Smith","Q1894898","Edinburgh West","Lothians","Constituency",NA
+"393",1828,115567,"3rd","F","Margo MacDonald","Q334376",NA,"Lothians","Region",NA
+"394",1831,57492,"3rd","F","Marlyn Glen","Q1285630",NA,"North East Scotland","Region",NA
+"395",1832,46746,"3rd","F","Marilyn Livingstone","Q1281543","Kirkcaldy","Mid Scotland and Fife","Constituency",NA
+"396",1837,142972,"3rd","F","Mary Mulligan","Q1267804","Linlithgow","Lothians","Constituency",NA
+"397",1839,201053,"3rd","F","Mary Scanlon","Q1906394",NA,"Highlands and Islands","Region",NA
+"398",1841,117080,"3rd","F","Maureen Watt","Q540381",NA,"North East Scotland","Region","The Minister for Schools and Skills"
+"399",1841,117080,"3rd","F","Maureen Watt","Q540381",NA,"North East Scotland","Region",NA
+"400",1845,175444,"3rd","F","Nanette Milne","Q6963426",NA,"North East Scotland","Region",NA
+"401",1848,530084,"3rd","F","Nicola Sturgeon","Q467112","Glasgow Govan","Glasgow","Constituency","The Deputy First Minister and Cabinet Secretary for Health and Wellbeing"
+"402",1853,82363,"3rd","F","Patricia Ferguson","Q2057182","Glasgow Maryhill","Glasgow","Constituency",NA
+"403",1854,51127,"3rd","F","Trish Godman","Q2057190","West Renfrewshire","West of Scotland","Constituency","The Deputy Presiding Officer"
+"404",1857,179296,"3rd","F","Pauline McNeill","Q2063795","Glasgow Kelvin","Glasgow","Constituency",NA
+"405",1857,179296,"3rd","F","Pauline McNeill","Q2063795","Glasgow Kelvin","Glasgow","Constituency","The Party Spokesperson on Culture"
+"406",1860,104076,"3rd","F","Rhoda Grant","Q769138",NA,"Highlands and Islands","Region",NA
+"407",1862,86166,"3rd","F","Rhona Brankin","Q544064","Midlothian","Lothians","Constituency",NA
+"408",1863,177364,"3rd","F","Roseanna Cunningham","Q333953","Perth","Mid Scotland and Fife","Constituency",NA
+"409",1863,177364,"3rd","F","Roseanna Cunningham","Q333953","Perth","Mid Scotland and Fife","Constituency","The Minister for Environment"
+"410",1863,177364,"3rd","F","Roseanna Cunningham","Q333953","Perth","Mid Scotland and Fife","Constituency","The Minister for the Environment and Climate Change"
+"411",1865,114593,"3rd","F","Sandra White","Q466861",NA,"Glasgow","Region",NA
+"412",1866,204652,"3rd","F","Sarah Boyack","Q544089","Edinburgh Central","Lothians","Constituency",NA
+"413",1870,338266,"3rd","F","Shona Robison","Q444675","Dundee East","North East Scotland","Constituency","The Minister for Public Health"
+"414",1870,338266,"3rd","F","Shona Robison","Q444675","Dundee East","North East Scotland","Constituency","The Minister for Public Health and Sport"
+"415",1876,72346,"3rd","F","Tricia Marwick","Q540435","Central Fife","Mid Scotland and Fife","Constituency",NA
+"416",1877,82155,"3rd","F","Wendy Alexander","Q511689","Paisley North","West of Scotland","Constituency",NA
+"417",1882,143633,"3rd","M","Adam Ingram","Q349826",NA,"South of Scotland","Region","The Minister for Children and Early Years"
+"418",1888,63376,"3rd","M","Alasdair Morgan","Q662910",NA,"South of Scotland","Region","The Deputy Presiding Officer"
+"419",1892,556778,"3rd","M","Alex Fergusson","Q559046","Galloway and Upper Nithsdale","South of Scotland","Constituency","The Presiding Officer"
+"420",1893,145233,"3rd","M","Alex Johnstone","Q2641395",NA,"North East Scotland","Region",NA
+"421",1894,219450,"3rd","M","Alex Neil","Q1515752",NA,"Central Scotland","Region",NA
+"422",1894,219450,"3rd","M","Alex Neil","Q1515752",NA,"Central Scotland","Region","The Minister for Housing and Communities"
+"423",1895,702410,"3rd","M","Alex Salmond","Q10652","Gordon","North East Scotland","Constituency",NA
+"424",1895,702410,"3rd","M","Alex Salmond","Q10652","Gordon","North East Scotland","Constituency","The First Minister"
+"425",1906,42264,"3rd","M","Andrew Welsh","Q334000","Angus","North East Scotland","Constituency",NA
+"426",1908,151069,"3rd","M","Andy Kerr","Q526409","East Kilbride","Central Scotland","Constituency",NA
+"427",1908,151069,"3rd","M","Andy Kerr","Q526409","East Kilbride","Central Scotland","Constituency","The Party Spokesperson on Economy"
+"428",1915,8117,"3rd","M","Bashir Ahmad","Q809971",NA,"Glasgow","Region",NA
+"429",1921,80849,"3rd","M","Bill Wilson","Q862664",NA,"West of Scotland","Region",NA
+"430",1926,49507,"3rd","M","Brian Adam","Q570298","Aberdeen North","North East Scotland","Constituency",NA
+"431",1932,100327,"3rd","M","Bruce Crawford","Q559391","Stirling","Mid Scotland and Fife","Constituency","The Minister for Parliamentary Business"
+"432",1961,169526,"3rd","M","David McLetchie","Q1175613","Edinburgh Pentlands","Lothians","Constituency",NA
+"433",1970,213947,"3rd","M","Des McNulty","Q1200458","Clydebank and Milngavie","West of Scotland","Constituency",NA
+"434",1970,213947,"3rd","M","Des McNulty","Q1200458","Clydebank and Milngavie","West of Scotland","Constituency","The Party Spokesperson on Lifelong Learning"
+"435",1986,86348,"3rd","M","Duncan McNeil","Q1265439","Greenock and Inverclyde","West of Scotland","Constituency",NA
+"436",1988,112464,"3rd","M","Ted Brocklebank","Q2399744",NA,"Mid Scotland and Fife","Region",NA
+"437",1994,243538,"3rd","M","Fergus Ewing","Q559022","Inverness East, Nairn and Lochaber","Highlands and Islands","Constituency","The Minister for Community Safety"
+"438",1996,75748,"3rd","M","Frank McAveety","Q1443752","Glasgow Shettleston","Glasgow","Constituency",NA
+"439",2010,60548,"3rd","M","Gil Paterson","Q200615",NA,"West of Scotland","Region",NA
+"440",2029,94151,"3rd","M","Hugh Henry","Q5931093","Paisley South","West of Scotland","Constituency",NA
+"441",2030,14793,"3rd","M","Hugh O'Donnell","Q1634500",NA,"Central Scotland","Region",NA
+"442",2033,139752,"3rd","M","Iain Gray","Q1421398","East Lothian","South of Scotland","Constituency",NA
+"443",2038,145205,"3rd","M","Iain Smith","Q1655380","North East Fife","Mid Scotland and Fife","Constituency",NA
+"444",2049,176941,"3rd","M","Ian McKee","Q252566",NA,"Lothians","Region",NA
+"445",2052,29318,"3rd","M","Jack McConnell","Q132040","Motherwell and Wishaw","Central Scotland","Constituency",NA
+"446",2059,142895,"3rd","M","James Kelly","Q1519985","Glasgow Rutherglen","Glasgow","Constituency",NA
+"447",2066,151754,"3rd","M","Jamie McGrigor","Q1680794",NA,"Highlands and Islands","Region",NA
+"448",2068,163096,"3rd","M","Jamie Stone","Q1681420","Caithness, Sutherland and Easter Ross","Highlands and Islands","Constituency",NA
+"449",2074,294043,"3rd","M","Jim Mather","Q1689144","Argyll and Bute","Highlands and Islands","Constituency","The Minister for Enterprise, Energy and Tourism"
+"450",2080,187134,"3rd","F","Johann Lamont","Q544698","Glasgow Pollok","Glasgow","Constituency",NA
+"451",2085,37096,"3rd","M","John Farquhar Munro","Q1225080","Ross, Skye and Inverness West","Highlands and Islands","Constituency",NA
+"452",2098,700247,"3rd","M","John Swinney","Q333811","North Tayside","Mid Scotland and Fife","Constituency","The Cabinet Secretary for Finance and Sustainable Growth"
+"453",2103,179031,"3rd","M","Keith Brown","Q1738042","Ochil","Mid Scotland and Fife","Constituency",NA
+"454",2103,179031,"3rd","M","Keith Brown","Q1738042","Ochil","Mid Scotland and Fife","Constituency","The Minister for Schools and Skills"
+"455",2103,179031,"3rd","M","Keith Brown","Q1738042","Ochil","Mid Scotland and Fife","Constituency","The Minister for Skills and Lifelong Learning"
+"456",2103,179031,"3rd","M","Keith Brown","Q1738042","Ochil","Mid Scotland and Fife","Constituency","The Minister for Transport and Infrastructure"
+"457",2103,179031,"3rd","M","Keith Brown","Q1738042","Ochil","Mid Scotland and Fife","Constituency","The Minister for Transport and Infrastucture"
+"458",2108,156199,"3rd","M","Ken Macintosh","Q1738887","Eastwood","West of Scotland","Constituency",NA
+"459",2110,141417,"3rd","M","Kenneth Gibson","Q944741","Cunninghame North","West of Scotland","Constituency",NA
+"460",2112,414012,"3rd","M","Kenny MacAskill","Q983174","Edinburgh East and Musselburgh","Lothians","Constituency","The Cabinet Secretary for Justice"
+"461",2117,124071,"3rd","M","Lewis Macdonald","Q1822125","Aberdeen Central","North East Scotland","Constituency",NA
+"462",2123,145316,"3rd","M","Malcolm Chisholm","Q1886983","Edinburgh North and Leith","Lothians","Constituency",NA
+"463",2133,81117,"3rd","M","Michael Matheson","Q121780","Falkirk West","Central Scotland","Constituency",NA
+"464",2134,81723,"3rd","M","Michael McMahon","Q2439870","Hamilton North and Bellshill","Central Scotland","Constituency",NA
+"465",2135,358021,"3rd","M","Michael Russell","Q1929110",NA,"South of Scotland","Region","The Minister for Environment"
+"466",2135,358021,"3rd","M","Michael Russell","Q1929110",NA,"South of Scotland","Region","The Minister for Culture, External Affairs and the Constitution"
+"467",2135,358021,"3rd","M","Michael Russell","Q1929110",NA,"South of Scotland","Region","The Cabinet Secretary for Education and Lifelong Learning"
+"468",2135,358021,"3rd","M","Michael Russell","Q1929110",NA,"South of Scotland","Region","The Minister for Culture and External Affairs"
+"469",2140,138667,"3rd","M","Mike Rumbles","Q1436381","West Aberdeenshire and Kincardine","North East Scotland","Constituency",NA
+"470",2154,58057,"3rd","M","Nicol Stephen","Q333630","Aberdeen South","North East Scotland","Constituency",NA
+"471",2159,90901,"3rd","M","Paul Martin","Q2061163","Glasgow Springburn","Glasgow","Constituency",NA
+"472",2159,90901,"3rd","M","Paul Martin","Q2061163","Glasgow Springburn","Glasgow","Constituency","The Party Business Convener"
+"473",2167,158077,"3rd","M","Peter Peacock","Q2077496",NA,"Highlands and Islands","Region",NA
+"474",2180,252089,"3rd","M","Richard Lochhead","Q1490268","Moray","Highlands and Islands","Constituency","The Cabinet Secretary for Rural Affairs and the Environment"
+"475",2182,199978,"3rd","M","Richard Simpson","Q2150619",NA,"Mid Scotland and Fife","Region",NA
+"476",2185,339604,"3rd","M","Robert Brown","Q2156625",NA,"Glasgow","Region",NA
+"477",2188,114764,"3rd","M","Robin Harper","Q202002",NA,"Lothians","Region",NA
+"478",2202,228986,"3rd","M","Ross Finnie","Q2167587",NA,"West of Scotland","Region",NA
+"479",2215,319258,"3rd","M","Stewart Stevenson","Q559613","Banff and Buchan","North East Scotland","Constituency","The Minister for Transport, Infrastructure and Climate Change"
+"480",2215,319258,"3rd","M","Stewart Stevenson","Q559613","Banff and Buchan","North East Scotland","Constituency",NA
+"481",2215,319258,"3rd","M","Stewart Stevenson","Q559613","Banff and Buchan","North East Scotland","Constituency","."
+"482",2223,119657,"3rd","M","Tavish Scott","Q1339371","Shetland","Highlands and Islands","Constituency",NA
+"483",2228,44093,"3rd","M","Tom McCabe","Q7816757","Hamilton South","Central Scotland","Constituency",NA
+"484",2234,185969,"3rd","M","Bill Aitken","Q861907",NA,"Glasgow","Region",NA
+"485",2252,98315,"3rd","M","Mike Pringle","Q1933434","Edinburgh South","Lothians","Constituency",NA
+"486",2345,126800,"3rd","M","John Scott","Q1701702","Ayr","South of Scotland","Constituency",NA
+"487",2364,110340,"3rd","M","Bill Butler","Q861989","Glasgow Anniesland","Glasgow","Constituency",NA
+"488",2394,209737,"3rd","M","Murdo Fraser","Q1953630",NA,"Mid Scotland and Fife","Region",NA
+"489",2595,194277,"3rd","M","Gavin Brown","Q1496418",NA,"Lothians","Region",NA
+"490",2596,182575,"3rd","M","Derek Brownlee","Q1200005",NA,"South of Scotland","Region",NA
+"491",2603,162319,"3rd","M","Richard Baker","Q2149018",NA,"North East Scotland","Region",NA
+"492",2610,63061,"3rd","M","John Wilson","Q1702190",NA,"Central Scotland","Region",NA
+"493",2633,102117,"3rd","F","Claire Baker","Q744632",NA,"Mid Scotland and Fife","Region",NA
+"494",2641,107227,"3rd","M","Alasdair Allan","Q559634","Western Isles","Highlands and Islands","Constituency",NA
+"495",2651,113028,"3rd","M","Jim Tolson","Q1247554","Dunfermline West","Mid Scotland and Fife","Constituency",NA
+"496",2674,92743,"3rd","M","Dave Thompson","Q1176844",NA,"Highlands and Islands","Region",NA
+"497",2675,177326,"3rd","M","Rob Gibson","Q563410",NA,"Highlands and Islands","Region",NA
+"498",2678,161354,"3rd","M","Jackson Carlaw","Q1231522",NA,"West of Scotland","Region",NA
+"499",2866,306648,"3rd","M","Jeremy Purvis","Q1687620","Tweeddale, Ettrick and Lauderdale","South of Scotland","Constituency",NA
+"500",2876,177984,"3rd","M","Stewart Maxwell","Q1710696",NA,"West of Scotland","Region","The Minister for Communities and Sport"
+"501",2876,177984,"3rd","M","Stewart Maxwell","Q1710696",NA,"West of Scotland","Region",NA
+"502",2892,211523,"3rd","M","Patrick Harvie","Q2057654",NA,"Glasgow","Region",NA
+"503",2963,56126,"3rd","F","Anne McLaughlin","Q373047",NA,"Glasgow","Region",NA
+"504",3061,57908,"3rd","F","Margaret Mitchell","Q1894872",NA,"Central Scotland","Region",NA
+"505",3129,52313,"3rd","M","Bill Kidd","Q862234",NA,"Glasgow","Region",NA
+"506",3538,75609,"3rd","M","Charlie Gordon","Q1064575","Glasgow Cathcart","Glasgow","Constituency",NA
+"507",3743,112946,"3rd","M","Nigel Don","Q181224",NA,"North East Scotland","Region",NA
+"508",3746,95282,"3rd","M","Christopher Harvie","Q1086721",NA,"Mid Scotland and Fife","Region",NA
+"509",3749,2112,"3rd","M","Stefan Tymkewycz","Q2337825",NA,"Lothians","Region",NA
+"510",3750,70737,"3rd","F","Shirley-Anne Somerville","Q2279359",NA,"Lothians","Region",NA
+"511",3758,109155,"3rd","M","Jamie Hepburn","Q1681399",NA,"Central Scotland","Region",NA
+"512",3759,115336,"3rd","F","Christina McKelvie","Q1083222",NA,"Central Scotland","Region",NA
+"513",3763,122032,"3rd","M","Stuart McMillan","Q2357916",NA,"West of Scotland","Region",NA
+"514",3771,125864,"3rd","M","Bob Doris","Q887886",NA,"Glasgow","Region",NA
+"515",3775,103476,"3rd","F","Aileen Campbell","Q405017",NA,"South of Scotland","Region",NA
+"516",3806,60652,"3rd","M","David Stewart","Q1176741",NA,"Highlands and Islands","Region",NA
+"517",3811,77363,"3rd","M","George Foulkes","Q1507362",NA,"Lothians","Region",NA
+"518",3815,118227,"3rd","M","John Park","Q1701321",NA,"Mid Scotland and Fife","Region",NA
+"519",3896,230375,"3rd","M","Liam McArthur","Q1691804","Orkney","Highlands and Islands","Constituency",NA
+"520",3901,92330,"3rd","M","Joe FitzPatrick","Q1612012","Dundee West","North East Scotland","Constituency",NA
+"521",3907,59187,"3rd","M","Willie Coffey","Q524532","Kilmarnock and Loudoun","Central Scotland","Constituency",NA
+"522",4014,159378,"3rd","F","Elizabeth Smith","Q644208",NA,"Mid Scotland and Fife","Region",NA
+"523",4016,119414,"3rd","M","John Lamont","Q1700778","Roxburgh and Berwickshire","South of Scotland","Constituency",NA
+"524",4074,233819,"3rd","M","David Whitton","Q1177153","Strathkelvin and Bearsden","West of Scotland","Constituency",NA
+"525",4080,126168,"3rd","F","Alison McInnes","Q2647236",NA,"North East Scotland","Region",NA
+"526",4086,116749,"3rd","M","Jim Hume","Q1689118",NA,"South of Scotland","Region",NA
+"527",1735,301271,"4th","F","Angela Constance","Q524077","Almond Valley","Lothian","Constituency","The Minister for Children and Young People"
+"528",1735,301271,"4th","F","Angela Constance","Q524077","Almond Valley","Lothian","Constituency","The Minister for Youth Employment"
+"529",1735,301271,"4th","F","Angela Constance","Q524077","Almond Valley","Lothian","Constituency","The Cabinet Secretary for Training, Youth and Women’s Employmentt"
+"530",1735,301271,"4th","F","Angela Constance","Q524077","Almond Valley","Lothian","Constituency","The Cabinet Secretary for Training, Youth and Women's Employment"
+"531",1735,301271,"4th","F","Angela Constance","Q524077","Almond Valley","Lothian","Constituency","The Cabinet Secretary for Training, Youth and Women’s Employment"
+"532",1735,301271,"4th","F","Angela Constance","Q524077","Almond Valley","Lothian","Constituency","The Cabinet Secretary for Education and Lifelong Learning"
+"533",1741,209528,"4th","F","Annabel Goldie","Q544742",NA,"West Scotland","Region",NA
+"534",1742,155361,"4th","F","Annabelle Ewing","Q564093",NA,"Mid Scotland and Fife","Region",NA
+"535",1742,155361,"4th","F","Annabelle Ewing","Q564093",NA,"Mid Scotland and Fife","Region","The Minister for Youth and Women’s Employment"
+"536",1756,272467,"4th","F","Christine Grahame","Q467108","Midlothian South, Tweeddale and Lauderdale","South Scotland","Constituency",NA
+"537",1759,221567,"4th","F","Claudia Beamish","Q1097337",NA,"South Scotland","Region",NA
+"538",1768,384033,"4th","F","Elaine Murray","Q1324826","Dumfriesshire","South Scotland","Constituency",NA
+"539",1769,36501,"4th","F","Elaine Smith","Q305347","Coatbridge and Chryston","Central Scotland","Constituency",NA
+"540",1769,36501,"4th","F","Elaine Smith","Q305347","Coatbridge and Chryston","Central Scotland","Constituency","The Deputy Presiding Officer"
+"541",1773,370918,"4th","F","Fiona Hyslop","Q1418512","Linlithgow","Lothian","Constituency","The Cabinet Secretary for Culture and External Affairs"
+"542",1773,370918,"4th","F","Fiona Hyslop","Q1418512","Linlithgow","Lothian","Constituency","The Cabinet Secretary for Culture, Europe and External Affairs"
+"543",1775,103063,"4th","F","Fiona McLeod","Q1418528","Strathkelvin and Bearsden","West Scotland","Constituency",NA
+"544",1775,103063,"4th","F","Fiona McLeod","Q1418528","Strathkelvin and Bearsden","West Scotland","Constituency","The Minister for Children and Young People"
+"545",1778,71795,"4th","F","Helen Eadie","Q1396732","Cowdenbeath","Mid Scotland and Fife","Constituency",NA
+"546",1783,356681,"4th","F","Jackie Baillie","Q544729","Dumbarton","West Scotland","Constituency",NA
+"547",1793,103276,"4th","F","Jean Urquhart","Q1685871",NA,"Highlands and Islands","Region",NA
+"548",1814,141838,"4th","F","Linda Fabiani","Q467097","East Kilbride","Central Scotland","Constituency",NA
+"549",1828,53376,"4th","F","Margo MacDonald","Q334376",NA,"Lothian","Region",NA
+"550",1839,269599,"4th","F","Mary Scanlon","Q1906394",NA,"Highlands and Islands","Region",NA
+"551",1841,215434,"4th","F","Maureen Watt","Q540381","Aberdeen South and North Kincardine","North East Scotland","Constituency",NA
+"552",1841,215434,"4th","F","Maureen Watt","Q540381","Aberdeen South and North Kincardine","North East Scotland","Constituency","The Minister for Public Health"
+"553",1845,260671,"4th","F","Nanette Milne","Q6963426",NA,"North East Scotland","Region",NA
+"554",1848,609618,"4th","F","Nicola Sturgeon","Q467112","Glasgow Southside","Glasgow","Constituency","The Deputy First Minister and Cabinet Secretary for Health, Wellbeing and Cities Strategy"
+"555",1848,609618,"4th","F","Nicola Sturgeon","Q467112","Glasgow Southside","Glasgow","Constituency","The Deputy First Minister and Cabinet Secretary for Infrastructure, Investment and Cities"
+"556",1848,609618,"4th","F","Nicola Sturgeon","Q467112","Glasgow Southside","Glasgow","Constituency",NA
+"557",1848,609618,"4th","F","Nicola Sturgeon","Q467112","Glasgow Southside","Glasgow","Constituency","The First Minister"
+"558",1853,275326,"4th","F","Patricia Ferguson","Q2057182","Glasgow Maryhill and Springburn","Glasgow","Constituency",NA
+"559",1860,256109,"4th","F","Rhoda Grant","Q769138",NA,"Highlands and Islands","Region",NA
+"560",1863,252757,"4th","F","Roseanna Cunningham","Q333953","Perthshire South and Kinross-shire","Mid Scotland and Fife","Constituency","The Minister for Community Safety and Legal Affairs"
+"561",1863,252757,"4th","F","Roseanna Cunningham","Q333953","Perthshire South and Kinross-shire","Mid Scotland and Fife","Constituency","The Cabinet Secretary for Fair Work, Skills and Training"
+"562",1865,200360,"4th","F","Sandra White","Q466861","Glasgow Kelvin","Glasgow","Constituency",NA
+"563",1866,258523,"4th","F","Sarah Boyack","Q544089",NA,"Lothian","Region",NA
+"564",1870,263234,"4th","F","Shona Robison","Q444675","Dundee City East","North East Scotland","Constituency","The Minister for Commonwealth Games and Sport"
+"565",1870,263234,"4th","F","Shona Robison","Q444675","Dundee City East","North East Scotland","Constituency","The Cabinet Secretary for Commonwealth Games, Sport, Equalities and Pensioners’ Rights"
+"566",1870,263234,"4th","F","Shona Robison","Q444675","Dundee City East","North East Scotland","Constituency","Cabinet Secretary for Health, Wellbeing and Sport"
+"567",1870,263234,"4th","F","Shona Robison","Q444675","Dundee City East","North East Scotland","Constituency","The Cabinet Secretary for Health, Wellbeing and Sport"
+"568",1876,1353882,"4th","F","Tricia Marwick","Q540435","Mid Fife and Glenrothes","Mid Scotland and Fife","Constituency",NA
+"569",1876,1353882,"4th","F","Tricia Marwick","Q540435","Mid Fife and Glenrothes","Mid Scotland and Fife","Constituency","The Presiding Officer"
+"570",1882,35864,"4th","M","Adam Ingram","Q349826","Carrick, Cumnock and Doon Valley","South Scotland","Constituency",NA
+"571",1892,169963,"4th","M","Alex Fergusson","Q559046","Galloway and West Dumfries","South Scotland","Constituency",NA
+"572",1893,327046,"4th","M","Alex Johnstone","Q2641395",NA,"North East Scotland","Region",NA
+"573",1894,360091,"4th","M","Alex Neil","Q1515752","Airdrie and Shotts","Central Scotland","Constituency","The Cabinet Secretary for Infrastructure and Capital Investment"
+"574",1894,360091,"4th","M","Alex Neil","Q1515752","Airdrie and Shotts","Central Scotland","Constituency","The Cabinet Secretary for Health and Wellbeing"
+"575",1894,360091,"4th","M","Alex Neil","Q1515752","Airdrie and Shotts","Central Scotland","Constituency",NA
+"576",1894,360091,"4th","M","Alex Neil","Q1515752","Airdrie and Shotts","Central Scotland","Constituency","The Cabinet Secretary for Social Justice, Communities and Pensioners’ Rights"
+"577",1895,681177,"4th","M","Alex Salmond","Q10652","Aberdeenshire East","North East Scotland","Constituency",NA
+"578",1895,681177,"4th","M","Alex Salmond","Q10652","Aberdeenshire East","North East Scotland","Constituency","The First Minister"
+"579",1926,19857,"4th","M","Brian Adam","Q570298","Aberdeen Donside","North East Scotland","Constituency","The Minister for Parliamentary Business and Chief Whip"
+"580",1926,19857,"4th","M","Brian Adam","Q570298","Aberdeen Donside","North East Scotland","Constituency",NA
+"581",1926,19857,"4th","M","Brian Adam","Q570298","Aberdeen Donside","North East Scotland","Constituency","."
+"582",1932,117916,"4th","M","Bruce Crawford","Q559391","Stirling","Mid Scotland and Fife","Constituency","The Cabinet Secretary for Parliamentary Business and Government Strategy"
+"583",1932,117916,"4th","M","Bruce Crawford","Q559391","Stirling","Mid Scotland and Fife","Constituency",NA
+"584",1943,228678,"4th","M","Chic Brodie","Q1071778",NA,"South Scotland","Region",NA
+"585",1961,65122,"4th","M","David McLetchie","Q1175613",NA,"Lothian","Region",NA
+"586",1986,106474,"4th","M","Duncan McNeil","Q1265439","Greenock and Inverclyde","West Scotland","Constituency",NA
+"587",1994,506498,"4th","M","Fergus Ewing","Q559022","Inverness and Nairn","Highlands and Islands","Constituency","The Minister for Energy, Enterprise and Tourism"
+"588",1994,506498,"4th","M","Fergus Ewing","Q559022","Inverness and Nairn","Highlands and Islands","Constituency",NA
+"589",1994,506498,"4th","M","Fergus Ewing","Q559022","Inverness and Nairn","Highlands and Islands","Constituency","Minister for Business, Energy and Tourism"
+"590",1994,506498,"4th","M","Fergus Ewing","Q559022","Inverness and Nairn","Highlands and Islands","Constituency","The Minister for Business, Energy and Tourism"
+"591",2010,84408,"4th","M","Gil Paterson","Q200615","Clydebank and Milngavie","West Scotland","Constituency",NA
+"592",2029,134686,"4th","M","Hugh Henry","Q5931093","Renfrewshire South","West Scotland","Constituency",NA
+"593",2033,221222,"4th","M","Iain Gray","Q1421398","East Lothian","South Scotland","Constituency",NA
+"594",2059,134900,"4th","M","James Kelly","Q1519985","Rutherglen","Glasgow","Constituency",NA
+"595",2066,190356,"4th","M","Jamie McGrigor","Q1680794",NA,"Highlands and Islands","Region",NA
+"596",2080,253198,"4th","F","Johann Lamont","Q544698","Glasgow Pollok","Glasgow","Constituency",NA
+"597",2098,738675,"4th","M","John Swinney","Q333811","Perthshire North","Mid Scotland and Fife","Constituency","The Cabinet Secretary for Finance, Employment and Sustainable Growth"
+"598",2098,738675,"4th","M","John Swinney","Q333811","Perthshire North","Mid Scotland and Fife","Constituency","The Deputy First Minister and Cabinet Secretary for Finance, Constitution and Economy"
+"599",2098,738675,"4th","M","John Swinney","Q333811","Perthshire North","Mid Scotland and Fife","Constituency","The Cabinet Secretary for Finance, Constitution and Economy"
+"600",2098,738675,"4th","M","John Swinney","Q333811","Perthshire North","Mid Scotland and Fife","Constituency","The Deputy First Minister"
+"601",2103,425615,"4th","M","Keith Brown","Q1738042","Clackmannanshire and Dunblane","Mid Scotland and Fife","Constituency","The Minister for Housing and Transport"
+"602",2103,425615,"4th","M","Keith Brown","Q1738042","Clackmannanshire and Dunblane","Mid Scotland and Fife","Constituency",NA
+"603",2103,425615,"4th","M","Keith Brown","Q1738042","Clackmannanshire and Dunblane","Mid Scotland and Fife","Constituency","The Minister for Transport and Veteran Affairs"
+"604",2103,425615,"4th","M","Keith Brown","Q1738042","Clackmannanshire and Dunblane","Mid Scotland and Fife","Constituency","The Minister for Transport and Veterans"
+"605",2103,425615,"4th","M","Keith Brown","Q1738042","Clackmannanshire and Dunblane","Mid Scotland and Fife","Constituency","The Cabinet Secretary for Infrastructure, Investment and Cities"
+"606",2108,327241,"4th","M","Ken Macintosh","Q1738887","Eastwood","West Scotland","Constituency",NA
+"607",2110,253489,"4th","M","Kenneth Gibson","Q944741","Cunninghame North","West Scotland","Constituency",NA
+"608",2112,380515,"4th","M","Kenny MacAskill","Q983174","Edinburgh Eastern","Lothian","Constituency","The Cabinet Secretary for Justice"
+"609",2112,380515,"4th","M","Kenny MacAskill","Q983174","Edinburgh Eastern","Lothian","Constituency",NA
+"610",2117,250065,"4th","M","Lewis Macdonald","Q1822125",NA,"North East Scotland","Region",NA
+"611",2123,422967,"4th","M","Malcolm Chisholm","Q1886983","Edinburgh Northern and Leith","Lothian","Constituency",NA
+"612",2133,486208,"4th","M","Michael Matheson","Q121780","Falkirk West","Central Scotland","Constituency","The Minister for Public Health"
+"613",2133,486208,"4th","M","Michael Matheson","Q121780","Falkirk West","Central Scotland","Constituency","The Cabinet Secretary for Justice"
+"614",2134,138474,"4th","M","Michael McMahon","Q2439870","Uddingston and Bellshill","Central Scotland","Constituency",NA
+"615",2135,358918,"4th","M","Michael Russell","Q1929110","Argyll and Bute","Highlands and Islands","Constituency","The Cabinet Secretary for Education and Lifelong Learning"
+"616",2135,358918,"4th","M","Michael Russell","Q1929110","Argyll and Bute","Highlands and Islands","Constituency",NA
+"617",2159,51601,"4th","M","Paul Martin","Q2061163","Glasgow Provan","Glasgow","Constituency",NA
+"618",2180,354735,"4th","M","Richard Lochhead","Q1490268","Moray","Highlands and Islands","Constituency","The Cabinet Secretary for Rural Affairs and the Environment"
+"619",2180,354735,"4th","M","Richard Lochhead","Q1490268","Moray","Highlands and Islands","Constituency","The Cabinet Secretary for Rural Affairs, Food and Environment"
+"620",2182,154712,"4th","M","Richard Simpson","Q2150619",NA,"Mid Scotland and Fife","Region",NA
+"621",2215,344234,"4th","M","Stewart Stevenson","Q559613","Banffshire and Buchan Coast","North East Scotland","Constituency","The Minister for Environment and Climate Change"
+"622",2215,344234,"4th","M","Stewart Stevenson","Q559613","Banffshire and Buchan Coast","North East Scotland","Constituency",NA
+"623",2223,166552,"4th","M","Tavish Scott","Q1339371","Shetland Islands","Highlands and Islands","Constituency",NA
+"624",2345,31651,"4th","M","John Scott","Q1701702","Ayr","South Scotland","Constituency","The Deputy Presiding Officer"
+"625",2394,280939,"4th","M","Murdo Fraser","Q1953630",NA,"Mid Scotland and Fife","Region",NA
+"626",2487,187416,"4th","F","Aileen McLeod","Q405025",NA,"South Scotland","Region",NA
+"627",2487,187416,"4th","F","Aileen McLeod","Q405025",NA,"South Scotland","Region","The Minister for Environment, Climate Change and Land Reform"
+"628",2595,298945,"4th","M","Gavin Brown","Q1496418",NA,"Lothian","Region",NA
+"629",2603,150001,"4th","M","Richard Baker","Q2149018",NA,"North East Scotland","Region",NA
+"630",2610,106051,"4th","M","John Wilson","Q1702190",NA,"Central Scotland","Region",NA
+"631",2615,218517,"4th","M","George Adam","Q1282862","Paisley","West Scotland","Constituency",NA
+"632",2633,237034,"4th","F","Claire Baker","Q744632",NA,"Mid Scotland and Fife","Region",NA
+"633",2641,11489,"4th","M","Alasdair Allan","Q559634","Na h-Eileanan an Iar","Highlands and Islands","Constituency","The Minister for Learning and Skills"
+"634",2641,11489,"4th","M","Alasdair Allan","Q559634","Na h-Eileanan an Iar","Highlands and Islands","Constituency","The Minister for Learning, Science and Scotland‘s Languages"
+"635",2641,11489,"4th","M","Alasdair Allan","Q559634","Na h-Eileanan an Iar","Highlands and Islands","Constituency","The Minister for Learning, Science and Scotland's Languages"
+"636",2641,11489,"4th","M","Alasdair Allan","Q559634","Na h-Eileanan an Iar","Highlands and Islands","Constituency","The Minister for Learning, Science and Scotland’s Languages"
+"637",2673,243085,"4th","M","Roderick Campbell","Q981061","North East Fife","Mid Scotland and Fife","Constituency",NA
+"638",2674,104605,"4th","M","Dave Thompson","Q1176844","Skye, Lochaber and Badenoch","Highlands and Islands","Constituency",NA
+"639",2675,192972,"4th","M","Rob Gibson","Q563410","Caithness, Sutherland and Ross","Highlands and Islands","Constituency",NA
+"640",2678,220859,"4th","M","Jackson Carlaw","Q1231522",NA,"West Scotland","Region",NA
+"641",2826,151444,"4th","M","James Dornan","Q509808","Glasgow Cathcart","Glasgow","Constituency",NA
+"642",2853,94075,"4th","M","John Pentland","Q1701389","Motherwell and Wishaw","Central Scotland","Constituency",NA
+"643",2876,162379,"4th","M","Stewart Maxwell","Q1710696",NA,"West Scotland","Region",NA
+"644",2892,285341,"4th","M","Patrick Harvie","Q2057654",NA,"Glasgow","Region",NA
+"645",3061,186747,"4th","F","Margaret Mitchell","Q1894872",NA,"Central Scotland","Region",NA
+"646",3101,141246,"4th","M","Hanzala Malik","Q1584068",NA,"Glasgow","Region",NA
+"647",3129,26841,"4th","M","Bill Kidd","Q862234","Glasgow Anniesland","Glasgow","Constituency",NA
+"648",3743,162131,"4th","M","Nigel Don","Q181224","Angus North and Mearns","North East Scotland","Constituency",NA
+"649",3745,150386,"4th","M","Dennis Robertson","Q1189468","Aberdeenshire West","North East Scotland","Constituency",NA
+"650",3751,69397,"4th","M","Colin Beattie","Q1108343","Midlothian North and Musselburgh","Lothian","Constituency",NA
+"651",3758,336060,"4th","M","Jamie Hepburn","Q1681399","Cumbernauld and Kilsyth","Central Scotland","Constituency",NA
+"652",3758,336060,"4th","M","Jamie Hepburn","Q1681399","Cumbernauld and Kilsyth","Central Scotland","Constituency","The Minister for Sport, Health Improvement and Mental Health"
+"653",3759,205483,"4th","F","Christina McKelvie","Q1083222","Hamilton, Larkhall and Stonehouse","Central Scotland","Constituency",NA
+"654",3763,167279,"4th","M","Stuart McMillan","Q2357916",NA,"West Scotland","Region",NA
+"655",3771,208311,"4th","M","Bob Doris","Q887886",NA,"Glasgow","Region",NA
+"656",3775,191041,"4th","F","Aileen Campbell","Q405017","Clydesdale","South Scotland","Constituency","The Minister for Local Government and Planning"
+"657",3775,191041,"4th","F","Aileen Campbell","Q405017","Clydesdale","South Scotland","Constituency","The Minister for Children and Young People"
+"658",3806,146468,"4th","M","David Stewart","Q1176741",NA,"Highlands and Islands","Region",NA
+"659",3812,200562,"4th","F","Kezia Dugdale","Q1740370",NA,"Lothian","Region",NA
+"660",3815,42875,"4th","M","John Park","Q1701321",NA,"Mid Scotland and Fife","Region",NA
+"661",3824,140517,"4th","F","Margaret McDougall","Q1894865",NA,"West Scotland","Region",NA
+"662",3896,388444,"4th","M","Liam McArthur","Q1691804","Orkney Islands","Highlands and Islands","Constituency",NA
+"663",3901,81750,"4th","M","Joe FitzPatrick","Q1612012","Dundee City West","North East Scotland","Constituency",NA
+"664",3901,81750,"4th","M","Joe FitzPatrick","Q1612012","Dundee City West","North East Scotland","Constituency","The Minister for Parliamentary Business"
+"665",3907,106215,"4th","M","Willie Coffey","Q524532","Kilmarnock and Irvine Valley","South Scotland","Constituency",NA
+"666",4016,84774,"4th","M","John Lamont","Q1700778","Ettrick, Roxburgh and Berwickshire","South Scotland","Constituency",NA
+"667",4080,234096,"4th","F","Alison McInnes","Q2647236",NA,"North East Scotland","Region",NA
+"668",4086,234569,"4th","M","Jim Hume","Q1689118",NA,"South Scotland","Region",NA
+"669",4934,193780,"4th","F","Alison Johnstone","Q2647232",NA,"Lothian","Region",NA
+"670",4938,128176,"4th","M","Richard Lyle","Q2150126",NA,"Central Scotland","Region",NA
+"671",4939,88197,"4th","M","Angus MacDonald","Q544483","Falkirk East","Central Scotland","Constituency",NA
+"672",4940,174669,"4th","F","Clare Adamson","Q540328",NA,"Central Scotland","Region",NA
+"673",4941,197717,"4th","M","Humza Yousaf","Q174924",NA,"Glasgow","Region",NA
+"674",4941,197717,"4th","M","Humza Yousaf","Q174924",NA,"Glasgow","Region","The Minister for External Affairs and International Development"
+"675",4941,197717,"4th","M","Humza Yousaf","Q174924",NA,"Glasgow","Region","The Minister for Europe and International Development"
+"676",4947,158278,"4th","M","John Finnie","Q1495635",NA,"Highlands and Islands","Region",NA
+"677",4948,141237,"4th","M","Mike MacKenzie","Q1933290",NA,"Highlands and Islands","Region",NA
+"678",4951,213774,"4th","F","Joan McAlpine","Q512681",NA,"South Scotland","Region",NA
+"679",4951,213774,"4th","F","Joan McAlpine","Q512681",NA,"South Scotland","Region","The Parliamentary Liaison Officer to the Office of the First Minister"
+"680",4952,452493,"4th","M","Paul Wheelhouse","Q2063093",NA,"South Scotland","Region",NA
+"681",4952,452493,"4th","M","Paul Wheelhouse","Q2063093",NA,"South Scotland","Region","The Minister for Environment and Climate Change"
+"682",4952,452493,"4th","M","Paul Wheelhouse","Q2063093",NA,"South Scotland","Region","The Minister for Community Safety and Legal Affairs"
+"683",4955,172742,"4th","M","Jim Eadie","Q1689091","Edinburgh Southern","Lothian","Constituency",NA
+"684",4956,73650,"4th","M","Colin Keir","Q5145257","Edinburgh Western","Lothian","Constituency",NA
+"685",4956,73650,"4th","M","Colin Keir","Q5145257","Edinburgh Western","Lothian","Constituency","."
+"686",4964,345542,"4th","M","Mark McDonald","Q1900265",NA,"North East Scotland","Region",NA
+"687",4964,345542,"4th","M","Mark McDonald","Q1900265","Aberdeen Donside","North East Scotland","Constituency","n/a"
+"688",4964,345542,"4th","M","Mark McDonald","Q1900265","Aberdeen Donside","North East Scotland","Constituency",NA
+"689",4965,139723,"4th","M","Christian Allard","Q13224746",NA,"North East Scotland","Region","n/a"
+"690",4965,139723,"4th","M","Christian Allard","Q13224746",NA,"North East Scotland","Region","N/A"
+"691",4965,139723,"4th","M","Christian Allard","Q13224746",NA,"North East Scotland","Region","The Minister for Commonwealth Games and Sport"
+"692",4965,139723,"4th","M","Christian Allard","Q13224746",NA,"North East Scotland","Region","The Minister for Energy, Enterprise and Tourism"
+"693",4965,139723,"4th","M","Christian Allard","Q13224746",NA,"North East Scotland","Region","The Cabinet Secretary for Finance, Employment and Sustainable Growth"
+"694",4965,139723,"4th","M","Christian Allard","Q13224746",NA,"North East Scotland","Region",NA
+"695",4966,318168,"4th","M","Derek Mackay","Q1200058","Renfrewshire North and West","West Scotland","Constituency",NA
+"696",4966,318168,"4th","M","Derek Mackay","Q1200058","Renfrewshire North and West","West Scotland","Constituency","The Minister for Local Government and Planning"
+"697",4966,318168,"4th","M","Derek Mackay","Q1200058","Renfrewshire North and West","West Scotland","Constituency","The Minister for Transport and Islands"
+"698",4976,169029,"4th","F","Ruth Davidson","Q2177593",NA,"Glasgow","Region",NA
+"699",4984,110607,"4th","M","Cameron Buchanan","Q16107237",NA,"Lothian","Region","n/a"
+"700",4984,110607,"4th","M","Cameron Buchanan","Q16107237",NA,"Lothian","Region","N/A"
+"701",4984,110607,"4th","M","Cameron Buchanan","Q16107237",NA,"Lothian","Region","The Cabinet Secretary for Justice"
+"702",4984,110607,"4th","M","Cameron Buchanan","Q16107237",NA,"Lothian","Region",NA
+"703",5009,266754,"4th","M","Willie Rennie","Q2581473",NA,"Mid Scotland and Fife","Region",NA
+"704",5034,272747,"4th","F","Jenny Marra","Q1687049",NA,"North East Scotland","Region",NA
+"705",5035,12276,"4th","F","Lesley Brennan","Q22131946",NA,"North East Scotland","Region",NA
+"706",5038,129314,"4th","F","Jayne Baxter","Q6167868",NA,"Mid Scotland and Fife","Region",NA
+"707",5041,139991,"4th","F","Siobhan McMahon","Q1726790",NA,"Central Scotland","Region",NA
+"708",5042,135007,"4th","M","Mark Griffin","Q1900077",NA,"Central Scotland","Region",NA
+"709",5047,143886,"4th","F","Anne McTaggart","Q565600",NA,"Glasgow","Region",NA
+"710",5054,264386,"4th","M","Neil Findlay","Q979197",NA,"Lothian","Region",NA
+"711",5057,193121,"4th","M","Graeme Pearson","Q1541328",NA,"South Scotland","Region",NA
+"712",5059,141908,"4th","F","Mary Fee","Q1906255",NA,"West Scotland","Region",NA
+"713",5060,148636,"4th","M","Neil Bibby","Q1557330",NA,"West Scotland","Region",NA
+"714",5074,96600,"4th","M","Gordon MacDonald","Q1538053","Edinburgh Pentlands","Lothian","Constituency",NA
+"715",5075,81378,"4th","M","David Torrance ","Q1176878","Kirkcaldy","Mid Scotland and Fife","Constituency",NA
+"716",5078,4170,"4th","M","Bill Walker","Q862635","Dunfermline","Mid Scotland and Fife","Constituency",NA
+"717",5079,162134,"4th","M","Drew Smith","Q1258767",NA,"Glasgow","Region",NA
+"718",5080,134583,"4th","F","Margaret McCulloch","Q1636293",NA,"Central Scotland","Region",NA
+"719",5106,193520,"4th","M","Kevin Stewart","Q1740263","Aberdeen Central","North East Scotland","Constituency",NA
+"720",5107,184882,"4th","M","Graeme Dey","Q1349075","Angus South","North East Scotland","Constituency",NA
+"721",5108,280662,"4th","F","Margaret Burgess","Q289184","Cunninghame South","West Scotland","Constituency",NA
+"722",5108,280662,"4th","F","Margaret Burgess","Q289184","Cunninghame South","West Scotland","Constituency","The Minister for Housing and Welfare"
+"723",5109,169783,"4th","M","Marco Biagi","Q1893669","Edinburgh Central","Lothian","Constituency",NA
+"724",5109,169783,"4th","M","Marco Biagi","Q1893669","Edinburgh Central","Lothian","Constituency","The Minister for Local Government and Community Empowerment"
+"725",5110,282250,"4th","M","John Mason","Q1700987","Glasgow Shettleston","Glasgow","Constituency",NA
+"726",5119,108509,"4th","M","Alex Rowley","Q16191157","Cowdenbeath","Mid Scotland and Fife","Constituency","n/a"
+"727",5119,108509,"4th","M","Alex Rowley","Q16191157","Cowdenbeath","Mid Scotland and Fife","Constituency","The Minister for Learning, Science and Scotland‘s Languages"
+"728",5119,108509,"4th","M","Alex Rowley","Q16191157","Cowdenbeath","Mid Scotland and Fife","Constituency",NA
+"729",5556,112547,"4th","F","Cara Hilton","Q15101536","Dunfermline","Mid Scotland and Fife","Constituency",NA
+"730",5556,112547,"4th","F","Cara Hilton","Q15101536","Dunfermline","Mid Scotland and Fife","Constituency","N/A"
+"731",1735,270153,"5th","F","Angela Constance","Q524077","Almond Valley","Lothian","Constituency","The Cabinet Secretary for Education and Lifelong Learning"
+"732",1735,270153,"5th","F","Angela Constance","Q524077","Almond Valley","Lothian","Constituency","The Cabinet Secretary for Communities, Social Security and Equalities"
+"733",1735,270153,"5th","F","Angela Constance","Q524077","Almond Valley","Lothian","Constituency",NA
+"734",1735,270153,"5th","F","Angela Constance","Q524077","Almond Valley","Lothian","Constituency","The Minister for Drug Policy"
+"735",1735,270153,"5th","F","Angela Constance","Q524077","Almond Valley","Lothian","Constituency","The Minister for Drugs Policy"
+"736",1742,215262,"5th","F","Annabelle Ewing","Q564093","Cowdenbeath","Mid Scotland and Fife","Constituency","The Minister for Youth and Women’s Employment"
+"737",1742,215262,"5th","F","Annabelle Ewing","Q564093","Cowdenbeath","Mid Scotland and Fife","Constituency","The Minister for Community Safety and Legal Affairs"
+"738",1742,215262,"5th","F","Annabelle Ewing","Q564093","Cowdenbeath","Mid Scotland and Fife","Constituency",NA
+"739",1756,60660,"5th","F","Christine Grahame","Q467108","Midlothian South, Tweeddale and Lauderdale","South Scotland","Constituency",NA
+"740",1756,60660,"5th","F","Christine Grahame","Q467108","Midlothian South, Tweeddale and Lauderdale","South Scotland","Constituency","The Deputy Presiding Officer"
+"741",1759,198315,"5th","F","Claudia Beamish","Q1097337",NA,"South Scotland","Region",NA
+"742",1769,168253,"5th","F","Elaine Smith","Q305347",NA,"Central Scotland","Region","The Deputy Presiding Officer"
+"743",1769,168253,"5th","F","Elaine Smith","Q305347",NA,"Central Scotland","Region",NA
+"744",1773,356860,"5th","F","Fiona Hyslop","Q1418512","Linlithgow","Lothian","Constituency","The Cabinet Secretary for Culture, Europe and External Affairs"
+"745",1773,356860,"5th","F","Fiona Hyslop","Q1418512","Linlithgow","Lothian","Constituency","The Cabinet Secretary for Culture, Tourism and External Affairs"
+"746",1773,356860,"5th","F","Fiona Hyslop","Q1418512","Linlithgow","Lothian","Constituency","The Cabinet Secretary for Economy, Fair Work and Culture"
+"747",1783,271497,"5th","F","Jackie Baillie","Q544729","Dumbarton","West Scotland","Constituency",NA
+"748",1814,26756,"5th","F","Linda Fabiani","Q467097","East Kilbride","Central Scotland","Constituency",NA
+"749",1814,26756,"5th","F","Linda Fabiani","Q467097","East Kilbride","Central Scotland","Constituency","The Deputy Presiding Officer"
+"750",1841,124291,"5th","F","Maureen Watt","Q540381","Aberdeen South and North Kincardine","North East Scotland","Constituency","The Minister for Public Health"
+"751",1841,124291,"5th","F","Maureen Watt","Q540381","Aberdeen South and North Kincardine","North East Scotland","Constituency","The Minister for Mental Health"
+"752",1841,124291,"5th","F","Maureen Watt","Q540381","Aberdeen South and North Kincardine","North East Scotland","Constituency",NA
+"753",1848,1751661,"5th","F","Nicola Sturgeon","Q467112","Glasgow Southside","Glasgow","Constituency","The First Minister"
+"754",1857,243880,"5th","F","Pauline McNeill","Q2063795",NA,"Glasgow","Region",NA
+"755",1860,235684,"5th","F","Rhoda Grant","Q769138",NA,"Highlands and Islands","Region",NA
+"756",1863,320237,"5th","F","Roseanna Cunningham","Q333953","Perthshire South and Kinross-shire","Mid Scotland and Fife","Constituency","The Cabinet Secretary for Fair Work, Skills and Training"
+"757",1863,320237,"5th","F","Roseanna Cunningham","Q333953","Perthshire South and Kinross-shire","Mid Scotland and Fife","Constituency","The Cabinet Secretary for the Environment, Climate Change and Land Reform"
+"758",1863,320237,"5th","F","Roseanna Cunningham","Q333953","Perthshire South and Kinross-shire","Mid Scotland and Fife","Constituency","The Cabinet Secretary for Environment, Climate Change and Land Reform"
+"759",1865,145816,"5th","F","Sandra White","Q466861","Glasgow Kelvin","Glasgow","Constituency",NA
+"760",1866,72135,"5th","F","Sarah Boyack","Q544089",NA,"Lothian","Region",NA
+"761",1870,297129,"5th","F","Shona Robison","Q444675","Dundee City East","North East Scotland","Constituency","The Cabinet Secretary for Health, Wellbeing and Sport"
+"762",1870,297129,"5th","F","Shona Robison","Q444675","Dundee City East","North East Scotland","Constituency","The Cabinet Secretary for Health and Sport"
+"763",1870,297129,"5th","F","Shona Robison","Q444675","Dundee City East","North East Scotland","Constituency",NA
+"764",1893,8571,"5th","M","Alex Johnstone","Q2641395",NA,"North East Scotland","Region",NA
+"765",1894,57888,"5th","M","Alex Neil","Q1515752","Airdrie and Shotts","Central Scotland","Constituency","The Cabinet Secretary for Social Justice, Communities and Pensioners’ Rights"
+"766",1894,57888,"5th","M","Alex Neil","Q1515752","Airdrie and Shotts","Central Scotland","Constituency",NA
+"767",1932,138405,"5th","M","Bruce Crawford","Q559391","Stirling","Mid Scotland and Fife","Constituency",NA
+"768",1994,412951,"5th","M","Fergus Ewing","Q559022","Inverness and Nairn","Highlands and Islands","Constituency","The Minister for Business, Energy and Tourism"
+"769",1994,412951,"5th","M","Fergus Ewing","Q559022","Inverness and Nairn","Highlands and Islands","Constituency","The Cabinet Secretary for Rural Economy and Connectivity"
+"770",1994,412951,"5th","M","Fergus Ewing","Q559022","Inverness and Nairn","Highlands and Islands","Constituency","The Cabinet Secretary for the Rural Economy"
+"771",1994,412951,"5th","M","Fergus Ewing","Q559022","Inverness and Nairn","Highlands and Islands","Constituency","The Cabinet Secretary for Rural Economy and Tourism"
+"772",2010,35886,"5th","M","Gil Paterson","Q200615","Clydebank and Milngavie","West Scotland","Constituency",NA
+"773",2015,165249,"5th","M","Gordon Lindhurst","Q24034371",NA,"Lothian","Region",NA
+"774",2033,186916,"5th","M","Iain Gray","Q1421398","East Lothian","South Scotland","Constituency",NA
+"775",2059,176958,"5th","M","James Kelly","Q1519985",NA,"Glasgow","Region",NA
+"776",2080,147096,"5th","F","Johann Lamont","Q544698",NA,"Glasgow","Region",NA
+"777",2098,635426,"5th","M","John Swinney","Q333811","Perthshire North","Mid Scotland and Fife","Constituency","The Deputy First Minister"
+"778",2098,635426,"5th","M","John Swinney","Q333811","Perthshire North","Mid Scotland and Fife","Constituency","The Deputy First Minister and Cabinet Secretary for Education and Skills"
+"779",2103,288754,"5th","M","Keith Brown","Q1738042","Clackmannanshire and Dunblane","Mid Scotland and Fife","Constituency","The Cabinet Secretary for Infrastructure, Investment and Cities"
+"780",2103,288754,"5th","M","Keith Brown","Q1738042","Clackmannanshire and Dunblane","Mid Scotland and Fife","Constituency","The Cabinet Secretary for Economy, Jobs and Fair Work"
+"781",2103,288754,"5th","M","Keith Brown","Q1738042","Clackmannanshire and Dunblane","Mid Scotland and Fife","Constituency",NA
+"782",2108,2044957,"5th","M","Ken Macintosh","Q1738887",NA,"West Scotland","Region",NA
+"783",2108,2044957,"5th","M","Ken Macintosh","Q1738887",NA,"West Scotland","Region","The Presiding Officer"
+"784",2110,256937,"5th","M","Kenneth Gibson","Q944741","Cunninghame North","West Scotland","Constituency",NA
+"785",2117,172224,"5th","M","Lewis Macdonald","Q1822125",NA,"North East Scotland","Region",NA
+"786",2117,172224,"5th","M","Lewis Macdonald","Q1822125",NA,"North East Scotland","Region","The Deputy Presiding Officer"
+"787",2127,206702,"5th","M","Mark Ruskell","Q1900397",NA,"Mid Scotland and Fife","Region",NA
+"788",2133,454966,"5th","M","Michael Matheson","Q121780","Falkirk West","Central Scotland","Constituency","The Cabinet Secretary for Justice"
+"789",2133,454966,"5th","M","Michael Matheson","Q121780","Falkirk West","Central Scotland","Constituency","The Cabinet Secretary for Transport, Infrastructure and Connectivity"
+"790",2135,519451,"5th","M","Michael Russell","Q1929110","Argyll and Bute","Highlands and Islands","Constituency",NA
+"791",2135,519451,"5th","M","Michael Russell","Q1929110","Argyll and Bute","Highlands and Islands","Constituency","The Minister for UK Negotiations on Scotland’s Place in Europe"
+"792",2135,519451,"5th","M","Michael Russell","Q1929110","Argyll and Bute","Highlands and Islands","Constituency","The Cabinet Secretary for Government Business and Constitutional Relations"
+"793",2135,519451,"5th","M","Michael Russell","Q1929110","Argyll and Bute","Highlands and Islands","Constituency","The Cabinet Secretary for the Constitution, Europe and External Affairs"
+"794",2140,160637,"5th","M","Mike Rumbles","Q1436381",NA,"North East Scotland","Region",NA
+"795",2180,162501,"5th","M","Richard Lochhead","Q1490268","Moray","Highlands and Islands","Constituency","The Cabinet Secretary for Rural Affairs, Food and Environment"
+"796",2180,162501,"5th","M","Richard Lochhead","Q1490268","Moray","Highlands and Islands","Constituency",NA
+"797",2180,162501,"5th","M","Richard Lochhead","Q1490268","Moray","Highlands and Islands","Constituency","The Minister for Further Education, Higher Education and Science"
+"798",2215,270342,"5th","M","Stewart Stevenson","Q559613","Banffshire and Buchan Coast","North East Scotland","Constituency",NA
+"799",2223,168189,"5th","M","Tavish Scott","Q1339371","Shetland Islands","Highlands and Islands","Constituency",NA
+"800",2345,97451,"5th","M","John Scott","Q1701702","Ayr","South Scotland","Constituency","The Deputy Presiding Officer"
+"801",2345,97451,"5th","M","John Scott","Q1701702","Ayr","South Scotland","Constituency",NA
+"802",2394,243233,"5th","M","Murdo Fraser","Q1953630",NA,"Mid Scotland and Fife","Region",NA
+"803",2615,130207,"5th","M","George Adam","Q1282862","Paisley","West Scotland","Constituency",NA
+"804",2633,229240,"5th","F","Claire Baker","Q744632",NA,"Mid Scotland and Fife","Region",NA
+"805",2641,98139,"5th","M","Alasdair Allan","Q559634","Na h-Eileanan an Iar","Highlands and Islands","Constituency","The Minister for Learning, Science and Scotland's Languages"
+"806",2641,98139,"5th","M","Alasdair Allan","Q559634","Na h-Eileanan an Iar","Highlands and Islands","Constituency","The Minister for International Development and Europe"
+"807",2641,98139,"5th","M","Alasdair Allan","Q559634","Na h-Eileanan an Iar","Highlands and Islands","Constituency",NA
+"808",2678,146437,"5th","M","Jackson Carlaw","Q1231522","Eastwood","West Scotland","Constituency",NA
+"809",2826,173576,"5th","M","James Dornan","Q509808","Glasgow Cathcart","Glasgow","Constituency",NA
+"810",2892,344104,"5th","M","Patrick Harvie","Q2057654",NA,"Glasgow","Region",NA
+"811",3061,104594,"5th","F","Margaret Mitchell","Q1894872",NA,"Central Scotland","Region",NA
+"812",3129,68643,"5th","M","Bill Kidd","Q862234","Glasgow Anniesland","Glasgow","Constituency",NA
+"813",3750,249654,"5th","F","Shirley-Anne Somerville","Q2279359","Dunfermline","Mid Scotland and Fife","Constituency",NA
+"814",3750,249654,"5th","F","Shirley-Anne Somerville","Q2279359","Dunfermline","Mid Scotland and Fife","Constituency","The Minister for Further Education, Higher Education and Science"
+"815",3750,249654,"5th","F","Shirley-Anne Somerville","Q2279359","Dunfermline","Mid Scotland and Fife","Constituency","The Cabinet Secretary for Social Security and Older People"
+"816",3751,62472,"5th","M","Colin Beattie","Q1108343","Midlothian North and Musselburgh","Lothian","Constituency",NA
+"817",3758,218829,"5th","M","Jamie Hepburn","Q1681399","Cumbernauld and Kilsyth","Central Scotland","Constituency","The Minister for Sport, Health Improvement and Mental Health"
+"818",3758,218829,"5th","M","Jamie Hepburn","Q1681399","Cumbernauld and Kilsyth","Central Scotland","Constituency","The Minister for Employability and Training"
+"819",3758,218829,"5th","M","Jamie Hepburn","Q1681399","Cumbernauld and Kilsyth","Central Scotland","Constituency","The Minister for Business, Fair Work and Skills"
+"820",3759,228784,"5th","F","Christina McKelvie","Q1083222","Hamilton, Larkhall and Stonehouse","Central Scotland","Constituency",NA
+"821",3759,228784,"5th","F","Christina McKelvie","Q1083222","Hamilton, Larkhall and Stonehouse","Central Scotland","Constituency","The Minister for Older People and Equalities"
+"822",3763,206369,"5th","M","Stuart McMillan","Q2357916","Greenock and Inverclyde","West Scotland","Constituency",NA
+"823",3771,159718,"5th","M","Bob Doris","Q887886","Glasgow Maryhill and Springburn","Glasgow","Constituency",NA
+"824",3775,401541,"5th","F","Aileen Campbell","Q405017","Clydesdale","South Scotland","Constituency","The Minister for Children and Young People"
+"825",3775,401541,"5th","F","Aileen Campbell","Q405017","Clydesdale","South Scotland","Constituency","The Minister for Public Health and Sport"
+"826",3775,401541,"5th","F","Aileen Campbell","Q405017","Clydesdale","South Scotland","Constituency","The Cabinet Secretary for Communities and Local Government"
+"827",3806,174055,"5th","M","David Stewart","Q1176741",NA,"Highlands and Islands","Region",NA
+"828",3812,128033,"5th","F","Kezia Dugdale","Q1740370",NA,"Lothian","Region",NA
+"829",3896,270786,"5th","M","Liam McArthur","Q1691804","Orkney Islands","Highlands and Islands","Constituency",NA
+"830",3901,211734,"5th","M","Joe FitzPatrick","Q1612012","Dundee City West","North East Scotland","Constituency","The Minister for Parliamentary Business"
+"831",3901,211734,"5th","M","Joe FitzPatrick","Q1612012","Dundee City West","North East Scotland","Constituency","The Minister for Public Health, Sport and Wellbeing"
+"832",3901,211734,"5th","M","Joe FitzPatrick","Q1612012","Dundee City West","North East Scotland","Constituency",NA
+"833",3907,97331,"5th","M","Willie Coffey","Q524532","Kilmarnock and Irvine Valley","South Scotland","Constituency",NA
+"834",3983,128645,"5th","M","Maurice Golden","Q24039803",NA,"West Scotland","Region",NA
+"835",3985,42386,"5th","M","Ross Thomson","Q24034678",NA,"North East Scotland","Region",NA
+"836",3994,163287,"5th","M","Graham Simpson","Q24039900",NA,"Central Scotland","Region",NA
+"837",4016,12781,"5th","M","John Lamont","Q1700778","Ettrick, Roxburgh and Berwickshire","South Scotland","Constituency",NA
+"838",4934,299530,"5th","F","Alison Johnstone","Q2647232",NA,"Lothian","Region",NA
+"839",4938,109981,"5th","M","Richard Lyle","Q2150126","Uddingston and Bellshill","Central Scotland","Constituency",NA
+"840",4939,95752,"5th","M","Angus MacDonald","Q544483","Falkirk East","Central Scotland","Constituency",NA
+"841",4940,160074,"5th","F","Clare Adamson","Q540328","Motherwell and Wishaw","Central Scotland","Constituency",NA
+"842",4941,486032,"5th","M","Humza Yousaf","Q174924","Glasgow Pollok","Glasgow","Constituency","The Minister for Europe and International Development"
+"843",4941,486032,"5th","M","Humza Yousaf","Q174924","Glasgow Pollok","Glasgow","Constituency","The Minister for Transport and the Islands"
+"844",4941,486032,"5th","M","Humza Yousaf","Q174924","Glasgow Pollok","Glasgow","Constituency","The Cabinet Secretary for Justice"
+"845",4947,266150,"5th","M","John Finnie","Q1495635",NA,"Highlands and Islands","Region",NA
+"846",4951,214322,"5th","F","Joan McAlpine","Q512681",NA,"South Scotland","Region","The Parliamentary Liaison Officer to the Office of the First Minister"
+"847",4951,214322,"5th","F","Joan McAlpine","Q512681",NA,"South Scotland","Region",NA
+"848",4952,312935,"5th","M","Paul Wheelhouse","Q2063093",NA,"South Scotland","Region","The Minister for Community Safety and Legal Affairs"
+"849",4952,312935,"5th","M","Paul Wheelhouse","Q2063093",NA,"South Scotland","Region","The Minister for Business, Innovation and Energy"
+"850",4952,312935,"5th","M","Paul Wheelhouse","Q2063093",NA,"South Scotland","Region","The Minister for Energy, Connectivity and the Islands"
+"851",4964,125159,"5th","M","Mark McDonald","Q1900265","Aberdeen Donside","North East Scotland","Constituency",NA
+"852",4964,125159,"5th","M","Mark McDonald","Q1900265","Aberdeen Donside","North East Scotland","Constituency","The Minister for Childcare and Early Years"
+"853",4966,366463,"5th","M","Derek Mackay","Q1200058","Renfrewshire North and West","West Scotland","Constituency","The Minister for Transport and Islands"
+"854",4966,366463,"5th","M","Derek Mackay","Q1200058","Renfrewshire North and West","West Scotland","Constituency","The Cabinet Secretary for Finance and the Constitution"
+"855",4966,366463,"5th","M","Derek Mackay","Q1200058","Renfrewshire North and West","West Scotland","Constituency","The Cabinet Secretary for Finance, Economy and Fair Work"
+"856",4976,160778,"5th","F","Ruth Davidson","Q2177593","Edinburgh Central","Lothian","Constituency",NA
+"857",4981,62259,"5th","M","Douglas Ross","Q24039769",NA,"Highlands and Islands","Region",NA
+"858",4982,180815,"5th","M","Edward Mountain","Q24039768",NA,"Highlands and Islands","Region",NA
+"859",4987,226939,"5th","M","Miles Briggs","Q24052672",NA,"Lothian","Region",NA
+"860",5009,267436,"5th","M","Willie Rennie","Q2581473","North East Fife","Mid Scotland and Fife","Constituency",NA
+"861",5034,58863,"5th","F","Jenny Marra","Q1687049",NA,"North East Scotland","Region",NA
+"862",5042,103021,"5th","M","Mark Griffin","Q1900077",NA,"Central Scotland","Region",NA
+"863",5054,251844,"5th","M","Neil Findlay","Q979197",NA,"Lothian","Region",NA
+"864",5059,134459,"5th","F","Mary Fee","Q1906255",NA,"West Scotland","Region",NA
+"865",5060,106078,"5th","M","Neil Bibby","Q1557330",NA,"West Scotland","Region",NA
+"866",5074,65746,"5th","M","Gordon MacDonald","Q1538053","Edinburgh Pentlands","Lothian","Constituency",NA
+"867",5075,90936,"5th","M","David Torrance ","Q1176878","Kirkcaldy","Mid Scotland and Fife","Constituency",NA
+"868",5106,238733,"5th","M","Kevin Stewart","Q1740263","Aberdeen Central","North East Scotland","Constituency",NA
+"869",5106,238733,"5th","M","Kevin Stewart","Q1740263","Aberdeen Central","North East Scotland","Constituency","The Minister for Local Government and Housing"
+"870",5106,238733,"5th","M","Kevin Stewart","Q1740263","Aberdeen Central","North East Scotland","Constituency","The Minister for Local Government, Housing and Planning"
+"871",5107,235094,"5th","M","Graeme Dey","Q1349075","Angus South","North East Scotland","Constituency",NA
+"872",5107,235094,"5th","M","Graeme Dey","Q1349075","Angus South","North East Scotland","Constituency","The Minister for Parliamentary Business and Veterans"
+"873",5110,203639,"5th","M","John Mason","Q1700987","Glasgow Shettleston","Glasgow","Constituency",NA
+"874",5119,227190,"5th","M","Alex Rowley","Q16191157",NA,"Mid Scotland and Fife","Region",NA
+"875",5578,252559,"5th","F","Gillian Martin","Q24014282","Aberdeenshire East","North East Scotland","Constituency",NA
+"876",5579,202069,"5th","M","Richard Leonard","Q24039896",NA,"Central Scotland","Region",NA
+"877",5580,284837,"5th","F","Monica Lennon","Q24039899",NA,"Central Scotland","Region",NA
+"878",5586,173818,"5th","M","Anas Sarwar","Q478812",NA,"Glasgow","Region",NA
+"879",5587,76719,"5th","F","Mairi Evans","Q24014894","Angus North and Mearns","North East Scotland","Constituency",NA
+"880",5587,76719,"5th","F","Mairi Evans","Q24014894","Angus North and Mearns","North East Scotland","Constituency","The Minister for Rural Affairs and the Natural Environment"
+"881",5587,76719,"5th","F","Mairi Evans","Q24014894","Angus North and Mearns","North East Scotland","Constituency","The Minister for Public Health, Sport and Wellbeing"
+"882",5591,113779,"5th","F","Gail Ross","Q23982037","Caithness, Sutherland and Ross","Highlands and Islands","Constituency",NA
+"883",5591,113779,"5th","F","Gail Ross","Q23982037","Caithness, Sutherland and Ross","Highlands and Islands","Constituency","The Parliamentary Liaison Officer to the Office of the First Minister"
+"884",5592,605105,"5th","F","Jeane Freeman","Q16250806","Carrick, Cumnock and Doon Valley","South Scotland","Constituency",NA
+"885",5592,605105,"5th","F","Jeane Freeman","Q16250806","Carrick, Cumnock and Doon Valley","South Scotland","Constituency","The Minister for Social Security"
+"886",5592,605105,"5th","F","Jeane Freeman","Q16250806","Carrick, Cumnock and Doon Valley","South Scotland","Constituency","The Cabinet Secretary for Health and Sport"
+"887",5596,238640,"5th","M","Fulton MacGregor","Q24052668","Coatbridge and Chryston","Central Scotland","Constituency",NA
+"888",5598,190417,"5th","F","Ruth Maguire","Q24034376","Cunninghame South","West Scotland","Constituency",NA
+"889",5604,285268,"5th","M","Daniel Johnson","Q24052669","Edinburgh Southern","Lothian","Constituency",NA
+"890",5605,170116,"5th","F","Ash Denham","Q24052667","Edinburgh Eastern","Lothian","Constituency",NA
+"891",5605,170116,"5th","F","Ash Denham","Q24052667","Edinburgh Eastern","Lothian","Constituency","The Minister for Community Safety"
+"892",5608,183612,"5th","M","Ben Macpherson","Q24052665","Edinburgh Northern and Leith","Lothian","Constituency",NA
+"893",5608,183612,"5th","M","Ben Macpherson","Q24052665","Edinburgh Northern and Leith","Lothian","Constituency","The Parliamentary Liaison Officer to the Office of the First Minister"
+"894",5608,183612,"5th","M","Ben Macpherson","Q24052665","Edinburgh Northern and Leith","Lothian","Constituency","The Minister for Europe, Migration and International Development"
+"895",5608,183612,"5th","M","Ben Macpherson","Q24052665","Edinburgh Northern and Leith","Lothian","Constituency","The Minister for Public Finance and Migration"
+"896",5608,183612,"5th","M","Ben Macpherson","Q24052665","Edinburgh Northern and Leith","Lothian","Constituency","The Minister for Rural Affairs and the Natural Environment"
+"897",5612,184161,"5th","M","Ivan McKee","Q24052670","Glasgow Provan","Glasgow","Constituency",NA
+"898",5612,184161,"5th","M","Ivan McKee","Q24052670","Glasgow Provan","Glasgow","Constituency","The Minister for Trade, Investment and Innovation"
+"899",5612,184161,"5th","M","Ivan McKee","Q24052670","Glasgow Provan","Glasgow","Constituency","The Minister for Trade, Innovation and Public Finance"
+"900",5613,162363,"5th","F","Jenny Gilruth","Q24026044","Mid Fife and Glenrothes","Mid Scotland and Fife","Constituency",NA
+"901",5613,162363,"5th","F","Jenny Gilruth","Q24026044","Mid Fife and Glenrothes","Mid Scotland and Fife","Constituency","The Minister for Europe and International Development"
+"902",5618,212095,"5th","F","Clare Haughey","Q24025938","Rutherglen","Glasgow","Constituency",NA
+"903",5618,212095,"5th","F","Clare Haughey","Q24025938","Rutherglen","Glasgow","Constituency","The Minister for Mental Health"
+"904",5621,273738,"5th","F","Kate Forbes","Q24039479","Skye, Lochaber and Badenoch","Highlands and Islands","Constituency",NA
+"905",5621,273738,"5th","F","Kate Forbes","Q24039479","Skye, Lochaber and Badenoch","Highlands and Islands","Constituency","The Minister for Public Finance and Digital Economy"
+"906",5621,273738,"5th","F","Kate Forbes","Q24039479","Skye, Lochaber and Badenoch","Highlands and Islands","Constituency","The Cabinet Secretary for Finance"
+"907",5622,181342,"5th","F","Rona Mackay","Q24039795","Strathkelvin and Bearsden","West Scotland","Constituency",NA
+"908",5638,310127,"5th","M","Colin Smyth","Q24036539",NA,"South Scotland","Region",NA
+"909",5651,271078,"5th","M","Liam Kerr","Q24052676",NA,"North East Scotland","Region",NA
+"910",5665,93795,"5th","M","Alexander Burnett","Q24034422","Aberdeenshire West","North East Scotland","Constituency",NA
+"911",5669,211821,"5th","F","Maree Todd","Q24034387",NA,"Highlands and Islands","Region",NA
+"912",5669,211821,"5th","F","Maree Todd","Q24034387",NA,"Highlands and Islands","Region","The Minister for Childcare and Early Years"
+"913",5669,211821,"5th","F","Maree Todd","Q24034387",NA,"Highlands and Islands","Region","The Minister for Children and Young People"
+"914",5677,248997,"5th","M","Donald Cameron","Q24052673",NA,"Highlands and Islands","Region",NA
+"915",5679,114901,"5th","M","Peter Chapman","Q24052675",NA,"North East Scotland","Region",NA
+"916",5695,233704,"5th","M","Andy Wightman","Q19667404",NA,"Lothian","Region",NA
+"917",5698,301083,"5th","M","Jamie Greene","Q24039791",NA,"West Scotland","Region",NA
+"918",5700,184340,"5th","M","Maurice Corry","Q24039805",NA,"West Scotland","Region",NA
+"919",5709,130801,"5th","M","Oliver Mundell","Q24034308","Dumfriesshire","South Scotland","Constituency",NA
+"920",5757,193113,"5th","M","Ross Greer","Q24034374",NA,"West Scotland","Region",NA
+"921",5769,207943,"5th","F","Rachael Hamilton","Q24034267",NA,"South Scotland","Region",NA
+"922",5769,207943,"5th","F","Rachael Hamilton","Q24034267","Ettrick, Roxburgh and Berwickshire","South Scotland","Constituency",NA
+"923",5771,243000,"5th","F","Emma Harper","Q24034416",NA,"South Scotland","Region",NA
+"924",5781,111663,"5th","F","Alison Harris","Q24039903",NA,"Central Scotland","Region",NA
+"925",5782,147889,"5th","M","Finlay Carson","Q24034357","Galloway and West Dumfries","South Scotland","Constituency",NA
+"926",5783,224460,"5th","M","Adam Tomkins","Q4679900",NA,"Glasgow","Region",NA
+"927",5788,197379,"5th","F","Annie Wells","Q24052671",NA,"Glasgow","Region",NA
+"928",5793,291780,"5th","M","Brian Whittle","Q514743",NA,"South Scotland","Region",NA
+"929",5797,150462,"5th","F","Michelle Ballantyne","Q30026790",NA,"South Scotland","Region",NA
+"930",5800,183272,"5th","M","Jamie Halcro Johnston","Q30260625",NA,"Highlands and Islands","Region",NA
+"931",5809,192897,"5th","M","Dean Lockhart","Q24052679",NA,"Mid Scotland and Fife","Region",NA
+"932",5815,331608,"5th","M","Alex Cole-Hamilton","Q24045406","Edinburgh Western","Lothian","Constituency",NA
+"933",5866,193317,"5th","M","Alexander Stewart","Q24052680",NA,"Mid Scotland and Fife","Region",NA
+"934",5868,170180,"5th","M","Tom Arthur","Q24039804","Renfrewshire South","West Scotland","Constituency",NA
+"935",5877,149486,"5th","M","Jeremy Balfour","Q24052677",NA,"Lothian","Region",NA
+"936",5929,55641,"5th","M","Tom Mason","Q30263201",NA,"North East Scotland","Region",NA
+"937",6090,68843,"5th","M","Bill Bowman","Q28020296",NA,"North East Scotland","Region",NA
+"938",15631,41941,"5th","F","Beatrice Wishart","Q66825436","Shetland Islands","Highlands and Islands","Constituency",NA
