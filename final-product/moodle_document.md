@@ -7,11 +7,11 @@
     5. Conclusions
 * **Motivation** for your project; i.e., why were you interested in the topic chosen?
 * **Justification**: why is your project relevant?
-* **Aim**. Be sure of making crystal clear what was your aim with the data analyses. 
+* **Aim**. Be sure of making crystal clear what was your aim with the data analyses.
 * **Data**: What data sources did you use? Be sure of being presenting a thorough description of data sources. (not only include URLs but a line or two on what is the data source). How many data points did you gather? Descriptive statistics of your data.
-* **Methodology**" How did you analysed the data? What tools did you use? 
+* **Methodology**" How did you analysed the data? What tools did you use?
 * **Results**: What are the findings of your analysis?
-* **Conclusion** 
+* **Conclusion**
 * **Appendix**: Include in your GitHub page a section with reference to any code you use and data used (if possible).
 
 -----
@@ -27,10 +27,12 @@
 ## Aim
 
 ## Data
+We used a pre-scrapped dataset of speeches by Scottish Members of Parliament (MSPs). The data has entries from the opening of the Scottish Parliament so we were able to analyse all speeches made in the Scottish Parliament.
 
 ## Methodology
 
 ## Results
+We found some interesting descriptive results about the role of women in Scottish Parliamentary proceedings. Initially, female MSPs spoke disproportionally less than there were women in the Scottish Parliament. However, over time, this rose so that women were speaking roughly as much as there women in Parliament. This being said, much of this trend is driven by Nicola Sturgeon becoming First Minister.  
 
 ## Conclusion
 
