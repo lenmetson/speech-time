@@ -24,10 +24,14 @@
 
 ## Justification for our project
 
+
 ## Aim
+We wanted to measure the length of each speech in Scottish Parliament by the number of syllables in each speech. These could then be aggregated to estimate each MSPs total speech time.
 
 ## Data
 We used a pre-scrapped dataset of speeches by Scottish Members of Parliament (MSPs). The data has entries from the opening of the Scottish Parliament so we were able to analyse all speeches made in the Scottish Parliament.
+
+[Link to Harvard Dataverse Page](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE)
 
 ## Methodology
 
