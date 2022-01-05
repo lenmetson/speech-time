@@ -33,6 +33,18 @@ We used a pre-scrapped dataset of speeches by Scottish Members of Parliament (MS
 
 [Link to Harvard Dataverse Page](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE)
 
+The relevant dataset was downloaded by HTTP request using an R wrapper.
+
+### Descriptive statistics on Raw Data
+
+
+|          | Total   | Female  | % Female |
+|----------|---------|---------|----------|
+| Speeches | 430,577 | 125,078 | 29.05%   |
+| MSPs     | 306     | 105     | 34.31%   |
+
+
+
 ## Methodology
 
 ## Results
