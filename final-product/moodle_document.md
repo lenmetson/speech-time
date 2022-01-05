@@ -15,8 +15,8 @@
 * **Appendix**: Include in your GitHub page a section with reference to any code you use and data used (if possible).
 
 -----
+# Are women underrepresented in Scottish Politics?
 
-# Notes
 
 ## Motivation for our project
 * Fourth-wave feminism's advocation for greater representation of women - including traditionally marginalised groups such as women of colour and trans women - in politics is premised on the notion that society would be more equitable if policies incorporate perspectives of all people
@@ -47,11 +47,20 @@ The relevant dataset was downloaded by HTTP request using an R wrapper.
 
 ## Methodology
 
+Why syllables:
+* The assumption is that the more syllables a speech is, the more time it takes to say.
+* Having time on the floor of parliament is a precious resource for politicians. They use it to signal to voters, bring policies forward and influence legislation.  
+* We used it instead of raw number of speeches because syllables take into account how much time is given and we assumed that many short speeches are less impactful than an MSP given space to make long speeches. Length of speech is also defined by an MSP's with importance to a piece of legislation or debate, so MSPs who give longer speeches are the most influential. Therefore, we choose it as a more senstitive proxy for measuring influence.
+* We did however, replicate all analysis using number of speeches and found similar results.  
+
+Sturgeon:
+
 Steps:
 
 
 ## Results
-We found some interesting descriptive results about the role of women in Scottish Parliamentary proceedings. Initially, female MSPs spoke disproportionally less than there were women in the Scottish Parliament. However, over time, this rose so that women were speaking roughly as much as there women in Parliament. This being said, much of this trend is driven by Nicola Sturgeon becoming First Minister.  
+We found some interesting descriptive results about the role of women in Scottish Parliamentary proceedings. Initially, female MSPs spoke disproportionally less than there were women in the Scottish Parliament. However, over time, this rose so that women were speaking roughly as much as there women in Parliament. This being said, much of this trend is driven by Nicola Sturgeon becoming First Minister.
+
 
 ## Conclusion
 
