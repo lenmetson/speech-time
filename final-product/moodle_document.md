@@ -47,6 +47,9 @@ The relevant dataset was downloaded by HTTP request using an R wrapper.
 
 ## Methodology
 
+Steps:
+
+
 ## Results
 We found some interesting descriptive results about the role of women in Scottish Parliamentary proceedings. Initially, female MSPs spoke disproportionally less than there were women in the Scottish Parliament. However, over time, this rose so that women were speaking roughly as much as there women in Parliament. This being said, much of this trend is driven by Nicola Sturgeon becoming First Minister.  
 
