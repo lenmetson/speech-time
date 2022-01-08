@@ -1,4 +1,6 @@
-The purpose of the exercises in this folder is to obtain a CSV with all MSPs across every parliamentary session, their gender, and the region they represent.
+# IGNORE REPOSITORY - WAS TRAINING EXERCISE
+
+The purpose of the exercises in this folder is for Alanah to try to obtain a CSV with all MSPs across every parliamentary session, their gender, and the region they represent to practice using python.
 
 This was done using python up until obtaining two CSVs: one containing MSP names and gender, and the other containing their regions. The PersonID dimension linked them both. However, they weren't identical; one CSV had more rows than the other, so we had to filter one CSV's range of PersonIDs agianst the other. There was trouble doing this, for example with codes such as:
 ```
