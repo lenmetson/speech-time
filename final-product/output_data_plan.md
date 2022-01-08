@@ -6,16 +6,8 @@
 |     Absolute gender differences in amount of speech overall                          |     Speech bubbles          |     SUM (Number of syllables spoken)                                           |                                                |     Gender (size)                                              |     Years                    |     Data is set up     Alanah to build speech   bubble viz                                               |
 |     Proportions of time men and women speak overall                                  |     Pie chart               |                                                                                |                                                |     Gender (colour)     SUM (Number of syllables)   (angle)    |     Years                    |     Complete and on dashboard                                                                            |
 |     Party comparison of women speech time across sessions                            |     Tree map                |     SUM (Proportion of speech   time)                                          |     Parliamentary session                      |     Party (label + colour)     Gender (interactive filter)     |     Parliamentary session    |     Retrieve party data     Add to parliamentary session   sheet     Build data viz                      |
-|     Regional differences of speech time across years                                 |     Regional heat map       |     SUM (Proportion of speech   time)                                          |     Region                                     |     Gender (colour)     Years (interactive filter)             |     Years                    |     Collate regional data à need to look over Alanah’s work (especially as lack   of reproducibility)    |
+|     Regional differences of speech time across years                                 |     Regional heat map       |     SUM (Proportion of speech   time)                                          |     Region                                     |     Gender (colour)     Years (interactive filter)             |     Years                    |     Complete and on dashboard    |
 
-# Notes
-Will have two sheets distinct through how they separate time:
-1.	Parliamentary sessions
-    a.	Dividing data by political lines
-    b.	Used for visualisations that have political elements to them  seat map, party comparison
-2.	Years
-    a.	Dividing data by linear annual lines
-    b.	Used for visualisations that show either a) changes over time or b) general relationships across all years of parliament (can average/sum across all years)
 
 ## Dimensions (discrete)
 -	Parliamentary sessions
