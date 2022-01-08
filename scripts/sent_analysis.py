@@ -2,21 +2,23 @@
 #https://www.youtube.com/watch?v=U8m5ug9Q54M
 
 
-
 import pandas as pd
 
-df=pd.read_csv("/Users/noemieclaret/Desktop/feliz_navidad.csv")
+## Upload data from disk and convert csv to pandas DataFrame
 
-#convert each speech into lower case
+print('-----------------------------------------------------------------')
+print("Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.")
+print('-----------------------------------------------------------------')
 
-lower_case_speeches=[]
-def to_lower_case_speech(speech):
-    for speech in csv['speech']:
-        for word in speech:
-            speech_lower=[]
-            speech_lower.append(str.lower(word))
-        lower_case_speeches.append(speech)
-        
+# LM: I will have a look at a way to set relative file paths in python
+harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
+
+
+#clean a bit
+
+speech_table=harvard[:][harvard["is_speech"]==1]
+speech_table_gender_parlID=speech_table[:][speech_table["gender"]==("F" or "M")].dropna(axis=0, how='any', subset=["type"])
+
 
 #tokenize
 from nltk import sent_tokenize, word_tokenize
@@ -24,18 +26,54 @@ import nltk
 nltk.download('punkt')
 
 
+#tokenize sentences for each speech
+
 def tokenize_sent_speech(speech):
     sent_tok=[]
     for sent in speech:
-        sent=sent.tokenize(sent)
+        sent=sent_tokenize(sent)
         sent_tok.append(sent)
         return sent_tok
+
+speeches_as_sentences=[]
+for discours in speech_table_gender_parlID['speech']:
+    speech=[discours]
+    speech_tok_sent=tokenize_sent_speech(speech)
+    speeches_as_sentences.append(speech_tok_sent)
+    
+    
+#tokenize words
+
+def tokenize_words_from_sentence(sentence):
+    words_tok=[word_tokenize(i) for i in sentence]
+    return words_tok
         
-def tokenize_words_from_sentence(sent_tok):
-    words_tok=[]
-    for sentences in sent_tok:
-        tokens = word_tokenize(sentences)
-        words_tok.append(tokens)
+speeches_as_words=[]
+for discours in speeches_as_sentences:
+    sentences_as_words=[]
+    for sentence in discours:
+        sentence=tokenize_words_from_sentence(sentence)
+        sentences_as_words.append(sentence)
+    speeches_as_words.append(sentences_as_words)
+    
+# change to lower case    
+    
+    
+def to_lower_case_speech(speech):
+    speech_lower=[]
+    for sentences in speech:
+        for sentence in sentences:
+            sentence_lower=[]
+            for word in sentence:
+                sentence_lower.append(str.lower(word))
+            speech_lower.append(sentence_lower)
+    return speech_lower
+        
+        
+speeches_aswords_lower=[]          
+for speech in speeches_as_words:
+    lowercase_speech=to_lower_case_speech(speech)
+    speeches_aswords_lower.append(lowercase_speech)
         
 #remove weird characters
 import re
