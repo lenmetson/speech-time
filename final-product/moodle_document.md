@@ -71,6 +71,7 @@ We found some interesting descriptive results about the role of women in Scottis
 ## Conclusion
 
 ## Appendix
-[link to Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE)
-[link to data.parliament.scot](https://data.parliament.scot/#/home)
-[link to Tableau Public page]TBC
+1. [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE)
+2. [Data.parliament.scot](https://data.parliament.scot/#/home)
+3. [Parliamentary Seat Map Maker](https://parliamentdiagram.toolforge.org/parlitest.php)
+4. [Tableau Public final product]TBC
