@@ -1,8 +1,8 @@
 # Are women underrepresented in Scottish politics?
 ## Overview
-* Ways we have analysed representation:
-   1.  Amount of time spent speaking in parliament - integrating other factors' effects for an intersectional analysis
-   2.  Parliamentary discussions on women's topics
+Ways we have analysed representation:
+1.  Amount of time spent speaking in parliament - integrating other factors' effects for an intersectional analysis
+2.  Parliamentary discussions on women's topics
 
 ### Absolute gender differences in amount of speech
 * When we sum the parliamentary data on speeches across all sessions, we can see that comparatively, men have spoken more than women
@@ -31,18 +31,35 @@
 ### Cross-party analysis?
 
 ## The changing picture
-* Recap:
-   * So far, we have looked at overall statistics across all parliamentary sessions
-   * When we break down the data by either parliamentary session or year, we get a more fine-grained analysis where we can appreciate how the picture has changed over time
+Recap:
+* So far, we have looked at overall statistics across all parliamentary sessions
+* When we break down the data by either parliamentary session or year, we get a more fine-grained analysis where we can appreciate how the picture has changed over time
 
-### Women's representation in speech time over time (Stacked bar chart + line graph)
-      * 
+### Women's representation through parliamentary contributions over time
 
-### Parliamentary seats
-* Sentiment analysis over time ?
+[stacked bar chart]
+* Over the years, we've seen a general increase in amount of syllables spoken
+* Although there has been a drive by men, with a 15% increase from 2000 to 2020 in syllables they've spoken, this has for the most part been driven by an increase in women's speech, where we've instead seen an 82% increase in the same timeframe
 
-### Nicola Sturgeon
-* Line graph
+
+[2000 pie chart vs 2020 pie chart]
+* But what does this look like in terms of changes in proportion of time spoken in parliament?
+* In glancing at the previous chart, as well as by comparing these two pie charts, it's evident that women's proportion in parliamentary speech time has been increasing over the years
+* Although promising, it doesn't tell us the full story yet: this is only exploring the proportions of speech time of each gender. To control for the differences in number of MSPs speaking per gender, we get a more accurate picture of the ratio between speech time and number of MSPs for each gender
+
+[ratio of % of speech time to % of MSPs by parliamentary session line graph]
+* This line graph represents this changing ratio across each parliamentary session
+* As we can see, between teh first and third parliament we've seen a steady increase in speech time per female MSP, with this shooting up in the fourth parliament above 1, before steadying down back to below 1 in the fifth parliament
+* This line tells us a promising x
+
+### Translating parliamentary contributon representation to parliamentary seat representation
+Where we're at:
+* So far, we've observed an increase in re
+
+### Sentiment analysis over time ?
+
+
 
 ## Moving forward
-* Recommendations
+Recommendations:
+* 
