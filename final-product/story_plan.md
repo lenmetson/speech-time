@@ -32,8 +32,8 @@
 
 ## The changing picture
 * Recap:
-      * So far, we have looked at overall statistics across all parliamentary sessions
-      * When we break down the data by either parliamentary session or year, we get a more fine-grained analysis where we can appreciate how the picture has changed over time
+   * So far, we have looked at overall statistics across all parliamentary sessions
+   * When we break down the data by either parliamentary session or year, we get a more fine-grained analysis where we can appreciate how the picture has changed over time
 
 ### Women's representation in speech time over time (Stacked bar chart + line graph)
       * 
