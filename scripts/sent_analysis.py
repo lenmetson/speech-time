@@ -89,3 +89,48 @@ def stem_speech(clean_speech2):
         clean_speech3.append(stemmed_tokens)
         
         
+        
+        
+        
+#part 2
+import nltk
+
+import requests
+
+response = requests.get("https://raw.githubusercontent.com/julioadl/ds101/master/nlp_workshop/AFINN_english.txt")
+data = response.text
+f=open('/Users/noemieclaret/Desktop/AFINN_english.txt',"w+")
+f.write(data)
+
+
+
+affin = f
+sentimentScores = {}
+
+for line in affin:
+	term, score = line.split("\t")
+	sentimentScores[term] = float(score)
+
+
+sentences=["I am happy today", "I am sad today"]
+
+
+newsSentiment = []
+
+for sent in sentences:
+	score = 0
+	for word in sent:
+		try:
+			score += sentimentScores[word]
+		except:
+			pass
+	if score > 0:
+		sentiment = 'positive'
+	elif score < 0:
+		sentiment = 'negative'
+	else:
+		sentiment = 'neutral'
+	s = ''.join(sent)
+	newsSentiment.append([s, sentiment])
+        
+        
