@@ -1,0 +1,939 @@
+,Unnamed: 0,parl_id,syls,parly,gender,name,wikidataid,county,constituency,region,msp_type,office_held,year_born,age
+0,1,1741,131972,1st,F,Annabel Goldie,Q544742,,,West of Scotland,Region,,1950,71
+1,2,1751,57154,1st,F,Cathie Craigie,Q544715,North Lanarkshire,Cumbernauld and Kilsyth,Central Scotland,Constituency,,1954,67
+2,3,1752,208303,1st,F,Cathy Jamieson,Q727460,East Ayrshire,"Carrick, Cumnock and Doon Valley",South of Scotland,Constituency,,1956,65
+3,4,1752,208303,1st,F,Cathy Jamieson,Q727460,East Ayrshire,"Carrick, Cumnock and Doon Valley",South of Scotland,Constituency,The Minister for Education and Young People,1956,65
+4,5,1754,58450,1st,F,Cathy Peattie,Q1051152,Falkirk,Falkirk East,Central Scotland,Constituency,,1951,70
+5,6,1756,189063,1st,F,Christine Grahame,Q467108,,,South of Scotland,Region,,1944,77
+6,7,1762,91893,1st,F,Dorothy-Grace Elder,Q1168523,,,Glasgow,Region,,1942,79
+7,8,1768,104226,1st,F,Elaine Murray,Q1324826,Dumfries and Galloway,Dumfries,South of Scotland,Constituency,,1954,67
+8,9,1768,104226,1st,F,Elaine Murray,Q1324826,Dumfries and Galloway,Dumfries,South of Scotland,Constituency,"The Deputy Minister for Tourism, Culture and Sport",1954,67
+9,10,1769,64475,1st,F,Elaine Smith,Q305347,North Lanarkshire,Coatbridge and Chryston,Central Scotland,Constituency,,1963,58
+10,11,1770,79913,1st,F,Elaine Thomson,Q1324835,Aberdeen City,Aberdeen North,North East Scotland,Constituency,,1957,64
+11,12,1770,79913,1st,F,Elaine Thomson,Q1324835,Aberdeen City,Aberdeen North,North East Scotland,Constituency,"The Ministerial Parliamentary Aide to the Minister for Enterprise, Transport and Lifelong Learning",1957,64
+12,13,1773,164165,1st,F,Fiona Hyslop,Q1418512,,,Lothians,Region,,1964,57
+13,14,1775,83686,1st,F,Fiona McLeod,Q1418528,,,West of Scotland,Region,,1957,64
+14,15,1778,42691,1st,F,Helen Eadie,Q1396732,Fife,Dunfermline East,Mid Scotland and Fife,Constituency,,1947,74
+15,16,1781,136047,1st,F,Irene McGugan,Q1672546,,,North East Scotland,Region,,1952,69
+16,17,1782,48631,1st,F,Irene Oldfather,Q1672558,North Ayrshire,Cunninghame South,South of Scotland,Constituency,,1954,67
+17,18,1783,160804,1st,F,Jackie Baillie,Q544729,West Dunbartonshire,Dumbarton,West of Scotland,Constituency,The Deputy Minister for Communities,1964,57
+18,19,1783,160804,1st,F,Jackie Baillie,Q544729,West Dunbartonshire,Dumbarton,West of Scotland,Constituency,The Minister for Social Justice,1964,57
+19,20,1783,160804,1st,F,Jackie Baillie,Q544729,West Dunbartonshire,Dumbarton,West of Scotland,Constituency,,1964,57
+20,21,1791,44693,1st,F,Janis Hughes,Q780646,Glasgow City,Glasgow Rutherglen,Glasgow,Constituency,,1958,63
+21,22,1791,44693,1st,F,Janis Hughes,Q780646,Glasgow City,Glasgow Rutherglen,Glasgow,Constituency,"The Ministerial Parliamentary Aide to the Minister for Tourism, Culture and Sport",1958,63
+22,23,1803,71918,1st,F,Karen Gillon,Q1729243,South Lanarkshire,Clydesdale,South of Scotland,Constituency,,1967,54
+23,24,1805,66177,1st,F,Karen Whitefield,Q1344022,North Lanarkshire,Airdrie and Shotts,Central Scotland,Constituency,,1970,51
+24,25,1805,66177,1st,F,Karen Whitefield,Q1344022,North Lanarkshire,Airdrie and Shotts,Central Scotland,Constituency,The Ministerial Parliamentary Aide to the Solicitor General for Scotland,1970,51
+25,26,1807,27965,1st,F,Kate Maclean,Q1735695,Dundee City,Dundee West,North East Scotland,Constituency,,1958,63
+26,27,1811,68937,1st,F,Kay Ullrich,Q1737405,,,West of Scotland,Region,,1943,78
+27,28,1814,115137,1st,F,Linda Fabiani,Q467097,,,Central Scotland,Region,,1956,65
+28,29,1820,185574,1st,F,Margaret Curran,Q291748,Glasgow City,Glasgow Baillieston,Glasgow,Constituency,,1958,63
+29,30,1820,185574,1st,F,Margaret Curran,Q291748,Glasgow City,Glasgow Baillieston,Glasgow,Constituency,The Deputy Minister for Social Justice,1958,63
+30,31,1820,185574,1st,F,Margaret Curran,Q291748,Glasgow City,Glasgow Baillieston,Glasgow,Constituency,The Minister for Social Justice,1958,63
+31,32,1821,57200,1st,F,Margaret Ewing,Q333903,Moray,Moray,Highlands and Islands,Constituency,,1945,76
+32,33,1823,34122,1st,F,Margaret Jamieson,Q1894852,East Ayrshire,Kilmarnock and Loudoun,Central Scotland,Constituency,,1953,68
+33,34,1826,150875,1st,F,Margaret Smith,Q1894898,City of Edinburgh,Edinburgh West,Lothians,Constituency,,1961,60
+34,35,1828,95420,1st,F,Margo MacDonald,Q334376,,,Lothians,Region,,1943,78
+35,36,1832,39040,1st,F,Marilyn Livingstone,Q1281543,Fife,Kirkcaldy,Mid Scotland and Fife,Constituency,,1952,69
+36,37,1837,101265,1st,F,Mary Mulligan,Q1267804,West Lothian,Linlithgow,Lothians,Constituency,,1960,61
+37,38,1837,101265,1st,F,Mary Mulligan,Q1267804,West Lothian,Linlithgow,Lothians,Constituency,The Deputy Minister for Health and Community Care,1960,61
+38,39,1839,195976,1st,F,Mary Scanlon,Q1906394,,,Highlands and Islands,Region,,1947,74
+39,40,1840,120158,1st,F,Maureen Macmillan,Q1300245,,,Highlands and Islands,Region,,1943,78
+40,41,1848,194551,1st,F,Nicola Sturgeon,Q467112,,,Glasgow,Region,,1970,51
+41,42,1850,118494,1st,F,Nora Radcliffe,Q1996594,Aberdeenshire,Gordon,North East Scotland,Constituency,,1946,75
+42,43,1853,74201,1st,F,Patricia Ferguson,Q2057182,Glasgow City,Glasgow Maryhill,Glasgow,Constituency,The Deputy Presiding Officer,1958,63
+43,44,1853,74201,1st,F,Patricia Ferguson,Q2057182,Glasgow City,Glasgow Maryhill,Glasgow,Constituency,The Minister for Parliamentary Business,1958,63
+44,45,1854,83490,1st,F,Trish Godman,Q2057190,Renfrewshire,West Renfrewshire,West of Scotland,Constituency,,1939,82
+45,46,1857,139878,1st,F,Pauline McNeill,Q2063795,Glasgow City,Glasgow Kelvin,Glasgow,Constituency,,1962,59
+46,47,1860,68694,1st,F,Rhoda Grant,Q769138,,,Highlands and Islands,Region,,1963,58
+47,48,1860,68694,1st,F,Rhoda Grant,Q769138,,,Highlands and Islands,Region,The Ministerial Parliamentary Aide to the Minister for Social Justice,1963,58
+48,49,1862,120882,1st,F,Rhona Brankin,Q544064,Midlothian,Midlothian,Lothians,Constituency,The Deputy Minister for Culture and Sport,1950,71
+49,50,1862,120882,1st,F,Rhona Brankin,Q544064,Midlothian,Midlothian,Lothians,Constituency,The Deputy Minister for Environment and Rural Development,1950,71
+50,51,1862,120882,1st,F,Rhona Brankin,Q544064,Midlothian,Midlothian,Lothians,Constituency,,1950,71
+51,52,1863,222738,1st,F,Roseanna Cunningham,Q333953,Perth and Kinross,Perth,Mid Scotland and Fife,Constituency,,1951,70
+52,53,1865,81586,1st,F,Sandra White,Q466861,,,Glasgow,Region,,1951,70
+53,54,1866,284009,1st,F,Sarah Boyack,Q544089,City of Edinburgh,Edinburgh Central,Lothians,Constituency,The Minister for Transport and the Environment,1961,60
+54,55,1866,284009,1st,F,Sarah Boyack,Q544089,City of Edinburgh,Edinburgh Central,Lothians,Constituency,The Minister for Transport and Telecommunications,1961,60
+55,56,1866,284009,1st,F,Sarah Boyack,Q544089,City of Edinburgh,Edinburgh Central,Lothians,Constituency,The Minister for Transport and Planning,1961,60
+56,57,1866,284009,1st,F,Sarah Boyack,Q544089,City of Edinburgh,Edinburgh Central,Lothians,Constituency,,1961,60
+57,58,1870,123938,1st,F,Shona Robison,Q444675,,,North East Scotland,Region,,1966,55
+58,59,1871,227424,1st,F,Susan Deacon,Q544755,City of Edinburgh,Edinburgh East and Musselburgh,Lothians,Constituency,The Minister for Health and Community Care,1964,57
+59,60,1871,227424,1st,F,Susan Deacon,Q544755,City of Edinburgh,Edinburgh East and Musselburgh,Lothians,Constituency,,1964,57
+60,61,1873,79894,1st,F,Sylvia Jackson,Q2374216,Stirling,Stirling,Mid Scotland and Fife,Constituency,,1946,75
+61,62,1873,79894,1st,F,Sylvia Jackson,Q2374216,Stirling,Stirling,Mid Scotland and Fife,Constituency,The Ministerial Parliamentary Aide to the Minister for Health and Community Care,1946,75
+62,63,1876,136397,1st,F,Tricia Marwick,Q540435,,,Mid Scotland and Fife,Region,,1953,68
+63,64,1877,170900,1st,F,Wendy Alexander,Q511689,Renfrewshire,Paisley North,West of Scotland,Constituency,The Minister for Communities,1963,58
+64,65,1877,170900,1st,F,Wendy Alexander,Q511689,Renfrewshire,Paisley North,West of Scotland,Constituency,The Minister for Enterprise and Lifelong Learning,1963,58
+65,66,1877,170900,1st,F,Wendy Alexander,Q511689,Renfrewshire,Paisley North,West of Scotland,Constituency,"The Minister for Enterprise, Transport and Lifelong Learning",1963,58
+66,67,1877,170900,1st,F,Wendy Alexander,Q511689,Renfrewshire,Paisley North,West of Scotland,Constituency,,1963,58
+67,68,1878,56937,1st,F,Winnie Ewing,Q334015,,,Highlands and Islands,Region,,1929,92
+68,69,1882,78270,1st,M,Adam Ingram,Q349826,,,South of Scotland,Region,,1951,70
+69,70,1888,151352,1st,M,Alasdair Morgan,Q662910,Dumfries and Galloway,Galloway and Upper Nithsdale,South of Scotland,Constituency,,1945,76
+70,71,1889,127128,1st,M,Alasdair Morrison,Q1669774,Na h-Eileanan Siar,Western Isles,Highlands and Islands,Constituency,The Deputy Minister for Enterprise and Lifelong Learning and Gaelic,1968,53
+71,72,1889,127128,1st,M,Alasdair Morrison,Q1669774,Na h-Eileanan Siar,Western Isles,Highlands and Islands,Constituency,,1968,53
+72,73,1892,109290,1st,M,Alex Fergusson,Q559046,,,South of Scotland,Region,,1949,72
+73,74,1893,98950,1st,M,Alex Johnstone,Q2641395,,,North East Scotland,Region,,1961,60
+74,75,1894,141363,1st,M,Alex Neil,Q1515752,,,Central Scotland,Region,,1951,70
+75,76,1895,77661,1st,M,Alex Salmond,Q10652,Aberdeenshire,Banff and Buchan,North East Scotland,Constituency,,1954,67
+76,77,1901,197806,1st,M,Allan Wilson,Q2648077,North Ayrshire,Cunninghame North,West of Scotland,Constituency,,1954,67
+77,78,1901,197806,1st,M,Allan Wilson,Q2648077,North Ayrshire,Cunninghame North,West of Scotland,Constituency,The Deputy Minister for Culture and Sport,1954,67
+78,79,1901,197806,1st,M,Allan Wilson,Q2648077,North Ayrshire,Cunninghame North,West of Scotland,Constituency,"The Deputy Minister for Sport, the Arts and Culture",1954,67
+79,80,1901,197806,1st,M,Allan Wilson,Q2648077,North Ayrshire,Cunninghame North,West of Scotland,Constituency,The Deputy Minister for Environment and Rural Development,1954,67
+80,81,1906,41423,1st,M,Andrew Welsh,Q334000,Angus,Angus,North East Scotland,Constituency,,1944,77
+81,82,1907,163215,1st,M,Andrew Wilson,Q16213334,,,Central Scotland,Region,,1970,51
+82,83,1908,120734,1st,M,Andy Kerr,Q526409,South Lanarkshire,East Kilbride,Central Scotland,Constituency,,1962,59
+83,84,1908,120734,1st,M,Andy Kerr,Q526409,South Lanarkshire,East Kilbride,Central Scotland,Constituency,The Minister for Finance and Public Services,1962,59
+84,85,1911,190159,1st,M,Angus MacKay,Q544484,City of Edinburgh,Edinburgh South,Lothians,Constituency,The Deputy Minister for Justice,1964,57
+85,86,1911,190159,1st,M,Angus MacKay,Q544484,City of Edinburgh,Edinburgh South,Lothians,Constituency,The Minister for Finance and Local Government,1964,57
+86,87,1911,190159,1st,M,Angus MacKay,Q544484,City of Edinburgh,Edinburgh South,Lothians,Constituency,,1964,57
+87,88,1916,112804,1st,M,Ben Wallace,Q263166,,,North East Scotland,Region,,1970,51
+88,89,1926,118384,1st,M,Brian Adam,Q570298,,,North East Scotland,Region,,1948,73
+89,90,1928,72751,1st,M,Brian Fitzpatrick,Q912167,East Dunbartonshire,Strathkelvin and Bearsden,West of Scotland,Constituency,,1961,60
+90,91,1930,177040,1st,M,Brian Monteith,Q912776,,,Mid Scotland and Fife,Region,,1958,63
+91,92,1931,81165,1st,M,Bristow Muldoon,Q917995,West Lothian,Livingston,Lothians,Constituency,,1964,57
+92,93,1932,119941,1st,M,Bruce Crawford,Q559391,,,Mid Scotland and Fife,Region,,1955,66
+93,94,1950,94909,1st,M,Colin Campbell,Q1108388,,,West of Scotland,Region,,1938,83
+94,95,1956,242060,1st,M,David Davidson,Q1174169,,,North East Scotland,Region,,1943,78
+95,96,1961,249678,1st,M,David McLetchie,Q1175613,,,Lothians,Region,,1952,69
+96,97,1962,149762,1st,M,David Mundell,Q333520,,,South of Scotland,Region,,1962,59
+97,98,1968,104494,1st,M,Dennis Canavan,Q1189028,Falkirk,Falkirk West,Central Scotland,Constituency,,1942,79
+98,99,1970,156718,1st,M,Des McNulty,Q1200458,East Dunbartonshire,Clydebank and Milngavie,West of Scotland,Constituency,,1952,69
+99,100,1970,156718,1st,M,Des McNulty,Q1200458,East Dunbartonshire,Clydebank and Milngavie,West of Scotland,Constituency,The Deputy Minister for Social Justice,1952,69
+100,101,1972,159581,1st,M,Donald Dewar,Q333158,Glasgow City,Glasgow Anniesland,Glasgow,Constituency,The First Minister,1937,84
+101,102,1973,229075,1st,M,Donald Gorrie,Q334137,,,Central Scotland,Region,,1933,88
+102,103,1985,130487,1st,M,Duncan Hamilton,Q1265397,,,Highlands and Islands,Region,,1973,48
+103,104,1986,46856,1st,M,Duncan McNeil,Q1265439,Inverclyde,Greenock and Inverclyde,West of Scotland,Constituency,,1950,71
+104,105,1990,135078,1st,M,Euan Robson,Q1372069,Scottish Borders,Roxburgh and Berwickshire,South of Scotland,Constituency,,1954,67
+105,106,1990,135078,1st,M,Euan Robson,Q1372069,Scottish Borders,Roxburgh and Berwickshire,South of Scotland,Constituency,The Deputy Minister for Parliament,1954,67
+106,107,1990,135078,1st,M,Euan Robson,Q1372069,Scottish Borders,Roxburgh and Berwickshire,South of Scotland,Constituency,The Deputy Minister for Parliamentary Business,1954,67
+107,108,1994,191637,1st,M,Fergus Ewing,Q559022,Highland,"Inverness East, Nairn and Lochaber",Highlands and Islands,Constituency,,1957,64
+108,109,1996,108359,1st,M,Frank McAveety,Q1443752,Glasgow City,Glasgow Shettleston,Glasgow,Constituency,The Deputy Minister for Local Government,1962,59
+109,110,1996,108359,1st,M,Frank McAveety,Q1443752,Glasgow City,Glasgow Shettleston,Glasgow,Constituency,,1962,59
+110,111,1996,108359,1st,M,Frank McAveety,Q1443752,Glasgow City,Glasgow Shettleston,Glasgow,Constituency,The Deputy Minister for Health and Community Care,1962,59
+111,112,2003,170643,1st,M,George Lyon,Q956623,Argyll and Bute,Argyll and Bute,Highlands and Islands,Constituency,,1956,65
+112,113,2005,126626,1st,M,George Reid,Q334480,,,Mid Scotland and Fife,Region,The Deputy Presiding Officer,1939,82
+113,114,2010,49819,1st,M,Gil Paterson,Q200615,,,Central Scotland,Region,,1942,79
+114,115,2013,55965,1st,M,Gordon Jackson,Q1439561,Glasgow City,Glasgow Govan,Glasgow,Constituency,,1948,73
+115,116,2028,252466,1st,M,Henry McLeish,Q333820,Fife,Central Fife,Mid Scotland and Fife,Constituency,The Minister for Enterprise and Lifelong Learning,1948,73
+116,117,2028,252466,1st,M,Henry McLeish,Q333820,Fife,Central Fife,Mid Scotland and Fife,Constituency,The First Minister,1948,73
+117,118,2028,252466,1st,M,Henry McLeish,Q333820,Fife,Central Fife,Mid Scotland and Fife,Constituency,,1948,73
+118,119,2029,118064,1st,M,Hugh Henry,Q5931093,Renfrewshire,Paisley South,West of Scotland,Constituency,,1952,69
+119,120,2029,118064,1st,M,Hugh Henry,Q5931093,Renfrewshire,Paisley South,West of Scotland,Constituency,The Deputy Minister for Health and Community Care,1952,69
+120,121,2029,118064,1st,M,Hugh Henry,Q5931093,Renfrewshire,Paisley South,West of Scotland,Constituency,The Deputy Minister for Social Justice,1952,69
+121,122,2029,118064,1st,M,Hugh Henry,Q5931093,Renfrewshire,Paisley South,West of Scotland,Constituency,The Deputy Minister for Justice,1952,69
+122,123,2033,235825,1st,M,Iain Gray,Q1421398,City of Edinburgh,Edinburgh Pentlands,Lothians,Constituency,The Deputy Minister for Health and Community Care,1957,64
+123,124,2033,235825,1st,M,Iain Gray,Q1421398,City of Edinburgh,Edinburgh Pentlands,Lothians,Constituency,The Deputy Minister for Justice,1957,64
+124,125,2033,235825,1st,M,Iain Gray,Q1421398,City of Edinburgh,Edinburgh Pentlands,Lothians,Constituency,The Minister for Social Justice,1957,64
+125,126,2033,235825,1st,M,Iain Gray,Q1421398,City of Edinburgh,Edinburgh Pentlands,Lothians,Constituency,"The Minister for Enterprise, Transport and Lifelong Learning",1957,64
+126,127,2038,128713,1st,M,Iain Smith,Q1655380,Fife,North East Fife,Mid Scotland and Fife,Constituency,The Deputy Minister for Parliament,1960,61
+127,128,2038,128713,1st,M,Iain Smith,Q1655380,Fife,North East Fife,Mid Scotland and Fife,Constituency,,1960,61
+128,129,2044,141996,1st,M,Ian Jenkins,Q765484,Scottish Borders,"Tweeddale, Ettrick and Lauderdale",South of Scotland,Constituency,,1941,80
+129,130,2051,960,1st,M,Ian Welsh,Q1440785,North Ayrshire,Ayr,South of Scotland,Constituency,,1953,68
+130,131,2052,411905,1st,M,Jack McConnell,Q132040,North Lanarkshire,Motherwell and Wishaw,Central Scotland,Constituency,The Minister for Finance,1960,61
+131,132,2052,411905,1st,M,Jack McConnell,Q132040,North Lanarkshire,Motherwell and Wishaw,Central Scotland,Constituency,"The Minister for Education, Europe and External Affairs",1960,61
+132,133,2052,411905,1st,M,Jack McConnell,Q132040,North Lanarkshire,Motherwell and Wishaw,Central Scotland,Constituency,The First Minister,1960,61
+133,134,2056,167298,1st,M,James Douglas-Hamilton,Q333795,,,Lothians,Region,,1942,79
+134,135,2066,144096,1st,M,Jamie McGrigor,Q1680794,,,Highlands and Islands,Region,,1949,72
+135,136,2068,115012,1st,M,Jamie Stone,Q1681420,Highland,"Caithness, Sutherland and Easter Ross",Highlands and Islands,Constituency,,1954,67
+136,137,2077,450166,1st,M,Jim Wallace,Q333807,Orkney Islands,Orkney,Highlands and Islands,Constituency,,1954,67
+137,138,2077,450166,1st,M,Jim Wallace,Q333807,Orkney Islands,Orkney,Highlands and Islands,Constituency,The Deputy First Minister and Minister for Justice,1954,67
+138,139,2080,117056,1st,F,Johann Lamont,Q544698,Glasgow City,Glasgow Pollok,Glasgow,Constituency,,1957,64
+139,140,2085,85059,1st,M,John Farquhar Munro,Q1225080,Perth and Kinross,"Ross, Skye and Inverness West",Highlands and Islands,Constituency,,1934,87
+140,141,2090,120294,1st,M,John McAllion,Q1379003,Dundee City,Dundee East,North East Scotland,Constituency,,1948,73
+141,142,2098,223498,1st,M,John Swinney,Q333811,Angus,North Tayside,Mid Scotland and Fife,Constituency,,1964,57
+142,143,2099,61940,1st,M,John Young,Q937340,,,West of Scotland,Region,,1930,91
+143,144,2100,96922,1st,M,John Home Robertson,Q1700483,East Lothian,East Lothian,South of Scotland,Constituency,The Deputy Minister for Rural Affairs,1948,73
+144,145,2100,96922,1st,M,John Home Robertson,Q1700483,East Lothian,East Lothian,South of Scotland,Constituency,,1948,73
+145,146,2105,116565,1st,M,Keith Harding,Q1738052,,,Mid Scotland and Fife,Region,,1938,83
+146,147,2106,135933,1st,M,Keith Raffan,Q1738083,,,Mid Scotland and Fife,Region,,1949,72
+147,148,2108,72772,1st,M,Ken Macintosh,Q1738887,East Renfrewshire,Eastwood,West of Scotland,Constituency,,1962,59
+148,149,2108,72772,1st,M,Ken Macintosh,Q1738887,East Renfrewshire,Eastwood,West of Scotland,Constituency,The Ministerial Parliamentary Aide to the Minister for Education and Young People,1962,59
+149,150,2110,188639,1st,M,Kenneth Gibson,Q944741,,,Glasgow,Region,,1961,60
+150,151,2112,170812,1st,M,Kenny MacAskill,Q983174,,,Lothians,Region,,1958,63
+151,152,2117,183424,1st,M,Lewis Macdonald,Q1822125,Aberdeen City,Aberdeen Central,North East Scotland,Constituency,,1957,64
+152,153,2117,183424,1st,M,Lewis Macdonald,Q1822125,Aberdeen City,Aberdeen Central,North East Scotland,Constituency,The Deputy Minister for Transport and Planning,1957,64
+153,154,2117,183424,1st,M,Lewis Macdonald,Q1822125,Aberdeen City,Aberdeen Central,North East Scotland,Constituency,"The Deputy Minister for Enterprise, Transport and Lifelong Learning",1957,64
+154,155,2118,79644,1st,M,Lloyd Quinan,Q1486950,,,West of Scotland,Region,,1957,64
+155,156,2122,112877,1st,F,Lyndsay McIntosh,Q1404958,,,Central Scotland,Region,,1955,66
+156,157,2123,284786,1st,M,Malcolm Chisholm,Q1886983,City of Edinburgh,Edinburgh North and Leith,Lothians,Constituency,,1949,72
+157,158,2123,284786,1st,M,Malcolm Chisholm,Q1886983,City of Edinburgh,Edinburgh North and Leith,Lothians,Constituency,The Deputy Minister for Health and Community Care,1949,72
+158,159,2123,284786,1st,M,Malcolm Chisholm,Q1886983,City of Edinburgh,Edinburgh North and Leith,Lothians,Constituency,The Minister for Health and Community Care,1949,72
+159,160,2133,131549,1st,M,Michael Matheson,Q121780,,,Central Scotland,Region,,1970,51
+160,161,2134,37479,1st,M,Michael McMahon,Q2439870,North Lanarkshire,Hamilton North and Bellshill,Central Scotland,Constituency,,1961,60
+161,162,2134,37479,1st,M,Michael McMahon,Q2439870,North Lanarkshire,Hamilton North and Bellshill,Central Scotland,Constituency,The Ministerial Parliamentary Aide to the First Minister,1961,60
+162,163,2135,256694,1st,M,Michael Russell,Q1929110,,,South of Scotland,Region,,1953,68
+163,164,2140,194111,1st,M,Mike Rumbles,Q1436381,Aberdeenshire,West Aberdeenshire and Kincardine,North East Scotland,Constituency,,1956,65
+164,165,2142,100800,1st,M,Mike Watson,Q1929744,Glasgow City,Glasgow Cathcart,Glasgow,Constituency,,1949,72
+165,166,2142,100800,1st,M,Mike Watson,Q1929744,Glasgow City,Glasgow Cathcart,Glasgow,Constituency,"The Minister for Tourism, Culture and Sport",1949,72
+166,167,2148,206701,1st,M,Murray Tosh,Q1953855,,,South of Scotland,Region,,1950,71
+167,168,2148,206701,1st,M,Murray Tosh,Q1953855,,,South of Scotland,Region,The Deputy Presiding Officer,1950,71
+168,169,2152,51579,1st,M,Nick Johnston,Q1985419,,,Mid Scotland and Fife,Region,,1948,73
+169,170,2154,151913,1st,M,Nicol Stephen,Q333630,Aberdeen City,Aberdeen South,North East Scotland,Constituency,The Deputy Minister for Enterprise and Lifelong Learning and Gaelic,1960,61
+170,171,2154,151913,1st,M,Nicol Stephen,Q333630,Aberdeen City,Aberdeen South,North East Scotland,Constituency,"The Deputy Minister for Education, Europe and External Affairs",1960,61
+171,172,2154,151913,1st,M,Nicol Stephen,Q333630,Aberdeen City,Aberdeen South,North East Scotland,Constituency,The Deputy Minister for Education and Young People,1960,61
+172,173,2159,40115,1st,M,Paul Martin,Q2061163,Glasgow City,Glasgow Springburn,Glasgow,Constituency,,1967,54
+173,174,2159,40115,1st,M,Paul Martin,Q2061163,Glasgow City,Glasgow Springburn,Glasgow,Constituency,The Ministerial Parliamentary Aide to the Minister for Finance and Public Services,1967,54
+174,175,2167,231078,1st,M,Peter Peacock,Q2077496,,,Highlands and Islands,Region,The Deputy Minister for Children and Education,1952,69
+175,176,2167,231078,1st,M,Peter Peacock,Q2077496,,,Highlands and Islands,Region,The Deputy Minister for Finance and Local Government,1952,69
+176,177,2167,231078,1st,M,Peter Peacock,Q2077496,,,Highlands and Islands,Region,The Deputy Minister for Finance and Public Services,1952,69
+177,178,2172,196778,1st,M,Phil Gallie,Q333800,,,South of Scotland,Region,,1939,82
+178,179,2180,176367,1st,M,Richard Lochhead,Q1490268,,,North East Scotland,Region,,1969,52
+179,180,2182,216580,1st,M,Richard Simpson,Q2150619,Clackmannanshire,Ochil,Mid Scotland and Fife,Constituency,,1942,79
+180,181,2182,216580,1st,M,Richard Simpson,Q2150619,Clackmannanshire,Ochil,Mid Scotland and Fife,Constituency,The Deputy Minister for Justice,1942,79
+181,182,2185,205776,1st,M,Robert Brown,Q2156625,,,Glasgow,Region,,1947,74
+182,183,2188,139965,1st,M,Robin Harper,Q202002,,,Lothians,Region,,1940,81
+183,184,2202,317362,1st,M,Ross Finnie,Q2167587,,,West of Scotland,Region,The Minister for Rural Affairs,1947,74
+184,185,2202,317362,1st,M,Ross Finnie,Q2167587,,,West of Scotland,Region,The Minister for Rural Development,1947,74
+185,186,2202,317362,1st,M,Ross Finnie,Q2167587,,,West of Scotland,Region,The Minister for Environment and Rural Development,1947,74
+186,187,2205,93338,1st,M,Sam Galbraith,Q2216457,East Dunbartonshire,Strathkelvin and Bearsden,West of Scotland,Constituency,,1945,76
+187,188,2205,93338,1st,M,Sam Galbraith,Q2216457,East Dunbartonshire,Strathkelvin and Bearsden,West of Scotland,Constituency,The Minister for Children and Education,1945,76
+188,189,2205,93338,1st,M,Sam Galbraith,Q2216457,East Dunbartonshire,Strathkelvin and Bearsden,West of Scotland,Constituency,"The Minister for Environment, Sport and Culture",1945,76
+189,190,2207,80764,1st,M,Scott Barrie,Q912525,Fife,Dunfermline West,Mid Scotland and Fife,Constituency,,1962,59
+190,191,2207,80764,1st,M,Scott Barrie,Q912525,Fife,Dunfermline West,Mid Scotland and Fife,Constituency,"The Ministerial Parliamentary Aide to the Minister for Enterprise, Transport and Lifelong Learning",1962,59
+191,192,2215,86097,1st,M,Stewart Stevenson,Q559613,Aberdeenshire,Banff and Buchan,North East Scotland,Constituency,,1946,75
+192,193,2223,157048,1st,M,Tavish Scott,Q1339371,Shetland Islands,Shetland,Highlands and Islands,Constituency,,1966,55
+193,194,2223,157048,1st,M,Tavish Scott,Q1339371,Shetland Islands,Shetland,Highlands and Islands,Constituency,The Deputy Minister for Parliament,1966,55
+194,195,2225,180176,1st,M,Tommy Sheridan,Q542330,,,Glasgow,Region,,1964,57
+195,196,2228,93643,1st,M,Tom McCabe,Q7816757,North Lanarkshire,Hamilton South,Central Scotland,Constituency,,1954,67
+196,197,2228,93643,1st,M,Tom McCabe,Q7816757,North Lanarkshire,Hamilton South,Central Scotland,Constituency,The Minister for Parliament,1954,67
+197,198,2234,213233,1st,M,Bill Aitken,Q861907,,,Glasgow,Region,,1947,74
+198,199,2263,294845,1st,M,David Steel,Q333847,,,Lothians,Region,The Presiding Officer,1938,83
+199,200,2345,76278,1st,M,John Scott,Q1701702,North Ayrshire,Ayr,South of Scotland,Constituency,,1951,70
+200,201,2364,33339,1st,M,Bill Butler,Q861989,Glasgow City,Glasgow Anniesland,Glasgow,Constituency,,1956,65
+201,202,2394,74117,1st,M,Murdo Fraser,Q1953630,,,Mid Scotland and Fife,Region,,1965,56
+202,203,1741,174799,2nd,F,Annabel Goldie,Q544742,,,West of Scotland,Region,,1950,71
+203,204,1751,61673,2nd,F,Cathie Craigie,Q544715,North Lanarkshire,Cumbernauld and Kilsyth,Central Scotland,Constituency,,1954,67
+204,205,1752,282759,2nd,F,Cathy Jamieson,Q727460,East Ayrshire,"Carrick, Cumnock and Doon Valley",South of Scotland,Constituency,The Minister for Justice,1956,65
+205,206,1752,282759,2nd,F,Cathy Jamieson,Q727460,East Ayrshire,"Carrick, Cumnock and Doon Valley",South of Scotland,Constituency,,1956,65
+206,207,1754,43590,2nd,F,Cathy Peattie,Q1051152,Falkirk,Falkirk East,Central Scotland,Constituency,,1951,70
+207,208,1756,243962,2nd,F,Christine Grahame,Q467108,,,South of Scotland,Region,,1944,77
+208,209,1768,160857,2nd,F,Elaine Murray,Q1324826,Dumfries and Galloway,Dumfries,South of Scotland,Constituency,,1954,67
+209,210,1769,85964,2nd,F,Elaine Smith,Q305347,North Lanarkshire,Coatbridge and Chryston,Central Scotland,Constituency,,1963,58
+210,211,1771,166104,2nd,F,Eleanor Scott,Q544686,,,Highlands and Islands,Region,,1951,70
+211,212,1771,166104,2nd,F,Eleanor Scott,Q544686,,,Highlands and Islands,Region,The Presiding Officer,1951,70
+212,213,1771,166104,2nd,F,Eleanor Scott,Q544686,,,Highlands and Islands,Region,The Deputy Presiding Officer,1951,70
+213,214,1773,206398,2nd,F,Fiona Hyslop,Q1418512,,,Lothians,Region,,1964,57
+214,215,1778,80721,2nd,F,Helen Eadie,Q1396732,Fife,Dunfermline East,Mid Scotland and Fife,Constituency,,1947,74
+215,216,1782,72202,2nd,F,Irene Oldfather,Q1672558,North Ayrshire,Cunninghame South,South of Scotland,Constituency,,1954,67
+216,217,1783,109057,2nd,F,Jackie Baillie,Q544729,West Dunbartonshire,Dumbarton,West of Scotland,Constituency,,1964,57
+217,218,1791,47459,2nd,F,Janis Hughes,Q780646,Glasgow City,Glasgow Rutherglen,Glasgow,Constituency,,1958,63
+218,219,1803,83553,2nd,F,Karen Gillon,Q1729243,South Lanarkshire,Clydesdale,South of Scotland,Constituency,,1967,54
+219,220,1805,111866,2nd,F,Karen Whitefield,Q1344022,North Lanarkshire,Airdrie and Shotts,Central Scotland,Constituency,,1970,51
+220,221,1807,29869,2nd,F,Kate Maclean,Q1735695,Dundee City,Dundee West,North East Scotland,Constituency,,1958,63
+221,222,1814,120389,2nd,F,Linda Fabiani,Q467097,,,Central Scotland,Region,,1956,65
+222,223,1820,178912,2nd,F,Margaret Curran,Q291748,Glasgow City,Glasgow Baillieston,Glasgow,Constituency,The Minister for Communities,1958,63
+223,224,1820,178912,2nd,F,Margaret Curran,Q291748,Glasgow City,Glasgow Baillieston,Glasgow,Constituency,The Minister for Parliamentary Business,1958,63
+224,225,1821,53061,2nd,F,Margaret Ewing,Q333903,Moray,Moray,Highlands and Islands,Constituency,,1945,76
+225,226,1823,39650,2nd,F,Margaret Jamieson,Q1894852,East Ayrshire,Kilmarnock and Loudoun,Central Scotland,Constituency,,1953,68
+226,227,1826,128057,2nd,F,Margaret Smith,Q1894898,City of Edinburgh,Edinburgh West,Lothians,Constituency,,1961,60
+227,228,1828,101909,2nd,F,Margo MacDonald,Q334376,,,Lothians,Region,,1943,78
+228,229,1831,40911,2nd,F,Marlyn Glen,Q1285630,,,North East Scotland,Region,,1951,70
+229,230,1832,49555,2nd,F,Marilyn Livingstone,Q1281543,Fife,Kirkcaldy,Mid Scotland and Fife,Constituency,The Ministerial Parliamentary Aide to the First Minister,1952,69
+230,231,1832,49555,2nd,F,Marilyn Livingstone,Q1281543,Fife,Kirkcaldy,Mid Scotland and Fife,Constituency,,1952,69
+231,232,1837,126964,2nd,F,Mary Mulligan,Q1267804,West Lothian,Linlithgow,Lothians,Constituency,The Deputy Minister for Communities,1960,61
+232,233,1837,126964,2nd,F,Mary Mulligan,Q1267804,West Lothian,Linlithgow,Lothians,Constituency,,1960,61
+233,234,1839,148335,2nd,F,Mary Scanlon,Q1906394,,,Highlands and Islands,Region,,1947,74
+234,235,1840,149329,2nd,F,Maureen Macmillan,Q1300245,,,Highlands and Islands,Region,,1943,78
+235,236,1841,28787,2nd,F,Maureen Watt,Q540381,,,North East Scotland,Region,,1951,70
+236,237,1845,141357,2nd,F,Nanette Milne,Q6963426,,,North East Scotland,Region,,1942,79
+237,238,1848,191483,2nd,F,Nicola Sturgeon,Q467112,,,Glasgow,Region,,1970,51
+238,239,1850,139563,2nd,F,Nora Radcliffe,Q1996594,Aberdeenshire,Gordon,North East Scotland,Constituency,,1946,75
+239,240,1853,163182,2nd,F,Patricia Ferguson,Q2057182,Glasgow City,Glasgow Maryhill,Glasgow,Constituency,The Minister for Parliamentary Business,1958,63
+240,241,1853,163182,2nd,F,Patricia Ferguson,Q2057182,Glasgow City,Glasgow Maryhill,Glasgow,Constituency,"The Minister for Tourism, Culture and Sport",1958,63
+241,242,1854,103792,2nd,F,Trish Godman,Q2057190,Renfrewshire,West Renfrewshire,West of Scotland,Constituency,The Deputy Presiding Officer,1939,82
+242,243,1857,164313,2nd,F,Pauline McNeill,Q2063795,Glasgow City,Glasgow Kelvin,Glasgow,Constituency,,1962,59
+243,244,1862,190568,2nd,F,Rhona Brankin,Q544064,Midlothian,Midlothian,Lothians,Constituency,,1950,71
+244,245,1862,190568,2nd,F,Rhona Brankin,Q544064,Midlothian,Midlothian,Lothians,Constituency,The Deputy Minister for Health and Community Care,1950,71
+245,246,1862,190568,2nd,F,Rhona Brankin,Q544064,Midlothian,Midlothian,Lothians,Constituency,The Deputy Minister for Environment and Rural Development,1950,71
+246,247,1862,190568,2nd,F,Rhona Brankin,Q544064,Midlothian,Midlothian,Lothians,Constituency,The Minister for Communities,1950,71
+247,248,1863,118129,2nd,F,Roseanna Cunningham,Q333953,Perth and Kinross,Perth,Mid Scotland and Fife,Constituency,,1951,70
+248,249,1865,135049,2nd,F,Sandra White,Q466861,,,Glasgow,Region,,1951,70
+249,250,1866,162465,2nd,F,Sarah Boyack,Q544089,City of Edinburgh,Edinburgh Central,Lothians,Constituency,,1961,60
+250,251,1866,162465,2nd,F,Sarah Boyack,Q544089,City of Edinburgh,Edinburgh Central,Lothians,Constituency,The Deputy Minister for Environment and Rural Development,1961,60
+251,252,1869,116555,2nd,F,Shiona Baird,Q1167157,,,North East Scotland,Region,,1946,75
+252,253,1870,124075,2nd,F,Shona Robison,Q444675,Dundee City,Dundee East,North East Scotland,Constituency,,1966,55
+253,254,1871,103728,2nd,F,Susan Deacon,Q544755,City of Edinburgh,Edinburgh East and Musselburgh,Lothians,Constituency,,1964,57
+254,255,1873,86298,2nd,F,Sylvia Jackson,Q2374216,Stirling,Stirling,Mid Scotland and Fife,Constituency,,1946,75
+255,256,1876,101139,2nd,F,Tricia Marwick,Q540435,,,Mid Scotland and Fife,Region,,1953,68
+256,257,1877,60494,2nd,F,Wendy Alexander,Q511689,Renfrewshire,Paisley North,West of Scotland,Constituency,,1963,58
+257,258,1882,85937,2nd,M,Adam Ingram,Q349826,,,South of Scotland,Region,,1951,70
+258,259,1888,164920,2nd,M,Alasdair Morgan,Q662910,,,South of Scotland,Region,,1945,76
+259,260,1889,75817,2nd,M,Alasdair Morrison,Q1669774,Na h-Eileanan Siar,Western Isles,Highlands and Islands,Constituency,,1968,53
+260,261,1892,99639,2nd,M,Alex Fergusson,Q559046,Dumfries and Galloway,Galloway and Upper Nithsdale,South of Scotland,Constituency,,1949,72
+261,262,1893,142249,2nd,M,Alex Johnstone,Q2641395,,,North East Scotland,Region,,1961,60
+262,263,1894,147633,2nd,M,Alex Neil,Q1515752,,,Central Scotland,Region,,1951,70
+263,264,1901,300672,2nd,M,Allan Wilson,Q2648077,North Ayrshire,Cunninghame North,West of Scotland,Constituency,The Deputy Minister for Environment and Rural Development,1954,67
+264,265,1901,300672,2nd,M,Allan Wilson,Q2648077,North Ayrshire,Cunninghame North,West of Scotland,Constituency,The Deputy Minister for Enterprise and Lifelong Learning,1954,67
+265,266,1906,44781,2nd,M,Andrew Welsh,Q334000,Angus,Angus,North East Scotland,Constituency,,1944,77
+266,267,1908,281870,2nd,M,Andy Kerr,Q526409,South Lanarkshire,East Kilbride,Central Scotland,Constituency,The Minister for Finance and Public Services,1962,59
+267,268,1908,281870,2nd,M,Andy Kerr,Q526409,South Lanarkshire,East Kilbride,Central Scotland,Constituency,The Minister for Health and Community Care,1962,59
+268,269,1926,153471,2nd,M,Brian Adam,Q570298,Aberdeen City,Aberdeen North,North East Scotland,Constituency,,1948,73
+269,270,1930,129743,2nd,M,Brian Monteith,Q912776,,,Mid Scotland and Fife,Region,,1958,63
+270,271,1931,113499,2nd,M,Bristow Muldoon,Q917995,West Lothian,Livingston,Lothians,Constituency,,1964,57
+271,272,1932,93870,2nd,M,Bruce Crawford,Q559391,,,Mid Scotland and Fife,Region,,1955,66
+272,273,1944,90241,2nd,M,Chris Ballance,Q1076969,,,South of Scotland,Region,,1952,69
+273,274,1956,252099,2nd,M,David Davidson,Q1174169,,,North East Scotland,Region,,1943,78
+274,275,1961,157687,2nd,M,David McLetchie,Q1175613,City of Edinburgh,Edinburgh Pentlands,Lothians,Constituency,,1952,69
+275,276,1962,53729,2nd,M,David Mundell,Q333520,,,South of Scotland,Region,,1962,59
+276,277,1963,48020,2nd,M,Dave Petrie,Q1176111,,,Highlands and Islands,Region,,1946,75
+277,278,1968,68070,2nd,M,Dennis Canavan,Q1189028,Falkirk,Falkirk West,Central Scotland,Constituency,,1942,79
+278,279,1970,172031,2nd,M,Des McNulty,Q1200458,East Dunbartonshire,Clydebank and Milngavie,West of Scotland,Constituency,,1952,69
+279,280,1970,172031,2nd,M,Des McNulty,Q1200458,East Dunbartonshire,Clydebank and Milngavie,West of Scotland,Constituency,The Deputy Minister for Communities,1952,69
+280,281,1973,258153,2nd,M,Donald Gorrie,Q334137,,,Central Scotland,Region,,1933,88
+281,282,1986,69964,2nd,M,Duncan McNeil,Q1265439,Inverclyde,Greenock and Inverclyde,West of Scotland,Constituency,,1950,71
+282,283,1988,148018,2nd,M,Ted Brocklebank,Q2399744,,,Mid Scotland and Fife,Region,,1942,79
+283,284,1990,196507,2nd,M,Euan Robson,Q1372069,Scottish Borders,Roxburgh and Berwickshire,South of Scotland,Constituency,The Deputy Minister for Education and Young People,1954,67
+284,285,1990,196507,2nd,M,Euan Robson,Q1372069,Scottish Borders,Roxburgh and Berwickshire,South of Scotland,Constituency,,1954,67
+285,286,1994,198629,2nd,M,Fergus Ewing,Q559022,Highland,"Inverness East, Nairn and Lochaber",Highlands and Islands,Constituency,,1957,64
+286,287,1996,138498,2nd,M,Frank McAveety,Q1443752,Glasgow City,Glasgow Shettleston,Glasgow,Constituency,"The Minister for Tourism, Culture and Sport",1962,59
+287,288,1996,138498,2nd,M,Frank McAveety,Q1443752,Glasgow City,Glasgow Shettleston,Glasgow,Constituency,,1962,59
+288,289,2003,169151,2nd,M,George Lyon,Q956623,Argyll and Bute,Argyll and Bute,Highlands and Islands,Constituency,,1956,65
+289,290,2003,169151,2nd,M,George Lyon,Q956623,Argyll and Bute,Argyll and Bute,Highlands and Islands,Constituency,"The Deputy Minister for Finance, Public Service Reform and Parliamentary Business",1956,65
+290,291,2005,196256,2nd,M,George Reid,Q334480,Clackmannanshire,Ochil,Mid Scotland and Fife,Constituency,The Presiding Officer,1939,82
+291,292,2013,31542,2nd,M,Gordon Jackson,Q1439561,Glasgow City,Glasgow Govan,Glasgow,Constituency,,1948,73
+292,293,2029,291253,2nd,M,Hugh Henry,Q5931093,Renfrewshire,Paisley South,West of Scotland,Constituency,The Deputy Minister for Justice,1952,69
+293,294,2029,291253,2nd,M,Hugh Henry,Q5931093,Renfrewshire,Paisley South,West of Scotland,Constituency,The Minister for Education and Young People,1952,69
+294,295,2038,167217,2nd,M,Iain Smith,Q1655380,Fife,North East Fife,Mid Scotland and Fife,Constituency,,1960,61
+295,296,2052,687105,2nd,M,Jack McConnell,Q132040,North Lanarkshire,Motherwell and Wishaw,Central Scotland,Constituency,,1960,61
+296,297,2052,687105,2nd,M,Jack McConnell,Q132040,North Lanarkshire,Motherwell and Wishaw,Central Scotland,Constituency,The First Minister,1960,61
+297,298,2056,151438,2nd,M,James Douglas-Hamilton,Q333795,,,Lothians,Region,,1942,79
+298,299,2066,156059,2nd,M,Jamie McGrigor,Q1680794,,,Highlands and Islands,Region,,1949,72
+299,300,2068,157725,2nd,M,Jamie Stone,Q1681420,Highland,"Caithness, Sutherland and Easter Ross",Highlands and Islands,Constituency,,1954,67
+300,301,2074,163876,2nd,M,Jim Mather,Q1689144,,,Highlands and Islands,Region,,1947,74
+301,302,2077,169441,2nd,M,Jim Wallace,Q333807,Orkney Islands,Orkney,Highlands and Islands,Constituency,,1954,67
+302,303,2077,169441,2nd,M,Jim Wallace,Q333807,Orkney Islands,Orkney,Highlands and Islands,Constituency,The Deputy First Minister and Minister for Justice,1954,67
+303,304,2077,169441,2nd,M,Jim Wallace,Q333807,Orkney Islands,Orkney,Highlands and Islands,Constituency,The Minister for Enterprise and Lifelong Learning,1954,67
+304,305,2080,295759,2nd,F,Johann Lamont,Q544698,Glasgow City,Glasgow Pollok,Glasgow,Constituency,,1957,64
+305,306,2080,295759,2nd,F,Johann Lamont,Q544698,Glasgow City,Glasgow Pollok,Glasgow,Constituency,The Deputy Minister for Communities,1957,64
+306,307,2080,295759,2nd,F,Johann Lamont,Q544698,Glasgow City,Glasgow Pollok,Glasgow,Constituency,The Deputy Minister for Justice,1957,64
+307,308,2085,67122,2nd,M,John Farquhar Munro,Q1225080,Perth and Kinross,"Ross, Skye and Inverness West",Highlands and Islands,Constituency,,1934,87
+308,309,2098,223265,2nd,M,John Swinney,Q333811,Angus,North Tayside,Mid Scotland and Fife,Constituency,,1964,57
+309,310,2100,88574,2nd,M,John Home Robertson,Q1700483,East Lothian,East Lothian,South of Scotland,Constituency,,1948,73
+310,311,2106,38299,2nd,M,Keith Raffan,Q1738083,,,Mid Scotland and Fife,Region,,1949,72
+311,312,2108,101860,2nd,M,Ken Macintosh,Q1738887,East Renfrewshire,Eastwood,West of Scotland,Constituency,,1962,59
+312,313,2108,101860,2nd,M,Ken Macintosh,Q1738887,East Renfrewshire,Eastwood,West of Scotland,Constituency,The Ministerial Parliamentary Aide to the First Minister,1962,59
+313,314,2112,242544,2nd,M,Kenny MacAskill,Q983174,,,Lothians,Region,,1958,63
+314,315,2117,250806,2nd,M,Lewis Macdonald,Q1822125,Aberdeen City,Aberdeen Central,North East Scotland,Constituency,The Deputy Minister for Enterprise and Lifelong Learning,1957,64
+315,316,2117,250806,2nd,M,Lewis Macdonald,Q1822125,Aberdeen City,Aberdeen Central,North East Scotland,Constituency,The Deputy Minister for Environment and Rural Development,1957,64
+316,317,2117,250806,2nd,M,Lewis Macdonald,Q1822125,Aberdeen City,Aberdeen Central,North East Scotland,Constituency,The Deputy Minister for Health and Community Care,1957,64
+317,318,2123,317399,2nd,M,Malcolm Chisholm,Q1886983,City of Edinburgh,Edinburgh North and Leith,Lothians,Constituency,The Minister for Health and Community Care,1949,72
+318,319,2123,317399,2nd,M,Malcolm Chisholm,Q1886983,City of Edinburgh,Edinburgh North and Leith,Lothians,Constituency,The Minister for Communities,1949,72
+319,320,2123,317399,2nd,M,Malcolm Chisholm,Q1886983,City of Edinburgh,Edinburgh North and Leith,Lothians,Constituency,,1949,72
+320,321,2126,164648,2nd,M,Mark Ballard,Q1499393,,,Lothians,Region,,1971,50
+321,322,2127,137205,2nd,M,Mark Ruskell,Q1900397,,,Mid Scotland and Fife,Region,,1972,49
+322,323,2133,73413,2nd,M,Michael Matheson,Q121780,,,Central Scotland,Region,,1970,51
+323,324,2134,55337,2nd,M,Michael McMahon,Q2439870,North Lanarkshire,Hamilton North and Bellshill,Central Scotland,Constituency,,1961,60
+324,325,2140,160673,2nd,M,Mike Rumbles,Q1436381,Aberdeenshire,West Aberdeenshire and Kincardine,North East Scotland,Constituency,,1956,65
+325,326,2142,36152,2nd,M,Mike Watson,Q1929744,Glasgow City,Glasgow Cathcart,Glasgow,Constituency,,1949,72
+326,327,2148,133306,2nd,M,Murray Tosh,Q1953855,,,West of Scotland,Region,The Deputy Presiding Officer,1950,71
+327,328,2154,199348,2nd,M,Nicol Stephen,Q333630,Aberdeen City,Aberdeen South,North East Scotland,Constituency,The Minister for Transport and Telecommunications,1960,61
+328,329,2154,199348,2nd,M,Nicol Stephen,Q333630,Aberdeen City,Aberdeen South,North East Scotland,Constituency,The Minister for Enterprise and Lifelong Learning,1960,61
+329,330,2159,55722,2nd,M,Paul Martin,Q2061163,Glasgow City,Glasgow Springburn,Glasgow,Constituency,The Ministerial Parliamentary Aide to the Lord Advocate,1967,54
+330,331,2167,200052,2nd,M,Peter Peacock,Q2077496,,,Highlands and Islands,Region,The Minister for Education and Young People,1952,69
+331,332,2167,200052,2nd,M,Peter Peacock,Q2077496,,,Highlands and Islands,Region,,1952,69
+332,333,2172,139173,2nd,M,Phil Gallie,Q333800,,,South of Scotland,Region,,1939,82
+333,334,2180,204099,2nd,M,Richard Lochhead,Q1490268,,,North East Scotland,Region,,1969,52
+334,335,2180,204099,2nd,M,Richard Lochhead,Q1490268,Moray,Moray,Highlands and Islands,Constituency,,1969,52
+335,336,2185,313740,2nd,M,Robert Brown,Q2156625,,,Glasgow,Region,,1947,74
+336,337,2185,313740,2nd,M,Robert Brown,Q2156625,,,Glasgow,Region,The Deputy Minister for Education and Young People,1947,74
+337,338,2188,140608,2nd,M,Robin Harper,Q202002,,,Lothians,Region,,1940,81
+338,339,2201,55960,2nd,F,Rosie Kane,Q540340,,,Glasgow,Region,,1961,60
+339,340,2202,216260,2nd,M,Ross Finnie,Q2167587,,,West of Scotland,Region,The Minister for Environment and Rural Development,1947,74
+340,341,2207,108415,2nd,M,Scott Barrie,Q912525,Fife,Dunfermline West,Mid Scotland and Fife,Constituency,,1962,59
+341,342,2215,282282,2nd,M,Stewart Stevenson,Q559613,Aberdeenshire,Banff and Buchan,North East Scotland,Constituency,,1946,75
+342,343,2223,283992,2nd,M,Tavish Scott,Q1339371,Shetland Islands,Shetland,Highlands and Islands,Constituency,The Deputy Minister for Finance and Public Services,1966,55
+343,344,2223,283992,2nd,M,Tavish Scott,Q1339371,Shetland Islands,Shetland,Highlands and Islands,Constituency,The Minister for Transport and Telecommunications,1966,55
+344,345,2223,283992,2nd,M,Tavish Scott,Q1339371,Shetland Islands,Shetland,Highlands and Islands,Constituency,The Minister for Transport,1966,55
+345,346,2225,152567,2nd,M,Tommy Sheridan,Q542330,,,Glasgow,Region,,1964,57
+346,347,2228,247785,2nd,M,Tom McCabe,Q7816757,North Lanarkshire,Hamilton South,Central Scotland,Constituency,The Deputy Minister for Health and Community Care,1954,67
+347,348,2228,247785,2nd,M,Tom McCabe,Q7816757,North Lanarkshire,Hamilton South,Central Scotland,Constituency,The Minister for Finance and Public Service Reform,1954,67
+348,349,2234,180358,2nd,M,Bill Aitken,Q861907,,,Glasgow,Region,,1947,74
+349,350,2247,78429,2nd,M,Andrew Arbuckle,Q503626,,,Mid Scotland and Fife,Region,,1944,77
+350,351,2252,105856,2nd,M,Mike Pringle,Q1933434,City of Edinburgh,Edinburgh South,Lothians,Constituency,,1945,76
+351,352,2345,83079,2nd,M,John Scott,Q1701702,North Ayrshire,Ayr,South of Scotland,Constituency,,1951,70
+352,353,2364,88600,2nd,M,Bill Butler,Q861989,Glasgow City,Glasgow Anniesland,Glasgow,Constituency,,1956,65
+353,354,2390,68995,2nd,F,Jean Turner,Q1685867,East Dunbartonshire,Strathkelvin and Bearsden,West of Scotland,Constituency,,1939,82
+354,355,2394,251337,2nd,M,Murdo Fraser,Q1953630,,,Mid Scotland and Fife,Region,,1965,56
+355,356,2596,65694,2nd,M,Derek Brownlee,Q1200005,,,South of Scotland,Region,,1974,47
+356,357,2603,98296,2nd,M,Richard Baker,Q2149018,,,North East Scotland,Region,,1974,47
+357,358,2665,123395,2nd,F,Rosemary Byrne,Q1439779,,,South of Scotland,Region,,1948,73
+358,359,2675,164298,2nd,M,Rob Gibson,Q563410,,,Highlands and Islands,Region,,1945,76
+359,360,2686,97443,2nd,M,John Swinburne,Q588571,,,Central Scotland,Region,,1930,91
+360,361,2767,110104,2nd,F,Frances Curran,Q540408,,,West of Scotland,Region,,1961,60
+361,362,2866,204688,2nd,M,Jeremy Purvis,Q1687620,Scottish Borders,"Tweeddale, Ettrick and Lauderdale",South of Scotland,Constituency,,1974,47
+362,363,2876,137941,2nd,M,Stewart Maxwell,Q1710696,,,West of Scotland,Region,,1963,58
+363,364,2877,140561,2nd,F,Christine May,Q1083700,Fife,Central Fife,Mid Scotland and Fife,Constituency,,1948,73
+364,365,2892,200329,2nd,M,Patrick Harvie,Q2057654,,,Glasgow,Region,,1973,48
+365,366,2902,159082,2nd,F,Carolyn Leckie,Q540424,,,Central Scotland,Region,,1965,56
+366,367,2947,35782,2nd,M,Bruce McFee,Q991741,,,West of Scotland,Region,,1961,60
+367,368,3004,165260,2nd,M,Colin Fox,Q1108455,,,Lothians,Region,,1959,62
+368,369,3061,107444,2nd,F,Margaret Mitchell,Q1894872,,,Central Scotland,Region,,1952,69
+369,370,3103,23238,2nd,M,Campbell Martin,Q1030471,,,West of Scotland,Region,,1960,61
+370,371,3538,32405,2nd,M,Charlie Gordon,Q1064575,Glasgow City,Glasgow Cathcart,Glasgow,Constituency,,1951,70
+371,372,1735,91590,3rd,F,Angela Constance,Q524077,West Lothian,Livingston,Lothians,Constituency,,1970,51
+372,373,1735,91590,3rd,F,Angela Constance,Q524077,West Lothian,Livingston,Lothians,Constituency,The Minister for Skills and Lifelong Learning,1970,51
+373,374,1741,96763,3rd,F,Annabel Goldie,Q544742,,,West of Scotland,Region,,1950,71
+374,375,1751,90475,3rd,F,Cathie Craigie,Q544715,North Lanarkshire,Cumbernauld and Kilsyth,Central Scotland,Constituency,,1954,67
+375,376,1752,117812,3rd,F,Cathy Jamieson,Q727460,East Ayrshire,"Carrick, Cumnock and Doon Valley",South of Scotland,Constituency,,1956,65
+376,377,1754,56613,3rd,F,Cathy Peattie,Q1051152,Falkirk,Falkirk East,Central Scotland,Constituency,,1951,70
+377,378,1756,171851,3rd,F,Christine Grahame,Q467108,,,South of Scotland,Region,,1944,77
+378,379,1768,173386,3rd,F,Elaine Murray,Q1324826,Dumfries and Galloway,Dumfries,South of Scotland,Constituency,,1954,67
+379,380,1769,77755,3rd,F,Elaine Smith,Q305347,North Lanarkshire,Coatbridge and Chryston,Central Scotland,Constituency,,1963,58
+380,381,1773,356476,3rd,F,Fiona Hyslop,Q1418512,,,Lothians,Region,The Cabinet Secretary for Education and Lifelong Learning,1964,57
+381,382,1773,356476,3rd,F,Fiona Hyslop,Q1418512,,,Lothians,Region,The Minister for Culture and External Affairs,1964,57
+382,383,1778,147479,3rd,F,Helen Eadie,Q1396732,Fife,Dunfermline East,Mid Scotland and Fife,Constituency,,1947,74
+383,384,1782,42081,3rd,F,Irene Oldfather,Q1672558,North Ayrshire,Cunninghame South,South of Scotland,Constituency,,1954,67
+384,385,1783,147905,3rd,F,Jackie Baillie,Q544729,West Dunbartonshire,Dumbarton,West of Scotland,Constituency,,1964,57
+385,386,1803,105076,3rd,F,Karen Gillon,Q1729243,South Lanarkshire,Clydesdale,South of Scotland,Constituency,,1967,54
+386,387,1805,131500,3rd,F,Karen Whitefield,Q1344022,North Lanarkshire,Airdrie and Shotts,Central Scotland,Constituency,,1970,51
+387,388,1814,208059,3rd,F,Linda Fabiani,Q467097,,,Central Scotland,Region,"The Minister for Europe, External Affairs and Culture",1956,65
+388,389,1814,208059,3rd,F,Linda Fabiani,Q467097,,,Central Scotland,Region,,1956,65
+389,390,1814,208059,3rd,F,Linda Fabiani,Q467097,,,Central Scotland,Region,,1956,65
+390,391,1820,102725,3rd,F,Margaret Curran,Q291748,Glasgow City,Glasgow Baillieston,Glasgow,Constituency,,1958,63
+391,392,1826,217360,3rd,F,Margaret Smith,Q1894898,City of Edinburgh,Edinburgh West,Lothians,Constituency,,1961,60
+392,393,1828,115567,3rd,F,Margo MacDonald,Q334376,,,Lothians,Region,,1943,78
+393,394,1831,57492,3rd,F,Marlyn Glen,Q1285630,,,North East Scotland,Region,,1951,70
+394,395,1832,46746,3rd,F,Marilyn Livingstone,Q1281543,Fife,Kirkcaldy,Mid Scotland and Fife,Constituency,,1952,69
+395,396,1837,142972,3rd,F,Mary Mulligan,Q1267804,West Lothian,Linlithgow,Lothians,Constituency,,1960,61
+396,397,1839,201053,3rd,F,Mary Scanlon,Q1906394,,,Highlands and Islands,Region,,1947,74
+397,398,1841,117080,3rd,F,Maureen Watt,Q540381,,,North East Scotland,Region,The Minister for Schools and Skills,1951,70
+398,399,1841,117080,3rd,F,Maureen Watt,Q540381,,,North East Scotland,Region,,1951,70
+399,400,1845,175444,3rd,F,Nanette Milne,Q6963426,,,North East Scotland,Region,,1942,79
+400,401,1848,530084,3rd,F,Nicola Sturgeon,Q467112,Glasgow City,Glasgow Govan,Glasgow,Constituency,The Deputy First Minister and Cabinet Secretary for Health and Wellbeing,1970,51
+401,402,1853,82363,3rd,F,Patricia Ferguson,Q2057182,Glasgow City,Glasgow Maryhill,Glasgow,Constituency,,1958,63
+402,403,1854,51127,3rd,F,Trish Godman,Q2057190,Renfrewshire,West Renfrewshire,West of Scotland,Constituency,The Deputy Presiding Officer,1939,82
+403,404,1857,179296,3rd,F,Pauline McNeill,Q2063795,Glasgow City,Glasgow Kelvin,Glasgow,Constituency,,1962,59
+404,405,1857,179296,3rd,F,Pauline McNeill,Q2063795,Glasgow City,Glasgow Kelvin,Glasgow,Constituency,The Party Spokesperson on Culture,1962,59
+405,406,1860,104076,3rd,F,Rhoda Grant,Q769138,,,Highlands and Islands,Region,,1963,58
+406,407,1862,86166,3rd,F,Rhona Brankin,Q544064,Midlothian,Midlothian,Lothians,Constituency,,1950,71
+407,408,1863,177364,3rd,F,Roseanna Cunningham,Q333953,Perth and Kinross,Perth,Mid Scotland and Fife,Constituency,,1951,70
+408,409,1863,177364,3rd,F,Roseanna Cunningham,Q333953,Perth and Kinross,Perth,Mid Scotland and Fife,Constituency,The Minister for Environment,1951,70
+409,410,1863,177364,3rd,F,Roseanna Cunningham,Q333953,Perth and Kinross,Perth,Mid Scotland and Fife,Constituency,The Minister for the Environment and Climate Change,1951,70
+410,411,1865,114593,3rd,F,Sandra White,Q466861,,,Glasgow,Region,,1951,70
+411,412,1866,204652,3rd,F,Sarah Boyack,Q544089,City of Edinburgh,Edinburgh Central,Lothians,Constituency,,1961,60
+412,413,1870,338266,3rd,F,Shona Robison,Q444675,Dundee City,Dundee East,North East Scotland,Constituency,The Minister for Public Health,1966,55
+413,414,1870,338266,3rd,F,Shona Robison,Q444675,Dundee City,Dundee East,North East Scotland,Constituency,The Minister for Public Health and Sport,1966,55
+414,415,1876,72346,3rd,F,Tricia Marwick,Q540435,Fife,Central Fife,Mid Scotland and Fife,Constituency,,1953,68
+415,416,1877,82155,3rd,F,Wendy Alexander,Q511689,Renfrewshire,Paisley North,West of Scotland,Constituency,,1963,58
+416,417,1882,143633,3rd,M,Adam Ingram,Q349826,,,South of Scotland,Region,The Minister for Children and Early Years,1951,70
+417,418,1888,63376,3rd,M,Alasdair Morgan,Q662910,,,South of Scotland,Region,The Deputy Presiding Officer,1945,76
+418,419,1892,556778,3rd,M,Alex Fergusson,Q559046,Dumfries and Galloway,Galloway and Upper Nithsdale,South of Scotland,Constituency,The Presiding Officer,1949,72
+419,420,1893,145233,3rd,M,Alex Johnstone,Q2641395,,,North East Scotland,Region,,1961,60
+420,421,1894,219450,3rd,M,Alex Neil,Q1515752,,,Central Scotland,Region,,1951,70
+421,422,1894,219450,3rd,M,Alex Neil,Q1515752,,,Central Scotland,Region,The Minister for Housing and Communities,1951,70
+422,423,1895,702410,3rd,M,Alex Salmond,Q10652,Aberdeenshire,Gordon,North East Scotland,Constituency,,1954,67
+423,424,1895,702410,3rd,M,Alex Salmond,Q10652,Aberdeenshire,Gordon,North East Scotland,Constituency,The First Minister,1954,67
+424,425,1906,42264,3rd,M,Andrew Welsh,Q334000,Angus,Angus,North East Scotland,Constituency,,1944,77
+425,426,1908,151069,3rd,M,Andy Kerr,Q526409,South Lanarkshire,East Kilbride,Central Scotland,Constituency,,1962,59
+426,427,1908,151069,3rd,M,Andy Kerr,Q526409,South Lanarkshire,East Kilbride,Central Scotland,Constituency,The Party Spokesperson on Economy,1962,59
+427,428,1915,8117,3rd,M,Bashir Ahmad,Q809971,,,Glasgow,Region,,1940,81
+428,429,1921,80849,3rd,M,Bill Wilson,Q862664,,,West of Scotland,Region,,1963,58
+429,430,1926,49507,3rd,M,Brian Adam,Q570298,Aberdeen City,Aberdeen North,North East Scotland,Constituency,,1948,73
+430,431,1932,100327,3rd,M,Bruce Crawford,Q559391,Stirling,Stirling,Mid Scotland and Fife,Constituency,The Minister for Parliamentary Business,1955,66
+431,432,1961,169526,3rd,M,David McLetchie,Q1175613,City of Edinburgh,Edinburgh Pentlands,Lothians,Constituency,,1952,69
+432,433,1970,213947,3rd,M,Des McNulty,Q1200458,East Dunbartonshire,Clydebank and Milngavie,West of Scotland,Constituency,,1952,69
+433,434,1970,213947,3rd,M,Des McNulty,Q1200458,East Dunbartonshire,Clydebank and Milngavie,West of Scotland,Constituency,The Party Spokesperson on Lifelong Learning,1952,69
+434,435,1986,86348,3rd,M,Duncan McNeil,Q1265439,Inverclyde,Greenock and Inverclyde,West of Scotland,Constituency,,1950,71
+435,436,1988,112464,3rd,M,Ted Brocklebank,Q2399744,,,Mid Scotland and Fife,Region,,1942,79
+436,437,1994,243538,3rd,M,Fergus Ewing,Q559022,Highland,"Inverness East, Nairn and Lochaber",Highlands and Islands,Constituency,The Minister for Community Safety,1957,64
+437,438,1996,75748,3rd,M,Frank McAveety,Q1443752,Glasgow City,Glasgow Shettleston,Glasgow,Constituency,,1962,59
+438,439,2010,60548,3rd,M,Gil Paterson,Q200615,,,West of Scotland,Region,,1942,79
+439,440,2029,94151,3rd,M,Hugh Henry,Q5931093,Renfrewshire,Paisley South,West of Scotland,Constituency,,1952,69
+440,441,2030,14793,3rd,M,Hugh O'Donnell,Q1634500,,,Central Scotland,Region,,1952,69
+441,442,2033,139752,3rd,M,Iain Gray,Q1421398,East Lothian,East Lothian,South of Scotland,Constituency,,1957,64
+442,443,2038,145205,3rd,M,Iain Smith,Q1655380,Fife,North East Fife,Mid Scotland and Fife,Constituency,,1960,61
+443,444,2049,176941,3rd,M,Ian McKee,Q252566,,,Lothians,Region,,1940,81
+444,445,2052,29318,3rd,M,Jack McConnell,Q132040,North Lanarkshire,Motherwell and Wishaw,Central Scotland,Constituency,,1960,61
+445,446,2059,142895,3rd,M,James Kelly,Q1519985,Glasgow City,Glasgow Rutherglen,Glasgow,Constituency,,1963,58
+446,447,2066,151754,3rd,M,Jamie McGrigor,Q1680794,,,Highlands and Islands,Region,,1949,72
+447,448,2068,163096,3rd,M,Jamie Stone,Q1681420,Highland,"Caithness, Sutherland and Easter Ross",Highlands and Islands,Constituency,,1954,67
+448,449,2074,294043,3rd,M,Jim Mather,Q1689144,Argyll and Bute,Argyll and Bute,Highlands and Islands,Constituency,"The Minister for Enterprise, Energy and Tourism",1947,74
+449,450,2080,187134,3rd,F,Johann Lamont,Q544698,Glasgow City,Glasgow Pollok,Glasgow,Constituency,,1957,64
+450,451,2085,37096,3rd,M,John Farquhar Munro,Q1225080,Perth and Kinross,"Ross, Skye and Inverness West",Highlands and Islands,Constituency,,1934,87
+451,452,2098,700247,3rd,M,John Swinney,Q333811,Angus,North Tayside,Mid Scotland and Fife,Constituency,The Cabinet Secretary for Finance and Sustainable Growth,1964,57
+452,453,2103,179031,3rd,M,Keith Brown,Q1738042,Clackmannanshire,Ochil,Mid Scotland and Fife,Constituency,,1961,60
+453,454,2103,179031,3rd,M,Keith Brown,Q1738042,Clackmannanshire,Ochil,Mid Scotland and Fife,Constituency,The Minister for Schools and Skills,1961,60
+454,455,2103,179031,3rd,M,Keith Brown,Q1738042,Clackmannanshire,Ochil,Mid Scotland and Fife,Constituency,The Minister for Skills and Lifelong Learning,1961,60
+455,456,2103,179031,3rd,M,Keith Brown,Q1738042,Clackmannanshire,Ochil,Mid Scotland and Fife,Constituency,The Minister for Transport and Infrastructure,1961,60
+456,457,2103,179031,3rd,M,Keith Brown,Q1738042,Clackmannanshire,Ochil,Mid Scotland and Fife,Constituency,The Minister for Transport and Infrastucture,1961,60
+457,458,2108,156199,3rd,M,Ken Macintosh,Q1738887,East Renfrewshire,Eastwood,West of Scotland,Constituency,,1962,59
+458,459,2110,141417,3rd,M,Kenneth Gibson,Q944741,North Ayrshire,Cunninghame North,West of Scotland,Constituency,,1961,60
+459,460,2112,414012,3rd,M,Kenny MacAskill,Q983174,City of Edinburgh,Edinburgh East and Musselburgh,Lothians,Constituency,The Cabinet Secretary for Justice,1958,63
+460,461,2117,124071,3rd,M,Lewis Macdonald,Q1822125,Aberdeen City,Aberdeen Central,North East Scotland,Constituency,,1957,64
+461,462,2123,145316,3rd,M,Malcolm Chisholm,Q1886983,City of Edinburgh,Edinburgh North and Leith,Lothians,Constituency,,1949,72
+462,463,2133,81117,3rd,M,Michael Matheson,Q121780,Falkirk,Falkirk West,Central Scotland,Constituency,,1970,51
+463,464,2134,81723,3rd,M,Michael McMahon,Q2439870,North Lanarkshire,Hamilton North and Bellshill,Central Scotland,Constituency,,1961,60
+464,465,2135,358021,3rd,M,Michael Russell,Q1929110,,,South of Scotland,Region,The Minister for Environment,1953,68
+465,466,2135,358021,3rd,M,Michael Russell,Q1929110,,,South of Scotland,Region,"The Minister for Culture, External Affairs and the Constitution",1953,68
+466,467,2135,358021,3rd,M,Michael Russell,Q1929110,,,South of Scotland,Region,The Cabinet Secretary for Education and Lifelong Learning,1953,68
+467,468,2135,358021,3rd,M,Michael Russell,Q1929110,,,South of Scotland,Region,The Minister for Culture and External Affairs,1953,68
+468,469,2140,138667,3rd,M,Mike Rumbles,Q1436381,Aberdeenshire,West Aberdeenshire and Kincardine,North East Scotland,Constituency,,1956,65
+469,470,2154,58057,3rd,M,Nicol Stephen,Q333630,Aberdeen City,Aberdeen South,North East Scotland,Constituency,,1960,61
+470,471,2159,90901,3rd,M,Paul Martin,Q2061163,Glasgow City,Glasgow Springburn,Glasgow,Constituency,,1967,54
+471,472,2159,90901,3rd,M,Paul Martin,Q2061163,Glasgow City,Glasgow Springburn,Glasgow,Constituency,The Party Business Convener,1967,54
+472,473,2167,158077,3rd,M,Peter Peacock,Q2077496,,,Highlands and Islands,Region,,1952,69
+473,474,2180,252089,3rd,M,Richard Lochhead,Q1490268,Moray,Moray,Highlands and Islands,Constituency,The Cabinet Secretary for Rural Affairs and the Environment,1969,52
+474,475,2182,199978,3rd,M,Richard Simpson,Q2150619,,,Mid Scotland and Fife,Region,,1942,79
+475,476,2185,339604,3rd,M,Robert Brown,Q2156625,,,Glasgow,Region,,1947,74
+476,477,2188,114764,3rd,M,Robin Harper,Q202002,,,Lothians,Region,,1940,81
+477,478,2202,228986,3rd,M,Ross Finnie,Q2167587,,,West of Scotland,Region,,1947,74
+478,479,2215,319258,3rd,M,Stewart Stevenson,Q559613,Aberdeenshire,Banff and Buchan,North East Scotland,Constituency,"The Minister for Transport, Infrastructure and Climate Change",1946,75
+479,480,2215,319258,3rd,M,Stewart Stevenson,Q559613,Aberdeenshire,Banff and Buchan,North East Scotland,Constituency,,1946,75
+480,481,2215,319258,3rd,M,Stewart Stevenson,Q559613,Aberdeenshire,Banff and Buchan,North East Scotland,Constituency,.,1946,75
+481,482,2223,119657,3rd,M,Tavish Scott,Q1339371,Shetland Islands,Shetland,Highlands and Islands,Constituency,,1966,55
+482,483,2228,44093,3rd,M,Tom McCabe,Q7816757,North Lanarkshire,Hamilton South,Central Scotland,Constituency,,1954,67
+483,484,2234,185969,3rd,M,Bill Aitken,Q861907,,,Glasgow,Region,,1947,74
+484,485,2252,98315,3rd,M,Mike Pringle,Q1933434,City of Edinburgh,Edinburgh South,Lothians,Constituency,,1945,76
+485,486,2345,126800,3rd,M,John Scott,Q1701702,North Ayrshire,Ayr,South of Scotland,Constituency,,1951,70
+486,487,2364,110340,3rd,M,Bill Butler,Q861989,Glasgow City,Glasgow Anniesland,Glasgow,Constituency,,1956,65
+487,488,2394,209737,3rd,M,Murdo Fraser,Q1953630,,,Mid Scotland and Fife,Region,,1965,56
+488,489,2595,194277,3rd,M,Gavin Brown,Q1496418,,,Lothians,Region,,1975,46
+489,490,2596,182575,3rd,M,Derek Brownlee,Q1200005,,,South of Scotland,Region,,1974,47
+490,491,2603,162319,3rd,M,Richard Baker,Q2149018,,,North East Scotland,Region,,1974,47
+491,492,2610,63061,3rd,M,John Wilson,Q1702190,,,Central Scotland,Region,,1956,65
+492,493,2633,102117,3rd,F,Claire Baker,Q744632,,,Mid Scotland and Fife,Region,,1971,50
+493,494,2641,107227,3rd,M,Alasdair Allan,Q559634,Na h-Eileanan Siar,Western Isles,Highlands and Islands,Constituency,,1971,50
+494,495,2651,113028,3rd,M,Jim Tolson,Q1247554,Fife,Dunfermline West,Mid Scotland and Fife,Constituency,,1965,56
+495,496,2674,92743,3rd,M,Dave Thompson,Q1176844,,,Highlands and Islands,Region,,1949,72
+496,497,2675,177326,3rd,M,Rob Gibson,Q563410,,,Highlands and Islands,Region,,1945,76
+497,498,2678,161354,3rd,M,Jackson Carlaw,Q1231522,,,West of Scotland,Region,,1959,62
+498,499,2866,306648,3rd,M,Jeremy Purvis,Q1687620,Scottish Borders,"Tweeddale, Ettrick and Lauderdale",South of Scotland,Constituency,,1974,47
+499,500,2876,177984,3rd,M,Stewart Maxwell,Q1710696,,,West of Scotland,Region,The Minister for Communities and Sport,1963,58
+500,501,2876,177984,3rd,M,Stewart Maxwell,Q1710696,,,West of Scotland,Region,,1963,58
+501,502,2892,211523,3rd,M,Patrick Harvie,Q2057654,,,Glasgow,Region,,1973,48
+502,503,2963,56126,3rd,F,Anne McLaughlin,Q373047,,,Glasgow,Region,,1966,55
+503,504,3061,57908,3rd,F,Margaret Mitchell,Q1894872,,,Central Scotland,Region,,1952,69
+504,505,3129,52313,3rd,M,Bill Kidd,Q862234,,,Glasgow,Region,,1956,65
+505,506,3538,75609,3rd,M,Charlie Gordon,Q1064575,Glasgow City,Glasgow Cathcart,Glasgow,Constituency,,1951,70
+506,507,3743,112946,3rd,M,Nigel Don,Q181224,,,North East Scotland,Region,,1954,67
+507,508,3746,95282,3rd,M,Christopher Harvie,Q1086721,,,Mid Scotland and Fife,Region,,1944,77
+508,509,3749,2112,3rd,M,Stefan Tymkewycz,Q2337825,,,Lothians,Region,,1959,62
+509,510,3750,70737,3rd,F,Shirley-Anne Somerville,Q2279359,,,Lothians,Region,,1974,47
+510,511,3758,109155,3rd,M,Jamie Hepburn,Q1681399,,,Central Scotland,Region,,1979,42
+511,512,3759,115336,3rd,F,Christina McKelvie,Q1083222,,,Central Scotland,Region,,1968,53
+512,513,3763,122032,3rd,M,Stuart McMillan,Q2357916,,,West of Scotland,Region,,1972,49
+513,514,3771,125864,3rd,M,Bob Doris,Q887886,,,Glasgow,Region,,1973,48
+514,515,3775,103476,3rd,F,Aileen Campbell,Q405017,,,South of Scotland,Region,,1980,41
+515,516,3806,60652,3rd,M,David Stewart,Q1176741,,,Highlands and Islands,Region,,1956,65
+516,517,3811,77363,3rd,M,George Foulkes,Q1507362,,,Lothians,Region,,1942,79
+517,518,3815,118227,3rd,M,John Park,Q1701321,,,Mid Scotland and Fife,Region,,1973,48
+518,519,3896,230375,3rd,M,Liam McArthur,Q1691804,Orkney Islands,Orkney,Highlands and Islands,Constituency,,1967,54
+519,520,3901,92330,3rd,M,Joe FitzPatrick,Q1612012,Dundee City,Dundee West,North East Scotland,Constituency,,1967,54
+520,521,3907,59187,3rd,M,Willie Coffey,Q524532,East Ayrshire,Kilmarnock and Loudoun,Central Scotland,Constituency,,1958,63
+521,522,4014,159378,3rd,F,Elizabeth Smith,Q644208,,,Mid Scotland and Fife,Region,,1960,61
+522,523,4016,119414,3rd,M,John Lamont,Q1700778,Scottish Borders,Roxburgh and Berwickshire,South of Scotland,Constituency,,1976,45
+523,524,4074,233819,3rd,M,David Whitton,Q1177153,East Dunbartonshire,Strathkelvin and Bearsden,West of Scotland,Constituency,,1952,69
+524,525,4080,126168,3rd,F,Alison McInnes,Q2647236,,,North East Scotland,Region,,1957,64
+525,526,4086,116749,3rd,M,Jim Hume,Q1689118,,,South of Scotland,Region,,1962,59
+526,527,1735,301271,4th,F,Angela Constance,Q524077,West Lothian,Almond Valley,Lothian,Constituency,The Minister for Children and Young People,1970,51
+527,528,1735,301271,4th,F,Angela Constance,Q524077,West Lothian,Almond Valley,Lothian,Constituency,The Minister for Youth Employment,1970,51
+528,529,1735,301271,4th,F,Angela Constance,Q524077,West Lothian,Almond Valley,Lothian,Constituency,"The Cabinet Secretary for Training, Youth and Women’s Employmentt",1970,51
+529,530,1735,301271,4th,F,Angela Constance,Q524077,West Lothian,Almond Valley,Lothian,Constituency,"The Cabinet Secretary for Training, Youth and Women's Employment",1970,51
+530,531,1735,301271,4th,F,Angela Constance,Q524077,West Lothian,Almond Valley,Lothian,Constituency,"The Cabinet Secretary for Training, Youth and Women’s Employment",1970,51
+531,532,1735,301271,4th,F,Angela Constance,Q524077,West Lothian,Almond Valley,Lothian,Constituency,The Cabinet Secretary for Education and Lifelong Learning,1970,51
+532,533,1741,209528,4th,F,Annabel Goldie,Q544742,,,West Scotland,Region,,1950,71
+533,534,1742,155361,4th,F,Annabelle Ewing,Q564093,,,Mid Scotland and Fife,Region,,1960,61
+534,535,1742,155361,4th,F,Annabelle Ewing,Q564093,,,Mid Scotland and Fife,Region,The Minister for Youth and Women’s Employment,1960,61
+535,536,1756,272467,4th,F,Christine Grahame,Q467108,Midlothian,"Midlothian South, Tweeddale and Lauderdale",South Scotland,Constituency,,1944,77
+536,537,1759,221567,4th,F,Claudia Beamish,Q1097337,,,South Scotland,Region,,1952,69
+537,538,1768,384033,4th,F,Elaine Murray,Q1324826,Dumfries and Galloway,Dumfriesshire,South Scotland,Constituency,,1954,67
+538,539,1769,36501,4th,F,Elaine Smith,Q305347,North Lanarkshire,Coatbridge and Chryston,Central Scotland,Constituency,,1963,58
+539,540,1769,36501,4th,F,Elaine Smith,Q305347,North Lanarkshire,Coatbridge and Chryston,Central Scotland,Constituency,The Deputy Presiding Officer,1963,58
+540,541,1773,370918,4th,F,Fiona Hyslop,Q1418512,West Lothian,Linlithgow,Lothian,Constituency,The Cabinet Secretary for Culture and External Affairs,1964,57
+541,542,1773,370918,4th,F,Fiona Hyslop,Q1418512,West Lothian,Linlithgow,Lothian,Constituency,"The Cabinet Secretary for Culture, Europe and External Affairs",1964,57
+542,543,1775,103063,4th,F,Fiona McLeod,Q1418528,East Dunbartonshire,Strathkelvin and Bearsden,West Scotland,Constituency,,1957,64
+543,544,1775,103063,4th,F,Fiona McLeod,Q1418528,East Dunbartonshire,Strathkelvin and Bearsden,West Scotland,Constituency,The Minister for Children and Young People,1957,64
+544,545,1778,71795,4th,F,Helen Eadie,Q1396732,Fife,Cowdenbeath,Mid Scotland and Fife,Constituency,,1947,74
+545,546,1783,356681,4th,F,Jackie Baillie,Q544729,West Dunbartonshire,Dumbarton,West Scotland,Constituency,,1964,57
+546,547,1793,103276,4th,F,Jean Urquhart,Q1685871,,,Highlands and Islands,Region,,1949,72
+547,548,1814,141838,4th,F,Linda Fabiani,Q467097,South Lanarkshire,East Kilbride,Central Scotland,Constituency,,1956,65
+548,549,1828,53376,4th,F,Margo MacDonald,Q334376,,,Lothian,Region,,1943,78
+549,550,1839,269599,4th,F,Mary Scanlon,Q1906394,,,Highlands and Islands,Region,,1947,74
+550,551,1841,215434,4th,F,Maureen Watt,Q540381,Aberdeen City,Aberdeen South and North Kincardine,North East Scotland,Constituency,,1951,70
+551,552,1841,215434,4th,F,Maureen Watt,Q540381,Aberdeen City,Aberdeen South and North Kincardine,North East Scotland,Constituency,The Minister for Public Health,1951,70
+552,553,1845,260671,4th,F,Nanette Milne,Q6963426,,,North East Scotland,Region,,1942,79
+553,554,1848,609618,4th,F,Nicola Sturgeon,Q467112,Glasgow City,Glasgow Southside,Glasgow,Constituency,"The Deputy First Minister and Cabinet Secretary for Health, Wellbeing and Cities Strategy",1970,51
+554,555,1848,609618,4th,F,Nicola Sturgeon,Q467112,Glasgow City,Glasgow Southside,Glasgow,Constituency,"The Deputy First Minister and Cabinet Secretary for Infrastructure, Investment and Cities",1970,51
+555,556,1848,609618,4th,F,Nicola Sturgeon,Q467112,Glasgow City,Glasgow Southside,Glasgow,Constituency,,1970,51
+556,557,1848,609618,4th,F,Nicola Sturgeon,Q467112,Glasgow City,Glasgow Southside,Glasgow,Constituency,The First Minister,1970,51
+557,558,1853,275326,4th,F,Patricia Ferguson,Q2057182,Glasgow City,Glasgow Maryhill and Springburn,Glasgow,Constituency,,1958,63
+558,559,1860,256109,4th,F,Rhoda Grant,Q769138,,,Highlands and Islands,Region,,1963,58
+559,560,1863,252757,4th,F,Roseanna Cunningham,Q333953,Perth and Kinross,Perthshire South and Kinross-shire,Mid Scotland and Fife,Constituency,The Minister for Community Safety and Legal Affairs,1951,70
+560,561,1863,252757,4th,F,Roseanna Cunningham,Q333953,Perth and Kinross,Perthshire South and Kinross-shire,Mid Scotland and Fife,Constituency,"The Cabinet Secretary for Fair Work, Skills and Training",1951,70
+561,562,1865,200360,4th,F,Sandra White,Q466861,Glasgow City,Glasgow Kelvin,Glasgow,Constituency,,1951,70
+562,563,1866,258523,4th,F,Sarah Boyack,Q544089,,,Lothian,Region,,1961,60
+563,564,1870,263234,4th,F,Shona Robison,Q444675,Dundee City,Dundee City East,North East Scotland,Constituency,The Minister for Commonwealth Games and Sport,1966,55
+564,565,1870,263234,4th,F,Shona Robison,Q444675,Dundee City,Dundee City East,North East Scotland,Constituency,"The Cabinet Secretary for Commonwealth Games, Sport, Equalities and Pensioners’ Rights",1966,55
+565,566,1870,263234,4th,F,Shona Robison,Q444675,Dundee City,Dundee City East,North East Scotland,Constituency,"Cabinet Secretary for Health, Wellbeing and Sport",1966,55
+566,567,1870,263234,4th,F,Shona Robison,Q444675,Dundee City,Dundee City East,North East Scotland,Constituency,"The Cabinet Secretary for Health, Wellbeing and Sport",1966,55
+567,568,1876,1353882,4th,F,Tricia Marwick,Q540435,Fife,Mid Fife and Glenrothes,Mid Scotland and Fife,Constituency,,1953,68
+568,569,1876,1353882,4th,F,Tricia Marwick,Q540435,Fife,Mid Fife and Glenrothes,Mid Scotland and Fife,Constituency,The Presiding Officer,1953,68
+569,570,1882,35864,4th,M,Adam Ingram,Q349826,East Ayrshire,"Carrick, Cumnock and Doon Valley",South Scotland,Constituency,,1951,70
+570,571,1892,169963,4th,M,Alex Fergusson,Q559046,Dumfries and Galloway,Galloway and West Dumfries,South Scotland,Constituency,,1949,72
+571,572,1893,327046,4th,M,Alex Johnstone,Q2641395,,,North East Scotland,Region,,1961,60
+572,573,1894,360091,4th,M,Alex Neil,Q1515752,North Lanarkshire,Airdrie and Shotts,Central Scotland,Constituency,The Cabinet Secretary for Infrastructure and Capital Investment,1951,70
+573,574,1894,360091,4th,M,Alex Neil,Q1515752,North Lanarkshire,Airdrie and Shotts,Central Scotland,Constituency,The Cabinet Secretary for Health and Wellbeing,1951,70
+574,575,1894,360091,4th,M,Alex Neil,Q1515752,North Lanarkshire,Airdrie and Shotts,Central Scotland,Constituency,,1951,70
+575,576,1894,360091,4th,M,Alex Neil,Q1515752,North Lanarkshire,Airdrie and Shotts,Central Scotland,Constituency,"The Cabinet Secretary for Social Justice, Communities and Pensioners’ Rights",1951,70
+576,577,1895,681177,4th,M,Alex Salmond,Q10652,Aberdeenshire,Aberdeenshire East,North East Scotland,Constituency,,1954,67
+577,578,1895,681177,4th,M,Alex Salmond,Q10652,Aberdeenshire,Aberdeenshire East,North East Scotland,Constituency,The First Minister,1954,67
+578,579,1926,19857,4th,M,Brian Adam,Q570298,Aberdeen City,Aberdeen Donside,North East Scotland,Constituency,The Minister for Parliamentary Business and Chief Whip,1948,73
+579,580,1926,19857,4th,M,Brian Adam,Q570298,Aberdeen City,Aberdeen Donside,North East Scotland,Constituency,,1948,73
+580,581,1926,19857,4th,M,Brian Adam,Q570298,Aberdeen City,Aberdeen Donside,North East Scotland,Constituency,.,1948,73
+581,582,1932,117916,4th,M,Bruce Crawford,Q559391,Stirling,Stirling,Mid Scotland and Fife,Constituency,The Cabinet Secretary for Parliamentary Business and Government Strategy,1955,66
+582,583,1932,117916,4th,M,Bruce Crawford,Q559391,Stirling,Stirling,Mid Scotland and Fife,Constituency,,1955,66
+583,584,1943,228678,4th,M,Chic Brodie,Q1071778,,,South Scotland,Region,,1944,77
+584,585,1961,65122,4th,M,David McLetchie,Q1175613,,,Lothian,Region,,1952,69
+585,586,1986,106474,4th,M,Duncan McNeil,Q1265439,Inverclyde,Greenock and Inverclyde,West Scotland,Constituency,,1950,71
+586,587,1994,506498,4th,M,Fergus Ewing,Q559022,Highland,Inverness and Nairn,Highlands and Islands,Constituency,"The Minister for Energy, Enterprise and Tourism",1957,64
+587,588,1994,506498,4th,M,Fergus Ewing,Q559022,Highland,Inverness and Nairn,Highlands and Islands,Constituency,,1957,64
+588,589,1994,506498,4th,M,Fergus Ewing,Q559022,Highland,Inverness and Nairn,Highlands and Islands,Constituency,"Minister for Business, Energy and Tourism",1957,64
+589,590,1994,506498,4th,M,Fergus Ewing,Q559022,Highland,Inverness and Nairn,Highlands and Islands,Constituency,"The Minister for Business, Energy and Tourism",1957,64
+590,591,2010,84408,4th,M,Gil Paterson,Q200615,East Dunbartonshire,Clydebank and Milngavie,West Scotland,Constituency,,1942,79
+591,592,2029,134686,4th,M,Hugh Henry,Q5931093,Renfrewshire,Renfrewshire South,West Scotland,Constituency,,1952,69
+592,593,2033,221222,4th,M,Iain Gray,Q1421398,East Lothian,East Lothian,South Scotland,Constituency,,1957,64
+593,594,2059,134900,4th,M,James Kelly,Q1519985,South Lanarkshire,Rutherglen,Glasgow,Constituency,,1963,58
+594,595,2066,190356,4th,M,Jamie McGrigor,Q1680794,,,Highlands and Islands,Region,,1949,72
+595,596,2080,253198,4th,F,Johann Lamont,Q544698,Glasgow City,Glasgow Pollok,Glasgow,Constituency,,1957,64
+596,597,2098,738675,4th,M,John Swinney,Q333811,Perth and Kinross,Perthshire North,Mid Scotland and Fife,Constituency,"The Cabinet Secretary for Finance, Employment and Sustainable Growth",1964,57
+597,598,2098,738675,4th,M,John Swinney,Q333811,Perth and Kinross,Perthshire North,Mid Scotland and Fife,Constituency,"The Deputy First Minister and Cabinet Secretary for Finance, Constitution and Economy",1964,57
+598,599,2098,738675,4th,M,John Swinney,Q333811,Perth and Kinross,Perthshire North,Mid Scotland and Fife,Constituency,"The Cabinet Secretary for Finance, Constitution and Economy",1964,57
+599,600,2098,738675,4th,M,John Swinney,Q333811,Perth and Kinross,Perthshire North,Mid Scotland and Fife,Constituency,The Deputy First Minister,1964,57
+600,601,2103,425615,4th,M,Keith Brown,Q1738042,Clackmannanshire,Clackmannanshire and Dunblane,Mid Scotland and Fife,Constituency,The Minister for Housing and Transport,1961,60
+601,602,2103,425615,4th,M,Keith Brown,Q1738042,Clackmannanshire,Clackmannanshire and Dunblane,Mid Scotland and Fife,Constituency,,1961,60
+602,603,2103,425615,4th,M,Keith Brown,Q1738042,Clackmannanshire,Clackmannanshire and Dunblane,Mid Scotland and Fife,Constituency,The Minister for Transport and Veteran Affairs,1961,60
+603,604,2103,425615,4th,M,Keith Brown,Q1738042,Clackmannanshire,Clackmannanshire and Dunblane,Mid Scotland and Fife,Constituency,The Minister for Transport and Veterans,1961,60
+604,605,2103,425615,4th,M,Keith Brown,Q1738042,Clackmannanshire,Clackmannanshire and Dunblane,Mid Scotland and Fife,Constituency,"The Cabinet Secretary for Infrastructure, Investment and Cities",1961,60
+605,606,2108,327241,4th,M,Ken Macintosh,Q1738887,East Renfrewshire,Eastwood,West Scotland,Constituency,,1962,59
+606,607,2110,253489,4th,M,Kenneth Gibson,Q944741,North Ayrshire,Cunninghame North,West Scotland,Constituency,,1961,60
+607,608,2112,380515,4th,M,Kenny MacAskill,Q983174,City of Edinburgh,Edinburgh Eastern,Lothian,Constituency,The Cabinet Secretary for Justice,1958,63
+608,609,2112,380515,4th,M,Kenny MacAskill,Q983174,City of Edinburgh,Edinburgh Eastern,Lothian,Constituency,,1958,63
+609,610,2117,250065,4th,M,Lewis Macdonald,Q1822125,,,North East Scotland,Region,,1957,64
+610,611,2123,422967,4th,M,Malcolm Chisholm,Q1886983,City of Edinburgh,Edinburgh Northern and Leith,Lothian,Constituency,,1949,72
+611,612,2133,486208,4th,M,Michael Matheson,Q121780,Falkirk,Falkirk West,Central Scotland,Constituency,The Minister for Public Health,1970,51
+612,613,2133,486208,4th,M,Michael Matheson,Q121780,Falkirk,Falkirk West,Central Scotland,Constituency,The Cabinet Secretary for Justice,1970,51
+613,614,2134,138474,4th,M,Michael McMahon,Q2439870,North Lanarkshire,Uddingston and Bellshill,Central Scotland,Constituency,,1961,60
+614,615,2135,358918,4th,M,Michael Russell,Q1929110,Argyll and Bute,Argyll and Bute,Highlands and Islands,Constituency,The Cabinet Secretary for Education and Lifelong Learning,1953,68
+615,616,2135,358918,4th,M,Michael Russell,Q1929110,Argyll and Bute,Argyll and Bute,Highlands and Islands,Constituency,,1953,68
+616,617,2159,51601,4th,M,Paul Martin,Q2061163,Glasgow City,Glasgow Provan,Glasgow,Constituency,,1967,54
+617,618,2180,354735,4th,M,Richard Lochhead,Q1490268,Moray,Moray,Highlands and Islands,Constituency,The Cabinet Secretary for Rural Affairs and the Environment,1969,52
+618,619,2180,354735,4th,M,Richard Lochhead,Q1490268,Moray,Moray,Highlands and Islands,Constituency,"The Cabinet Secretary for Rural Affairs, Food and Environment",1969,52
+619,620,2182,154712,4th,M,Richard Simpson,Q2150619,,,Mid Scotland and Fife,Region,,1942,79
+620,621,2215,344234,4th,M,Stewart Stevenson,Q559613,Aberdeenshire,Banffshire and Buchan Coast,North East Scotland,Constituency,The Minister for Environment and Climate Change,1946,75
+621,622,2215,344234,4th,M,Stewart Stevenson,Q559613,Aberdeenshire,Banffshire and Buchan Coast,North East Scotland,Constituency,,1946,75
+622,623,2223,166552,4th,M,Tavish Scott,Q1339371,Shetland Islands,Shetland Islands,Highlands and Islands,Constituency,,1966,55
+623,624,2345,31651,4th,M,John Scott,Q1701702,North Ayrshire,Ayr,South Scotland,Constituency,The Deputy Presiding Officer,1951,70
+624,625,2394,280939,4th,M,Murdo Fraser,Q1953630,,,Mid Scotland and Fife,Region,,1965,56
+625,626,2487,187416,4th,F,Aileen McLeod,Q405025,,,South Scotland,Region,,1971,50
+626,627,2487,187416,4th,F,Aileen McLeod,Q405025,,,South Scotland,Region,"The Minister for Environment, Climate Change and Land Reform",1971,50
+627,628,2595,298945,4th,M,Gavin Brown,Q1496418,,,Lothian,Region,,1975,46
+628,629,2603,150001,4th,M,Richard Baker,Q2149018,,,North East Scotland,Region,,1974,47
+629,630,2610,106051,4th,M,John Wilson,Q1702190,,,Central Scotland,Region,,1956,65
+630,631,2615,218517,4th,M,George Adam,Q1282862,Renfrewshire,Paisley,West Scotland,Constituency,,1969,52
+631,632,2633,237034,4th,F,Claire Baker,Q744632,,,Mid Scotland and Fife,Region,,1971,50
+632,633,2641,11489,4th,M,Alasdair Allan,Q559634,Na h-Eileanan Siar,Na h-Eileanan an Iar,Highlands and Islands,Constituency,The Minister for Learning and Skills,1971,50
+633,634,2641,11489,4th,M,Alasdair Allan,Q559634,Na h-Eileanan Siar,Na h-Eileanan an Iar,Highlands and Islands,Constituency,"The Minister for Learning, Science and Scotland‘s Languages",1971,50
+634,635,2641,11489,4th,M,Alasdair Allan,Q559634,Na h-Eileanan Siar,Na h-Eileanan an Iar,Highlands and Islands,Constituency,"The Minister for Learning, Science and Scotland's Languages",1971,50
+635,636,2641,11489,4th,M,Alasdair Allan,Q559634,Na h-Eileanan Siar,Na h-Eileanan an Iar,Highlands and Islands,Constituency,"The Minister for Learning, Science and Scotland’s Languages",1971,50
+636,637,2673,243085,4th,M,Roderick Campbell,Q981061,Fife,North East Fife,Mid Scotland and Fife,Constituency,,1953,68
+637,638,2674,104605,4th,M,Dave Thompson,Q1176844,Highland,"Skye, Lochaber and Badenoch",Highlands and Islands,Constituency,,1949,72
+638,639,2675,192972,4th,M,Rob Gibson,Q563410,Highland,"Caithness, Sutherland and Ross",Highlands and Islands,Constituency,,1945,76
+639,640,2678,220859,4th,M,Jackson Carlaw,Q1231522,,,West Scotland,Region,,1959,62
+640,641,2826,151444,4th,M,James Dornan,Q509808,Glasgow City,Glasgow Cathcart,Glasgow,Constituency,,1953,68
+641,642,2853,94075,4th,M,John Pentland,Q1701389,North Lanarkshire,Motherwell and Wishaw,Central Scotland,Constituency,,1946,75
+642,643,2876,162379,4th,M,Stewart Maxwell,Q1710696,,,West Scotland,Region,,1963,58
+643,644,2892,285341,4th,M,Patrick Harvie,Q2057654,,,Glasgow,Region,,1973,48
+644,645,3061,186747,4th,F,Margaret Mitchell,Q1894872,,,Central Scotland,Region,,1952,69
+645,646,3101,141246,4th,M,Hanzala Malik,Q1584068,,,Glasgow,Region,,1956,65
+646,647,3129,26841,4th,M,Bill Kidd,Q862234,Glasgow City,Glasgow Anniesland,Glasgow,Constituency,,1956,65
+647,648,3743,162131,4th,M,Nigel Don,Q181224,Angus,Angus North and Mearns,North East Scotland,Constituency,,1954,67
+648,649,3745,150386,4th,M,Dennis Robertson,Q1189468,Aberdeenshire,Aberdeenshire West,North East Scotland,Constituency,,1956,65
+649,650,3751,69397,4th,M,Colin Beattie,Q1108343,Midlothian,Midlothian North and Musselburgh,Lothian,Constituency,,1951,70
+650,651,3758,336060,4th,M,Jamie Hepburn,Q1681399,North Lanarkshire,Cumbernauld and Kilsyth,Central Scotland,Constituency,,1979,42
+651,652,3758,336060,4th,M,Jamie Hepburn,Q1681399,North Lanarkshire,Cumbernauld and Kilsyth,Central Scotland,Constituency,"The Minister for Sport, Health Improvement and Mental Health",1979,42
+652,653,3759,205483,4th,F,Christina McKelvie,Q1083222,South Lanarkshire,"Hamilton, Larkhall and Stonehouse",Central Scotland,Constituency,,1968,53
+653,654,3763,167279,4th,M,Stuart McMillan,Q2357916,,,West Scotland,Region,,1972,49
+654,655,3771,208311,4th,M,Bob Doris,Q887886,,,Glasgow,Region,,1973,48
+655,656,3775,191041,4th,F,Aileen Campbell,Q405017,South Lanarkshire,Clydesdale,South Scotland,Constituency,The Minister for Local Government and Planning,1980,41
+656,657,3775,191041,4th,F,Aileen Campbell,Q405017,South Lanarkshire,Clydesdale,South Scotland,Constituency,The Minister for Children and Young People,1980,41
+657,658,3806,146468,4th,M,David Stewart,Q1176741,,,Highlands and Islands,Region,,1956,65
+658,659,3812,200562,4th,F,Kezia Dugdale,Q1740370,,,Lothian,Region,,1981,40
+659,660,3815,42875,4th,M,John Park,Q1701321,,,Mid Scotland and Fife,Region,,1973,48
+660,661,3824,140517,4th,F,Margaret McDougall,Q1894865,,,West Scotland,Region,,1949,72
+661,662,3896,388444,4th,M,Liam McArthur,Q1691804,Orkney Islands,Orkney Islands,Highlands and Islands,Constituency,,1967,54
+662,663,3901,81750,4th,M,Joe FitzPatrick,Q1612012,Dundee City,Dundee City West,North East Scotland,Constituency,,1967,54
+663,664,3901,81750,4th,M,Joe FitzPatrick,Q1612012,Dundee City,Dundee City West,North East Scotland,Constituency,The Minister for Parliamentary Business,1967,54
+664,665,3907,106215,4th,M,Willie Coffey,Q524532,East Ayrshire,Kilmarnock and Irvine Valley,South Scotland,Constituency,,1958,63
+665,666,4016,84774,4th,M,John Lamont,Q1700778,Scottish Borders,"Ettrick, Roxburgh and Berwickshire",South Scotland,Constituency,,1976,45
+666,667,4080,234096,4th,F,Alison McInnes,Q2647236,,,North East Scotland,Region,,1957,64
+667,668,4086,234569,4th,M,Jim Hume,Q1689118,,,South Scotland,Region,,1962,59
+668,669,4934,193780,4th,F,Alison Johnstone,Q2647232,,,Lothian,Region,,1965,56
+669,670,4938,128176,4th,M,Richard Lyle,Q2150126,,,Central Scotland,Region,,1950,71
+670,671,4939,88197,4th,M,Angus MacDonald,Q544483,Falkirk,Falkirk East,Central Scotland,Constituency,,1963,58
+671,672,4940,174669,4th,F,Clare Adamson,Q540328,,,Central Scotland,Region,,1967,54
+672,673,4941,197717,4th,M,Humza Yousaf,Q174924,,,Glasgow,Region,,1985,36
+673,674,4941,197717,4th,M,Humza Yousaf,Q174924,,,Glasgow,Region,The Minister for External Affairs and International Development,1985,36
+674,675,4941,197717,4th,M,Humza Yousaf,Q174924,,,Glasgow,Region,The Minister for Europe and International Development,1985,36
+675,676,4947,158278,4th,M,John Finnie,Q1495635,,,Highlands and Islands,Region,,1956,65
+676,677,4948,141237,4th,M,Mike MacKenzie,Q1933290,,,Highlands and Islands,Region,,1958,63
+677,678,4951,213774,4th,F,Joan McAlpine,Q512681,,,South Scotland,Region,,1962,59
+678,679,4951,213774,4th,F,Joan McAlpine,Q512681,,,South Scotland,Region,The Parliamentary Liaison Officer to the Office of the First Minister,1962,59
+679,680,4952,452493,4th,M,Paul Wheelhouse,Q2063093,,,South Scotland,Region,,1970,51
+680,681,4952,452493,4th,M,Paul Wheelhouse,Q2063093,,,South Scotland,Region,The Minister for Environment and Climate Change,1970,51
+681,682,4952,452493,4th,M,Paul Wheelhouse,Q2063093,,,South Scotland,Region,The Minister for Community Safety and Legal Affairs,1970,51
+682,683,4955,172742,4th,M,Jim Eadie,Q1689091,City of Edinburgh,Edinburgh Southern,Lothian,Constituency,,1968,53
+683,684,4956,73650,4th,M,Colin Keir,Q5145257,City of Edinburgh,Edinburgh Western,Lothian,Constituency,,1959,62
+684,685,4956,73650,4th,M,Colin Keir,Q5145257,City of Edinburgh,Edinburgh Western,Lothian,Constituency,.,1959,62
+685,686,4964,345542,4th,M,Mark McDonald,Q1900265,,,North East Scotland,Region,,1980,41
+686,687,4964,345542,4th,M,Mark McDonald,Q1900265,Aberdeen City,Aberdeen Donside,North East Scotland,Constituency,,1980,41
+687,688,4964,345542,4th,M,Mark McDonald,Q1900265,Aberdeen City,Aberdeen Donside,North East Scotland,Constituency,,1980,41
+688,689,4965,139723,4th,M,Christian Allard,Q13224746,,,North East Scotland,Region,,1964,57
+689,690,4965,139723,4th,M,Christian Allard,Q13224746,,,North East Scotland,Region,,1964,57
+690,691,4965,139723,4th,M,Christian Allard,Q13224746,,,North East Scotland,Region,The Minister for Commonwealth Games and Sport,1964,57
+691,692,4965,139723,4th,M,Christian Allard,Q13224746,,,North East Scotland,Region,"The Minister for Energy, Enterprise and Tourism",1964,57
+692,693,4965,139723,4th,M,Christian Allard,Q13224746,,,North East Scotland,Region,"The Cabinet Secretary for Finance, Employment and Sustainable Growth",1964,57
+693,694,4965,139723,4th,M,Christian Allard,Q13224746,,,North East Scotland,Region,,1964,57
+694,695,4966,318168,4th,M,Derek Mackay,Q1200058,Renfrewshire,Renfrewshire North and West,West Scotland,Constituency,,1977,44
+695,696,4966,318168,4th,M,Derek Mackay,Q1200058,Renfrewshire,Renfrewshire North and West,West Scotland,Constituency,The Minister for Local Government and Planning,1977,44
+696,697,4966,318168,4th,M,Derek Mackay,Q1200058,Renfrewshire,Renfrewshire North and West,West Scotland,Constituency,The Minister for Transport and Islands,1977,44
+697,698,4976,169029,4th,F,Ruth Davidson,Q2177593,,,Glasgow,Region,,1978,43
+698,699,4984,110607,4th,M,Cameron Buchanan,Q16107237,,,Lothian,Region,,1946,75
+699,700,4984,110607,4th,M,Cameron Buchanan,Q16107237,,,Lothian,Region,,1946,75
+700,701,4984,110607,4th,M,Cameron Buchanan,Q16107237,,,Lothian,Region,The Cabinet Secretary for Justice,1946,75
+701,702,4984,110607,4th,M,Cameron Buchanan,Q16107237,,,Lothian,Region,,1946,75
+702,703,5009,266754,4th,M,Willie Rennie,Q2581473,,,Mid Scotland and Fife,Region,,1967,54
+703,704,5034,272747,4th,F,Jenny Marra,Q1687049,,,North East Scotland,Region,,1977,44
+704,705,5035,12276,4th,F,Lesley Brennan,Q22131946,,,North East Scotland,Region,,1972,49
+705,706,5038,129314,4th,F,Jayne Baxter,Q6167868,,,Mid Scotland and Fife,Region,,1955,66
+706,707,5041,139991,4th,F,Siobhan McMahon,Q1726790,,,Central Scotland,Region,,1984,37
+707,708,5042,135007,4th,M,Mark Griffin,Q1900077,,,Central Scotland,Region,,1985,36
+708,709,5047,143886,4th,F,Anne McTaggart,Q565600,,,Glasgow,Region,,1970,51
+709,710,5054,264386,4th,M,Neil Findlay,Q979197,,,Lothian,Region,,1969,52
+710,711,5057,193121,4th,M,Graeme Pearson,Q1541328,,,South Scotland,Region,,1950,71
+711,712,5059,141908,4th,F,Mary Fee,Q1906255,,,West Scotland,Region,,1954,67
+712,713,5060,148636,4th,M,Neil Bibby,Q1557330,,,West Scotland,Region,,1983,38
+713,714,5074,96600,4th,M,Gordon MacDonald,Q1538053,City of Edinburgh,Edinburgh Pentlands,Lothian,Constituency,,1960,61
+714,715,5075,81378,4th,M,David Torrance ,Q1176878,Fife,Kirkcaldy,Mid Scotland and Fife,Constituency,,1961,60
+715,716,5078,4170,4th,M,Bill Walker,Q862635,Fife,Dunfermline,Mid Scotland and Fife,Constituency,,1942,79
+716,717,5079,162134,4th,M,Drew Smith,Q1258767,,,Glasgow,Region,,1951,70
+717,718,5080,134583,4th,F,Margaret McCulloch,Q1636293,,,Central Scotland,Region,,1952,69
+718,719,5106,193520,4th,M,Kevin Stewart,Q1740263,Aberdeen City,Aberdeen Central,North East Scotland,Constituency,,1968,53
+719,720,5107,184882,4th,M,Graeme Dey,Q1349075,Angus,Angus South,North East Scotland,Constituency,,1962,59
+720,721,5108,280662,4th,F,Margaret Burgess,Q289184,North Ayrshire,Cunninghame South,West Scotland,Constituency,,1949,72
+721,722,5108,280662,4th,F,Margaret Burgess,Q289184,North Ayrshire,Cunninghame South,West Scotland,Constituency,The Minister for Housing and Welfare,1949,72
+722,723,5109,169783,4th,M,Marco Biagi,Q1893669,City of Edinburgh,Edinburgh Central,Lothian,Constituency,,1982,39
+723,724,5109,169783,4th,M,Marco Biagi,Q1893669,City of Edinburgh,Edinburgh Central,Lothian,Constituency,The Minister for Local Government and Community Empowerment,1982,39
+724,725,5110,282250,4th,M,John Mason,Q1700987,Glasgow City,Glasgow Shettleston,Glasgow,Constituency,,1957,64
+725,726,5119,108509,4th,M,Alex Rowley,Q16191157,Fife,Cowdenbeath,Mid Scotland and Fife,Constituency,,1963,58
+726,727,5119,108509,4th,M,Alex Rowley,Q16191157,Fife,Cowdenbeath,Mid Scotland and Fife,Constituency,"The Minister for Learning, Science and Scotland‘s Languages",1963,58
+727,728,5119,108509,4th,M,Alex Rowley,Q16191157,Fife,Cowdenbeath,Mid Scotland and Fife,Constituency,,1963,58
+728,729,5556,112547,4th,F,Cara Hilton,Q15101536,Fife,Dunfermline,Mid Scotland and Fife,Constituency,,1975,46
+729,730,5556,112547,4th,F,Cara Hilton,Q15101536,Fife,Dunfermline,Mid Scotland and Fife,Constituency,,1975,46
+730,731,1735,270153,5th,F,Angela Constance,Q524077,West Lothian,Almond Valley,Lothian,Constituency,The Cabinet Secretary for Education and Lifelong Learning,1970,51
+731,732,1735,270153,5th,F,Angela Constance,Q524077,West Lothian,Almond Valley,Lothian,Constituency,"The Cabinet Secretary for Communities, Social Security and Equalities",1970,51
+732,733,1735,270153,5th,F,Angela Constance,Q524077,West Lothian,Almond Valley,Lothian,Constituency,,1970,51
+733,734,1735,270153,5th,F,Angela Constance,Q524077,West Lothian,Almond Valley,Lothian,Constituency,The Minister for Drug Policy,1970,51
+734,735,1735,270153,5th,F,Angela Constance,Q524077,West Lothian,Almond Valley,Lothian,Constituency,The Minister for Drugs Policy,1970,51
+735,736,1742,215262,5th,F,Annabelle Ewing,Q564093,Fife,Cowdenbeath,Mid Scotland and Fife,Constituency,The Minister for Youth and Women’s Employment,1960,61
+736,737,1742,215262,5th,F,Annabelle Ewing,Q564093,Fife,Cowdenbeath,Mid Scotland and Fife,Constituency,The Minister for Community Safety and Legal Affairs,1960,61
+737,738,1742,215262,5th,F,Annabelle Ewing,Q564093,Fife,Cowdenbeath,Mid Scotland and Fife,Constituency,,1960,61
+738,739,1756,60660,5th,F,Christine Grahame,Q467108,Midlothian,"Midlothian South, Tweeddale and Lauderdale",South Scotland,Constituency,,1944,77
+739,740,1756,60660,5th,F,Christine Grahame,Q467108,Midlothian,"Midlothian South, Tweeddale and Lauderdale",South Scotland,Constituency,The Deputy Presiding Officer,1944,77
+740,741,1759,198315,5th,F,Claudia Beamish,Q1097337,,,South Scotland,Region,,1952,69
+741,742,1769,168253,5th,F,Elaine Smith,Q305347,,,Central Scotland,Region,The Deputy Presiding Officer,1963,58
+742,743,1769,168253,5th,F,Elaine Smith,Q305347,,,Central Scotland,Region,,1963,58
+743,744,1773,356860,5th,F,Fiona Hyslop,Q1418512,West Lothian,Linlithgow,Lothian,Constituency,"The Cabinet Secretary for Culture, Europe and External Affairs",1964,57
+744,745,1773,356860,5th,F,Fiona Hyslop,Q1418512,West Lothian,Linlithgow,Lothian,Constituency,"The Cabinet Secretary for Culture, Tourism and External Affairs",1964,57
+745,746,1773,356860,5th,F,Fiona Hyslop,Q1418512,West Lothian,Linlithgow,Lothian,Constituency,"The Cabinet Secretary for Economy, Fair Work and Culture",1964,57
+746,747,1783,271497,5th,F,Jackie Baillie,Q544729,West Dunbartonshire,Dumbarton,West Scotland,Constituency,,1964,57
+747,748,1814,26756,5th,F,Linda Fabiani,Q467097,South Lanarkshire,East Kilbride,Central Scotland,Constituency,,1956,65
+748,749,1814,26756,5th,F,Linda Fabiani,Q467097,South Lanarkshire,East Kilbride,Central Scotland,Constituency,The Deputy Presiding Officer,1956,65
+749,750,1841,124291,5th,F,Maureen Watt,Q540381,Aberdeen City,Aberdeen South and North Kincardine,North East Scotland,Constituency,The Minister for Public Health,1951,70
+750,751,1841,124291,5th,F,Maureen Watt,Q540381,Aberdeen City,Aberdeen South and North Kincardine,North East Scotland,Constituency,The Minister for Mental Health,1951,70
+751,752,1841,124291,5th,F,Maureen Watt,Q540381,Aberdeen City,Aberdeen South and North Kincardine,North East Scotland,Constituency,,1951,70
+752,753,1848,1751661,5th,F,Nicola Sturgeon,Q467112,Glasgow City,Glasgow Southside,Glasgow,Constituency,The First Minister,1970,51
+753,754,1857,243880,5th,F,Pauline McNeill,Q2063795,,,Glasgow,Region,,1962,59
+754,755,1860,235684,5th,F,Rhoda Grant,Q769138,,,Highlands and Islands,Region,,1963,58
+755,756,1863,320237,5th,F,Roseanna Cunningham,Q333953,Perth and Kinross,Perthshire South and Kinross-shire,Mid Scotland and Fife,Constituency,"The Cabinet Secretary for Fair Work, Skills and Training",1951,70
+756,757,1863,320237,5th,F,Roseanna Cunningham,Q333953,Perth and Kinross,Perthshire South and Kinross-shire,Mid Scotland and Fife,Constituency,"The Cabinet Secretary for the Environment, Climate Change and Land Reform",1951,70
+757,758,1863,320237,5th,F,Roseanna Cunningham,Q333953,Perth and Kinross,Perthshire South and Kinross-shire,Mid Scotland and Fife,Constituency,"The Cabinet Secretary for Environment, Climate Change and Land Reform",1951,70
+758,759,1865,145816,5th,F,Sandra White,Q466861,Glasgow City,Glasgow Kelvin,Glasgow,Constituency,,1951,70
+759,760,1866,72135,5th,F,Sarah Boyack,Q544089,,,Lothian,Region,,1961,60
+760,761,1870,297129,5th,F,Shona Robison,Q444675,Dundee City,Dundee City East,North East Scotland,Constituency,"The Cabinet Secretary for Health, Wellbeing and Sport",1966,55
+761,762,1870,297129,5th,F,Shona Robison,Q444675,Dundee City,Dundee City East,North East Scotland,Constituency,The Cabinet Secretary for Health and Sport,1966,55
+762,763,1870,297129,5th,F,Shona Robison,Q444675,Dundee City,Dundee City East,North East Scotland,Constituency,,1966,55
+763,764,1893,8571,5th,M,Alex Johnstone,Q2641395,,,North East Scotland,Region,,1961,60
+764,765,1894,57888,5th,M,Alex Neil,Q1515752,North Lanarkshire,Airdrie and Shotts,Central Scotland,Constituency,"The Cabinet Secretary for Social Justice, Communities and Pensioners’ Rights",1951,70
+765,766,1894,57888,5th,M,Alex Neil,Q1515752,North Lanarkshire,Airdrie and Shotts,Central Scotland,Constituency,,1951,70
+766,767,1932,138405,5th,M,Bruce Crawford,Q559391,Stirling,Stirling,Mid Scotland and Fife,Constituency,,1955,66
+767,768,1994,412951,5th,M,Fergus Ewing,Q559022,Highland,Inverness and Nairn,Highlands and Islands,Constituency,"The Minister for Business, Energy and Tourism",1957,64
+768,769,1994,412951,5th,M,Fergus Ewing,Q559022,Highland,Inverness and Nairn,Highlands and Islands,Constituency,The Cabinet Secretary for Rural Economy and Connectivity,1957,64
+769,770,1994,412951,5th,M,Fergus Ewing,Q559022,Highland,Inverness and Nairn,Highlands and Islands,Constituency,The Cabinet Secretary for the Rural Economy,1957,64
+770,771,1994,412951,5th,M,Fergus Ewing,Q559022,Highland,Inverness and Nairn,Highlands and Islands,Constituency,The Cabinet Secretary for Rural Economy and Tourism,1957,64
+771,772,2010,35886,5th,M,Gil Paterson,Q200615,East Dunbartonshire,Clydebank and Milngavie,West Scotland,Constituency,,1942,79
+772,773,2015,165249,5th,M,Gordon Lindhurst,Q24034371,,,Lothian,Region,,1967,54
+773,774,2033,186916,5th,M,Iain Gray,Q1421398,East Lothian,East Lothian,South Scotland,Constituency,,1957,64
+774,775,2059,176958,5th,M,James Kelly,Q1519985,,,Glasgow,Region,,1963,58
+775,776,2080,147096,5th,F,Johann Lamont,Q544698,,,Glasgow,Region,,1957,64
+776,777,2098,635426,5th,M,John Swinney,Q333811,Perth and Kinross,Perthshire North,Mid Scotland and Fife,Constituency,The Deputy First Minister,1964,57
+777,778,2098,635426,5th,M,John Swinney,Q333811,Perth and Kinross,Perthshire North,Mid Scotland and Fife,Constituency,The Deputy First Minister and Cabinet Secretary for Education and Skills,1964,57
+778,779,2103,288754,5th,M,Keith Brown,Q1738042,Clackmannanshire,Clackmannanshire and Dunblane,Mid Scotland and Fife,Constituency,"The Cabinet Secretary for Infrastructure, Investment and Cities",1961,60
+779,780,2103,288754,5th,M,Keith Brown,Q1738042,Clackmannanshire,Clackmannanshire and Dunblane,Mid Scotland and Fife,Constituency,"The Cabinet Secretary for Economy, Jobs and Fair Work",1961,60
+780,781,2103,288754,5th,M,Keith Brown,Q1738042,Clackmannanshire,Clackmannanshire and Dunblane,Mid Scotland and Fife,Constituency,,1961,60
+781,782,2108,2044957,5th,M,Ken Macintosh,Q1738887,,,West Scotland,Region,,1962,59
+782,783,2108,2044957,5th,M,Ken Macintosh,Q1738887,,,West Scotland,Region,The Presiding Officer,1962,59
+783,784,2110,256937,5th,M,Kenneth Gibson,Q944741,North Ayrshire,Cunninghame North,West Scotland,Constituency,,1961,60
+784,785,2117,172224,5th,M,Lewis Macdonald,Q1822125,,,North East Scotland,Region,,1957,64
+785,786,2117,172224,5th,M,Lewis Macdonald,Q1822125,,,North East Scotland,Region,The Deputy Presiding Officer,1957,64
+786,787,2127,206702,5th,M,Mark Ruskell,Q1900397,,,Mid Scotland and Fife,Region,,1972,49
+787,788,2133,454966,5th,M,Michael Matheson,Q121780,Falkirk,Falkirk West,Central Scotland,Constituency,The Cabinet Secretary for Justice,1970,51
+788,789,2133,454966,5th,M,Michael Matheson,Q121780,Falkirk,Falkirk West,Central Scotland,Constituency,"The Cabinet Secretary for Transport, Infrastructure and Connectivity",1970,51
+789,790,2135,519451,5th,M,Michael Russell,Q1929110,Argyll and Bute,Argyll and Bute,Highlands and Islands,Constituency,,1953,68
+790,791,2135,519451,5th,M,Michael Russell,Q1929110,Argyll and Bute,Argyll and Bute,Highlands and Islands,Constituency,The Minister for UK Negotiations on Scotland’s Place in Europe,1953,68
+791,792,2135,519451,5th,M,Michael Russell,Q1929110,Argyll and Bute,Argyll and Bute,Highlands and Islands,Constituency,The Cabinet Secretary for Government Business and Constitutional Relations,1953,68
+792,793,2135,519451,5th,M,Michael Russell,Q1929110,Argyll and Bute,Argyll and Bute,Highlands and Islands,Constituency,"The Cabinet Secretary for the Constitution, Europe and External Affairs",1953,68
+793,794,2140,160637,5th,M,Mike Rumbles,Q1436381,,,North East Scotland,Region,,1956,65
+794,795,2180,162501,5th,M,Richard Lochhead,Q1490268,Moray,Moray,Highlands and Islands,Constituency,"The Cabinet Secretary for Rural Affairs, Food and Environment",1969,52
+795,796,2180,162501,5th,M,Richard Lochhead,Q1490268,Moray,Moray,Highlands and Islands,Constituency,,1969,52
+796,797,2180,162501,5th,M,Richard Lochhead,Q1490268,Moray,Moray,Highlands and Islands,Constituency,"The Minister for Further Education, Higher Education and Science",1969,52
+797,798,2215,270342,5th,M,Stewart Stevenson,Q559613,Highland,Banffshire and Buchan Coast,North East Scotland,Constituency,,1946,75
+798,799,2223,168189,5th,M,Tavish Scott,Q1339371,Shetland Islands,Shetland Islands,Highlands and Islands,Constituency,,1966,55
+799,800,2345,97451,5th,M,John Scott,Q1701702,North Ayrshire,Ayr,South Scotland,Constituency,The Deputy Presiding Officer,1951,70
+800,801,2345,97451,5th,M,John Scott,Q1701702,North Ayrshire,Ayr,South Scotland,Constituency,,1951,70
+801,802,2394,243233,5th,M,Murdo Fraser,Q1953630,,,Mid Scotland and Fife,Region,,1965,56
+802,803,2615,130207,5th,M,George Adam,Q1282862,Renfrewshire,Paisley,West Scotland,Constituency,,1969,52
+803,804,2633,229240,5th,F,Claire Baker,Q744632,,,Mid Scotland and Fife,Region,,1971,50
+804,805,2641,98139,5th,M,Alasdair Allan,Q559634,Na h-Eileanan Siar,Na h-Eileanan an Iar,Highlands and Islands,Constituency,"The Minister for Learning, Science and Scotland's Languages",1971,50
+805,806,2641,98139,5th,M,Alasdair Allan,Q559634,Na h-Eileanan Siar,Na h-Eileanan an Iar,Highlands and Islands,Constituency,The Minister for International Development and Europe,1971,50
+806,807,2641,98139,5th,M,Alasdair Allan,Q559634,Na h-Eileanan Siar,Na h-Eileanan an Iar,Highlands and Islands,Constituency,,1971,50
+807,808,2678,146437,5th,M,Jackson Carlaw,Q1231522,East Renfrewshire,Eastwood,West Scotland,Constituency,,1959,62
+808,809,2826,173576,5th,M,James Dornan,Q509808,Glasgow City,Glasgow Cathcart,Glasgow,Constituency,,1953,68
+809,810,2892,344104,5th,M,Patrick Harvie,Q2057654,,,Glasgow,Region,,1973,48
+810,811,3061,104594,5th,F,Margaret Mitchell,Q1894872,,,Central Scotland,Region,,1952,69
+811,812,3129,68643,5th,M,Bill Kidd,Q862234,Glasgow City,Glasgow Anniesland,Glasgow,Constituency,,1956,65
+812,813,3750,249654,5th,F,Shirley-Anne Somerville,Q2279359,Fife,Dunfermline,Mid Scotland and Fife,Constituency,,1974,47
+813,814,3750,249654,5th,F,Shirley-Anne Somerville,Q2279359,Fife,Dunfermline,Mid Scotland and Fife,Constituency,"The Minister for Further Education, Higher Education and Science",1974,47
+814,815,3750,249654,5th,F,Shirley-Anne Somerville,Q2279359,Fife,Dunfermline,Mid Scotland and Fife,Constituency,The Cabinet Secretary for Social Security and Older People,1974,47
+815,816,3751,62472,5th,M,Colin Beattie,Q1108343,Midlothian,Midlothian North and Musselburgh,Lothian,Constituency,,1951,70
+816,817,3758,218829,5th,M,Jamie Hepburn,Q1681399,North Lanarkshire,Cumbernauld and Kilsyth,Central Scotland,Constituency,"The Minister for Sport, Health Improvement and Mental Health",1979,42
+817,818,3758,218829,5th,M,Jamie Hepburn,Q1681399,North Lanarkshire,Cumbernauld and Kilsyth,Central Scotland,Constituency,The Minister for Employability and Training,1979,42
+818,819,3758,218829,5th,M,Jamie Hepburn,Q1681399,North Lanarkshire,Cumbernauld and Kilsyth,Central Scotland,Constituency,"The Minister for Business, Fair Work and Skills",1979,42
+819,820,3759,228784,5th,F,Christina McKelvie,Q1083222,South Lanarkshire,"Hamilton, Larkhall and Stonehouse",Central Scotland,Constituency,,1968,53
+820,821,3759,228784,5th,F,Christina McKelvie,Q1083222,South Lanarkshire,"Hamilton, Larkhall and Stonehouse",Central Scotland,Constituency,The Minister for Older People and Equalities,1968,53
+821,822,3763,206369,5th,M,Stuart McMillan,Q2357916,Inverclyde,Greenock and Inverclyde,West Scotland,Constituency,,1972,49
+822,823,3771,159718,5th,M,Bob Doris,Q887886,Glasgow City,Glasgow Maryhill and Springburn,Glasgow,Constituency,,1973,48
+823,824,3775,401541,5th,F,Aileen Campbell,Q405017,South Lanarkshire,Clydesdale,South Scotland,Constituency,The Minister for Children and Young People,1980,41
+824,825,3775,401541,5th,F,Aileen Campbell,Q405017,South Lanarkshire,Clydesdale,South Scotland,Constituency,The Minister for Public Health and Sport,1980,41
+825,826,3775,401541,5th,F,Aileen Campbell,Q405017,South Lanarkshire,Clydesdale,South Scotland,Constituency,The Cabinet Secretary for Communities and Local Government,1980,41
+826,827,3806,174055,5th,M,David Stewart,Q1176741,,,Highlands and Islands,Region,,1956,65
+827,828,3812,128033,5th,F,Kezia Dugdale,Q1740370,,,Lothian,Region,,1981,40
+828,829,3896,270786,5th,M,Liam McArthur,Q1691804,Orkney Islands,Orkney Islands,Highlands and Islands,Constituency,,1967,54
+829,830,3901,211734,5th,M,Joe FitzPatrick,Q1612012,Dundee City,Dundee City West,North East Scotland,Constituency,The Minister for Parliamentary Business,1967,54
+830,831,3901,211734,5th,M,Joe FitzPatrick,Q1612012,Dundee City,Dundee City West,North East Scotland,Constituency,"The Minister for Public Health, Sport and Wellbeing",1967,54
+831,832,3901,211734,5th,M,Joe FitzPatrick,Q1612012,Dundee City,Dundee City West,North East Scotland,Constituency,,1967,54
+832,833,3907,97331,5th,M,Willie Coffey,Q524532,East Ayrshire,Kilmarnock and Irvine Valley,South Scotland,Constituency,,1958,63
+833,834,3983,128645,5th,M,Maurice Golden,Q24039803,,,West Scotland,Region,,1980,41
+834,835,3985,42386,5th,M,Ross Thomson,Q24034678,,,North East Scotland,Region,,1987,34
+835,836,3994,163287,5th,M,Graham Simpson,Q24039900,,,Central Scotland,Region,,1946,75
+836,837,4016,12781,5th,M,John Lamont,Q1700778,Scottish Borders,"Ettrick, Roxburgh and Berwickshire",South Scotland,Constituency,,1976,45
+837,838,4934,299530,5th,F,Alison Johnstone,Q2647232,,,Lothian,Region,,1965,56
+838,839,4938,109981,5th,M,Richard Lyle,Q2150126,North Lanarkshire,Uddingston and Bellshill,Central Scotland,Constituency,,1950,71
+839,840,4939,95752,5th,M,Angus MacDonald,Q544483,Falkirk,Falkirk East,Central Scotland,Constituency,,1963,58
+840,841,4940,160074,5th,F,Clare Adamson,Q540328,North Lanarkshire,Motherwell and Wishaw,Central Scotland,Constituency,,1967,54
+841,842,4941,486032,5th,M,Humza Yousaf,Q174924,Glasgow City,Glasgow Pollok,Glasgow,Constituency,The Minister for Europe and International Development,1985,36
+842,843,4941,486032,5th,M,Humza Yousaf,Q174924,Glasgow City,Glasgow Pollok,Glasgow,Constituency,The Minister for Transport and the Islands,1985,36
+843,844,4941,486032,5th,M,Humza Yousaf,Q174924,Glasgow City,Glasgow Pollok,Glasgow,Constituency,The Cabinet Secretary for Justice,1985,36
+844,845,4947,266150,5th,M,John Finnie,Q1495635,,,Highlands and Islands,Region,,1956,65
+845,846,4951,214322,5th,F,Joan McAlpine,Q512681,,,South Scotland,Region,The Parliamentary Liaison Officer to the Office of the First Minister,1962,59
+846,847,4951,214322,5th,F,Joan McAlpine,Q512681,,,South Scotland,Region,,1962,59
+847,848,4952,312935,5th,M,Paul Wheelhouse,Q2063093,,,South Scotland,Region,The Minister for Community Safety and Legal Affairs,1970,51
+848,849,4952,312935,5th,M,Paul Wheelhouse,Q2063093,,,South Scotland,Region,"The Minister for Business, Innovation and Energy",1970,51
+849,850,4952,312935,5th,M,Paul Wheelhouse,Q2063093,,,South Scotland,Region,"The Minister for Energy, Connectivity and the Islands",1970,51
+850,851,4964,125159,5th,M,Mark McDonald,Q1900265,Aberdeen City,Aberdeen Donside,North East Scotland,Constituency,,1980,41
+851,852,4964,125159,5th,M,Mark McDonald,Q1900265,Aberdeen City,Aberdeen Donside,North East Scotland,Constituency,The Minister for Childcare and Early Years,1980,41
+852,853,4966,366463,5th,M,Derek Mackay,Q1200058,Renfrewshire,Renfrewshire North and West,West Scotland,Constituency,The Minister for Transport and Islands,1977,44
+853,854,4966,366463,5th,M,Derek Mackay,Q1200058,Renfrewshire,Renfrewshire North and West,West Scotland,Constituency,The Cabinet Secretary for Finance and the Constitution,1977,44
+854,855,4966,366463,5th,M,Derek Mackay,Q1200058,Renfrewshire,Renfrewshire North and West,West Scotland,Constituency,"The Cabinet Secretary for Finance, Economy and Fair Work",1977,44
+855,856,4976,160778,5th,F,Ruth Davidson,Q2177593,City of Edinburgh,Edinburgh Central,Lothian,Constituency,,1978,43
+856,857,4981,62259,5th,M,Douglas Ross,Q24039769,,,Highlands and Islands,Region,,1983,38
+857,858,4982,180815,5th,M,Edward Mountain,Q24039768,,,Highlands and Islands,Region,,1961,60
+858,859,4987,226939,5th,M,Miles Briggs,Q24052672,,,Lothian,Region,,1983,38
+859,860,5009,267436,5th,M,Willie Rennie,Q2581473,Fife,North East Fife,Mid Scotland and Fife,Constituency,,1967,54
+860,861,5034,58863,5th,F,Jenny Marra,Q1687049,,,North East Scotland,Region,,1977,44
+861,862,5042,103021,5th,M,Mark Griffin,Q1900077,,,Central Scotland,Region,,1985,36
+862,863,5054,251844,5th,M,Neil Findlay,Q979197,,,Lothian,Region,,1969,52
+863,864,5059,134459,5th,F,Mary Fee,Q1906255,,,West Scotland,Region,,1954,67
+864,865,5060,106078,5th,M,Neil Bibby,Q1557330,,,West Scotland,Region,,1983,38
+865,866,5074,65746,5th,M,Gordon MacDonald,Q1538053,City of Edinburgh,Edinburgh Pentlands,Lothian,Constituency,,1960,61
+866,867,5075,90936,5th,M,David Torrance ,Q1176878,Fife,Kirkcaldy,Mid Scotland and Fife,Constituency,,1961,60
+867,868,5106,238733,5th,M,Kevin Stewart,Q1740263,Aberdeen City,Aberdeen Central,North East Scotland,Constituency,,1968,53
+868,869,5106,238733,5th,M,Kevin Stewart,Q1740263,Aberdeen City,Aberdeen Central,North East Scotland,Constituency,The Minister for Local Government and Housing,1968,53
+869,870,5106,238733,5th,M,Kevin Stewart,Q1740263,Aberdeen City,Aberdeen Central,North East Scotland,Constituency,"The Minister for Local Government, Housing and Planning",1968,53
+870,871,5107,235094,5th,M,Graeme Dey,Q1349075,Angus,Angus South,North East Scotland,Constituency,,1962,59
+871,872,5107,235094,5th,M,Graeme Dey,Q1349075,Angus,Angus South,North East Scotland,Constituency,The Minister for Parliamentary Business and Veterans,1962,59
+872,873,5110,203639,5th,M,John Mason,Q1700987,Glasgow City,Glasgow Shettleston,Glasgow,Constituency,,1957,64
+873,874,5119,227190,5th,M,Alex Rowley,Q16191157,,,Mid Scotland and Fife,Region,,1963,58
+874,875,5578,252559,5th,F,Gillian Martin,Q24014282,Aberdeenshire,Aberdeenshire East,North East Scotland,Constituency,,1969,52
+875,876,5579,202069,5th,M,Richard Leonard,Q24039896,,,Central Scotland,Region,,1962,59
+876,877,5580,284837,5th,F,Monica Lennon,Q24039899,,,Central Scotland,Region,,1981,40
+877,878,5586,173818,5th,M,Anas Sarwar,Q478812,,,Glasgow,Region,,1983,38
+878,879,5587,76719,5th,F,Mairi Evans,Q24014894,Angus,Angus North and Mearns,North East Scotland,Constituency,,1985,36
+879,880,5587,76719,5th,F,Mairi Evans,Q24014894,Angus,Angus North and Mearns,North East Scotland,Constituency,The Minister for Rural Affairs and the Natural Environment,1985,36
+880,881,5587,76719,5th,F,Mairi Evans,Q24014894,Angus,Angus North and Mearns,North East Scotland,Constituency,"The Minister for Public Health, Sport and Wellbeing",1985,36
+881,882,5591,113779,5th,F,Gail Ross,Q23982037,Highland,"Caithness, Sutherland and Ross",Highlands and Islands,Constituency,,1977,44
+882,883,5591,113779,5th,F,Gail Ross,Q23982037,Highland,"Caithness, Sutherland and Ross",Highlands and Islands,Constituency,The Parliamentary Liaison Officer to the Office of the First Minister,1977,44
+883,884,5592,605105,5th,F,Jeane Freeman,Q16250806,East Ayrshire,"Carrick, Cumnock and Doon Valley",South Scotland,Constituency,,1953,68
+884,885,5592,605105,5th,F,Jeane Freeman,Q16250806,East Ayrshire,"Carrick, Cumnock and Doon Valley",South Scotland,Constituency,The Minister for Social Security,1953,68
+885,886,5592,605105,5th,F,Jeane Freeman,Q16250806,East Ayrshire,"Carrick, Cumnock and Doon Valley",South Scotland,Constituency,The Cabinet Secretary for Health and Sport,1953,68
+886,887,5596,238640,5th,M,Fulton MacGregor,Q24052668,North Lanarkshire,Coatbridge and Chryston,Central Scotland,Constituency,,1980,41
+887,888,5598,190417,5th,F,Ruth Maguire,Q24034376,North Ayrshire,Cunninghame South,West Scotland,Constituency,,1978,43
+888,889,5604,285268,5th,M,Daniel Johnson,Q24052669,City of Edinburgh,Edinburgh Southern,Lothian,Constituency,,1977,44
+889,890,5605,170116,5th,F,Ash Denham,Q24052667,City of Edinburgh,Edinburgh Eastern,Lothian,Constituency,,1974,47
+890,891,5605,170116,5th,F,Ash Denham,Q24052667,City of Edinburgh,Edinburgh Eastern,Lothian,Constituency,The Minister for Community Safety,1974,47
+891,892,5608,183612,5th,M,Ben Macpherson,Q24052665,City of Edinburgh,Edinburgh Northern and Leith,Lothian,Constituency,,1980,41
+892,893,5608,183612,5th,M,Ben Macpherson,Q24052665,City of Edinburgh,Edinburgh Northern and Leith,Lothian,Constituency,The Parliamentary Liaison Officer to the Office of the First Minister,1980,41
+893,894,5608,183612,5th,M,Ben Macpherson,Q24052665,City of Edinburgh,Edinburgh Northern and Leith,Lothian,Constituency,"The Minister for Europe, Migration and International Development",1980,41
+894,895,5608,183612,5th,M,Ben Macpherson,Q24052665,City of Edinburgh,Edinburgh Northern and Leith,Lothian,Constituency,The Minister for Public Finance and Migration,1980,41
+895,896,5608,183612,5th,M,Ben Macpherson,Q24052665,City of Edinburgh,Edinburgh Northern and Leith,Lothian,Constituency,The Minister for Rural Affairs and the Natural Environment,1980,41
+896,897,5612,184161,5th,M,Ivan McKee,Q24052670,Glasgow City,Glasgow Provan,Glasgow,Constituency,,1963,58
+897,898,5612,184161,5th,M,Ivan McKee,Q24052670,Glasgow City,Glasgow Provan,Glasgow,Constituency,"The Minister for Trade, Investment and Innovation",1963,58
+898,899,5612,184161,5th,M,Ivan McKee,Q24052670,Glasgow City,Glasgow Provan,Glasgow,Constituency,"The Minister for Trade, Innovation and Public Finance",1963,58
+899,900,5613,162363,5th,F,Jenny Gilruth,Q24026044,Fife,Mid Fife and Glenrothes,Mid Scotland and Fife,Constituency,,1980,41
+900,901,5613,162363,5th,F,Jenny Gilruth,Q24026044,Fife,Mid Fife and Glenrothes,Mid Scotland and Fife,Constituency,The Minister for Europe and International Development,1980,41
+901,902,5618,212095,5th,F,Clare Haughey,Q24025938,South Lanarkshire,Rutherglen,Glasgow,Constituency,,1967,54
+902,903,5618,212095,5th,F,Clare Haughey,Q24025938,South Lanarkshire,Rutherglen,Glasgow,Constituency,The Minister for Mental Health,1967,54
+903,904,5621,273738,5th,F,Kate Forbes,Q24039479,Highland,"Skye, Lochaber and Badenoch",Highlands and Islands,Constituency,,1990,31
+904,905,5621,273738,5th,F,Kate Forbes,Q24039479,Highland,"Skye, Lochaber and Badenoch",Highlands and Islands,Constituency,The Minister for Public Finance and Digital Economy,1990,31
+905,906,5621,273738,5th,F,Kate Forbes,Q24039479,Highland,"Skye, Lochaber and Badenoch",Highlands and Islands,Constituency,The Cabinet Secretary for Finance,1990,31
+906,907,5622,181342,5th,F,Rona Mackay,Q24039795,East Dunbartonshire,Strathkelvin and Bearsden,West Scotland,Constituency,,na,66
+907,908,5638,310127,5th,M,Colin Smyth,Q24036539,,,South Scotland,Region,,1972,49
+908,909,5651,271078,5th,M,Liam Kerr,Q24052676,,,North East Scotland,Region,,1975,46
+909,910,5665,93795,5th,M,Alexander Burnett,Q24034422,Aberdeenshire,Aberdeenshire West,North East Scotland,Constituency,,1973,48
+910,911,5669,211821,5th,F,Maree Todd,Q24034387,,,Highlands and Islands,Region,,na,66
+911,912,5669,211821,5th,F,Maree Todd,Q24034387,,,Highlands and Islands,Region,The Minister for Childcare and Early Years,na,66
+912,913,5669,211821,5th,F,Maree Todd,Q24034387,,,Highlands and Islands,Region,The Minister for Children and Young People,na,66
+913,914,5677,248997,5th,M,Donald Cameron,Q24052673,,,Highlands and Islands,Region,,1976,45
+914,915,5679,114901,5th,M,Peter Chapman,Q24052675,,,North East Scotland,Region,,1950,71
+915,916,5695,233704,5th,M,Andy Wightman,Q19667404,,,Lothian,Region,,1963,58
+916,917,5698,301083,5th,M,Jamie Greene,Q24039791,,,West Scotland,Region,,1980,41
+917,918,5700,184340,5th,M,Maurice Corry,Q24039805,,,West Scotland,Region,,1950,71
+918,919,5709,130801,5th,M,Oliver Mundell,Q24034308,Dumfries and Galloway,Dumfriesshire,South Scotland,Constituency,,1989,32
+919,920,5757,193113,5th,M,Ross Greer,Q24034374,,,West Scotland,Region,,1994,27
+920,921,5769,207943,5th,F,Rachael Hamilton,Q24034267,,,South Scotland,Region,,1970,51
+921,922,5769,207943,5th,F,Rachael Hamilton,Q24034267,Scottish Borders,"Ettrick, Roxburgh and Berwickshire",South Scotland,Constituency,,1970,51
+922,923,5771,243000,5th,F,Emma Harper,Q24034416,,,South Scotland,Region,,na,66
+923,924,5781,111663,5th,F,Alison Harris,Q24039903,,,Central Scotland,Region,,1965,56
+924,925,5782,147889,5th,M,Finlay Carson,Q24034357,Dumfries and Galloway,Galloway and West Dumfries,South Scotland,Constituency,,1967,54
+925,926,5783,224460,5th,M,Adam Tomkins,Q4679900,,,Glasgow,Region,,1969,52
+926,927,5788,197379,5th,F,Annie Wells,Q24052671,,,Glasgow,Region,,1972,49
+927,928,5793,291780,5th,M,Brian Whittle,Q514743,,,South Scotland,Region,,1964,57
+928,929,5797,150462,5th,F,Michelle Ballantyne,Q30026790,,,South Scotland,Region,,1962,59
+929,930,5800,183272,5th,M,Jamie Halcro Johnston,Q30260625,,,Highlands and Islands,Region,,1975,46
+930,931,5809,192897,5th,M,Dean Lockhart,Q24052679,,,Mid Scotland and Fife,Region,,1968,53
+931,932,5815,331608,5th,M,Alex Cole-Hamilton,Q24045406,City of Edinburgh,Edinburgh Western,Lothian,Constituency,,1977,44
+932,933,5866,193317,5th,M,Alexander Stewart,Q24052680,,,Mid Scotland and Fife,Region,,1962,59
+933,934,5868,170180,5th,M,Tom Arthur,Q24039804,Renfrewshire,Renfrewshire South,West Scotland,Constituency,,1985,36
+934,935,5877,149486,5th,M,Jeremy Balfour,Q24052677,,,Lothian,Region,,1967,54
+935,936,5929,55641,5th,M,Tom Mason,Q30263201,,,North East Scotland,Region,,1942,79
+936,937,6090,68843,5th,M,Bill Bowman,Q28020296,,,North East Scotland,Region,,1950,71
+937,938,15631,41941,5th,F,Beatrice Wishart,Q66825436,Shetland Islands,Shetland Islands,Highlands and Islands,Constituency,,1955,66
