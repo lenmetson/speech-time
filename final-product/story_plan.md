@@ -81,7 +81,7 @@ Where we're at:
 
 ## Moving forward
 Results:
-* Women generally speak more on women's issues than men, with x
+* Women generally speak more on women's issues than men, with 5.5% of women's speech being about women, with only 2.3% of men's being about women
 * Having Nicola Sturgeon elected for parliament has boosted women's representation by having a woman have central parliamentary power and lead both high-level debates and decision-making
 * Women are speaking more per MSP in parliament, with the ratio of speech time to MSP currently at 4:5
 
