@@ -5,6 +5,7 @@ Assumptions we have made about what constitutes women's political representation
 2.  Amount of parliamentary discussion on women's topics
 
 ### Absolute gender differences in amount of speech
+[speech bubbles]
 * When we sum the parliamentary data on speeches across all sessions, we can see that comparatively, men have spoken more than women
 * We can observe this disparity through the visual contrast of these speech bubbles, with men having spoken s = 119M syllables, and women just s = 64M
 * If we take the average speech time to be 5 syllables per second, then this equates to men speaking t = 6611 and women speaking t = 3555
@@ -13,15 +14,17 @@ Assumptions we have made about what constitutes women's political representation
 > t = ((s/5)/60/60) where t = hours spoken and s = amount of syllables
 
 ### Sentiment analysis?
-    * x
+* x
 
 ## Introducing other variables for an intersectional analysis
 ### Relationship between age and gender in parliamentary speech time
+[age scatter graph]
 * This graph shows us the trend of the average amount of time spoken in parliament across an MSP's lifetime
 * Interestingly, it tells us that men in their 30s/40s on average are speaking the most in parliament, whereas women peak in their contribution around the 50s mark
 * It suggests that the amount of experience a women has had contributes to how much time she is given to speak in parliament, or to how much she feels confident to speak in parliament, whereas this correlation is not found in men
 
 ### Regional analysis
+[county map]
 * These maps tells us the average amount of syllables spoken by each gender in each Scottish region
 * It is worth noting there is more regional data for men as some regions have not had a female MSP
 * These maps visualise parliamentary power as mapped power, with the darker regions showcasing where one gender has got more of a voice on matters
@@ -29,6 +32,7 @@ Assumptions we have made about what constitutes women's political representation
 * Another interesting note is that men on average are speaking more in the North of Scotland, rather than the South, where we see little contrast in shade (with the darker shades representing more syllables spoken)
 
 ### Cross-party analysis?
+* x
 
 ## The changing picture
 Recap:
