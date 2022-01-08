@@ -5,11 +5,12 @@
    2.  Parliamentary discussions on women's topics
 
 ### Absolute gender differences in amount of speech
-    * When we sum the parliamentary data on speeches across all sessions, we can see that comparatively, men have spoken more than women
-    * We can observe this disparity through the visual contrast of these speech bubbles, with men having spoken s = 119M syllables, and women just s = 64M
-    * If we take the average speech time to be 5 syllables per second, then this equates to men speaking t = 6611 and women speaking t = 3555
-    * Taking this further, this means men have had 826 working days (8h/day) of speech time, compared to women who have had 444 working days of speaking
-    > t = ((s/5)/60/60) where t = hours spoken and s = amount of syllables
+* When we sum the parliamentary data on speeches across all sessions, we can see that comparatively, men have spoken more than women
+* We can observe this disparity through the visual contrast of these speech bubbles, with men having spoken s = 119M syllables, and women just s = 64M
+* If we take the average speech time to be 5 syllables per second, then this equates to men speaking t = 6611 and women speaking t = 3555
+* Taking this further, this means men have had 826 working days (8h/day) of speech time, compared to women who have had 444 working days of speaking
+
+> t = ((s/5)/60/60) where t = hours spoken and s = amount of syllables
 
 ### Sentiment analysis?
     * x
