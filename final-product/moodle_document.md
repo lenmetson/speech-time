@@ -9,7 +9,7 @@
 * **Justification**: why is your project relevant?
 * **Aim**. Be sure of making crystal clear what was your aim with the data analyses.
 * **Data**: What data sources did you use? Be sure of being presenting a thorough description of data sources. (not only include URLs but a line or two on what is the data source). How many data points did you gather? Descriptive statistics of your data.
-* **Methodology**" How did you analysed the data? What tools did you use?
+* **Methodology**: How did you analysed the data? What tools did you use?
 * **Results**: What are the findings of your analysis?
 * **Conclusion**
 * **Appendix**: Include in your GitHub page a section with reference to any code you use and data used (if possible).
@@ -58,6 +58,11 @@ Sturgeon:
 
 Steps:
 
+* Tableau Public
+    * We used Tableau to visualise the data once we had them all in CSV form, to eventually build the final product as a narrative of how women's representation in Scottish parliament has evolved throughout time
+    * This also involved adjusting certain CSVs on the local machine for certain visual results; this was done intentionally to produce quicker results in data structure, which worked with the fact that the connections made from Tableau were also public. These CSVs are uploaded to the output_data folder
+    * Here, we used worksheets for each visualisation, dashboards for the summary dashboard and each page of the story, and then finally the story feature as the final product, where we collated everything built to construct the narrative of the project, ultimately forming our final product
+
 
 ## Results
 We found some interesting descriptive results about the role of women in Scottish Parliamentary proceedings. Initially, female MSPs spoke disproportionally less than there were women in the Scottish Parliament. However, over time, this rose so that women were speaking roughly as much as there women in Parliament. This being said, much of this trend is driven by Nicola Sturgeon becoming First Minister.
@@ -66,3 +71,6 @@ We found some interesting descriptive results about the role of women in Scottis
 ## Conclusion
 
 ## Appendix
+[link to Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE)
+[link to data.parliament.scot](https://data.parliament.scot/#/home)
+[link to Tableau Public page]TBC
