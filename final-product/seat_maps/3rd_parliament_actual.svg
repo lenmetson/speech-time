@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="360" height="185">
+    <!-- Created with the Wikimedia parliament diagram creator (http://parliamentdiagram.toolforge.org/parliamentinputform.html) -->
+    <g>
+        <text x="175" y="175" 
+              style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;font-family:sans-serif">
+            131
+        </text>
+        <g style="fill:#FD9DA7; stroke-width:0.00; stroke:#000000" 
+           id="0_F"> 
+            <title>F</title>            <circle cx="13.47" cy="173.34" r="6.67"/> 
+            <circle cx="30.15" cy="173.34" r="6.67"/> 
+            <circle cx="46.83" cy="173.34" r="6.67"/> 
+            <circle cx="63.52" cy="173.34" r="6.67"/> 
+            <circle cx="80.22" cy="173.34" r="6.67"/> 
+            <circle cx="96.93" cy="173.35" r="6.67"/> 
+            <circle cx="15.01" cy="156.41" r="6.67"/> 
+            <circle cx="32.08" cy="155.13" r="6.67"/> 
+            <circle cx="49.02" cy="155.05" r="6.67"/> 
+            <circle cx="66.06" cy="154.94" r="6.67"/> 
+            <circle cx="18.27" cy="139.72" r="6.67"/> 
+            <circle cx="83.22" cy="154.81" r="6.67"/> 
+            <circle cx="36.21" cy="137.30" r="6.67"/> 
+            <circle cx="100.62" cy="154.64" r="6.67"/> 
+            <circle cx="53.71" cy="137.24" r="6.67"/> 
+            <circle cx="23.22" cy="123.45" r="6.67"/> 
+            <circle cx="71.47" cy="137.18" r="6.67"/> 
+            <circle cx="42.48" cy="120.10" r="6.67"/> 
+            <circle cx="89.64" cy="137.17" r="6.67"/> 
+            <circle cx="29.80" cy="107.78" r="6.67"/> 
+            <circle cx="60.81" cy="120.24" r="6.67"/> 
+            <circle cx="50.80" cy="103.80" r="6.67"/> 
+            <circle cx="79.64" cy="120.51" r="6.67"/> 
+            <circle cx="108.47" cy="137.25" r="6.67"/> 
+            <circle cx="37.94" cy="92.85" r="6.67"/> 
+            <circle cx="70.18" cy="104.38" r="6.67"/> 
+            <circle cx="99.24" cy="121.03" r="6.67"/> 
+            <circle cx="47.55" cy="78.83" r="6.67"/> 
+            <circle cx="61.04" cy="88.63" r="6.67"/> 
+            <circle cx="90.35" cy="105.34" r="6.67"/> 
+            <circle cx="81.65" cy="89.97" r="6.67"/> 
+            <circle cx="58.55" cy="65.86" r="6.67"/> 
+            <circle cx="120.06" cy="122.11" r="6.67"/> 
+            <circle cx="73.06" cy="74.82" r="6.67"/> 
+            <circle cx="111.68" cy="106.97" r="6.67"/> 
+            <circle cx="103.33" cy="92.06" r="6.67"/> 
+            <circle cx="70.81" cy="54.08" r="6.67"/> 
+            <circle cx="95.00" cy="77.28" r="6.67"/> 
+            <circle cx="86.66" cy="62.58" r="6.67"/> 
+            <circle cx="84.21" cy="43.61" r="6.67"/> 
+            <circle cx="134.79" cy="110.00" r="6.67"/> 
+            <circle cx="126.54" cy="95.49" r="6.67"/> 
+            <circle cx="118.26" cy="81.01" r="6.67"/> 
+            <circle cx="109.96" cy="66.54" r="6.67"/> 
+            <circle cx="101.66" cy="52.08" r="6.67"/> 
+        </g>
+        <g style="fill:#4F79A9; stroke-width:0.00; stroke:#000000" 
+           id="1_M"> 
+            <title>M</title>            <circle cx="98.60" cy="34.56" r="6.67"/> 
+            <circle cx="117.83" cy="43.49" r="6.67"/> 
+            <circle cx="126.27" cy="57.97" r="6.67"/> 
+            <circle cx="113.84" cy="27.03" r="6.67"/> 
+            <circle cx="134.75" cy="72.47" r="6.67"/> 
+            <circle cx="143.28" cy="86.99" r="6.67"/> 
+            <circle cx="151.89" cy="101.55" r="6.67"/> 
+            <circle cx="129.77" cy="21.08" r="6.67"/> 
+            <circle cx="134.92" cy="36.94" r="6.67"/> 
+            <circle cx="143.60" cy="51.73" r="6.67"/> 
+            <circle cx="152.38" cy="66.65" r="6.67"/> 
+            <circle cx="146.22" cy="16.79" r="6.67"/> 
+            <circle cx="161.31" cy="81.76" r="6.67"/> 
+            <circle cx="152.68" cy="32.51" r="6.67"/> 
+            <circle cx="161.62" cy="47.94" r="6.67"/> 
+            <circle cx="170.46" cy="97.21" r="6.67"/> 
+            <circle cx="163.02" cy="14.20" r="6.67"/> 
+            <circle cx="170.72" cy="63.70" r="6.67"/> 
+            <circle cx="170.85" cy="30.28" r="6.67"/> 
+            <circle cx="180.00" cy="13.33" r="6.67"/> 
+            <circle cx="180.00" cy="46.67" r="6.67"/> 
+            <circle cx="180.00" cy="80.00" r="6.67"/> 
+            <circle cx="189.15" cy="30.28" r="6.67"/> 
+            <circle cx="189.28" cy="63.70" r="6.67"/> 
+            <circle cx="196.98" cy="14.20" r="6.67"/> 
+            <circle cx="189.54" cy="97.21" r="6.67"/> 
+            <circle cx="198.38" cy="47.94" r="6.67"/> 
+            <circle cx="207.32" cy="32.51" r="6.67"/> 
+            <circle cx="198.69" cy="81.76" r="6.67"/> 
+            <circle cx="213.78" cy="16.79" r="6.67"/> 
+            <circle cx="207.62" cy="66.65" r="6.67"/> 
+            <circle cx="216.40" cy="51.73" r="6.67"/> 
+            <circle cx="225.08" cy="36.94" r="6.67"/> 
+            <circle cx="230.23" cy="21.08" r="6.67"/> 
+            <circle cx="208.11" cy="101.55" r="6.67"/> 
+            <circle cx="216.72" cy="86.99" r="6.67"/> 
+            <circle cx="225.25" cy="72.47" r="6.67"/> 
+            <circle cx="246.16" cy="27.03" r="6.67"/> 
+            <circle cx="233.73" cy="57.97" r="6.67"/> 
+            <circle cx="242.17" cy="43.49" r="6.67"/> 
+            <circle cx="261.40" cy="34.56" r="6.67"/> 
+            <circle cx="258.34" cy="52.08" r="6.67"/> 
+            <circle cx="250.04" cy="66.54" r="6.67"/> 
+            <circle cx="241.74" cy="81.01" r="6.67"/> 
+            <circle cx="233.46" cy="95.49" r="6.67"/> 
+            <circle cx="225.21" cy="110.00" r="6.67"/> 
+            <circle cx="275.79" cy="43.61" r="6.67"/> 
+            <circle cx="273.34" cy="62.58" r="6.67"/> 
+            <circle cx="265.00" cy="77.28" r="6.67"/> 
+            <circle cx="289.19" cy="54.08" r="6.67"/> 
+            <circle cx="256.67" cy="92.06" r="6.67"/> 
+            <circle cx="248.32" cy="106.97" r="6.67"/> 
+            <circle cx="286.94" cy="74.82" r="6.67"/> 
+            <circle cx="239.94" cy="122.11" r="6.67"/> 
+            <circle cx="301.45" cy="65.86" r="6.67"/> 
+            <circle cx="278.35" cy="89.97" r="6.67"/> 
+            <circle cx="269.65" cy="105.34" r="6.67"/> 
+            <circle cx="298.96" cy="88.63" r="6.67"/> 
+            <circle cx="312.45" cy="78.83" r="6.67"/> 
+            <circle cx="260.76" cy="121.03" r="6.67"/> 
+            <circle cx="289.82" cy="104.38" r="6.67"/> 
+            <circle cx="322.06" cy="92.85" r="6.67"/> 
+            <circle cx="251.53" cy="137.25" r="6.67"/> 
+            <circle cx="280.36" cy="120.51" r="6.67"/> 
+            <circle cx="309.20" cy="103.80" r="6.67"/> 
+            <circle cx="299.19" cy="120.24" r="6.67"/> 
+            <circle cx="330.20" cy="107.78" r="6.67"/> 
+            <circle cx="270.36" cy="137.17" r="6.67"/> 
+            <circle cx="317.52" cy="120.10" r="6.67"/> 
+            <circle cx="288.53" cy="137.18" r="6.67"/> 
+            <circle cx="336.78" cy="123.45" r="6.67"/> 
+            <circle cx="306.29" cy="137.24" r="6.67"/> 
+            <circle cx="259.38" cy="154.64" r="6.67"/> 
+            <circle cx="323.79" cy="137.30" r="6.67"/> 
+            <circle cx="276.78" cy="154.81" r="6.67"/> 
+            <circle cx="341.73" cy="139.72" r="6.67"/> 
+            <circle cx="293.94" cy="154.94" r="6.67"/> 
+            <circle cx="310.98" cy="155.05" r="6.67"/> 
+            <circle cx="327.92" cy="155.13" r="6.67"/> 
+            <circle cx="344.99" cy="156.41" r="6.67"/> 
+            <circle cx="263.07" cy="173.35" r="6.67"/> 
+            <circle cx="279.78" cy="173.34" r="6.67"/> 
+            <circle cx="296.48" cy="173.34" r="6.67"/> 
+            <circle cx="313.17" cy="173.34" r="6.67"/> 
+            <circle cx="329.85" cy="173.34" r="6.67"/> 
+            <circle cx="346.53" cy="173.34" r="6.67"/> 
+        </g>
+    </g>
+</svg>
