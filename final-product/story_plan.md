@@ -1,8 +1,8 @@
 # Are women underrepresented in Scottish politics?
 ## Overview
-Ways we have analysed representation:
-1.  Amount of time spent speaking in parliament - integrating other factors' effects for an intersectional analysis
-2.  Parliamentary discussions on women's topics
+Assumptions we have made about what constitutes women's political representation:
+1.  Amount of time spent spoken by women in parliament
+2.  Amount of parliamentary discussion on women's topics
 
 ### Absolute gender differences in amount of speech
 * When we sum the parliamentary data on speeches across all sessions, we can see that comparatively, men have spoken more than women
@@ -15,7 +15,7 @@ Ways we have analysed representation:
 ### Sentiment analysis?
     * x
 
-## Introducing other variables
+## Introducing other variables for an intersectional analysis
 ### Relationship between age and gender in parliamentary speech time
 * This graph shows us the trend of the average amount of time spoken in parliament across an MSP's lifetime
 * Interestingly, it tells us that men in their 30s/40s on average are speaking the most in parliament, whereas women peak in their contribution around the 50s mark
@@ -52,14 +52,39 @@ Recap:
 * As we can see, between teh first and third parliament we've seen a steady increase in speech time per female MSP, with this shooting up in the fourth parliament above 1, before steadying down back to below 1 in the fifth parliament
 * This line tells us a promising x
 
+[nicola sturgeon line graph]
+* x
+
+[ratio fo % of speech time to % of MSPs by parliamentary session line graph excluding nicola sturgeon]
+
 ### Translating parliamentary contributon representation to parliamentary seat representation
 Where we're at:
-* So far, we've observed an increase in re
+* We've observed an increase in speech time of women in Scottish parliament, both in absolute terms and in proportion to the number of female MSPs in parliament
+* One way we can contextualise this proportionate increase in the political setting is by visualising the amount of seats taken up in parliament by the proportion of speech time each gender has, and comparing this with the actual number of seats they have had throughout the years
+
+[1st-3rd parliament seat map comparisons]
+* x
+
+[4th parliament seat map comparison]
+* x
+
+[1st vs 5th parliament seat map comparison]
+* x
 
 ### Sentiment analysis over time ?
 
 
 
 ## Moving forward
-Recommendations:
-* 
+Results:
+* Women generally speak more on women's issues than men, with x
+* Having Nicola Sturgeon elected for parliament has boosted women's representation by having a woman have central parliamentary power and lead both high-level debates and decision-making
+* Women are speaking more per MSP in parliament, with the ratio of speech time to MSP currently at 4:5
+
+Recommendations for further representation:
+* We should focus less on encouraging women to speak more in parliament as they approach the same speech:MSP ratio as their male counterparts, and more on increasing the actual number of seats women possess in Scottish parliament
+* As men both still have more seats and more speech time in absolute and proportional terms, we should strive for greater engagement by men with women's issues
+
+Opportunities for further analysis:
+* As stated at the start, we have made certain assumptions about women's representation in Scottish politics. Opportunities for further analysis could be to test these assumptions, looking at the effects that these factors have on policy, media, and public opinion. 
+* While we have taken women's representation to be an intrinsic and aspirational good, more analysis could be done on extracting and quantifying evidence to support these claims in the Scottish political setting
