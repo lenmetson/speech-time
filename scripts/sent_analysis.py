@@ -155,14 +155,14 @@ response = requests.get("https://raw.githubusercontent.com/julioadl/ds101/master
 data = response.text
 data2=data.splitlines(keepends=False)
 
-f=[]
+affin=[]
 for i in data2:
     data_new=data.split()
-    f.append(data_new)
+    affin.append(data_new)
 
 
 
-affin = f
+
 sentimentScores = {}
 
 for line in affin:
