@@ -231,7 +231,7 @@ avg_score_men=sum(scores_men)/len(scores_men)
         
 #With Alanah's dict
                                               
-al_dict=[["feminism", "10"],["feminist", "10"],["patriarchy", "10"],["patriarchal", "10"],["sexism", "10"],["sexist", "10"],["misoginy", "10"],["misogynistic", "10"],["misandry", "10"],["misandrist", "10"],["misogynoir", "10"],["victim" ,"blaming", "10"],["empowering" ,"women", "10"],["women" ,"empowerment", "10"],["gender" ,"action", "plan", "10"],["gender" ,"balance", "10"],["violence", "against women", "10"],["gender", "based", "violence", "10"],["gender",  "bias", "10"],["gender" ,"equity", "10"],["gender", "equality", "10"],["gender", "gap", "10"],["gay",  "gap", "10"],["gender", "roles", "7"],["gender", "role", "7"],["gender", "stereotypes", "7"],["gender", "stereotype", "7"],["menstrual", "hygiene", "10"],["sexual", "rights", "10"],["reproductive", "rights", "10"],["abortions", "9"],["sex", "work", "8"],["sex", "workers", "8"],["gender", "discrimination", "10"],["women", "10"],["woman", "10"],["female", "10"],["females", "10"],["feminine", "9"],["girl", "10"],["girls", "10"],["sexual", "violence", "7"],["sexual", "assaults", "7"],["rapes", "7"],["rape", "7"],["domestic", "violence", "8"]]
+al_dict=[["feminism", "10"],["feminist", "10"],["patriarchy", "10"],["patriarchal", "10"],["sexism", "10"],["sexist", "10"],["misoginy", "10"],["misogynistic", "10"],["misandry", "10"],["misandrist", "10"],["misogynoir", "10"],["empowering", "10"],["empowerment", "10"],["action", "10"],[ "plan", "10"],["gender", "10"],["balance", "10"],["violence", "10"],["against", "10"],["bias", "10"],["equity", "10"],["equality", "10"],["gap", "10"],["pay", "10"],["gay", "10"],[ "roles", "7"],[ "role", "7"],["stereotypes", "7"],[ "stereotype", "7"],["menstrual", "20"],["hygiene", "10"],["pregnant", "15"], ["maternal","10"],["maternity", "10"],["sexual", "10"],["reproductive", "10"],["right", "10"], ["rights","10"],["abortions", "9"],["sex", "8"],["work", "10"], [ "workers", "8"],[ "discrimination", "10"],["women", "10"],["woman", "10"],["female", "10"],["females", "10"],["feminine", "9"],["girl", "10"],["girls", "10"],["sexual", "7"],["assaults", "7"],["assaults", "7"],["rapes", "7"],["rape", "7"],["domestic", "8"]]
 
 
 sentimentScores_al = {}
@@ -247,36 +247,27 @@ for lst in al_dict:
                 al_words.append(term)
             else:
                 score=term
-                sentimentScores_al[key] = score
-        elif len(lst)==3:
-            if i==0:
-                key1=term
-                i+=1
-                al_words.append(term)
-            elif i==1:
-                key2=term
-                i+=1
-                al_words.append(term)
-            else:
-                score=term
-                sentimentScores_al[key1+" " +key2]=score
-        elif len(lst)==4:
-            if i==0:
-                key1=term
-                i+=1
-                al_words.append(term)
-            elif i==1:
-                key2=term
-                i+=1
-                al_words.append(term)
-            elif i==2:
-                key3=term
-                i+=1
-                al_words.append(term)
-            else:
-                score=term
-                sentimentScores[key1+" " +key2+ " "+ key3]=score
-                                                                
+                sentimentScores_al[key] = float(score)
+                
+            
+    
+
+def find_score_speech_al(speech):
+    speech_score=0
+    for sentence in speech:
+        score = 0
+        for word in sentence:
+            if word in al_words:
+                score += sentimentScores_al[word]
+        speech_score+=score
+    return speech_score
+
+score_speeches=[] 
+for blob in clean_speeches2:
+    for speech in blob:
+        speech_score=find_score_speech_al(speech)
+        score_speeches.append(speech_score)
+
                                                 
         
         
