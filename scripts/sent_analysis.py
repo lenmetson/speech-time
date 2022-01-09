@@ -99,11 +99,6 @@ for speech in speeches_aswords_lower:
     clean_speeches1.append(speech_no_weird)
             
            
-           
-    
-        
-    
-        
        
         
 #remove stopwords
@@ -112,7 +107,7 @@ for speech in speeches_aswords_lower:
 nltk.download('stopwords')
 from nltk.corpus import stopwords
          
-def remove_stopwords(clean_speech1):
+def remove_stopwords(speech):
     clean_speech2=[]
     for sentence in speech:
         t=[]
@@ -120,9 +115,14 @@ def remove_stopwords(clean_speech1):
             if not token in stopwords.words('english'):
                 t.append(token)
         clean_speech2.append(t)
+    return clean_speech2
+    
+clean_speeches2=[]            
+for speech in clean_speeches1:
+    speech_rmv_stopwords=remove_stopwords(speech)
+    clean_speeches2.append(speech_rmv_stopwords)
         
-        
-        
+       
         
 #stemming
 
