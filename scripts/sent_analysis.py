@@ -129,11 +129,18 @@ for speech in clean_speeches1:
 from nltk.stem.porter import PorterStemmer   
 port=PorterStemmer()   
 
-def stem_speech(clean_speech2):
+def stem_speech(speech):
     clean_speech3=[]
-    for sentence in clean_speech2:
-        stemmed_tokens=[port.stem(i) for i in sentence]
-        clean_speech3.append(stemmed_tokens)
+    for sentences in speech:
+        for sentence in sentences:
+            stemmed_tokens=[port.stem(i) for i in sentence]
+            clean_speech3.append(stemmed_tokens)
+    return clean_speech3
+
+clean_speeches3=[]
+for speech in clean_speeches2:
+    speech_stemmed=stem_speech(speech)
+    clean_speeches3.append(speech_stemmed)
         
         
         
