@@ -204,3 +204,36 @@ def find_sent_speech(speech):
         speech_score+=score
         
         
+        
+        
+        
+score_speeches=[] 
+for speech in clean_speeches2:
+    speech_score=find_score_speech(speech)
+    score_speeches.append(speech_score)
+
+
+
+#analyse
+
+
+speech_table_gender_parlID["scores"]=score_speeches
+
+
+scores_women=speech_table_gender_parlID["scores"][speech_table_gender_parlID["gender"]=="F"
+avg_score_women=sum(scores_women)/len(scores_women)
+
+    
+scores_men=speech_table_gender_parlID["scores"][speech_table_gender_parlID["gender"]=="M"
+avg_score_men=sum(scores_men)/len(scores_men)     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
