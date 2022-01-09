@@ -192,22 +192,15 @@ for lst in affin:
                 sentimentScores[key1+" " +key2]=score
 
 
-newsSentiment = []
-
-for sent in sentences:
-	score = 0
-	for word in sent:
-		try:
-			score += sentimentScores[word]
-		except:
-			pass
-	if score > 0:
-		sentiment = 'positive'
-	elif score < 0:
-		sentiment = 'negative'
-	else:
-		sentiment = 'neutral'
-	s = ''.join(sent)
-	newsSentiment.append([s, sentiment])
+def find_sent_speech(speech):
+    speech_score=0
+    for sent in speech:
+        score = 0
+        for word in sent:
+            try:
+                score += sentimentScores[word]
+            except:
+                pass
+        speech_score+=score
         
         
