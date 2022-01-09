@@ -229,7 +229,8 @@ avg_score_men=sum(scores_men)/len(scores_men)
         
         
         
-        
+ al_dict=[["feminism", "10"],["feminist", "10"],["patriarchy", "10"],["patriarchal", "10"],["sexism", "10"],["sexist", "10"],["misoginy", "10"],["misogynistic", "10"],["misandry", "10"],["misandrist", "10"],["misogynoir", "10"],["victim" ,"blaming", "10"],["empowering" ,"women", "10"],["women" ,"empowerment", "10"],["gender" ,"action", "plan", "10"],["gender" ,"balance", "10"],["violence", "against women", "10"],["gender", "based", "violence", "10"],["gender",  "bias", "10"],["gender" ,"equity", "10"],["gender", "equality", "10"],["gender", "gap", "10"],["gay",  "gap", "10"],["gender", "roles", "7"],["gender", "role", "7"],["gender", "stereotypes", "7"],["gender", "stereotype", "7"],["menstrual", "hygiene", "10"],["sexual", "rights", "10"],["reproductive", "rights", "10"],["abortions", "9"],["sex", "work", "8"],["sex", "workers", "8"],["gender", "discrimination", "10"],["women", "10"],["woman", "10"],["female", "10"],["females", "10"],["feminine", "9"],["girl", "10"],["girls", "10"],["sexual", "violence", "7"],["sexual", "assaults", "7"],["rapes", "7"],["rape", "7"],"domestic", "violence", "8"]]
+           
         
         
         
