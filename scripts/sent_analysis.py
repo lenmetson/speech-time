@@ -17,7 +17,8 @@ harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
 #clean a bit
 
 speech_table=harvard[:][harvard["is_speech"]==1]
-speech_table_gender_parlID=speech_table[:][speech_table["gender"]==("F" or "M")].dropna(axis=0, how='any', subset=["type"])
+speech_table_gender_parlID=speech_table[:].dropna(axis=0, how='any', subset=["gender"])
+
 
 
 #tokenize
@@ -231,6 +232,7 @@ avg_score_men=sum(scores_men)/len(scores_men)
         
 #With Alanah's dict
                                               
+#new dict
 al_dict=[["feminism", "10"],["feminist", "10"],["patriarchy", "10"],["patriarchal", "10"],["sexism", "10"],["sexist", "10"],["misoginy", "10"],["misogynistic", "10"],["misandry", "10"],["misandrist", "10"],["misogynoir", "10"],["empowering", "10"],["empowerment", "10"],["action", "10"],[ "plan", "10"],["gender", "10"],["balance", "10"],["violence", "10"],["against", "10"],["bias", "10"],["equity", "10"],["equality", "10"],["gap", "10"],["pay", "10"],["gay", "10"],[ "roles", "7"],[ "role", "7"],["stereotypes", "7"],[ "stereotype", "7"],["menstrual", "20"],["hygiene", "10"],["pregnant", "15"], ["maternal","10"],["maternity", "10"],["sexual", "10"],["reproductive", "10"],["right", "10"], ["rights","10"],["abortions", "9"],["sex", "8"],["work", "10"], [ "workers", "8"],[ "discrimination", "10"],["women", "10"],["woman", "10"],["female", "10"],["females", "10"],["feminine", "9"],["girl", "10"],["girls", "10"],["sexual", "7"],["assaults", "7"],["assaults", "7"],["rapes", "7"],["rape", "7"],["domestic", "8"]]
 
 
@@ -268,8 +270,20 @@ for blob in clean_speeches2:
         speech_score=find_score_speech_al(speech)
         score_speeches.append(speech_score)
 
-                                                
-        
+
+#analyse
+
+
+
+speech_table_gender_parlID["scores"]=score_speeches
+
+
+scores_women=speech_table_gender_parlID["scores"][speech_table_gender_parlID["gender"]=="F"]
+avg_score_women=sum(scores_women)/len(scores_women)
+
+    
+scores_men=speech_table_gender_parlID["scores"][speech_table_gender_parlID["gender"]=="M"]
+avg_score_men=sum(scores_men)/len(scores_men)  
         
         
         
