@@ -163,14 +163,33 @@ for i in data2:
 
 
 
+affin=[]
+for i in data2:
+    data_new=i.split()
+    affin.append(data_new)
+    
+    
 sentimentScores = {}
-
-for line in affin:
-	term, score = line.split("\t")
-	sentimentScores[term] = float(score)
-
-
-sentences=["I am happy today", "I am sad today"]
+for lst in affin:
+    i=0
+    for term in lst:
+        if len(lst)==2:
+            if i==0:
+                key=term
+                i+=1
+            else:
+                score=term
+                sentimentScores[key] = score
+        elif len(lst)==3:
+            if i==0:
+                key1=term
+                i+=1
+            elif i==1:
+                key2=term
+                i+=1
+            else:
+                score=term
+                sentimentScores[key1+" " +key2]=score
 
 
 newsSentiment = []
