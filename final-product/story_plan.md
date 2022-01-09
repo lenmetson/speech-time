@@ -81,14 +81,15 @@ Where we're at:
 
 ## Moving forward
 Results:
-* Women generally speak more on women's issues than men, with 5.5% of women's speech being about women, with only 2.3% of men's being about women
+* Women generally speak more on women's issues than men, with 5.5% of women's speech being about women, with only 2.3% of men's being about women. This shows that our question is relevant. If women speak more about women's issues but get less opportunities to speak, women are not being suffiently represented. Descriptive representation matters for bringing women's' issues to parliament.
 * Having Nicola Sturgeon elected for parliament has boosted women's representation by having a woman have central parliamentary power and lead both high-level debates and decision-making
 * Women are speaking more per MSP in parliament, with the ratio of speech time to MSP currently at 4:5
 
 Recommendations for further representation:
-* We should focus less on encouraging women to speak more in parliament as they approach the same speech:MSP ratio as their male counterparts, and more on increasing the actual number of seats women possess in Scottish parliament
-* As men both still have more seats and more speech time in absolute and proportional terms, we should strive for greater engagement by men with women's issues
+* We should focus less on encouraging women to speak more in parliament as they approach the same speech:MSP ratio as their male counterparts, and more on increasing the actual number of seats women possess in Scottish parliament. For example, party and reserved-seat quotas have been shown to be effective.
+* As men both still have more seats and more speech time in absolute and proportional terms, we should strive for greater engagement by men with women's issues.
 
 Opportunities for further analysis:
-* As stated at the start, we have made certain assumptions about women's representation in Scottish politics. Opportunities for further analysis could be to test these assumptions, looking at the effects that these factors have on policy, media, and public opinion. 
-* While we have taken women's representation to be an intrinsic and aspirational good, more analysis could be done on extracting and quantifying evidence to support these claims in the Scottish political setting
+* As stated at the start, we have made certain assumptions about women's representation in Scottish politics. Opportunities for further analysis could be to test these assumptions, looking at the effects that these factors have on policy, media, and public opinion.
+* This research has been descriptive as it was intended to quantify the extent of a problem. More detailed analysis would be needed to get at the causal aspects of women's representation in legislative settings. 
+* While we have taken women's representation to be an intrinsic and aspirational good, more analysis could be done on extracting and quantifying evidence to support these claims in the Scottish political setting.
