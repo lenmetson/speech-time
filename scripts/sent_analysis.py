@@ -76,22 +76,31 @@ for speech in speeches_as_words:
     speeches_aswords_lower.append(lowercase_speech)
         
 #remove weird characters
+    
 import re
 
 def remove_weird_characters(speech):
-    sent_tok=tokenize_sent_speech(speech)
     clean_speech1=[]
-    for sentence in sent_tok:
-        clean_sentence=[]
-        words_tok=tokenize_words_from_sentence(sentence)
-        for tokens in words_tok:
-            clean=[]
-            for w in tokens:
-                res=re.sub(r'[^\w\s]', "", w)
-                if res!="":
-                    clean.append(res)
-            clean_sentence.append(clean)
-        clean_speech.append(clean_sentence)
+    clean_sentence=[]
+    for sentence in speech:
+        clean=[]
+        for w in sentence:
+            res=re.sub(r'[^\w\s]', "", w)
+            if res!="":
+                clean.append(res)
+        clean_sentence.append(clean)
+    clean_speech1.append(clean_sentence)
+    return clean_speech1
+
+                
+clean_speeches1=[]            
+for speech in speeches_aswords_lower:
+    speech_no_weird=remove_weird_characters(speech)
+    clean_speeches1.append(speech_no_weird)
+            
+           
+           
+    
         
     
         
