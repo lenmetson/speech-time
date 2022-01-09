@@ -153,8 +153,12 @@ import requests
 
 response = requests.get("https://raw.githubusercontent.com/julioadl/ds101/master/nlp_workshop/AFINN_english.txt")
 data = response.text
-f=open('/Users/noemieclaret/Desktop/AFINN_english.txt',"w+")
-f.write(data)
+data2=data.splitlines(keepends=False)
+
+f=[]
+for i in data2:
+    data_new=data.split()
+    f.append(data_new)
 
 
 
