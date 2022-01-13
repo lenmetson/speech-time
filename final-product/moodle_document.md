@@ -117,6 +117,19 @@ Steps:
 
 ## Conclusion
 
+Conclusions:
+
+* In this project we leveraged skills taught in DS105: using GitHub, using the Terminal, interacting with APIs - https protocol, SQL and SPARQL - and cleaning, analysing and visualizing structured data. We adapted NLP methodology taught through DS105 workshops to support our exploration of the content of speeches. These tools enabled us to look for markers of gender discrimination through three different prisms.
+
+* Firstly, we found that the ratio of the number of women MSPs to men MSPs reveals a lack of gender parity in the election of political representatives. Furthermore, although the collected data is recent, there has been little to no evolution on this front since 1999. Thus we can infer from our analysis that there exists a persisting gender disparity in parliament in terms of descriptive representation.
+
+* Secondly, we explored whether this gap in descriptive representation had been "internalized" by female MSPs and compensated by a higher speaking time. We found that, particularly in the first and second parliament, that women's speaking time was proportionally lower than their elected seats. Thus we discarded the hypothesis that women reduced the descriptive representation gap by speaking proportionally more. A higher average speaking time by women would have translated to more real parliamentary seats (in terms of time spoken). Moreover,  women speaking more time than men on average (for each man MSP, they would on average speak less than each woman MSP) would have placed a greater representative weight on women's shoulders as they would seem to overwork their position. Since women do not speak proportionally more than men, we can not verify the hypothesis that they work more to stay in power (since we are working with aggregate data). Instead, however, we can point out that women historically spoke disproportionally less than men. This shows gender discrimination in the Scottish Parliament through a different lens: women simply have less real parliamentary seats than elected parliamentary seats, which aggravates the gap in elected seats. One positive takeaway is that this trend is decreasing, and women, with time, are obtaining equal representative weight per seat than men.
+
+* Finally, we looked at whether women talked more about women's rights issues than men. Analysis using NLP revealed that, despite the perceptible trend towards more equal involvement of men and women in gender issues, a higher proportion of speeches that mention women's rights are delivered by women. This allows us to conclude that there exists a substantive gender representation gap:  the onus of fighting for women's rights issues is born more by women than by men. This tends to show that descriptive representation is highly related to substantive representation in this context.
+
+
+* We discuss further conclusions as well as opportunities of further redsearch and brief recommendations for women's representation in parliament in the last slide  of our tableau story.
+
 ## Appendix
 1. [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE)
 2. [Data.parliament.scot](https://data.parliament.scot/#/home)
