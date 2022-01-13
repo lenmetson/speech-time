@@ -16,7 +16,6 @@ print('-----------------------------------------------------------------')
 print("Dowloading the CSV file containing records of Scottish MP speeches; converting to pandas dataframe.")
 print('-----------------------------------------------------------------')
 
-# LM: I will have a look at a way to set relative file paths in python
 harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
 
 ## Subset table where the speeches are actually speeches
@@ -63,6 +62,7 @@ for wikiId in wiki:
 
 age_data['Q334015']="10 July 1929"
 
+#extract year from birth date)
 born_year=[]
 for i in age_data.values():
     if i=="none":
@@ -74,13 +74,16 @@ for i in age_data.values():
             born_year.append(year)  
         else:
             born_year.append("none")
-            
+  
+
+#create dictionary with wikiid and born yar
 wikiId_year={}
 j=0
 for wikiId in wiki:
     wikiId_year[wikiId]=born_year[j]
     j+=1
-    
+ 
+#find the places where we don't have a born year and manually amend data
 for i in wikiId_year:
     if wikiId_year[i]=="none":
         print(i) 
@@ -98,7 +101,9 @@ for i in wikiId_year:
         wikiId_year[i]=int(wikiId_year[i])
         
 
-#others data just not available - Good job on privacy, msps
+#others' data just not available - Good job on privacy, msps
+
+#store this data as a series in orginal dataframe
 
 agedata=pd.DataFrame(wikiId_year.items(), columns=["wikidata ID", "born year"])
 agedata.to_csv(path_or_buf="/Users/noemieclaret/Desktop/agedata.csv")
