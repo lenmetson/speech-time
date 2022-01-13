@@ -60,15 +60,21 @@ for discours in speeches_as_sentences:
 # change to lower case    
     
     
-def to_lower_case_speech(speech):
-    speech_lower=[]
-    for sentences in speech:
-        for sentence in sentences:
-            sentence_lower=[]
-            for word in sentence:
-                sentence_lower.append(str.lower(word))
-            speech_lower.append(sentence_lower)
-    return speech_lower
+def find_sent_speech(speech):
+    speech_score=0
+    i=0
+    for sent in speech:
+        score = 0
+        for word in sent:
+            try:
+                score += sentimentScores[word]
+                if speech_score>=0:
+                    i+=10
+            except:
+                pass
+        speech_score+=score
+    speech_score+=i
+    return speech_score
         
         
 speeches_aswords_lower=[]          
