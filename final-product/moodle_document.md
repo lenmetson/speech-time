@@ -1,8 +1,12 @@
 # Are women underrepresented in Scottish Politics?
 Alanah Sarginson, Noémie Clare, Len Metson
 
+Our final product
 1. [Tableau Public story - final product](https://public.tableau.com/app/profile/alanah7895/viz/DS105STORY/DS105STORY?publish=yes)
-2. [Tableau Public summary viz dashboard](https://public.tableau.com/app/profile/alanah7895/viz/DS105/DS105STORY?publish=yes)
+2. [Tableau Public summary dashboard](https://public.tableau.com/app/profile/alanah7895/viz/DS105/DS105STORY?publish=yes)
+
+Our code 
+1. [GitHub repository](https://github.com/lenmetson/speech-time)
 
 ## Executive Summary
 
