@@ -1,3 +1,6 @@
+#here we parsed through the wikidate pages which was much more effective since storage is mucho mas regular than the infoboxes
+
+
 import pandas as pd
 import urllib.request
 import numpy as np
