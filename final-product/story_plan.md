@@ -31,9 +31,6 @@ Assumptions we have made about what constitutes women's political representation
 * The main comparative takeaway from these maps is that not only do men have more regions of which to represent, but they on average are speaking more than their female counterparts in their regions
 * Another interesting note is that men on average are speaking more in the North of Scotland, rather than the South, where we see little contrast in shade (with the darker shades representing more syllables spoken)
 
-### Cross-party analysis?
-* x
-
 ## The changing picture
 Recap:
 * So far, we have looked at overall statistics across all parliamentary sessions
@@ -45,7 +42,6 @@ Recap:
 * Over the years, we've seen a general increase in amount of syllables spoken
 * Although there has been a drive by men, with a 15% increase from 2000 to 2020 in syllables they've spoken, this has for the most part been driven by an increase in women's speech, where we've instead seen an 82% increase in the same timeframe
 
-
 [2000 pie chart vs 2020 pie chart]
 * But what does this look like in terms of changes in proportion of time spoken in parliament?
 * In glancing at the previous chart, as well as by comparing these two pie charts, it's evident that women's proportion in parliamentary speech time has been increasing over the years
@@ -53,13 +49,8 @@ Recap:
 
 [ratio of % of speech time to % of MSPs by parliamentary session line graph]
 * This line graph represents this changing ratio across each parliamentary session
-* As we can see, between teh first and third parliament we've seen a steady increase in speech time per female MSP, with this shooting up in the fourth parliament above 1, before steadying down back to below 1 in the fifth parliament
-* This line tells us a promising x
-
-[nicola sturgeon line graph]
-* x
-
-[ratio fo % of speech time to % of MSPs by parliamentary session line graph excluding nicola sturgeon]
+* As we can see, between the first and third parliament we've seen a steady increase in speech time per female MSP, with this shooting up in the fourth parliament above 1, before steadying down back to below 1 in the fifth parliament
+* This line tells us a promising story that the proportion of speech by women to the number of women has been steadily increasing to 1:1, suggesting that women take up the correct proportion of total speech time to the proportion of women that there are
 
 ### Translating parliamentary contributon representation to parliamentary seat representation
 Where we're at:
@@ -67,7 +58,8 @@ Where we're at:
 * One way we can contextualise this proportionate increase in the political setting is by visualising the amount of seats taken up in parliament by the proportion of speech time each gender has, and comparing this with the actual number of seats they have had throughout the years
 
 [1st-3rd parliament seat map comparisons]
-* x
+* These seat maps are representative of the first three parliamentary sessions
+* Here, we can 
 
 [4th parliament seat map comparison]
 * x
