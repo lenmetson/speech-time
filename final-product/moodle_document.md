@@ -95,9 +95,9 @@ Why syllables:
 
 Steps:
 
-1. Data collection and cleaning (refer to R analysis/clean-data.R, and python-analysis/fortmat_dataset.py) 
+1. Data collection and cleaning (refer to R analysis/clean-data.R, and python-analysis/fortmat_dataset.py)
   * We collected data from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE). The dataset has been scraped from HTML files containing transcripts of parliamentary speech published on the Scottish Parliament Website.
-1. Syllable analysis 
+1. Syllable analysis
   * Our main analysis was how much time women spoke in the Scottish Parliament.
   * We decided to explore using syllable count instead of number of speeches because we thought it relevant the *time* that women get to speak. Ultimately the results were similar but it was good to establish syllables as a way of measuring speech time.
 1. Content analysis
@@ -129,7 +129,7 @@ Conclusions:
 
 * Firstly, we found that the ratio of the number of women MSPs to men MSPs reveals a lack of gender parity in the election of political representatives. Furthermore, although the collected data is recent, there has been little to no evolution on this front since 1999. Thus our analysis confirmed a well-known fact that there exists a persisting gender disparity in parliament in terms of descriptive representation.
 
-* Secondly, we explored whether women who are in parliament speak more or less than men. We found that in the first and second parliament, that women's speaking time was proportionally lower than their elected seats. This shows that women are underrepresented in terms of the time that women are speaking in Parliament. Not only do women have disproportionally less parliamentary seats than women in the population, this gap is aggravated the gap in the amount they speak seats. A positive takeaway is that this trend is decreasing. Women are now speaking proportionally to the amount of seats they have. Another way of thinking about it is that women have obtained equal representative weight per seat than men. However, because women still do not make up 50% of seats, there is still not equal representation.
+* Secondly, we explored whether women who are in parliament speak more or less than men. We found that in the first and second parliament, that women's speaking time was proportionally lower than their elected seats. This shows that women are underrepresented in terms of the time that women are speaking in Parliament. Not only do women have disproportionally less parliamentary seats than women in the population, this gap is aggravated the gap in the amount they speak seats. A positive takeaway is that this gap decreases over time. Women are now speaking proportionally to the amount of seats they have. Another way of thinking about it is that women have obtained equal representative weight per seat than men. However, because women still do not make up 50% of seats, there is still not equal representation.
 
 * Finally, we looked at whether women talked more about women's rights issues than men. Analysis using NLP revealed that, despite the perceptible trend towards more equal involvement of men and women in gender issues, a higher proportion of speeches that mention women's rights are delivered by women. This allows us to conclude that there exists a substantive gender representation gap:  the onus of fighting for women's rights issues is born more by women than by men. This tends to show that descriptive representation is highly related to substantive representation in this context.
 
