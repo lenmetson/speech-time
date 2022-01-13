@@ -95,9 +95,9 @@ Why syllables:
 
 Steps:
 
-1. Data collection and cleaning
+1. Data collection and cleaning (refer to R analysis/clean-data.R, and python-analysis/fortmat_dataset.py) 
   * We collected data from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE). The dataset has been scraped from HTML files containing transcripts of parliamentary speech published on the Scottish Parliament Website.
-1. Syllable analysis
+1. Syllable analysis 
   * Our main analysis was how much time women spoke in the Scottish Parliament.
   * We decided to explore using syllable count instead of number of speeches because we thought it relevant the *time* that women get to speak. Ultimately the results were similar but it was good to establish syllables as a way of measuring speech time.
 1. Content analysis
@@ -106,6 +106,7 @@ Steps:
   * One assumption in our analysis is that speeches that contain words directly related to gender issues such as "women", "men", "girls", "sexual" as well as words that, alone, would be correlated to other issues such as "stereotype", "pay", and "violence" should be categorized as "highly correlated to womens' rights".
   * To include this in our analysis, we based our algorithm on the NLP workshop given in DS105, and included an "if then" look to increase the score if more than one word from the dictionary is included in the speech.
   * The resulting speech scores, which are essentially weighted averages of dictionary words that are in the speeches, adjusted for the increased correlation from the presence of multiple words, are stored in the original data frame as an additional series.
+  * We also reiterated the analysis in R with a slightly different methodology: we used boolean indexing instead of weights, and this allowed us to detect pairs of words such as "sexual violence" instead of inividually flagging them, and separately accounting for the presence of both of them within the speech.
 
 1. Visualisation
     * We used Tableau to visualise the data once we had them all in CSV form, to eventually build the final product as a narrative of how women's representation in Scottish parliament has evolved throughout time
