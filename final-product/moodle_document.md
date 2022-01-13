@@ -89,9 +89,9 @@ Ministers and Sturgeon:
   * Please refer to `r-analysis/content-analysis.R`, `r-analysis/agg-speech-count.R`,  `python-analysis/speech_content_analysis.py`.
 
 4. Visualisation
-    * We used Tableau to visualise the data once we had them all in CSV form, to eventually build the final product as a narrative of how women's representation in Scottish parliament has evolved throughout time
-    * This also involved adjusting certain CSVs on the local machine for certain visual results; this was done intentionally to produce quicker results in data structure, which worked with the fact that the connections made from Tableau were also public. These CSVs are uploaded to the `output_data` folder
-    * Here, we used the worksheets feature for each visualisation, the dashboards feature for the summary dashboard and each page of the story, and then finally the story feature for the final product, where we collated everything built to construct the narrative of the project, ultimately forming our final product
+  * We used Tableau to visualise the data once we had them all in CSV form, to eventually build the final product as a narrative of how women's representation in Scottish parliament has evolved throughout time
+  * This also involved adjusting certain CSVs on the local machine for certain visual results; this was done intentionally to produce quicker results in data structure, which worked with the fact that the connections made from Tableau were also public. These CSVs are uploaded to the `output_data` folder
+  * Here, we used the worksheets feature for each visualisation, the dashboards feature for the summary dashboard and each page of the story, and then finally the story feature for the final product, where we collated everything built to construct the narrative of the project, ultimately forming our final product
 
 
 ## Results
