@@ -79,7 +79,7 @@ Steps:
 
 1. Data collection and cleaning
 1. Syllable analysis
-  * Our main analysis 
+  * Our main analysis was 
 1. Content analysis
   * As well as analysing how much women speak, we wanted to look at what men and women talk *about*.
   * We created a dictionary with words associated with women's rights issues, and related to reproductive/sexual rights. We assigned weights to each token using our team's field knowledge of the issue.
