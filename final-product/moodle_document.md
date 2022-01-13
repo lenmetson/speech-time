@@ -71,14 +71,19 @@ Additional data on age was aquired from WikiData. Using python, code was written
 
 ## Methodology
 
+We made some key assumptions that had to be checked. Whilst the aim of our project was not to make inferential conclusions, it is important to discuss potential limitations in our data.
+
 Why syllables:
 * The assumption is that the more syllables a speech is, the more time it takes to say.
 * Having time on the floor of parliament is a precious resource for politicians. They use it to signal to voters, bring policies forward and influence legislation.  
 * We used it instead of raw number of speeches because syllables take into account how much time is given and we assumed that many short speeches are less impactful than an MSP given space to make long speeches. Length of speech is also defined by an MSP's with importance to a piece of legislation or debate, so MSPs who give longer speeches are the most influential. Therefore, we choose it as a more senstitive proxy for measuring influence.
 * We did however, replicate all analysis using number of speeches and found similar results.  
 
-We made some key
-Sturgeon:
+* Ministers and Sturgeon:
+  * Ministers are likely to have more fixed opportunities to speak in Parliament. For example, they are required to make speeches in answer to speeches.
+  * The election of Nicola Sturgeon, a woman, as First Minister meant that she was speaking for a very significant amount of time. In the most recent parliamentary session, Sturgeon accounted for almost 10% of all speeches.
+  * We ran the analysis with no ministers and found there was no upward trend in the amount that women spoke. Therefore, the improving picture we saw is most likely due to women entering more ministerial positions.
+
 
 Steps:
 
