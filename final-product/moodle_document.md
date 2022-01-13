@@ -16,7 +16,8 @@
 
 -----
 # Are women underrepresented in Scottish Politics?
-[Tableau](https://public.tableau.com/app/profile/alanah7895/viz/DS105/DS105STORY?publish=yes)
+[Tableau Public story - final product](https://public.tableau.com/app/profile/alanah7895/viz/DS105STORY/DS105STORY?publish=yes)
+[Tableau Public summary viz dashboard](https://public.tableau.com/app/profile/alanah7895/viz/DS105/DS105STORY?publish=yes)
 
 ## Executive Summary
 
@@ -143,5 +144,6 @@ Conclusions:
 1. [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE)
 2. [Data.parliament.scot](https://data.parliament.scot/#/home)
 3. [Parliamentary Seat Map Maker](https://parliamentdiagram.toolforge.org/parlitest.php)
-4. [Tableau Public final product](https://public.tableau.com/app/profile/alanah7895/viz/DS105/DS105STORY?publish=yes)
-5. [Our GitHub repository](https://github.com/lenmetson/speech-time)
+4. [Tableau Public summary viz dashboard](https://public.tableau.com/app/profile/alanah7895/viz/DS105/DS105STORY?publish=yes)
+5. [Tableau Public story - final product](https://public.tableau.com/app/profile/alanah7895/viz/DS105STORY/DS105STORY?publish=yes)
+6. [Our GitHub repository](https://github.com/lenmetson/speech-time)
