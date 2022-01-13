@@ -22,6 +22,7 @@ Representation can also be defined by what the government does for women (substa
 We wanted to use the data science tools we have learned about to quantify the extent to which women are represented in parliamentary politics. The case we looked at was the Scottish Parliament.
 
 There are three aspects to representation that we explored:
+
 1. Whether women have an equal amount of MSPs to men
 1. Whether women in parliament speak as much as men.
 1. Whether women in parliament use their position to represent women's issues
@@ -37,6 +38,7 @@ There are three aspects to representation that we explored:
 
 ## Aim
 We had three aims:
+
 1. Use parliamentary transcripts to quantify how much women and men speak and relate our findings to patterns in other demographic variables such as age and region.
 1. Run a content analysis to see whether gender correlates with whether MSPs talk about womens' issues.
 1. Visualise the data we find to tell a story about women's representation in the Scottish Parliament
