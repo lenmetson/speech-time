@@ -17,6 +17,7 @@
 -----
 # Are women underrepresented in Scottish Politics?
 
+## Executive Summary
 
 ## Motivation for our project
 We wanted to use the data science tools we have learned about to quantify the extent to which women are represented in Parliamentary politics. The case we looked at was the Scottish Parliament.
