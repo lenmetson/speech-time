@@ -16,20 +16,24 @@
 
 -----
 # Are women underrepresented in Scottish Politics?
-Yes.
+
 
 ## Motivation for our project
+We wanted to use the data science tools we have learned about to quantify the extent to which women are represented in Parliamentary politics. The case we looked at was the Scottish Parliament.
+
+There are three aspects to representation that we explored:
+1. Whether women have a proportional amount of MSPs
+1. Whether women in parliament have equal time to speak
+1. Whether women in parliament use their position to represent women's issues
+
+## Justification for our project
+
 * Fourth-wave feminism's advocation for greater representation of women - including traditionally marginalised groups such as women of colour and trans women - in politics is premised on the notion that society would be more equitable if policies incorporate perspectives of all people
 * Inspired by this argument for the equitable representation of gendered perspectives in political settings, we were interested in exploring women's representation in Scottish parliament across time to see the progress Scotland has made in not only including more women in parliamentary debates, but by including more contributions by women to the debates themselves
 * Contextualising our data:
   * ["Scottish election 2021: Record number of women elected" - BBC](https://www.bbc.co.uk/news/uk-scotland-scotland-politics-57047370)  
   * ["The Scottish Parliament’s record on women’s representation is in the balance" - Democratic Audit](http://eprints.lse.ac.uk/54565/1/Meryl%20Kenny%20democraticaudit.com-The_Scottish_Parliaments_record_on_womens.pdf)
   * ["Backwards for gender equality in the new Scottish parliament? Or a new Scottish velvet triangle?" - Center for Constitutional Change](https://www.centreonconstitutionalchange.ac.uk/opinions/backwards-gender-equality-new-scottish-parliament-or-new-scottish-velvet-triangle)
-
-## Justification for our project
-
-
-
 
 ## Aim
 * We wanted to measure the length of each speech in Scottish Parliament by the number of syllables in each speech. These could then be aggregated to estimate each MSPs total speech time.
@@ -78,8 +82,10 @@ Sturgeon:
 Steps:
 
 1. Data collection and cleaning
+  * We collected data from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE). The dataset has been scraped from HTML files containing transcripts of parliamentary speech published on the Scottish Parliament Website.
 1. Syllable analysis
-  * Our main analysis was 
+  * Our main analysis was how much time women spoke in the Scottish Parliament.
+  * We decided to explore using syllable count instead of number of speeches because we thought it relevant the *time* that women get to speak. Ultimately the results were similar but it was good to establish syllables as a way of measuring speech time.
 1. Content analysis
   * As well as analysing how much women speak, we wanted to look at what men and women talk *about*.
   * We created a dictionary with words associated with women's rights issues, and related to reproductive/sexual rights. We assigned weights to each token using our team's field knowledge of the issue.
@@ -89,7 +95,7 @@ Steps:
 
 1. Visualisation
     * We used Tableau to visualise the data once we had them all in CSV form, to eventually build the final product as a narrative of how women's representation in Scottish parliament has evolved throughout time
-    * This also involved adjusting certain CSVs on the local machine for certain visual results; this was done intentionally to produce quicker results in data structure, which worked with the fact that the connections made from Tableau were also public. These CSVs are uploaded to the output_data folder
+    * This also involved adjusting certain CSVs on the local machine for certain visual results; this was done intentionally to produce quicker results in data structure, which worked with the fact that the connections made from Tableau were also public. These CSVs are uploaded to the `output_data` folder
     * Here, we used worksheets for each visualisation, dashboards for the summary dashboard and each page of the story, and then finally the story feature as the final product, where we collated everything built to construct the narrative of the project, ultimately forming our final product
 
 
