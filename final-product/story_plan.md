@@ -13,9 +13,6 @@ Assumptions we have made about what constitutes women's political representation
 
 > t = ((s/5)/60/60) where t = hours spoken and s = amount of syllables
 
-### Sentiment analysis?
-* By looking at the trends of these scores for men and women, we see an improving picture - 2012 seems to be the year that triggered growth of convo amongst both genders, although much more extreme for women. The increase is steady and sustained which suggests it's not going to be because of a shock event (e.g. #MeToo) because politicians tend to loose focus of those issues with time (for example, almost no MP is giving interviews about cladding anymore whereas at some point that was all people talked about because of Grenfell). So the reason is going to be something like a shift in the structure of Scottish Politics..
-
 ## Introducing other variables for an intersectional analysis
 ### Relationship between age and gender in parliamentary speech time
 [age scatter graph]
@@ -59,7 +56,7 @@ Where we're at:
 
 [1st-3rd parliament seat map comparisons]
 * These seat maps are representative of the first three parliamentary sessions
-* Here, we can 
+* A quick glance at the bottom row shows us that the situation is improving across sessions, however, comparing the actual number vs after speech time is taken into account data seat maps (i.e., looking at each column), we see that women are taking up less seats when their speech time is taken into account
 
 [4th parliament seat map comparison]
 * x
@@ -67,9 +64,8 @@ Where we're at:
 [1st vs 5th parliament seat map comparison]
 * x
 
-### Sentiment analysis over time ?
-
-
+### Sentiment analysis over time 
+* By looking at the trends of women-focused speech for men and women, we see an improving picture - 2012 seems to be the year that triggered growth of convo amongst both genders, although much more extreme for women. The increase is steady and sustained which suggests it's not going to be because of a shock event (e.g. #MeToo) because politicians tend to loose focus of those issues with time (for example, almost no MP is giving interviews about cladding anymore whereas at some point that was all people talked about because of Grenfell). So the reason is going to be something like a shift in the structure of Scottish Politics.
 
 ## Moving forward
 Results:
