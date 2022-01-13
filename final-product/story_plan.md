@@ -1,8 +1,9 @@
 # Are women underrepresented in Scottish politics?
 ## Overview
 Assumptions we have made about what constitutes women's political representation:
-1.  Amount of time spent spoken by women in parliament
-2.  Amount of parliamentary discussion on women's topics
+1. Amount of seats taken up by women in parliament
+2. Amount of time spent spoken by women in parliament
+3. Amount of parliamentary discussion on women's topics
 
 ### Absolute gender differences in amount of speech
 [speech bubbles]
