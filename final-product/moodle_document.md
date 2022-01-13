@@ -36,9 +36,10 @@ There are three aspects to representation that we explored:
   * ["Backwards for gender equality in the new Scottish parliament? Or a new Scottish velvet triangle?" - Center for Constitutional Change](https://www.centreonconstitutionalchange.ac.uk/opinions/backwards-gender-equality-new-scottish-parliament-or-new-scottish-velvet-triangle)
 
 ## Aim
-* We wanted to measure the length of each speech in Scottish Parliament by the number of syllables in each speech. These could then be aggregated to estimate each MSPs total speech time.
-
-* Additionally, we wanted to connect our analysis of speech time with a descriptive analysis of what women do in Parliament by looking at whether they speak more about women. Both of these measures are important for evaluating whether women are sufficiently represented in Parliament
+We had three aims:
+1. Use parliamentary transcripts to quantify how much women and men speak and relate our findings to patterns in other demographic variables such as age and region.
+1. Run a content analysis to see whether gender correlates with whether MSPs talk about womens' issues.
+1. Visualise the data we find to tell a story about women's representation in the Scottish Parliament 
 
 
 ## Data
