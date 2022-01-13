@@ -14,7 +14,7 @@ print('-----------------------------------------------------------------')
 harvard = pd.read_csv (r'/Users/noemieclaret/Downloads/parlScot_parl_v1.1.csv')
 
 
-#clean a bit
+#clean a bit: keep only rows where there is actually a speech and get rid of speakers that do not have a classified gender
 
 speech_table=harvard[:][harvard["is_speech"]==1]
 speech_table_gender_parlID=speech_table[:].dropna(axis=0, how='any', subset=["gender"])
@@ -56,7 +56,8 @@ for discours in speeches_as_sentences:
         sentence=tokenize_words_from_sentence(sentence)
         sentences_as_words.append(sentence)
     speeches_as_words.append(sentences_as_words)
-    
+  
+
 # change to lower case    
     
     
@@ -154,6 +155,11 @@ for speech in clean_speeches2:
         
         
 #part 2
+
+#sentiment analysis with the affin dictionary to practice (using https protocole, and modifying a bit the code from the DS105 workshop)
+
+
+
 import nltk
 
 import requests
@@ -207,7 +213,8 @@ def find_sent_speech(speech):
         for word in sent:
             try:
                 score += sentimentScores[word]
-                i+=10
+                if speech_score>0:
+                    i+=10
             except:
                 pass
         speech_score+=score
@@ -240,12 +247,12 @@ avg_score_men=sum(scores_men)/len(scores_men)
         
         
         
-#With Alanah's dict
+# Using our own dictionary
                                               
 #new dict
 al_dict=[["feminism", "10"],["feminist", "10"],["patriarchy", "10"],["patriarchal", "10"],["sexism", "10"],["sexist", "10"],["misoginy", "10"],["misogynistic", "10"],["misandry", "10"],["misandrist", "10"],["misogynoir", "10"],["empowering", "10"],["empowerment", "10"],["action", "10"],[ "plan", "10"],["gender", "10"],["balance", "10"],["violence", "10"],["against", "10"],["bias", "10"],["equity", "10"],["equality", "10"],["gap", "10"],["pay", "10"],["gay", "10"],[ "roles", "7"],[ "role", "7"],["stereotypes", "7"],[ "stereotype", "7"],["menstrual", "20"],["hygiene", "10"],["pregnant", "15"], ["maternal","10"],["maternity", "10"],["sexual", "10"],["reproductive", "10"],["right", "10"], ["rights","10"],["abortions", "9"],["sex", "8"],["work", "10"], [ "workers", "8"],[ "discrimination", "10"],["women", "10"],["woman", "10"],["female", "10"],["females", "10"],["feminine", "9"],["girl", "10"],["girls", "10"],["sexual", "7"],["assaults", "7"],["assaults", "7"],["rapes", "7"],["rape", "7"],["domestic", "8"]]
 
-
+#create a dicttionary from the list
 sentimentScores_al = {}
 al_words=[]
 for lst in al_dict:
@@ -262,7 +269,7 @@ for lst in al_dict:
                 sentimentScores_al[key] = float(score)
                 
             
-    
+#functon to find the score of a guven speech   
 
 def find_score_speech_al(speech):
     speech_score=0
@@ -274,6 +281,7 @@ def find_score_speech_al(speech):
         speech_score+=score
     return speech_score
 
+#create new series in orginal pandas dataframe                                                
 score_speeches=[] 
 for blob in clean_speeches2:
     for speech in blob:
@@ -281,8 +289,7 @@ for blob in clean_speeches2:
         score_speeches.append(speech_score)
 
 
-#analyse
-
+#find averages scores women/men to get overview of findings
 
 
 speech_table_gender_parlID["scores"]=score_speeches
