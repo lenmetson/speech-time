@@ -59,10 +59,11 @@ Where we're at:
 * A quick glance at the bottom row shows us that the situation is improving across sessions, however, comparing the actual number vs after speech time is taken into account data seat maps (i.e., looking at each column), we see that women are taking up less seats when their speech time is taken into account
 
 [4th parliament seat map comparison]
-* x
+* In the fourth parliament, we see that  women actually take up more seats with regards to the proportion of speech time they have. This was driven by structural changes such as Nicola Sturgeon coming into power.
 
 [1st vs 5th parliament seat map comparison]
-* x
+* When we compare the first parliament to the most recent (the fifth), we can see that although the actual number of female MSPs has decreased, the proportion of speech time from them has increased, leading to more parliamentary power.
+* This can be clearly noted by comparing the bottom two seat maps.
 
 ### Sentiment analysis over time 
 * By looking at the trends of women-focused speech for men and women, we see an improving picture - 2012 seems to be the year that triggered growth of convo amongst both genders, although much more extreme for women. The increase is steady and sustained which suggests it's not going to be because of a shock event (e.g. #MeToo) because politicians tend to loose focus of those issues with time (for example, almost no MP is giving interviews about cladding anymore whereas at some point that was all people talked about because of Grenfell). So the reason is going to be something like a shift in the structure of Scottish Politics.
