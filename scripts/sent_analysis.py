@@ -125,7 +125,7 @@ for speech in clean_speeches1:
         
        
         
-#stemming
+#stemming (not used for our own dictionary)
 
 from nltk.stem.porter import PorterStemmer   
 port=PorterStemmer()   
@@ -195,14 +195,18 @@ for lst in affin:
 
 def find_sent_speech(speech):
     speech_score=0
+    i=0
     for sent in speech:
         score = 0
         for word in sent:
             try:
                 score += sentimentScores[word]
+                i+=10
             except:
                 pass
         speech_score+=score
+    speech_score+=i
+    return speech_score
         
         
         
