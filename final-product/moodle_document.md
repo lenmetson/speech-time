@@ -16,8 +16,8 @@
 
 -----
 # Are women underrepresented in Scottish Politics?
-[Tableau Public story - final product](https://public.tableau.com/app/profile/alanah7895/viz/DS105STORY/DS105STORY?publish=yes)
-[Tableau Public summary viz dashboard](https://public.tableau.com/app/profile/alanah7895/viz/DS105/DS105STORY?publish=yes)
+1. [Tableau Public story - final product](https://public.tableau.com/app/profile/alanah7895/viz/DS105STORY/DS105STORY?publish=yes)
+2. [Tableau Public summary viz dashboard](https://public.tableau.com/app/profile/alanah7895/viz/DS105/DS105STORY?publish=yes)
 
 ## Executive Summary
 
