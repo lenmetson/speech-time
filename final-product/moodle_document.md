@@ -19,6 +19,8 @@
 
 ## Executive Summary
 
+In this project we analysed whether women are underrepresented in Scottish politics. Most studies of representation assume that representation is about the number of women there are in Parliament. By this view, representation is achieved when the number of women in parliament is proportional to the number of women in the population. We complemented this strand of research by extending what is meant by representation. As well as the pure number of women there are in parliament, we were interested in whether women get the same chance to speak in Parliamentary debates. Representation can also be defined by what the parliament does for women. To address this perspective, we analysed how much men and women in parliament use their speeches to talk about womens' issues. Our results confirmed that women are underrepresented in Scottish Parliament. Across the whole time the Scottish Parliament 34% of MSPs were women. Across the same period, 29% of speeches were made by women. The proportion of speeches by women   
+
 ## Motivation for our project
 We wanted to use the data science tools we have learned about to quantify the extent to which women are represented in Parliamentary politics. The case we looked at was the Scottish Parliament.
 
