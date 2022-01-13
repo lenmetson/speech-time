@@ -1,4 +1,8 @@
 
+#here we parsed through the wikipedia infoboxes. But since this a is highly irregular storage method, we did not end up using this method.
+
+
+
 import pandas as pd
 import urllib.request
 import numpy as np
@@ -44,7 +48,7 @@ def find_unique_values(dataset, column, feature1, feature2, comment=True, dictio
 
 wiki=find_unique_values(speech_table, "wikidataid", feature1="none", feature2="none", comment=False, dictionary=False)
 
-#get wikipage title from wikiID
+#get wikipage title from wikiID: firdst make API search request with url, parse through returned html
   
     
 page_title={}
@@ -58,7 +62,7 @@ for wikiId in wiki:
     page_title[wikiId]=result
 
 
-
+#get correct url this way
 age_data=[]
 
 urls=[]
@@ -70,7 +74,8 @@ for i in page_title.values():
             urls.append(url_)
 print(urls[0:5])
     
-    
+ 
+# parse through html of worrect wikipedia page to get birth information from infobox 
 
 for url in urls:  
     html = urlopen(url) 
