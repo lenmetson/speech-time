@@ -39,7 +39,7 @@ There are three aspects to representation that we explored:
 We had three aims:
 1. Use parliamentary transcripts to quantify how much women and men speak and relate our findings to patterns in other demographic variables such as age and region.
 1. Run a content analysis to see whether gender correlates with whether MSPs talk about womens' issues.
-1. Visualise the data we find to tell a story about women's representation in the Scottish Parliament 
+1. Visualise the data we find to tell a story about women's representation in the Scottish Parliament
 
 
 ## Data
@@ -101,7 +101,10 @@ Steps:
 
 
 ## Results
-We found some interesting descriptive results about the role of women in Scottish Parliamentary proceedings. Initially, female MSPs spoke disproportionally less than there were women in the Scottish Parliament. However, over time, this rose so that women were speaking roughly as much as there women in Parliament. This being said, much of this trend is driven by Nicola Sturgeon becoming First Minister.
+* We found some interesting descriptive results about the role of women in Scottish Parliamentary proceedings.
+* Looking at the number of seats taken up, the average number of seats taken up by men across all parliaments are 86, whereas this number I only 48 for women. Furthermore, there has been little variation on both sides of these means, suggesting little progress in getting more women taking up seats.
+* Initially, female MSPs spoke disproportionally less than there were women in the Scottish Parliament. However, over time, this rose so that women were speaking roughly as much as there were women in Parliament (i.e., the ratio of speech by women to amount of women taking up seats has increased towards 1:1). This being said, much of this trend has been driven by Nicola Sturgeon becoming First Minister.
+* We also found there to be an upwards trend for the amount of speech by both genders which had mentions of women’s issues in it. This growth has been steadily increasing since 2012,  suggesting that for the past decade, there have been important and sustaining shifts in the structure of Scottish Politics that have driven conversation around women’s issues. With that being said, women have been the significant drivers of this change. For example, in 2019, when conversation around women’s issues were at its peak, the proportion of this conversation by women were 64%, opposed to just 36% of men speaking about women’s issues.
 
 
 ## Conclusion
