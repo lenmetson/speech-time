@@ -92,7 +92,7 @@ Steps:
 
 1. Data collection and cleaning (refer to R analysis/clean-data.R, and python-analysis/fortmat_dataset.py) 
   * We collected data from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE). The dataset has been scraped from HTML files containing transcripts of parliamentary speech published on the Scottish Parliament Website.
-1. Syllable analysis
+1. Syllable analysis 
   * Our main analysis was how much time women spoke in the Scottish Parliament.
   * We decided to explore using syllable count instead of number of speeches because we thought it relevant the *time* that women get to speak. Ultimately the results were similar but it was good to establish syllables as a way of measuring speech time.
 1. Content analysis
