@@ -1,6 +1,6 @@
 ### Motivation - Len
-* Want to contribute to social sciences
-* Inspired by feminist belief that greater political representation = greater equity
+* Want to contribute to a discussion about gender discrimination in parliamnetary settings. Specifically how much time women are given to speak.
+* Inspired by feminist belief that greater political representation = greater equity. 
 * Using data science to inform future research and discussion on issue
 
 ### Aim - Alanah
