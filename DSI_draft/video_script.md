@@ -9,14 +9,14 @@
 * Wanted to visualise findings into a narrative on Tableau
 
 
-### Results - Naeomie
+### Results - Noemie
 We found that
 * There are disproportionally less women elected to Scottish parliament
 * In the first and second parliament, women's speaking time was disproportionally lower than the amount of women MSPs there were
 * In the third and fourth parliament, women are speaking close to proportionality to the amount of seats they have
 * A higher proportion of speeches that mention women's issues are delivered by women
 
-### Learnings (conclusions) - Len + Naeomie
+### Learnings (conclusions) - Len + Noemie
 Put together, this allows us to conclude that there exists a substantive gender representation gap: the onus of fighting for women's rights issues is born more by women than by men. This trend also shows that that descriptive representation (the amount of women and how much they contribute) is highly related to substantive representation in this context (what the parliament does for women).
 
 
